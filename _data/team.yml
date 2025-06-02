@@ -1,0 +1,65 @@
+- name: "Sarah Müller"
+  role: "Projektleiterin Innovation"
+  image: "/assets/images/team/teammitglied-1.jpg"
+  expertise:
+    - "Digitale Transformation in der Verwaltung"
+    - "Design Thinking Methoden"
+    - "Bürgerbeteiligung 2.0"
+    - "Agile Projektmethoden"
+  email: "sarah.mueller@oic-bielefeld.de"
+  animation_delay: 0.1
+
+- name: "Michael Weber"
+  role: "Smart City Experte"
+  image: "/assets/images/team/teammitglied-2.jpg"
+  expertise:
+    - "Internet of Things (IoT) Lösungen"
+    - "Nachhaltige Stadtentwicklung"
+    - "Datenanalyse und Visualisierung"
+    - "Verkehrsoptimierung"
+  email: "michael.weber@oic-bielefeld.de"
+  animation_delay: 0.2
+
+- name: "Anna Müller"
+  role: "Community Managerin"
+  image: "/assets/images/team/teammitglied-3.jpg"
+  expertise:
+    - "Bürgerbeteiligung und Co-Creation"
+    - "Event-Management"
+    - "Social Media Strategien"
+    - "Stakeholder-Engagement"
+  email: "anna.mueller@oic-bielefeld.de"
+  animation_delay: 0.3
+
+- name: "Prof. Dr. Thomas Klein"
+  role: "Technologie-Berater"
+  image: "/assets/images/team/teammitglied-4.jpg"
+  expertise:
+    - "Künstliche Intelligenz in der Stadt"
+    - "Blockchain-Anwendungen"
+    - "Forschungs-Praxis Transfer"
+    - "Tech-Startup Ökosystem"
+  email: "thomas.klein@oic-bielefeld.de"
+  animation_delay: 0.4
+
+- name: "Julia Becker"
+  role: "Nachhaltigkeits-Expertin"
+  image: "/assets/images/team/teammitglied-5.jpg"
+  expertise:
+    - "Circular Economy Modelle"
+    - "Klimaanpassung in Städten"
+    - "Green Tech Innovationen"
+    - "Nachhaltige Mobilität"
+  email: "julia.becker@oic-bielefeld.de"
+  animation_delay: 0.5
+
+- name: "Marc Hoffmann"
+  role: "Digitalisierungs-Manager"
+  image: "/assets/images/team/teammitglied-6.jpg"
+  expertise:
+    - "E-Government Lösungen"
+    - "Prozessoptimierung"
+    - "Datenmanagement"
+    - "User Experience Design"
+  email: "marc.hoffmann@oic-bielefeld.de"
+  animation_delay: 0.6
