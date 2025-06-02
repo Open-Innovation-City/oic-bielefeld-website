@@ -1,0 +1,93 @@
+# Site Settings
+title: "Open Innovation City Bielefeld"
+description: "Gemeinsam gestalten wir die Zukunft unserer Stadt durch offene Innovation und kreative Zusammenarbeit."
+baseurl: ""
+url: "https://oic-bielefeld.de"
+
+# SEO
+author: "OIC Bielefeld Team"
+lang: de
+timezone: Europe/Berlin
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Jekyll plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude files
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Site data
+email: info@oic-bielefeld.de
+phone: "+49 521 51-0000"
+address: 
+  street: "Niederwall 23"
+  city: "33602 Bielefeld"
+opening_hours: "Mo-Fr 9:00-17:00 Uhr"
+
+# Social Media (optional)
+social:
+  twitter: ""
+  linkedin: ""
+  github: ""
+
+# Google Analytics (optional)
+google_analytics: ""
+
+# Color scheme
+colors:
+  primary_turquoise: "#00b2bb"
+  primary_yellow: "#fff564"
+  secondary_blue: "#666cde"
+  secondary_green: "#a5e35f"
+  secondary_light_blue: "#78d3fa"
+  secondary_pink: "#fa2d6e"
+
+# Navigation
+navigation:
+  - name: "Start"
+    link: "#hero"
+  - name: "Über uns"
+    link: "#about"
+  - name: "Team"
+    link: "#team"
+  - name: "Projekte"
+    link: "#projects"
+  - name: "Kontakt"
+    link: "#contact"
+
+# Collections
+collections:
+  projects:
+    output: false
+  team:
+    output: false
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+      type: "team"
+    values:
+      layout: "team_member"
