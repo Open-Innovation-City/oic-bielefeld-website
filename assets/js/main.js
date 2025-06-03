@@ -121,15 +121,21 @@
         
         function updateParallax() {
             const scrolled = window.pageYOffset;
-            const rate = scrolled * -0.5;
+            const heroHeight = window.innerHeight;
             
-            if (heroBackground) {
-                heroBackground.style.transform = `translateY(${rate}px)`;
-            }
-            
-            if (graffitiOverlay) {
-                const graffitiRate = scrolled * -0.3;
-                graffitiOverlay.style.transform = `translateY(calc(-50% + ${graffitiRate}px))`;
+            // Only apply parallax when hero section is visible
+            if (scrolled < heroHeight) {
+                if (heroBackground) {
+                    const bgRate = scrolled * -0.5;
+                    heroBackground.style.transform = `translateY(${bgRate}px)`;
+                }
+                
+                if (graffitiOverlay) {
+                    // More pronounced parallax for graffiti
+                    const graffitiRate = scrolled * -0.8;
+                    const rotationRate = scrolled * 0.05; // Slight rotation
+                    graffitiOverlay.style.transform = `translateY(calc(-20% + ${graffitiRate}px)) rotate(${rotationRate}deg)`;
+                }
             }
             
             ticking = false;
