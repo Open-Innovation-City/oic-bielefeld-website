@@ -56,9 +56,12 @@
                     // Add staggered animation for team cards
                     if (entry.target.classList.contains('team-card')) {
                         const delay = entry.target.dataset.delay || 0;
+                        entry.target.style.transitionDelay = delay + 's';
+                        
+                        // Reset transition delay after animation completes
                         setTimeout(function() {
-                            entry.target.style.transitionDelay = delay + 's';
-                        }, delay * 100);
+                            entry.target.style.transitionDelay = '0s';
+                        }, (parseFloat(delay) + 0.4) * 1000); // 0.4s = transition duration
                     }
                 }
             });
