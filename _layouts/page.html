@@ -1,0 +1,186 @@
+---
+layout: default
+---
+
+<!-- Navigation (gleich wie auf Startseite) -->
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <div class="logo">
+            <a href="{{ site.baseurl }}/">
+                <img src="{{ '/assets/images/logo.svg' | relative_url }}" alt="{{ site.title }}" class="logo-img">
+                <!-- Fallback logo if image doesn't load -->
+                <div class="logo-fallback" style="display: none;">
+                    <div class="logo-circle"></div>
+                    <div class="logo-rect"></div>
+                    <div class="logo-shape"></div>
+                    <div class="logo-text">
+                        <div>Open Innovation City</div>
+                        <div>Bielefeld</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        
+        <ul class="nav-links">
+            <li><a href="{{ site.baseurl }}/">Start</a></li>
+            <li><a href="{{ site.baseurl }}/#about">Über uns</a></li>
+            <li><a href="{{ site.baseurl }}/#team">Team</a></li>
+            <li><a href="{{ site.baseurl }}/#projects">Projekte</a></li>
+            <li><a href="{{ site.baseurl }}/#contact">Kontakt</a></li>
+        </ul>
+        
+        <button class="mobile-menu-btn">☰</button>
+    </div>
+</nav>
+
+<!-- Page Header -->
+<header class="page-header">
+    <div class="container">
+        <h1>{{ page.title }}</h1>
+        {% if page.description %}
+        <p class="page-description">{{ page.description }}</p>
+        {% endif %}
+    </div>
+</header>
+
+<!-- Page Content -->
+<main class="page-content">
+    <div class="container">
+        <div class="content-wrapper">
+            {{ content }}
+        </div>
+    </div>
+</main>
+
+<style>
+/* Page-specific styles */
+.page-header {
+    background: linear-gradient(135deg, var(--primary-turquoise) 0%, var(--secondary-blue) 100%);
+    color: white;
+    padding: 8rem 0 4rem;
+    margin-top: 80px; /* Account for fixed navbar */
+    text-align: center;
+}
+
+.page-header h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.page-description {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.page-content {
+    padding: 4rem 0;
+    min-height: 60vh;
+}
+
+.content-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+.content-wrapper h2 {
+    color: var(--primary-turquoise);
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--primary-yellow);
+}
+
+.content-wrapper h3 {
+    color: var(--secondary-blue);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.content-wrapper h4 {
+    color: var(--text-dark);
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.content-wrapper ul, .content-wrapper ol {
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.content-wrapper li {
+    margin-bottom: 0.5rem;
+}
+
+.content-wrapper a {
+    color: var(--primary-turquoise);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.content-wrapper a:hover {
+    border-bottom-color: var(--primary-turquoise);
+}
+
+.content-wrapper strong {
+    color: var(--text-dark);
+    font-weight: 600;
+}
+
+.content-wrapper hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(90deg, var(--primary-turquoise), var(--secondary-blue));
+    margin: 3rem 0;
+    border-radius: 2px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .page-header {
+        padding: 6rem 0 3rem;
+    }
+    
+    .page-header h1 {
+        font-size: 2.5rem;
+    }
+    
+    .page-content {
+        padding: 3rem 0;
+    }
+    
+    .content-wrapper {
+        padding: 0 1rem;
+    }
+}
+</style>
+
+<script>
+// Logo fallback script
+document.addEventListener('DOMContentLoaded', function() {
+    const logoImg = document.querySelector('.logo-img');
+    const logoFallback = document.querySelector('.logo-fallback');
+    
+    if (logoImg) {
+        logoImg.addEventListener('error', function() {
+            this.style.display = 'none';
+            if (logoFallback) {
+                logoFallback.style.display = 'flex';
+            }
+        });
+    }
+});
+
+// Navbar scroll effect (same as main page)
+window.addEventListener('scroll', function() {
+    const navbar = document.getElementById('navbar');
+    if (window.pageYOffset > 50) {
+        navbar.classList.add('scrolled');
+    } else {
+        navbar.classList.remove('scrolled');
+    }
+});
+</script>
