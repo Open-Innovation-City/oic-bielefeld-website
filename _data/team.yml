@@ -1,12 +1,12 @@
 - name: "Jens Edler"
   role: "Leiter OIC Bielefeld"
-  image: "/assets/images/team/jens_freigestellt.png"
+  image: "/assets/images/team/jens.png"
   expertise:
     - "Digitale Transformation in der Verwaltung"
     - "Design Thinking Methoden"
     - "Bürgerbeteiligung 2.0"
     - "Agile Projektmethoden"
-  email: "jensoic-bielefeld.de"
+  email: "jens@oic-bielefeld.de"
   animation_delay: 0.1
 
 - name: "Tajana Džepina"
