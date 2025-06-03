@@ -64,6 +64,8 @@ navigation:
     link: "#team"
   - name: "Projekte"
     link: "#projects"
+  - name: "Events"
+    link: "#events"
   - name: "Kontakt"
     link: "#contact"
 

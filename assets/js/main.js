@@ -325,3 +325,138 @@
     });
 
 })();
+
+/**
+ * Events Section JavaScript
+ * Add to existing main.js file
+ */
+
+/**
+ * Enhanced event card animations
+ */
+function initEventAnimations() {
+    const eventCards = document.querySelectorAll('.event-card');
+    
+    eventCards.forEach(function(card, index) {
+        // Staggered animation delay
+        card.style.animationDelay = (index * 0.1) + 's';
+        
+        // Enhanced hover effects
+        card.addEventListener('mouseenter', function() {
+            const bookBtn = this.querySelector('.event-book-btn');
+            if (bookBtn) {
+                bookBtn.style.transform = 'translateY(-2px) scale(1.05)';
+            }
+        });
+        
+        card.addEventListener('mouseleave', function() {
+            const bookBtn = this.querySelector('.event-book-btn');
+            if (bookBtn) {
+                bookBtn.style.transform = 'translateY(0) scale(1)';
+            }
+        });
+        
+        // Track clicks for analytics (optional)
+        const bookBtn = card.querySelector('.event-book-btn');
+        if (bookBtn) {
+            bookBtn.addEventListener('click', function() {
+                // Add analytics tracking here if needed
+                console.log('Event booking clicked:', card.querySelector('.event-title').textContent);
+            });
+        }
+    });
+}
+
+/**
+ * Date formatting and validation for events
+ */
+function initEventDateHandling() {
+    const eventCards = document.querySelectorAll('.event-card');
+    const today = new Date();
+    
+    eventCards.forEach(function(card) {
+        const dateElement = card.querySelector('[data-date]');
+        if (dateElement) {
+            const eventDate = new Date(dateElement.dataset.date);
+            
+            // Add "heute" or "morgen" labels
+            const diffTime = eventDate - today;
+            const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+            
+            if (diffDays === 0) {
+                dateElement.innerHTML += ' <span style="color: var(--secondary-pink); font-weight: 600;">(Heute!)</span>';
+            } else if (diffDays === 1) {
+                dateElement.innerHTML += ' <span style="color: var(--secondary-green); font-weight: 600;">(Morgen)</span>';
+            } else if (diffDays <= 7) {
+                dateElement.innerHTML += ` <span style="color: var(--primary-turquoise); font-weight: 600;">(in ${diffDays} Tagen)</span>`;
+            }
+        }
+    });
+}
+
+/**
+ * Event filtering by category (optional future feature)
+ */
+function initEventFiltering() {
+    // This can be extended later if you want category filtering
+    const categories = ['Alle', 'Workshop', 'Dialog', 'Networking', 'Hackathon', 'Vortrag'];
+    
+    // You could add filter buttons here in the future
+    // For now, just log available categories
+    console.log('Available event categories:', categories);
+}
+
+/**
+ * Smooth scroll to events section when coming from external links
+ */
+function initEventDeepLinking() {
+    // Check if URL contains #events
+    if (window.location.hash === '#events') {
+        setTimeout(function() {
+            const eventsSection = document.getElementById('events');
+            if (eventsSection) {
+                eventsSection.scrollIntoView({ behavior: 'smooth' });
+            }
+        }, 500);
+    }
+}
+
+/**
+ * Initialize all event-related functionality
+ */
+document.addEventListener('DOMContentLoaded', function() {
+    initEventAnimations();
+    initEventDateHandling();
+    initEventFiltering();
+    initEventDeepLinking();
+});
+
+/**
+ * Add events section to existing intersection observer
+ * (modify existing initScrollAnimations function in main.js)
+ */
+// Add this to your existing observer in main.js:
+// document.querySelectorAll('.fade-in, .principle-card, .team-card, .project-card, .event-card').forEach(...)
+
+/**
+ * Event card entrance animations with intersection observer
+ */
+function initEventScrollAnimations() {
+    const eventObserver = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry, index) {
+            if (entry.isIntersecting) {
+                // Staggered animation
+                setTimeout(function() {
+                    entry.target.classList.add('visible');
+                }, index * 100);
+            }
+        });
+    }, {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    });
+
+    document.querySelectorAll('.event-card').forEach(function(card) {
+        eventObserver.observe(card);
+    });
+}

@@ -759,3 +759,276 @@ p {
     text-align: center;
   }
 }
+
+/* Events Section */
+.events {
+  background: var(--bg-light);
+}
+
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.event-card {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: var(--shadow-light);
+  transition: all 0.4s ease;
+  position: relative;
+  transform: translateY(20px);
+  opacity: 0;
+  border: 2px solid transparent;
+}
+
+.event-card.visible {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.event-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: var(--shadow-heavy);
+  border-color: var(--primary-turquoise);
+}
+
+.event-card.featured {
+  border: 2px solid var(--primary-yellow);
+  box-shadow: 0 8px 25px rgba(255, 245, 100, 0.3);
+}
+
+.event-card.featured::before {
+  content: "★ Empfohlen";
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: var(--primary-yellow);
+  color: var(--text-dark);
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  z-index: 2;
+}
+
+.event-header {
+  padding: 1.5rem;
+  background: linear-gradient(135deg, var(--primary-turquoise) 0%, var(--secondary-blue) 100%);
+  color: white;
+  position: relative;
+}
+
+.event-icon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+}
+
+.event-icon img {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) invert(1);
+}
+
+.event-category {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  backdrop-filter: blur(10px);
+}
+
+.event-title {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.3;
+}
+
+.event-description {
+  font-size: 0.95rem;
+  opacity: 0.9;
+  line-height: 1.4;
+}
+
+.event-details {
+  padding: 1.5rem;
+}
+
+.event-meta {
+  display: grid;
+  gap: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.event-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 0.9rem;
+  color: var(--text-light);
+}
+
+.event-meta-icon {
+  width: 18px;
+  height: 18px;
+  color: var(--primary-turquoise);
+  flex-shrink: 0;
+}
+
+.event-meta-item strong {
+  color: var(--text-dark);
+  min-width: 60px;
+}
+
+.event-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.event-target {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  background: var(--bg-light);
+  padding: 0.3rem 0.8rem;
+  border-radius: 12px;
+}
+
+.event-cost {
+  font-weight: 600;
+  color: var(--secondary-green);
+}
+
+.event-cost.paid {
+  color: var(--secondary-pink);
+}
+
+.event-book-btn {
+  background: linear-gradient(135deg, var(--primary-turquoise) 0%, var(--secondary-blue) 100%);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 120px;
+  justify-content: center;
+}
+
+.event-book-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 178, 187, 0.4);
+  text-decoration: none;
+  color: white;
+}
+
+.event-book-btn::after {
+  content: "→";
+  transition: transform 0.3s ease;
+}
+
+.event-book-btn:hover::after {
+  transform: translateX(3px);
+}
+
+/* Category Colors */
+.event-card[data-category="Workshop"] .event-header {
+  background: linear-gradient(135deg, var(--secondary-blue) 0%, var(--primary-turquoise) 100%);
+}
+
+.event-card[data-category="Dialog"] .event-header {
+  background: linear-gradient(135deg, var(--secondary-green) 0%, var(--primary-turquoise) 100%);
+}
+
+.event-card[data-category="Networking"] .event-header {
+  background: linear-gradient(135deg, var(--secondary-pink) 0%, var(--secondary-blue) 100%);
+}
+
+.event-card[data-category="Hackathon"] .event-header {
+  background: linear-gradient(135deg, var(--primary-turquoise) 0%, var(--secondary-light-blue) 100%);
+}
+
+.event-card[data-category="Vortrag"] .event-header {
+  background: linear-gradient(135deg, var(--secondary-blue) 0%, var(--secondary-pink) 100%);
+}
+
+/* Empty State */
+.events-empty {
+  text-align: center;
+  padding: 3rem;
+  color: var(--text-light);
+}
+
+.events-empty h3 {
+  color: var(--text-light);
+  margin-bottom: 1rem;
+}
+
+/* Responsive Events */
+@media (max-width: 768px) {
+  .events-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .event-card {
+    margin: 0 1rem;
+  }
+  
+  .event-footer {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+  }
+  
+  .event-book-btn {
+    text-align: center;
+  }
+  
+  .event-meta {
+    gap: 0.6rem;
+  }
+  
+  .event-header {
+    padding: 1.25rem;
+  }
+  
+  .event-details {
+    padding: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .event-title {
+    font-size: 1.1rem;
+  }
+  
+  .event-description {
+    font-size: 0.9rem;
+  }
+  
+  .event-card.featured::before {
+    font-size: 0.7rem;
+    padding: 0.25rem 0.6rem;
+  }
+}
