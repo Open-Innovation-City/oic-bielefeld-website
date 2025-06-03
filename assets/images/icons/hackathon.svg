@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="122.91" y="137.6" width="45.82" height="28.62"/>
+  <rect class="cls-1" x="31.27" y="147.05" width="45.82" height="19.18"/>
+  <rect class="cls-1" x="77.09" y="128.16" width="45.82" height="38.06"/>
+  <path class="cls-2" d="M107.88,94.98c19.25-24.64,16.75-57.48,16.75-57.48h-48.96s-2.49,32.85,16.75,57.48"/>
+  <path class="cls-2" d="M107.88,94.98s-.86,10.97,3.77,16.42h-11.65"/>
+  <path class="cls-2" d="M92.12,94.98s.86,10.97-3.77,16.42h11.65"/>
+  <rect class="cls-2" x="77.01" y="111.41" width="45.99" height="16.42"/>
+  <line class="cls-2" x1="88.35" y1="119.62" x2="111.65" y2="119.62"/>
+  <path class="cls-2" d="M70.8,49h-13.5c0,25.4,19.12,45.99,42.7,45.99s42.7-20.59,42.7-45.99h-13.43"/>
+</svg>

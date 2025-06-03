@@ -1,65 +1,65 @@
-- name: "Sarah Müller"
-  role: "Projektleiterin Innovation"
-  image: "/assets/images/team/teammitglied-1.jpg"
+- name: "Jens Edler"
+  role: "Leiter OIC Bielefeld"
+  image: "/assets/images/team/jens_freigestellt.png"
   expertise:
     - "Digitale Transformation in der Verwaltung"
     - "Design Thinking Methoden"
     - "Bürgerbeteiligung 2.0"
     - "Agile Projektmethoden"
-  email: "sarah.mueller@oic-bielefeld.de"
+  email: "jensoic-bielefeld.de"
   animation_delay: 0.1
 
-- name: "Michael Weber"
-  role: "Smart City Experte"
-  image: "/assets/images/team/teammitglied-2.jpg"
+- name: "Tajana Džepina"
+  role: "Smart City Expertin"
+  image: "/assets/images/team/tatjana_freigestellt.png"
   expertise:
     - "Internet of Things (IoT) Lösungen"
     - "Nachhaltige Stadtentwicklung"
     - "Datenanalyse und Visualisierung"
     - "Verkehrsoptimierung"
-  email: "michael.weber@oic-bielefeld.de"
+  email: "tatjana@oic-bielefeld.de"
   animation_delay: 0.2
 
-- name: "Anna Müller"
+- name: "Maria Gonçalves"
   role: "Community Managerin"
-  image: "/assets/images/team/teammitglied-3.jpg"
+  image: "/assets/images/team/maria_freigestellt.png"
   expertise:
     - "Bürgerbeteiligung und Co-Creation"
     - "Event-Management"
     - "Social Media Strategien"
     - "Stakeholder-Engagement"
-  email: "anna.mueller@oic-bielefeld.de"
+  email: "maria@oic-bielefeld.de"
   animation_delay: 0.3
 
-- name: "Prof. Dr. Thomas Klein"
-  role: "Technologie-Berater"
-  image: "/assets/images/team/teammitglied-4.jpg"
+- name: "Lisa Meyer"
+  role: "Office Managerin"
+  image: "/assets/images/team/lisa_freigestellt.png"
   expertise:
     - "Künstliche Intelligenz in der Stadt"
     - "Blockchain-Anwendungen"
     - "Forschungs-Praxis Transfer"
     - "Tech-Startup Ökosystem"
-  email: "thomas.klein@oic-bielefeld.de"
+  email: "lisa@oic-bielefeld.de"
   animation_delay: 0.4
 
-- name: "Julia Becker"
+- name: "Sarah Bollmann"
   role: "Nachhaltigkeits-Expertin"
-  image: "/assets/images/team/teammitglied-5.jpg"
+  image: "/assets/images/team/sarah_freigestellt.png"
   expertise:
     - "Circular Economy Modelle"
     - "Klimaanpassung in Städten"
     - "Green Tech Innovationen"
     - "Nachhaltige Mobilität"
-  email: "julia.becker@oic-bielefeld.de"
+  email: "sarah@oic-bielefeld.de"
   animation_delay: 0.5
 
-- name: "Marc Hoffmann"
+- name: "Stephan Berkowitz"
   role: "Digitalisierungs-Manager"
-  image: "/assets/images/team/teammitglied-6.jpg"
+  image: "/assets/images/team/stephan_freigestellt.png"
   expertise:
     - "E-Government Lösungen"
     - "Prozessoptimierung"
     - "Datenmanagement"
     - "User Experience Design"
-  email: "marc.hoffmann@oic-bielefeld.de"
+  email: "stephan@oic-bielefeld.de"
   animation_delay: 0.6
