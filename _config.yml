@@ -1,8 +1,8 @@
 # Site Settings
 title: "Open Innovation City Bielefeld"
 description: "Gemeinsam gestalten wir die Zukunft unserer Stadt durch offene Innovation und kreative Zusammenarbeit."
-baseurl: "/oic-bielefeld-website"
-url: "https://oic-bielefeld.de"
+baseurl: ""
+url: "http://oic-bielefeld.de"
 
 # SEO
 author: "OIC Bielefeld Team"
