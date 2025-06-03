@@ -131,10 +131,9 @@
                 }
                 
                 if (graffitiOverlay) {
-                    // More pronounced parallax for graffiti
-                    const graffitiRate = scrolled * -0.8;
-                    const rotationRate = scrolled * 0.05; // Slight rotation
-                    graffitiOverlay.style.transform = `translateY(calc(-20% + ${graffitiRate}px)) rotate(${rotationRate}deg)`;
+                    // Faster parallax for graffiti (moves faster than scroll)
+                    const graffitiRate = scrolled * 0.3;
+                    graffitiOverlay.style.transform = `translate(-50%, calc(-50% + ${graffitiRate}px))`;
                 }
             }
             

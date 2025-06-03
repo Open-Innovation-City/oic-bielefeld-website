@@ -188,14 +188,14 @@ p {
 
 .graffiti-overlay {
   position: absolute;
-  top: 20%;
-  right: 5%;
-  transform: translateY(-20%);
-  width: 500px;
-  height: 500px;
-  opacity: 0.5;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1200px;
+  max-width: 90vw;
+  height: auto;
+  opacity: 1;
   z-index: 1;
-  animation: floatSlow 8s ease-in-out infinite;
   transition: transform 0.1s ease-out;
 }
 
