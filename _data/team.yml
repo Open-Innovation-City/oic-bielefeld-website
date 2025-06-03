@@ -11,7 +11,7 @@
 
 - name: "Tajana Džepina"
   role: "Smart City Expertin"
-  image: "/assets/images/team/tatjana_freigestellt.png"
+  image: "/assets/images/team/tatjana.png"
   expertise:
     - "Internet of Things (IoT) Lösungen"
     - "Nachhaltige Stadtentwicklung"
@@ -22,7 +22,7 @@
 
 - name: "Maria Gonçalves"
   role: "Community Managerin"
-  image: "/assets/images/team/maria_freigestellt.png"
+  image: "/assets/images/team/maria.png"
   expertise:
     - "Bürgerbeteiligung und Co-Creation"
     - "Event-Management"
@@ -33,7 +33,7 @@
 
 - name: "Lisa Meyer"
   role: "Office Managerin"
-  image: "/assets/images/team/lisa_freigestellt.png"
+  image: "/assets/images/team/lisa.png"
   expertise:
     - "Künstliche Intelligenz in der Stadt"
     - "Blockchain-Anwendungen"
@@ -44,7 +44,7 @@
 
 - name: "Sarah Bollmann"
   role: "Nachhaltigkeits-Expertin"
-  image: "/assets/images/team/sarah_freigestellt.png"
+  image: "/assets/images/team/sarah.png"
   expertise:
     - "Circular Economy Modelle"
     - "Klimaanpassung in Städten"
@@ -55,7 +55,7 @@
 
 - name: "Stephan Berkowitz"
   role: "Digitalisierungs-Manager"
-  image: "/assets/images/team/stephan_freigestellt.png"
+  image: "/assets/images/team/stephan.png"
   expertise:
     - "E-Government Lösungen"
     - "Prozessoptimierung"
