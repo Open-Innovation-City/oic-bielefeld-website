@@ -332,9 +332,10 @@ p {
   border-radius: 20px;
   overflow: hidden;
   box-shadow: var(--shadow-medium);
-  transition: all 0.5s ease;
+  transition: all 0.4s ease;
   transform: translateX(-100px);
   opacity: 0;
+  border: 2px solid transparent;
 }
 
 .team-card.visible {
@@ -351,8 +352,9 @@ p {
 }
 
 .team-card:hover {
-  transform: translateY(-10px) scale(1.02);
+  transform: translateY(-8px) scale(1.02);
   box-shadow: var(--shadow-heavy);
+  border: 2px solid var(--primary-turquoise);
 }
 
 .team-image {
@@ -439,11 +441,12 @@ p {
   padding: 2rem;
   border-radius: 15px;
   box-shadow: var(--shadow-light);
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
   position: relative;
   overflow: hidden;
   transform: scale(0.9);
   opacity: 0;
+  border: 2px solid transparent;
 }
 
 .project-card.visible {
@@ -462,8 +465,9 @@ p {
 }
 
 .project-card:hover {
-  transform: translateY(-5px) scale(1.02);
-  box-shadow: var(--shadow-medium);
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: var(--shadow-heavy);
+  border: 2px solid var(--primary-turquoise);
 }
 
 .project-tag {
