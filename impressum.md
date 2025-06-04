@@ -11,30 +11,30 @@ permalink: /impressum/
 
 **Open Innovation City Bielefeld**  
 c/o Stadt Bielefeld  
+Geschäftsbereich 100.3
 Niederwall 23  
 33602 Bielefeld  
 
-**Telefon:** +49 521 51-0000  
+**Telefon:** +49 521 51-0  
 **E-Mail:** info@oic-bielefeld.de  
 **Website:** {{ site.url }}{{ site.baseurl }}
 
 ## Vertreten durch
 
-[Hier Namen der Verantwortlichen einfügen]  
-[Funktion/Position]  
+Jens Edler
+Geschäftsbereichsleiter 100.3  
+Leitung Open Innovation City 
 
 ## Kontakt
 
 **E-Mail:** {{ site.email }}  
 **Telefon:** {{ site.phone }}
 
-## Registereintrag
-
-[Falls zutreffend - Angaben zum Handelsregister, Vereinsregister etc.]
+Die Stadt Bielefeld ist eine Körperschaft des Öffentlichen Rechts. Sie wird vertreten durch den Oberbürgermeister Pit Clausen.
 
 ## Umsatzsteuer-ID
 
-[Falls vorhanden - Umsatzsteuer-Identifikationsnummer]
+Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz DE 124001953
 
 ## EU-Streitschlichtung
 

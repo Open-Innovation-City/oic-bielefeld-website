@@ -2,32 +2,30 @@
   role: "Leiter OIC Bielefeld"
   image: "/assets/images/team/jens.png"
   expertise:
-    - "Digitale Transformation in der Verwaltung"
-    - "Design Thinking Methoden"
-    - "Bürgerbeteiligung 2.0"
-    - "Agile Projektmethoden"
+    - "Offene Innovationen"
+    - "Design Thinking"
+    - "Innovatorinnen und Innovatoren fördern"
+    - "Agiles Arbeiten"
   email: "jens@oic-bielefeld.de"
   animation_delay: 0.1
 
 - name: "Tajana Džepina"
-  role: "Smart City Expertin"
+  role: "Projektmanagerin Smart City"
   image: "/assets/images/team/tatjana.png"
   expertise:
-    - "Internet of Things (IoT) Lösungen"
-    - "Nachhaltige Stadtentwicklung"
-    - "Datenanalyse und Visualisierung"
-    - "Verkehrsoptimierung"
+    - "Offene Innovationen und Smart City Projekte"
+    - "Use Cases zum Digitalen Zwilling und zur Passantenfrequenzmessung"
+
   email: "tatjana@oic-bielefeld.de"
   animation_delay: 0.2
 
 - name: "Maria Gonçalves"
-  role: "Community Managerin"
+  role: "Projektmanagerin Open Innovation City"
   image: "/assets/images/team/maria.png"
   expertise:
-    - "Bürgerbeteiligung und Co-Creation"
-    - "Event-Management"
-    - "Social Media Strategien"
-    - "Stakeholder-Engagement"
+    - "Offene Innovationen"
+    - "Innovationspartnerschaften und –Ökosysteme"
+    - "Community Building"
   email: "maria@oic-bielefeld.de"
   animation_delay: 0.3
 
@@ -35,31 +33,29 @@
   role: "Office Managerin"
   image: "/assets/images/team/lisa.png"
   expertise:
-    - "Künstliche Intelligenz in der Stadt"
-    - "Blockchain-Anwendungen"
-    - "Forschungs-Praxis Transfer"
-    - "Tech-Startup Ökosystem"
+    - "KOpen Innovation City"
+    - "Eventmanagement"
+    - "die Nutzung des Innovation Office"
   email: "lisa@oic-bielefeld.de"
   animation_delay: 0.4
 
 - name: "Sarah Bollmann"
-  role: "Nachhaltigkeits-Expertin"
+  role: "Projektmanagerin Innovationsentwicklung"
   image: "/assets/images/team/sarah.png"
   expertise:
-    - "Circular Economy Modelle"
-    - "Klimaanpassung in Städten"
-    - "Green Tech Innovationen"
-    - "Nachhaltige Mobilität"
+    - "Offene Innovationen"
+    - "Innovationskultur"
+    - "Mitmach-Formate, wie Innovationszirkel"
   email: "sarah@oic-bielefeld.de"
   animation_delay: 0.5
 
 - name: "Stephan Berkowitz"
-  role: "Digitalisierungs-Manager"
+  role: "Digital Scout"
   image: "/assets/images/team/stephan.png"
   expertise:
-    - "E-Government Lösungen"
-    - "Prozessoptimierung"
-    - "Datenmanagement"
-    - "User Experience Design"
+    - "Digitale Trends & Technologien"
+    - "Softwarelösungen"
+    - "Künstliche Intelligenz"
+    - "Daten-Konsolidierung"
   email: "stephan@oic-bielefeld.de"
   animation_delay: 0.6

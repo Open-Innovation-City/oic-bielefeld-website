@@ -64,7 +64,8 @@ Wir weisen darauf hin, dass die Datenübertragung im Internet (z. B. bei der Kom
 Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
 
 **Open Innovation City Bielefeld**  
-c/o Stadt Bielefeld  
+c/o Stadt Bielefeld
+Geschäftsbereich 100.3
 {{ site.address.street }}  
 {{ site.address.city }}  
 
