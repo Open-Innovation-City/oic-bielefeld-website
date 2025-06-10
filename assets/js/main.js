@@ -38,7 +38,7 @@
         }
 
         setupBackgroundDetection() {
-            const sections = document.querySelectorAll('section');
+            const sections = document.querySelectorAll('section, .hero');
             const options = {
                 root: null,
                 rootMargin: '-10% 0% -80% 0%',
@@ -58,12 +58,16 @@
 
         detectSectionTheme(section) {
             const sectionId = section.id;
+            const classList = section.classList;
             const computedStyle = window.getComputedStyle(section);
             const backgroundColor = computedStyle.backgroundColor;
             
             let isLight = false;
             
-            if (backgroundColor && backgroundColor !== 'rgba(0, 0, 0, 0)') {
+            // Check for hero section first
+            if (classList.contains('hero') || sectionId === 'hero') {
+                isLight = false; // Hero is always dark
+            } else if (backgroundColor && backgroundColor !== 'rgba(0, 0, 0, 0)') {
                 isLight = this.isLightColor(backgroundColor);
             } else {
                 // Fallback: check section classes or data attributes
@@ -168,6 +172,20 @@
      * Initialize Adaptive Navigation
      */
     function initAdaptiveNavigation() {
+        // Set correct initial theme based on page
+        const navbar = document.getElementById('navbar');
+        const heroSection = document.getElementById('hero');
+        
+        if (heroSection) {
+            // Startseite: Dark theme für Hero
+            navbar.classList.remove('light-theme');
+            navbar.classList.add('dark-theme');
+        } else {
+            // Unterseiten: Light theme als Standard
+            navbar.classList.remove('dark-theme');
+            navbar.classList.add('light-theme');
+        }
+        
         new AdaptiveNavigation();
     }
 
