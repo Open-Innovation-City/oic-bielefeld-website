@@ -4,13 +4,23 @@ title: Open Innovation City Bielefeld
 description: Gemeinsam gestalten wir die Zukunft unserer Stadt durch offene Innovation und kreative Zusammenarbeit.
 ---
 
-<!-- Navigation -->
-<nav class="navbar" id="navbar">
+<!-- Adaptive Navigation -->
+<nav class="navbar dark-theme" id="navbar">
     <div class="nav-container">
         <div class="logo">
-            <img src="{{ '/assets/images/logo.svg' | relative_url }}" alt="{{ site.title }}" class="logo-img">
-            <!-- Fallback logo if image doesn't load -->
-            <div class="logo-fallback" style="display: none;">
+            <!-- Dark version logo (for dark backgrounds) -->
+            <img src="{{ '/assets/images/logo-light.png' | relative_url }}" 
+                 alt="{{ site.title }} Logo Light" 
+                 class="logo-dark" 
+                 onerror="handleLogoError(this)">
+            <!-- Light version logo (for light backgrounds) -->
+            <img src="{{ '/assets/images/logo-dark.png' | relative_url }}" 
+                 alt="{{ site.title }} Logo Dark" 
+                 class="logo-light" 
+                 onerror="handleLogoError(this)">
+            
+            <!-- Fallback falls beide Logos nicht laden -->
+            <div class="logo-fallback" id="logoFallback">
                 <div class="logo-circle"></div>
                 <div class="logo-rect"></div>
                 <div class="logo-shape"></div>
@@ -21,24 +31,47 @@ description: Gemeinsam gestalten wir die Zukunft unserer Stadt durch offene Inno
             </div>
         </div>
         
-        <ul class="nav-links">
+        <ul class="nav-links" id="navLinks">
             {% for item in site.navigation %}
             <li><a href="{{ item.link }}">{{ item.name }}</a></li>
             {% endfor %}
         </ul>
         
-        <button class="mobile-menu-btn">☰</button>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menü öffnen">☰</button>
     </div>
 </nav>
 
 <!-- Hero Section -->
 <section id="hero" class="hero">
     <div class="hero-bg"></div>
-    <img src="{{ '/assets/images/graffiti.png' | relative_url }}" alt="Innovation Graffiti" class="graffiti-overlay">
+    
+    <!-- Graffiti Overlay mit Fehlerbehandlung -->
+    <img src="{{ '/assets/images/graffiti.png' | relative_url }}" 
+         alt="Innovation Graffiti" 
+         class="graffiti-overlay" 
+         onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+    
+    <!-- Fallback für fehlendes Graffiti -->
+    <div class="graffiti-fallback">Innovation</div>
+    
+    <!-- Hero Overlay -->
+    <div class="hero-overlay"></div>
+    
     <div class="hero-content">
         <h1>{{ site.title }}</h1>
         <p>{{ site.description }}</p>
-        <a href="#about" class="cta-button">Mehr erfahren</a>
+        
+        <!-- CTA Buttons Container -->
+        <div class="cta-container">
+            <a href="#about" class="cta-button">Mehr erfahren</a>
+            <a href="#projects" class="cta-button secondary">Projekte ansehen</a>
+        </div>
+    </div>
+    
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'})">
+        <div class="scroll-arrow"></div>
+        <div class="scroll-text">Scrollen für mehr</div>
     </div>
 </section>
 
@@ -276,20 +309,3 @@ description: Gemeinsam gestalten wir die Zukunft unserer Stadt durch offene Inno
         </div>
     </div>
 </section>
-
-<!-- Script to handle logo fallback -->
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    const logoImg = document.querySelector('.logo-img');
-    const logoFallback = document.querySelector('.logo-fallback');
-    
-    if (logoImg) {
-        logoImg.addEventListener('error', function() {
-            this.style.display = 'none';
-            if (logoFallback) {
-                logoFallback.style.display = 'flex';
-            }
-        });
-    }
-});
-</script>
