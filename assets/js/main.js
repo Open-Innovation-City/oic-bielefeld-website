@@ -73,6 +73,7 @@
                          section.classList.contains('events') ||
                          section.dataset.theme === 'light' ||
                          sectionId === 'about' || 
+                         sectionId === 'team' ||
                          sectionId === 'projects' ||
                          sectionId === 'events';
             }
