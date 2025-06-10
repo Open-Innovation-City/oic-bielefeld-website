@@ -2,34 +2,40 @@
 layout: default
 ---
 
-<!-- Navigation (gleich wie auf Startseite) -->
-<nav class="navbar" id="navbar">
+<!-- Adaptive Navigation -->
+<nav class="navbar light-theme" id="navbar">
     <div class="nav-container">
         <div class="logo">
-            <a href="{{ site.baseurl }}/">
-                <img src="{{ '/assets/images/logo.svg' | relative_url }}" alt="{{ site.title }}" class="logo-img">
-                <!-- Fallback logo if image doesn't load -->
-                <div class="logo-fallback" style="display: none;">
-                    <div class="logo-circle"></div>
-                    <div class="logo-rect"></div>
-                    <div class="logo-shape"></div>
-                    <div class="logo-text">
-                        <div>Open Innovation City</div>
-                        <div>Bielefeld</div>
-                    </div>
+            <!-- Dark version logo (for dark backgrounds) -->
+            <img src="{{ '/assets/images/logo-light.png' | relative_url }}" 
+                 alt="{{ site.title }} Logo Light" 
+                 class="logo-dark" 
+                 onerror="handleLogoError(this)">
+            <!-- Light version logo (for light backgrounds) -->
+            <img src="{{ '/assets/images/logo-dark.png' | relative_url }}" 
+                 alt="{{ site.title }} Logo Dark" 
+                 class="logo-light" 
+                 onerror="handleLogoError(this)">
+            
+            <!-- Fallback falls beide Logos nicht laden -->
+            <div class="logo-fallback" id="logoFallback">
+                <div class="logo-circle"></div>
+                <div class="logo-rect"></div>
+                <div class="logo-shape"></div>
+                <div class="logo-text">
+                    <div>Open Innovation City</div>
+                    <div>Bielefeld</div>
                 </div>
-            </a>
+            </div>
         </div>
         
-        <ul class="nav-links">
-            <li><a href="{{ site.baseurl }}/">Start</a></li>
-            <li><a href="{{ site.baseurl }}/#about">Über uns</a></li>
-            <li><a href="{{ site.baseurl }}/#team">Team</a></li>
-            <li><a href="{{ site.baseurl }}/#projects">Projekte</a></li>
-            <li><a href="{{ site.baseurl }}/#contact">Kontakt</a></li>
+        <ul class="nav-links" id="navLinks">
+            {% for item in site.navigation %}
+            <li><a href="{{ site.baseurl }}/{{ item.link }}">{{ item.name }}</a></li>
+            {% endfor %}
         </ul>
         
-        <button class="mobile-menu-btn">☰</button>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menü öffnen">☰</button>
     </div>
 </nav>
 
@@ -58,7 +64,6 @@ layout: default
     background: linear-gradient(135deg, var(--primary-turquoise) 0%, var(--secondary-blue) 100%);
     color: white;
     padding: 8rem 0 4rem;
-    margin-top: 80px; /* Account for fixed navbar */
     text-align: center;
 }
 
