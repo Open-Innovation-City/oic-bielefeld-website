@@ -27,7 +27,8 @@ layout: default
     background: linear-gradient(135deg, var(--primary-turquoise) 0%, var(--secondary-blue) 100%);
     color: white;
     padding: 8rem 0 4rem;
-    margin-top: 95px; /* Angepasst für höhere Navigation */
+    margin-top: 0; /* Entfernt den Abstand */
+    padding-top: calc(8rem + 95px); /* Fügt den Navbar-Platz zum Padding hinzu */
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -206,7 +207,7 @@ layout: default
 @media (max-width: 768px) {
     .page-header {
         padding: 6rem 0 3rem;
-        margin-top: 85px;
+        padding-top: calc(6rem + 85px); /* Angepasst für Mobile */
     }
     
     .page-header h1 {
