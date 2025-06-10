@@ -2,37 +2,6 @@
 layout: default
 ---
 
-<!-- Navigation (gleich wie auf Startseite) -->
-<nav class="navbar" id="navbar">
-    <div class="nav-container">
-        <div class="logo">
-            <a href="{{ site.baseurl }}/">
-                <img src="{{ '/assets/images/logo.svg' | relative_url }}" alt="{{ site.title }}" class="logo-img">
-                <!-- Fallback logo if image doesn't load -->
-                <div class="logo-fallback" style="display: none;">
-                    <div class="logo-circle"></div>
-                    <div class="logo-rect"></div>
-                    <div class="logo-shape"></div>
-                    <div class="logo-text">
-                        <div>Open Innovation City</div>
-                        <div>Bielefeld</div>
-                    </div>
-                </div>
-            </a>
-        </div>
-        
-        <ul class="nav-links">
-            <li><a href="{{ site.baseurl }}/">Start</a></li>
-            <li><a href="{{ site.baseurl }}/#about">Über uns</a></li>
-            <li><a href="{{ site.baseurl }}/#team">Team</a></li>
-            <li><a href="{{ site.baseurl }}/#projects">Projekte</a></li>
-            <li><a href="{{ site.baseurl }}/#contact">Kontakt</a></li>
-        </ul>
-        
-        <button class="mobile-menu-btn">☰</button>
-    </div>
-</nav>
-
 <!-- Page Header -->
 <header class="page-header">
     <div class="container">
@@ -58,31 +27,60 @@ layout: default
     background: linear-gradient(135deg, var(--primary-turquoise) 0%, var(--secondary-blue) 100%);
     color: white;
     padding: 8rem 0 4rem;
-    margin-top: 80px; /* Account for fixed navbar */
+    margin-top: 95px; /* Angepasst für höhere Navigation */
     text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Subtle background pattern für page header */
+.page-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(255, 255, 255, 0.05) 0%, transparent 50%);
+    z-index: 1;
+}
+
+.page-header .container {
+    position: relative;
+    z-index: 2;
 }
 
 .page-header h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    animation: fadeInUp 0.8s ease-out;
 }
 
 .page-description {
     font-size: 1.2rem;
     opacity: 0.9;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    animation: fadeInUp 0.8s ease-out 0.2s both;
 }
 
 .page-content {
     padding: 4rem 0;
     min-height: 60vh;
+    background: var(--bg-light);
 }
 
 .content-wrapper {
     max-width: 800px;
     margin: 0 auto;
     line-height: 1.8;
+    background: white;
+    padding: 3rem;
+    border-radius: 15px;
+    box-shadow: var(--shadow-light);
+    animation: fadeInUp 0.8s ease-out 0.4s both;
 }
 
 .content-wrapper h2 {
@@ -118,11 +116,12 @@ layout: default
     color: var(--primary-turquoise);
     text-decoration: none;
     border-bottom: 1px solid transparent;
-    transition: border-color 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .content-wrapper a:hover {
     border-bottom-color: var(--primary-turquoise);
+    color: var(--secondary-blue);
 }
 
 .content-wrapper strong {
@@ -138,10 +137,76 @@ layout: default
     border-radius: 2px;
 }
 
+/* Blockquotes */
+.content-wrapper blockquote {
+    border-left: 4px solid var(--primary-turquoise);
+    margin: 2rem 0;
+    padding: 1rem 1.5rem;
+    background: rgba(0, 178, 187, 0.05);
+    border-radius: 0 10px 10px 0;
+    font-style: italic;
+}
+
+.content-wrapper blockquote p {
+    margin-bottom: 0.5rem;
+}
+
+/* Tables */
+.content-wrapper table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    box-shadow: var(--shadow-light);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.content-wrapper th {
+    background: var(--primary-turquoise);
+    color: white;
+    padding: 1rem;
+    text-align: left;
+    font-weight: 600;
+}
+
+.content-wrapper td {
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.content-wrapper tr:hover {
+    background: rgba(0, 178, 187, 0.05);
+}
+
+/* Code blocks */
+.content-wrapper code {
+    background: rgba(0, 178, 187, 0.1);
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9rem;
+}
+
+.content-wrapper pre {
+    background: var(--text-dark);
+    color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    overflow-x: auto;
+    margin: 2rem 0;
+}
+
+.content-wrapper pre code {
+    background: none;
+    padding: 0;
+    color: white;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .page-header {
         padding: 6rem 0 3rem;
+        margin-top: 85px;
     }
     
     .page-header h1 {
@@ -153,34 +218,39 @@ layout: default
     }
     
     .content-wrapper {
-        padding: 0 1rem;
+        padding: 2rem;
+        margin: 0 1rem;
+        border-radius: 10px;
+    }
+    
+    .content-wrapper ul, .content-wrapper ol {
+        margin-left: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .page-header h1 {
+        font-size: 2rem;
+    }
+    
+    .content-wrapper {
+        padding: 1.5rem;
+    }
+    
+    .content-wrapper h2 {
+        margin-top: 2rem;
+    }
+}
+
+/* Animation keyframes */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
 </style>
-
-<script>
-// Logo fallback script
-document.addEventListener('DOMContentLoaded', function() {
-    const logoImg = document.querySelector('.logo-img');
-    const logoFallback = document.querySelector('.logo-fallback');
-    
-    if (logoImg) {
-        logoImg.addEventListener('error', function() {
-            this.style.display = 'none';
-            if (logoFallback) {
-                logoFallback.style.display = 'flex';
-            }
-        });
-    }
-});
-
-// Navbar scroll effect (same as main page)
-window.addEventListener('scroll', function() {
-    const navbar = document.getElementById('navbar');
-    if (window.pageYOffset > 50) {
-        navbar.classList.add('scrolled');
-    } else {
-        navbar.classList.remove('scrolled');
-    }
-});
-</script>
