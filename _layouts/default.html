@@ -6,48 +6,6 @@
     <!-- Skip to main content link for accessibility -->
     <a href="#main" class="skip-link">Zum Hauptinhalt springen</a>
     
-    <!-- Adaptive Navigation (gleich wie auf Startseite) -->
-    <nav class="navbar" id="navbar">
-        <div class="nav-container">
-            <div class="logo">
-                <a href="{{ site.baseurl }}/" style="display: flex; align-items: center; text-decoration: none;">
-                    <!-- Dark version logo (for dark backgrounds) -->
-                    <img src="{{ '/assets/images/logo-light.png' | relative_url }}" 
-                         alt="{{ site.title }} Logo Light" 
-                         class="logo-dark" 
-                         onerror="handleLogoError(this)">
-                    <!-- Light version logo (for light backgrounds) -->
-                    <img src="{{ '/assets/images/logo-dark.png' | relative_url }}" 
-                         alt="{{ site.title }} Logo Dark" 
-                         class="logo-light" 
-                         onerror="handleLogoError(this)">
-                    
-                    <!-- Fallback falls beide Logos nicht laden -->
-                    <div class="logo-fallback" id="logoFallback">
-                        <div class="logo-circle"></div>
-                        <div class="logo-rect"></div>
-                        <div class="logo-shape"></div>
-                        <div class="logo-text">
-                            <div>Open Innovation City</div>
-                            <div>Bielefeld</div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            
-            <ul class="nav-links" id="navLinks">
-                <li><a href="{{ site.baseurl }}/">Start</a></li>
-                <li><a href="{{ site.baseurl }}/#about">Über uns</a></li>
-                <li><a href="{{ site.baseurl }}/#team">Team</a></li>
-                <li><a href="{{ site.baseurl }}/#projects">Projekte</a></li>
-                <li><a href="{{ site.baseurl }}/#events">Events</a></li>
-                <li><a href="{{ site.baseurl }}/#contact">Kontakt</a></li>
-            </ul>
-            
-            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menü öffnen">☰</button>
-        </div>
-    </nav>
-    
     <!-- Main Content -->
     <main id="main" role="main">
         {{ content }}
@@ -87,56 +45,5 @@
     
     <!-- JavaScript -->
     <script src="{{ site.baseurl }}/assets/js/main.js"></script>
-    
-    <!-- Logo Error Handling -->
-    <script>
-    // Logo Error Handling für Unterseiten
-    let logoErrorCount = 0;
-    
-    function handleLogoError(logoElement) {
-        logoElement.style.display = 'none';
-        logoErrorCount++;
-        
-        // Only show fallback if both logos fail to load
-        if (logoErrorCount >= 2) {
-            const logoFallback = document.getElementById('logoFallback');
-            if (logoFallback) {
-                logoFallback.classList.add('show');
-            }
-        }
-    }
-    
-    // Basic Navbar scroll effect for pages
-    document.addEventListener('DOMContentLoaded', function() {
-        const navbar = document.getElementById('navbar');
-        
-        window.addEventListener('scroll', function() {
-            if (window.pageYOffset > 50) {
-                navbar.classList.add('scrolled');
-            } else {
-                navbar.classList.remove('scrolled');
-            }
-        });
-        
-        // Mobile menu functionality
-        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
-        const navLinks = document.getElementById('navLinks');
-        
-        if (mobileMenuBtn && navLinks) {
-            mobileMenuBtn.addEventListener('click', function() {
-                navLinks.classList.toggle('active');
-                this.textContent = navLinks.classList.contains('active') ? '✕' : '☰';
-            });
-            
-            // Close menu when clicking on a link
-            navLinks.addEventListener('click', function(e) {
-                if (e.target.tagName === 'A') {
-                    navLinks.classList.remove('active');
-                    mobileMenuBtn.textContent = '☰';
-                }
-            });
-        }
-    });
-    </script>
 </body>
 </html>
