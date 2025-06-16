@@ -59,8 +59,8 @@ permalink: /ki/
     <div class="hero-overlay"></div>
     
     <div class="hero-content">
-        <h1>{{ site.title }}</h1>
-        <p>{{ site.description }}</p>
+        <h1>KI und Zivilgesellschaft</h1>
+        <p>DIE Eventreihe zu allen Themen rund um die Nutzung von KI für Ehrenamt, Soziales und Kultur</p>
         
         <!-- CTA Buttons Container -->
         <div class="cta-container">
@@ -72,35 +72,6 @@ permalink: /ki/
     <div class="scroll-indicator" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'})">
         <div class="scroll-arrow"></div>
         <div class="scroll-text">Scrollen für mehr</div>
-    </div>
-</section>
-
-<!-- About Section -->
-<section id="about" class="section about">
-    <div class="container">
-        <h2 class="section-title fade-in">Unsere Mission</h2>
-        <div class="fade-in">
-            <p style="text-align: center; font-size: 1.2rem; max-width: 800px; margin: 0 auto;">
-                Wir nutzen und vermitteln das Prinzip der Offenen Innovation. Wir öffnen Experimentierräume, um mit anderen Organisationseinheiten neue Prozesse und Technologien zu erproben.
-            </p>
-        </div>
-        
-        <div class="about-grid">
-            <div class="principle-card fade-in">
-                <h4>Experimentierräume</h4>
-                <p>Wir öffnen Experimentierräume, um mit anderen Organisationseinheiten neue Prozesse und Technologien zu erproben. Dazu bringen wir unsere Expertise im Bereich Innovation ein.</p>
-            </div>
-            
-            <div class="principle-card fade-in">
-                <h4>Stadtgesellschaft</h4>
-                <p>Für die Stadtgesellschaft organisieren wir unterschiedliche Formate, die Zusammenarbeit, Austausch und Vernetzung fördern. Damit begegnen wir den Herausforderungen gemeinschaftlich.</p>
-            </div>
-            
-            <div class="principle-card fade-in">
-                <h4>Innovation Office</h4>
-                <p>Das Innovation Office ist der zentrale Ort, an dem Akteure aus Verwaltung, Wirtschaft, Wissenschaft und Zivilgesellschaft gemeinsam und offen an Innovationen arbeiten.</p>
-            </div>
-        </div>
     </div>
 </section>
 
@@ -119,7 +90,7 @@ permalink: /ki/
         
         {% if site.data.events.size > 0 %}
         <div class="events-grid">
-            {% for event in upcoming_events limit: 6 %}
+            {% for event in upcoming_events limit: 12 %}
                 {% assign event_date = event.date | date: '%Y-%m-%d' %}
                 {% if event_date >= today %}
                 <div class="event-card fade-in{% if event.featured %} featured{% endif %}" data-category="{{ event.category }}">
