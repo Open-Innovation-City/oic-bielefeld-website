@@ -800,6 +800,53 @@ p {
   transform: scale(1.1) rotate(-2deg);
 }
 
+/* Project Meta */
+.project-meta {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+  font-size: 0.9rem;
+  color: var(--text-light);
+}
+
+/* Project Footer */
+.project-footer {
+  position: absolute;
+  bottom: 1.5rem;
+  right: 1.5rem;
+}
+
+.project-link-btn {
+  background: linear-gradient(135deg, var(--primary-turquoise) 0%, var(--secondary-blue) 100%);
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.85rem;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.project-link-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 178, 187, 0.4);
+  text-decoration: none;
+  color: white;
+}
+
+.project-link-btn::after {
+  content: "→";
+  transition: transform 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.project-link-btn:hover::after {
+  transform: translateX(3px);
+}
+
 /* Contact Section */
 .contact {
   background: linear-gradient(135deg, var(--secondary-blue) 0%, var(--primary-turquoise) 100%);

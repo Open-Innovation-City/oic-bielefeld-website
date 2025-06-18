@@ -157,13 +157,21 @@ description: Gemeinsam gestalten wir die Zukunft unserer Stadt durch offene Inno
                 <p>{{ project.description }}</p>
                 
                 {% if project.status or project.responsible %}
-                <div style="margin-top: 1rem; padding-top: 1rem; border-top: 1px solid #eee; font-size: 0.9rem; color: var(--text-light);">
+                <div class="project-meta">
                     {% if project.status %}
                     <div><strong>Status:</strong> {{ project.status }}</div>
                     {% endif %}
                     {% if project.responsible %}
                     <div><strong>Verantwortlich:</strong> {{ project.responsible }}</div>
                     {% endif %}
+                </div>
+                {% endif %}
+                
+                {% if project.link %}
+                <div class="project-footer">
+                    <a href="{{ project.link }}" target="_blank" rel="noopener" class="project-link-btn">
+                        {% if project.link_text %}{{ project.link_text }}{% else %}Mehr erfahren{% endif %}
+                    </a>
                 </div>
                 {% endif %}
             </div>
