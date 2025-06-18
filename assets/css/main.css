@@ -764,12 +764,12 @@ p {
 
 /* Extra space for cards with links */
 .project-card.has-link {
-  padding-bottom: 4rem;
+  padding-bottom: 5rem;
 }
 
 /* Fallback for browsers that support :has() */
 .project-card:has(.project-footer) {
-  padding-bottom: 4rem;
+  padding-bottom: 5rem;
 }
 
 .project-card.visible {
