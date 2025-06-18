@@ -762,6 +762,16 @@ p {
   border: 2px solid transparent;
 }
 
+/* Extra space for cards with links */
+.project-card.has-link {
+  padding-bottom: 4rem;
+}
+
+/* Fallback for browsers that support :has() */
+.project-card:has(.project-footer) {
+  padding-bottom: 4rem;
+}
+
 .project-card.visible {
   transform: scale(1);
   opacity: 1;

@@ -151,7 +151,7 @@ description: Gemeinsam gestalten wir die Zukunft unserer Stadt durch offene Inno
         <h2 class="section-title fade-in">Unsere Projekte</h2>
         <div class="projects-grid">
             {% for project in site.data.projects %}
-            <div class="project-card fade-in">
+            <div class="project-card fade-in{% if project.link %} has-link{% endif %}">
                 <div class="project-tag">{{ project.tag }}</div>
                 <h4>{{ project.title }}</h4>
                 <p>{{ project.description }}</p>
