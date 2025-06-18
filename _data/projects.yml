@@ -11,6 +11,8 @@
   status: "Umgesetzt"
   start_date: "2024-03-01"
   responsible: "Sarah Bollmann"
+  link: "https://www.bielefeld.de/gemeinsam-digital"
+  link_text: "Zu den Angeboten"
 
 - title: "MeetUp-Reihe KI und Zivilgesellschaft"
   tag: "Künstliche Intelligenz"
@@ -18,7 +20,7 @@
   status: "Gestartet"
   start_date: "2024-06-01"
   responsible: "Maria Gonçalves"
-  link: "https://oic-bielefeld.de/ki-zivilgesellschaft.html"
+  link: "https://oic-bielefeld.de/ki/"
   link_text: "Mehr zur KI-Reihe"
 
 #- title: "Maker Space Bielefeld"
