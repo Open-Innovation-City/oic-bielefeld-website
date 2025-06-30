@@ -80,6 +80,9 @@ collections:
     output: false
   team:
     output: false
+  beitraege:
+    output: true
+    permalink: /beitraege/:name/
 
 # Defaults
 defaults:
@@ -98,3 +101,8 @@ defaults:
       type: "team"
     values:
       layout: "team_member"
+  - scope:
+      path: ""
+      type: "beitraege"
+    values:
+      layout: "post"

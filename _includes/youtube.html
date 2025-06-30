@@ -1,0 +1,18 @@
+<!-- YouTube Video Component -->
+<!-- Usage: {% include youtube.html id="VIDEO_ID" title="Video Title" %} -->
+
+{% assign video_id = include.id %}
+{% assign video_title = include.title | default: "YouTube Video" %}
+
+<div class="youtube-video" data-video-id="{{ video_id }}">
+    <div class="youtube-thumbnail">
+        <img src="https://img.youtube.com/vi/{{ video_id }}/maxresdefault.jpg" 
+             alt="{{ video_title }}" 
+             loading="lazy"
+             onerror="this.src='https://img.youtube.com/vi/{{ video_id }}/hqdefault.jpg'">
+        <div class="youtube-play-button"></div>
+        {% if video_title %}
+        <div class="youtube-title">{{ video_title }}</div>
+        {% endif %}
+    </div>
+</div>
