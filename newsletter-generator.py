@@ -25,11 +25,16 @@ class NewsletterGenerator:
     def __init__(self, base_path: str = "."):
         self.base_path = Path(base_path)
         self.beitraege_path = self.base_path / "_beitraege"
-        self.output_path = self.base_path / "_site" / "newsletter"
+        self.output_path = self.base_path / "generated-newsletters"
         self.template_path = self.base_path / "newsletter-template.html"
         
         # Stelle sicher, dass Output-Verzeichnis existiert
-        self.output_path.mkdir(parents=True, exist_ok=True)
+        try:
+            self.output_path.mkdir(parents=True, exist_ok=True)
+        except PermissionError:
+            # Fallback: Verwende aktuelles Verzeichnis
+            self.output_path = Path("generated-newsletters")
+            self.output_path.mkdir(exist_ok=True)
     
     def parse_front_matter(self, content: str) -> tuple[Dict, str]:
         """Extrahiert YAML Front Matter aus Markdown-Datei."""
@@ -375,8 +380,9 @@ class NewsletterGenerator:
         if output_file:
             print(f"\n✅ Newsletter erfolgreich generiert!")
             print(f"📄 Datei: {output_file}")
-            print(f"🌐 URL: /newsletter/{Path(output_file).name}")
+            print(f"🌐 Pfad: {Path(output_file).name}")
             print(f"\n💡 Tipp: Öffnen Sie die Datei in einem Browser zur Vorschau")
+            print(f"💡 Oder kopieren Sie die HTML-Datei in Ihr Newsletter-Tool")
         else:
             print("❌ Fehler beim Speichern des Newsletters")
 
