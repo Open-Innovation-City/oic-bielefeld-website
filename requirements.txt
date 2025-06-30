@@ -1,0 +1,20 @@
+# OIC Newsletter Generator Dependencies
+# =====================================
+
+# YAML parsing für Jekyll Front Matter
+PyYAML>=6.0
+
+# Markdown processing (optional, für erweiterte Features)
+markdown>=3.4.0
+
+# Datum/Zeit utilities (bereits in Python Standard Library)
+# datetime
+
+# File system operations (bereits in Python Standard Library)  
+# pathlib
+# os
+# sys
+
+# Text processing (bereits in Python Standard Library)
+# re
+# typing
