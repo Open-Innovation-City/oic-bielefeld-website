@@ -25,6 +25,7 @@ class NewsletterGenerator:
     def __init__(self, base_path: str = "."):
         self.base_path = Path(base_path)
         self.beitraege_path = self.base_path / "_beitraege"
+        self.events_path = self.base_path / "_data" / "events.yml"
         self.output_path = self.base_path / "generated-newsletters"
         self.template_path = self.base_path / "newsletter-template.html"
         
@@ -106,6 +107,71 @@ class NewsletterGenerator:
         # Nach Datum sortieren (neueste zuerst)
         posts.sort(key=lambda x: x['date_obj'] or date.min, reverse=True)
         return posts
+    
+    def get_all_events(self) -> List[Dict]:
+        """Lädt alle Events aus _data/events.yml."""
+        events = []
+        
+        if not self.events_path.exists():
+            print(f"❌ Events-Datei nicht gefunden: {self.events_path}")
+            return events
+        
+        try:
+            with open(self.events_path, 'r', encoding='utf-8') as f:
+                events_data = yaml.safe_load(f)
+            
+            if not events_data:
+                return events
+            
+            for event_data in events_data:
+                if not event_data:
+                    continue
+                
+                event = {
+                    'title': event_data.get('title', ''),
+                    'description': event_data.get('description', ''),
+                    'date': event_data.get('date', ''),
+                    'time': event_data.get('time', ''),
+                    'duration': event_data.get('duration', ''),
+                    'location': event_data.get('location', ''),
+                    'category': event_data.get('category', ''),
+                    'target_audience': event_data.get('target_audience', ''),
+                    'cost': event_data.get('cost', ''),
+                    'booking_url': event_data.get('booking_url', ''),
+                    'featured': event_data.get('featured', False)
+                }
+                
+                # Datum parsen
+                if event['date']:
+                    try:
+                        if isinstance(event['date'], date):
+                            event['date_obj'] = event['date']
+                        else:
+                            event['date_obj'] = datetime.strptime(str(event['date']), '%Y-%m-%d').date()
+                    except ValueError:
+                        event['date_obj'] = None
+                else:
+                    event['date_obj'] = None
+                
+                events.append(event)
+                
+        except Exception as e:
+            print(f"⚠️  Fehler beim Lesen der Events: {e}")
+        
+        # Nach Datum sortieren (früheste zuerst)
+        events.sort(key=lambda x: x['date_obj'] or date.max)
+        return events
+    
+    def filter_future_events(self, events: List[Dict]) -> List[Dict]:
+        """Filtert Events die in der Zukunft liegen."""
+        today = date.today()
+        future_events = []
+        
+        for event in events:
+            if event['date_obj'] and event['date_obj'] >= today:
+                future_events.append(event)
+        
+        return future_events
     
     def filter_posts_by_date(self, posts: List[Dict], since_date: date) -> List[Dict]:
         """Filtert Posts nach Datum."""
@@ -190,9 +256,90 @@ class NewsletterGenerator:
             print(f"❌ Newsletter-Template nicht gefunden: {self.template_path}")
             sys.exit(1)
     
-    def generate_newsletter_content(self, selected_posts: List[Dict]) -> str:
-        """Generiert Newsletter-Content aus ausgewählten Posts."""
-        if not selected_posts:
+    def generate_events_html(self, events: List[Dict]) -> str:
+        """Generiert HTML für Events-Sektion."""
+        if not events:
+            return ""
+        
+        events_html = f"""
+        <h3 style="margin: 30px 0 15px 0; color: #666cde; font-size: 20px; font-weight: 600;">
+            📅 Kommende Events
+        </h3>
+        """
+        
+        for event in events:
+            # Datum formatieren
+            date_str = event['date_obj'].strftime('%d.%m.%Y') if event['date_obj'] else ''
+            
+            # Event-Box
+            event_html = f"""
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" 
+                   style="margin: 20px 0; background-color: #f8f9fa; border-radius: 8px; border-left: 4px solid #00b2bb;">
+                <tr>
+                    <td style="padding: 20px;">
+                        <h4 style="margin: 0 0 10px 0; color: #00b2bb; font-size: 18px; font-weight: 600;">
+                            {event['title']}
+                        </h4>
+                        <p style="margin: 0 0 15px 0; color: #2c3e50; font-size: 16px; line-height: 1.6;">
+                            {event['description']}
+                        </p>
+                        <div style="margin: 10px 0;">
+                            <span style="color: #666; font-size: 14px;">
+                                📅 {date_str}"""
+            
+            if event['time']:
+                event_html += f" • 🕐 {event['time']}"
+            if event['location']:
+                event_html += f" • 📍 {event['location']}"
+            
+            event_html += """
+                            </span>
+                        </div>"""
+            
+            # Zusätzliche Infos
+            if event['cost'] or event['target_audience']:
+                event_html += """
+                        <div style="margin: 10px 0;">
+                            <span style="color: #666; font-size: 14px;">"""
+                
+                if event['cost']:
+                    event_html += f"💰 {event['cost']}"
+                if event['target_audience']:
+                    if event['cost']:
+                        event_html += " • "
+                    event_html += f"👥 {event['target_audience']}"
+                
+                event_html += """
+                            </span>
+                        </div>"""
+            
+            # Anmelde-Button
+            if event['booking_url']:
+                event_html += f"""
+                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: 15px 0 0 0;">
+                            <tr>
+                                <td style="border-radius: 20px; background-color: #00b2bb;">
+                                    <a href="{event['booking_url']}" style="display: inline-block; padding: 10px 25px; 
+                                       color: #ffffff; text-decoration: none; font-weight: 600; font-size: 14px; border-radius: 20px;">
+                                        Jetzt anmelden
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>"""
+            
+            event_html += """
+                    </td>
+                </tr>
+            </table>
+            """
+            
+            events_html += event_html
+        
+        return events_html
+
+    def generate_newsletter_content(self, selected_posts: List[Dict], future_events: List[Dict] = None) -> str:
+        """Generiert Newsletter-Content aus ausgewählten Posts und Events."""
+        if not selected_posts and not future_events:
             return ""
         
         # Header-Infos
@@ -209,6 +356,7 @@ class NewsletterGenerator:
         # Newsletter-Inhalt generieren
         content_sections = []
         
+        # Posts verarbeiten
         for i, post in enumerate(selected_posts, 1):
             # Abschnitt für jeden Post
             section = f"""
@@ -253,12 +401,28 @@ class NewsletterGenerator:
             
             content_sections.append(section)
         
+        # Events hinzufügen
+        if future_events:
+            events_html = self.generate_events_html(future_events)
+            content_sections.append(events_html)
+        
         # Zusammenfassung generieren
+        content_count = len(selected_posts)
+        events_count = len(future_events) if future_events else 0
+        
+        intro_parts = []
+        if content_count > 0:
+            intro_parts.append(f"{content_count} spannende Beiträge aus der Welt der offenen Innovation")
+        if events_count > 0:
+            intro_parts.append(f"{events_count} kommende Events")
+        
+        content_description = " und ".join(intro_parts) if intro_parts else "neue Updates"
+        
         intro_text = f"""
         Liebe Innovationsbegeisterte,
         
         herzlich willkommen zu unserem Newsletter für {current_date}! 
-        Wir haben {len(selected_posts)} spannende Beiträge aus der Welt der offenen Innovation für Sie zusammengestellt.
+        Wir haben {content_description} für Sie zusammengestellt.
         """
         
         closing_text = f"""
@@ -272,13 +436,14 @@ class NewsletterGenerator:
             'intro': intro_text.strip(),
             'sections': ''.join(content_sections),
             'closing': closing_text.strip(),
-            'title': f"OIC Newsletter {current_date}"
+            'title': f"OIC Newsletter {current_date}",
+            'events_count': events_count
         }
     
-    def generate_newsletter_html(self, selected_posts: List[Dict]) -> str:
+    def generate_newsletter_html(self, selected_posts: List[Dict], future_events: List[Dict] = None) -> str:
         """Generiert vollständige Newsletter-HTML."""
         template = self.load_newsletter_template()
-        content_data = self.generate_newsletter_content(selected_posts)
+        content_data = self.generate_newsletter_content(selected_posts, future_events)
         
         if not content_data:
             return template
@@ -346,7 +511,17 @@ class NewsletterGenerator:
         
         print(f"✅ {len(all_posts)} Beiträge gefunden")
         
-        # 2. Datum-Filter
+        # 2. Events laden
+        print("📅 Lade Events...")
+        all_events = self.get_all_events()
+        future_events = self.filter_future_events(all_events)
+        
+        if future_events:
+            print(f"✅ {len(future_events)} kommende Events gefunden")
+        else:
+            print("ℹ️  Keine kommenden Events gefunden")
+        
+        # 3. Datum-Filter für Posts
         since_date = date.today().replace(day=1)  # Erster Tag des aktuellen Monats
         if since_days:
             from datetime import timedelta
@@ -359,22 +534,30 @@ class NewsletterGenerator:
         if not recent_posts:
             print(f"❌ Keine Beiträge seit {since_date.strftime('%d.%m.%Y')} gefunden!")
             print("💡 Verwenden Sie --since-days um den Zeitraum zu erweitern")
-            return
+            if not future_events:
+                print("❌ Keine Inhalte für Newsletter verfügbar.")
+                return
+            else:
+                print("ℹ️  Newsletter wird nur mit Events erstellt.")
+                selected_posts = []
+        else:
+            print(f"✅ {len(recent_posts)} aktuelle Beiträge gefunden")
+            
+            # 4. Interaktive Auswahl
+            selected_posts = self.interactive_post_selection(recent_posts)
+            
+            if not selected_posts and not future_events:
+                print("❌ Keine Beiträge ausgewählt und keine Events verfügbar. Newsletter-Generierung abgebrochen.")
+                return
         
-        print(f"✅ {len(recent_posts)} aktuelle Beiträge gefunden")
+        # 5. Newsletter generieren
+        content_count = len(selected_posts) if selected_posts else 0
+        events_count = len(future_events) if future_events else 0
         
-        # 3. Interaktive Auswahl
-        selected_posts = self.interactive_post_selection(recent_posts)
+        print(f"\n🔄 Generiere Newsletter mit {content_count} Beiträgen und {events_count} Events...")
+        newsletter_html = self.generate_newsletter_html(selected_posts, future_events)
         
-        if not selected_posts:
-            print("❌ Keine Beiträge ausgewählt. Newsletter-Generierung abgebrochen.")
-            return
-        
-        # 4. Newsletter generieren
-        print(f"\n🔄 Generiere Newsletter mit {len(selected_posts)} Beiträgen...")
-        newsletter_html = self.generate_newsletter_html(selected_posts)
-        
-        # 5. Speichern
+        # 6. Speichern
         output_file = self.save_newsletter(newsletter_html)
         
         if output_file:

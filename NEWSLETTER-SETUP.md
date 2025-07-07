@@ -64,6 +64,10 @@ pip install PyYAML
 - Prüfen Sie, ob `_beitraege/` Verzeichnis existiert
 - Verwenden Sie `--since-days 365` für längeren Zeitraum
 
+**Keine Events gefunden?**
+- Prüfen Sie, ob `_data/events.yml` existiert
+- Events werden automatisch hinzugefügt wenn sie in der Zukunft liegen
+
 **Template nicht gefunden?**
 - Datei `newsletter-template.html` muss im Hauptverzeichnis liegen
 

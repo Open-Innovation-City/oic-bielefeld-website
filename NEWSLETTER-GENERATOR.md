@@ -2,7 +2,13 @@
 
 ## 🚀 Über den Newsletter Generator
 
-Der Newsletter Generator automatisiert die Erstellung von Newslettern aus Ihren Beiträgen. Er scannt Ihre `_beitraege/` und erstellt professionelle Newsletter-HTML-Dateien.
+Der Newsletter Generator automatisiert die Erstellung von Newslettern aus Ihren Beiträgen und Events. Er scannt Ihre `_beitraege/` und `_data/events.yml` und erstellt professionelle Newsletter-HTML-Dateien mit:
+
+- ✅ **Blog-Beiträge** aus dem `_beitraege/` Verzeichnis
+- ✅ **Kommende Events** aus der `_data/events.yml`
+- ✅ **Interaktive Beitrags-Auswahl** 
+- ✅ **Automatische Event-Integration** für zukünftige Termine
+- ✅ **Responsive HTML-Template** für alle E-Mail-Clients
 
 ## 🛠️ Installation & Setup
 
@@ -91,6 +97,8 @@ $ python newsletter-generator.py
 ========================================
 📁 Lade Beiträge...
 ✅ 8 Beiträge gefunden
+📅 Lade Events...
+✅ 2 kommende Events gefunden
 🗓️  Suche Beiträge seit: 01.06.2024
 ✅ 3 aktuelle Beiträge gefunden
 ```
@@ -126,7 +134,7 @@ Auswahl-Optionen:
    • KI-Tool revolutioniert die Bürgerbeteiligung
    • Innovation Workshop Rückblick
 
-🔄 Generiere Newsletter mit 2 Beiträgen...
+🔄 Generiere Newsletter mit 2 Beiträgen und 2 Events...
 
 ✅ Newsletter erfolgreich generiert!
 📄 Datei: generated-newsletters/newsletter-2024-06.html
@@ -255,6 +263,12 @@ pip install --user PyYAML
 - Prüfen Sie, ob `_beitraege/` Verzeichnis existiert
 - Prüfen Sie, ob `.md` Dateien Front Matter haben
 
+**Problem:** `Keine Events gefunden`
+**Lösung:**
+- Prüfen Sie, ob `_data/events.yml` existiert
+- Prüfen Sie, ob Events zukünftige Datumsangaben haben
+- Format: `date: "2024-12-31"` (YYYY-MM-DD)
+
 **Problem:** `Ungültige YAML Syntax`
 **Lösung:**
 - Prüfen Sie Front Matter in Beiträgen
@@ -335,11 +349,12 @@ jobs:
 - [ ] Script getestet (`python newsletter-generator.py --help`)
 - [ ] `newsletter-template.html` vorhanden
 - [ ] `_beitraege/` Verzeichnis mit Beiträgen existiert
+- [ ] `_data/events.yml` mit Events vorhanden (optional)
 
 ### Newsletter-Erstellung:
 - [ ] Environment aktiviert (`source newsletter-env/bin/activate`)
 - [ ] Script ausgeführt (`python newsletter-generator.py`)
-- [ ] Beiträge ausgewählt
+- [ ] Beiträge ausgewählt (Events werden automatisch hinzugefügt)
 - [ ] HTML-Datei generiert (in `generated-newsletters/`)
 - [ ] Vorschau im Browser getestet
 - [ ] HTML in Newsletter-Tool kopiert
