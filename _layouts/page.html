@@ -6,27 +6,29 @@ layout: default
 <nav class="navbar light-theme" id="navbar">
     <div class="nav-container">
         <div class="logo">
-            <!-- Dark version logo (for dark backgrounds) -->
-            <img src="{{ '/assets/images/logo-light.png' | relative_url }}" 
-                 alt="{{ site.title }} Logo Light" 
-                 class="logo-dark" 
-                 onerror="handleLogoError(this)">
-            <!-- Light version logo (for light backgrounds) -->
-            <img src="{{ '/assets/images/logo-dark.png' | relative_url }}" 
-                 alt="{{ site.title }} Logo Dark" 
-                 class="logo-light" 
-                 onerror="handleLogoError(this)">
-            
-            <!-- Fallback falls beide Logos nicht laden -->
-            <div class="logo-fallback" id="logoFallback">
-                <div class="logo-circle"></div>
-                <div class="logo-rect"></div>
-                <div class="logo-shape"></div>
-                <div class="logo-text">
-                    <div>Open Innovation City</div>
-                    <div>Bielefeld</div>
+            <a href="{{ '/' | relative_url }}">
+                <!-- Dark version logo (for dark backgrounds) -->
+                <img src="{{ '/assets/images/logo-light.png' | relative_url }}" 
+                     alt="{{ site.title }} Logo Light" 
+                     class="logo-dark" 
+                     onerror="handleLogoError(this)">
+                <!-- Light version logo (for light backgrounds) -->
+                <img src="{{ '/assets/images/logo-dark.png' | relative_url }}" 
+                     alt="{{ site.title }} Logo Dark" 
+                     class="logo-light" 
+                     onerror="handleLogoError(this)">
+                
+                <!-- Fallback falls beide Logos nicht laden -->
+                <div class="logo-fallback" id="logoFallback">
+                    <div class="logo-circle"></div>
+                    <div class="logo-rect"></div>
+                    <div class="logo-shape"></div>
+                    <div class="logo-text">
+                        <div>Open Innovation City</div>
+                        <div>Bielefeld</div>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
         
         <ul class="nav-links" id="navLinks">
