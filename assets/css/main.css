@@ -113,6 +113,15 @@ p {
   position: relative;
 }
 
+.logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
 /* Logo Images - Dark and Light versions */
 .logo img {
   height: 50px;
@@ -144,7 +153,8 @@ p {
   display: none;
   align-items: center;
   gap: 0.5rem;
-  margin-left: 50px; /* Space for absolute positioned logos */
+  width: 50px; /* Same width as logo image */
+  height: 50px;
 }
 
 .logo-fallback.show {
