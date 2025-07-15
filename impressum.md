@@ -16,7 +16,7 @@ Niederwall 23
 33602 Bielefeld  
 
 **Telefon:** +49 521 51-0  
-**E-Mail:** info@oic-bielefeld.de  
+**E-Mail:** innovationen@bielefeld.de 
 **Website:** {{ site.url }}{{ site.baseurl }}
 
 ## Vertreten durch
