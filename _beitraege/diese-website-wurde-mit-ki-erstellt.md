@@ -9,8 +9,6 @@ header_image: "/assets/images/ki.png"
 
 ## Mit KI auf dem Weg zur neuen Website
 
-Unsere neue Website ist da! Und sie ist nicht auf klassischem Wege entstanden. Anthropics Claude Code hat die Website fast im Alleingang erstellt, beim Hosting geholfen und die Erstellung von Newslettern automatisiert.
-
 ### Warum nicht wie immer?
 
 Als klar war, dass wir eine neue Website für Open Innovation City Bielefeld brauchen, war mein erster Gedanke: Schnell eine Website mit Wordpress aufsetzen, ein schönes Theme installieren und ab geht die Post. Genau so habe ich es ja schon vor 15 Jahren gemacht. Alles kein großes Ding. 
@@ -47,21 +45,21 @@ Zu diesem Zeitpunkt waren zwei Dinge klar:
 
 Mittlerweile haben wir ja alle gelernt, dass es bei der Nutzung von KI-Tool vor allem darauf ankommt, dem jeweiligen Tool möglichst viel Kontext zur Aufgabe zu liefern. So kann man sicherstellen, dass die Ergebnisse nicht zu allgemein werden. Hier der Prompt, mit dem ich angefangen haben:
 
-```
-Es handelt sich um eine Website für das Projekte Open Innovation City, kurz: OIC. Informationen darüber findest du bereits hier: https://www.openinnovationcity.de/. Ich brauche eine Seite für eine Unterprojekt für OIC in Bielefeld.
 
-Ich habe Erfahrungen in der Webentwicklung, bin mit CMS-Systemen vertraut und kann Webserver konfigurieren.
+> Es handelt sich um eine Website für das Projekte Open Innovation City, kurz: OIC. Informationen darüber findest du bereits hier: https://www.openinnovationcity.de/. Ich brauche eine Seite für eine Unterprojekt für OIC in Bielefeld.
+>
+> Ich habe Erfahrungen in der Webentwicklung, bin mit CMS-Systemen vertraut und kann Webserver konfigurieren.
+>
+> Die Website soll in erster Linie das Projekte OIC Bielefeld darstellen. Unsere Vision und Mission, die Teammitglieder mit ihren Fachgebieten und unsere Projekte aus den unterschiedlichsten Bereichen, wie z.B. Smart City, Offene Innovationen usw. Die Website braucht keine Webshop-Komponenten usw.
+>
+> Vom Stil her dachte ich in Richtung wie bei https://www.ideo.com/ oder https://ajsmart.com/. Freundlich und offen gestaltet. Klare, einfach Typografie. Es gibt auch schon ein Logo für das Projekt und eine Art Grafiti, dass stilistisch gut passt. Ein paar nett Scrollanimationen und Parallaxeffekte dürfen schon dabei sein, damit die Website interessanter wird.
+>
+> Mit ist vor allem wichtig, dass ich die Website schnell veröffentlichen kann. Die Website soll idealerweise rein statisch ohne Datenbank etc. funktionieren.
+>
+> Soll ich die das Logo und das Grafitti hochladen, damit du einen Eindruck bekommst?
+>
+> Bitte fange nciht direkt mit der Programmierung an, sondern schreibe zuerst ein Umsetzungskonzept, damit wir beide wissen, dass wir auf dem richtigen Weg sind. Stelle mir gerne noch mehr Fragen.
 
-Die Website soll in erster Linie das Projekte OIC Bielefeld darstellen. Unsere Vision und Mission, die Teammitglieder mit ihren Fachgebieten und unsere Projekte aus den unterschiedlichsten Bereichen, wie z.B. Smart City, Offene Innovationen usw. Die Website braucht keine Webshop-Komponenten usw.
-
-Vom Stil her dachte ich in Richtung wie bei https://www.ideo.com/ oder https://ajsmart.com/. Freundlich und offen gestaltet. Klare, einfach Typografie. Es gibt auch schon ein Logo für das Projekt und eine Art Grafiti, dass stilistisch gut passt. Ein paar nett Scrollanimationen und Parallaxeffekte dürfen schon dabei sein, damit die Website interessanter wird.
-
-Mit ist vor allem wichtig, dass ich die Website schnell veröffentlichen kann. Die Website soll idealerweise rein statisch ohne Datenbank etc. funktionieren.
-
-Soll ich die das Logo und das Grafitti hochladen, damit du einen Eindruck bekommst?
-
-Bitte fange nciht direkt mit der Programmierung an, sondern schreibe zuerst ein Umsetzungskonzept, damit wir beide wissen, dass wir auf dem richtigen Weg sind. Stelle mir gerne noch mehr Fragen.
-```
 
 Gerade der letzte Abschnitt war sehr wichtig in der Arbeit mit Claude Code. Durch die Fragen, die mir das Tool gestellt hat, sind wir zu einer Lösung gekommen, die schnell umsetzbar war, wenig komplex ist und zudem noch kostenlos nutzbar ist. Weil das Tool nicht direkt mit der Umsetzung begonnen hat, sondern erstmal ein Konzept erstellen sollte, war es viel einfacher, offene Fragen zu klären und sich genau zu überlegen, wo man eigentlich hin will. Durch die Rückfragen des Tool habe ich selber viel gelernt und habe über Details nachgedacht, die mir sonst entgangen wären und genau so soll es ja sein, wenn man mit anderen "zusammenarbeitet", auch wenn es in diesem Fall nur eine LLM war und kein Mensch. Gelernt habe ich trotzdem einiges.
 
@@ -72,9 +70,6 @@ Natürlich ist nicht alles Gold, was glänzt. Ganz ohne Programmierkenntnisse ko
 Ich kann euch nur empfehlen, einen Blick auf die Case Study von Antropic zu werfen. Dort werden praktische Anwendungsfälle für die Nutzung von Claude Code beschrieben, die auch Bereiche abseits von Programmierung berühren. Eine tolle Inspiration, auch für die Ntuzung anderer LLMs: [Case Study zur Nutzung von Claude Code](https://www-cdn.anthropic.com/58284b19e702b49db9302d5b6f135ad8871e7658.pdf)
 
 Was mich schmerzt ist, dass Anthropic wieder mal ein amerikanische Unternehmen ist, das deutlich weiter ist, als die europäischen Alternativen. Ich hoffe, dass auch europäische Unternehmen wie z.B. [Mistral](https://mistral.ai) bald nachziehen und ähnlich Tools bereitstellen.  
-
-Inspirationen > Use Cases
-
 
 ---
 
