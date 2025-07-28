@@ -1538,30 +1538,16 @@ p {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.6);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background: rgba(0, 0, 0, 0.3);
   opacity: 0;
   transition: opacity 0.3s ease;
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(1px);
 }
 
 .gallery-item:hover .gallery-overlay {
   opacity: 1;
 }
 
-.gallery-zoom-icon {
-  font-size: 2rem;
-  color: white;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-  transform: scale(0.8);
-  transition: transform 0.3s ease;
-}
-
-.gallery-item:hover .gallery-zoom-icon {
-  transform: scale(1);
-}
 
 /* Pinterest-style Masonry Layout */
 @supports (grid-template-rows: masonry) {

@@ -604,23 +604,28 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // Add click handlers to gallery thumbnails
-    const galleryThumbnails = document.querySelectorAll('.gallery-thumbnail');
-    galleryThumbnails.forEach(function(img) {
-        img.addEventListener('click', function() {
-            const galleryId = this.dataset.gallery;
-            const imageIndex = parseInt(this.closest('.gallery-item').dataset.index);
+    // Add click handlers to gallery thumbnails using event delegation
+    document.addEventListener('click', function(e) {
+        if (e.target.classList.contains('gallery-thumbnail')) {
+            e.preventDefault();
+            const img = e.target;
+            const galleryId = img.dataset.gallery;
+            const imageIndex = parseInt(img.closest('.gallery-item').dataset.index);
+            
+            console.log('Gallery clicked:', galleryId, imageIndex); // Debug
             
             // Get all images from the same gallery
             const galleryImgs = Array.from(document.querySelectorAll(`[data-gallery="${galleryId}"]`));
-            const images = galleryImgs.map(img => ({
-                src: img.src,
-                caption: img.dataset.caption || img.alt || '',
-                alt: img.alt
+            const images = galleryImgs.map(galleryImg => ({
+                src: galleryImg.src,
+                caption: galleryImg.dataset.caption || galleryImg.alt || '',
+                alt: galleryImg.alt
             }));
             
-            showLightbox(this.src, this.dataset.caption || this.alt || '', galleryId, imageIndex, images);
-        });
+            console.log('Gallery images:', images); // Debug
+            
+            showLightbox(img.src, img.dataset.caption || img.alt || '', galleryId, imageIndex, images);
+        }
     });
     
     function showLightbox(src, caption, galleryId, index, images) {
