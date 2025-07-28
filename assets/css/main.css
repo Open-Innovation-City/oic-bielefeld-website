@@ -1527,25 +1527,18 @@ p {
 }
 
 .gallery-item:hover .gallery-thumbnail {
-  transform: scale(1.05);
-  filter: brightness(0.8);
+  transform: scale(1.02);
 }
 
-/* Gallery Overlay */
+/* Gallery Overlay - removed dark overlay on hover */
 .gallery-overlay {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.3);
   opacity: 0;
-  transition: opacity 0.3s ease;
-  backdrop-filter: blur(1px);
-}
-
-.gallery-item:hover .gallery-overlay {
-  opacity: 1;
+  pointer-events: none;
 }
 
 
@@ -1821,14 +1814,6 @@ p {
 
 /* Touch gestures for mobile */
 @media (hover: none) and (pointer: coarse) {
-  .gallery-overlay {
-    opacity: 0;
-  }
-  
-  .gallery-item:active .gallery-overlay {
-    opacity: 1;
-  }
-  
   .lightbox-content {
     touch-action: pan-x;
   }
