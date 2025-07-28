@@ -26,8 +26,7 @@ Die Syntax für GitHub Pages:
 Hier ist eine Beispiel-Galerie mit Team-Bildern:
 
 {% include gallery.html 
-   images="jens.png|Jens Edler - Projektleitung,lisa.png|Lisa Weber - UX Design,maria.png|Maria González - Entwicklung,sarah.png|Sarah Müller - Content Strategy,stephan.png|Stephan Koch - Technische Leitung,tatjana.png|Tatjana Richter - Community Management" 
-   folder="/assets/images/team/" %}
+   images="sommerfest_2025_1.jpeg,sommerfest_2025_2.jpeg,sommerfest_2025_3.jpeg,sommerfest_2025_4.jpeg,sommerfest_2025_5.jpeg,sommerfest_2025_6.jpeg,sommerfest_2025_7.jpeg,sommerfest_2025_8.jpeg,sommerfest_2025_9.jpeg,sommerfest_2025_10.jpeg,sommerfest_2025_11.jpeg,sommerfest_2025_12.jpeg,sommerfest_2025_13.jpeg,sommerfest_2025_14.jpeg,sommerfest_2025_15.jpeg,sommerfest_2025_16.jpeg,sommerfest_2025_17.jpeg,sommerfest_2025_18.jpeg,sommerfest_2025_19.jpeg,sommerfest_2025_20.jpeg,sommerfest_2025_21.jpeg,sommerfest_2025_22.jpeg,sommerfest_2025_23.jpeg" folder="/assets/images/events/sommerfest_2025/" %}
 
 ### Features der Galerie
 
