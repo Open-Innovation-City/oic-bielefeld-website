@@ -111,8 +111,10 @@ layout: default
         <div class="lightbox-nav lightbox-prev">‹</div>
         <div class="lightbox-nav lightbox-next">›</div>
         <img class="lightbox-img" src="" alt="">
-        <div class="lightbox-caption"></div>
-        <div class="lightbox-counter"></div>
+        <div class="lightbox-caption-container">
+            <div class="lightbox-caption"></div>
+            <div class="lightbox-counter"></div>
+        </div>
     </div>
 </div>
 
@@ -637,11 +639,11 @@ document.addEventListener('DOMContentLoaded', function() {
         lightboxImg.alt = caption;
         lightboxCaption.textContent = caption;
         
-        // Update navigation visibility
+        // Update navigation visibility and counter
         if (galleryImages.length > 1) {
             lightboxPrev.style.display = 'flex';
             lightboxNext.style.display = 'flex';
-            lightboxCounter.style.display = 'block';
+            lightboxCounter.style.display = 'inline-block';
             lightboxCounter.textContent = `${index + 1} von ${galleryImages.length}`;
             
             // Update navigation states
@@ -651,6 +653,13 @@ document.addEventListener('DOMContentLoaded', function() {
             lightboxPrev.style.display = 'none';
             lightboxNext.style.display = 'none';
             lightboxCounter.style.display = 'none';
+        }
+        
+        // Handle caption visibility
+        if (caption && caption.trim() !== '') {
+            lightboxCaption.style.display = 'block';
+        } else {
+            lightboxCaption.style.display = 'none';
         }
         
         lightbox.style.display = 'block';

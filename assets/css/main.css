@@ -1647,54 +1647,65 @@ p {
   pointer-events: none;
 }
 
-/* Close Button */
+/* Close Button - styled to match navigation arrows */
 .lightbox-close {
   position: absolute;
   top: 2rem;
   right: 2rem;
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   cursor: pointer;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
   border: 2px solid rgba(255, 255, 255, 0.3);
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
   z-index: 10001;
+  user-select: none;
 }
 
 .lightbox-close:hover {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(255, 255, 255, 0.3);
   border-color: rgba(255, 255, 255, 0.5);
   transform: scale(1.1);
+}
+
+/* Caption Container */
+.lightbox-caption-container {
+  text-align: center;
+  margin-top: 1rem;
+  max-width: 800px;
 }
 
 /* Caption */
 .lightbox-caption {
   color: white;
-  text-align: center;
   padding: 1.5rem 2rem;
   font-size: 1.1rem;
-  max-width: 800px;
   background: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(10px);
   border-radius: 8px;
-  margin-top: 1rem;
   border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 0;
 }
 
-/* Counter */
+/* Hide caption if empty but show counter */
+.lightbox-caption:empty {
+  display: none;
+}
+
+.lightbox-caption:empty + .lightbox-counter {
+  margin-top: 0;
+}
+
+/* Counter - positioned below caption */
 .lightbox-counter {
-  position: absolute;
-  bottom: 2rem;
-  left: 50%;
-  transform: translateX(-50%);
   color: white;
   background: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(10px);
@@ -1702,6 +1713,8 @@ p {
   border-radius: 20px;
   font-size: 0.9rem;
   border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 1rem;
+  display: inline-block;
 }
 
 /* Loading State */
@@ -1779,7 +1792,6 @@ p {
   }
   
   .lightbox-counter {
-    bottom: 1rem;
     font-size: 0.8rem;
     padding: 0.4rem 0.8rem;
   }
