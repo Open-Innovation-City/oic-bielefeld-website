@@ -85,6 +85,24 @@ Edit `_data/projects.yml` with status tracking:
   link: "https://optional-url.com"  # Optional
 ```
 
+### Adding Image Galleries
+Use the `{% gallery %}` tag in posts and pages:
+```markdown
+{% gallery %}
+/assets/images/folder/image1.jpg | Optional caption for image 1
+/assets/images/folder/image2.jpg | Another caption
+/assets/images/folder/image3.jpg
+{% endgallery %}
+```
+
+**Gallery Features:**
+- **Pinterest-style masonry layout** with responsive grid (5→3→2→1 columns)
+- **Enhanced lightbox** with arrow navigation and keyboard support (←/→ keys)
+- **Touch gestures** for mobile (swipe left/right to navigate)
+- **Image preloading** for smooth navigation experience
+- **Captions support** with `|` separator (auto-generated from filename if omitted)
+- **Progressive enhancement** - works without JavaScript for basic image display
+
 ### Styling Considerations
 - **Background color detection**: Navigation automatically adapts to section backgrounds
 - **Animation delays**: Use consistent staggered timing (0.1s, 0.2s, 0.3s increments)

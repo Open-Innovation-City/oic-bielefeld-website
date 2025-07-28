@@ -135,6 +135,42 @@ Markdown ist eine einfache Formatierungssprache:
 > Zitat oder wichtiger Hinweis
 ```
 
+## Bildergalerien erstellen
+
+**Neu seit Januar 2025:** Du kannst jetzt einfach Bildergalerien in Blog-Beiträgen einbinden!
+
+### Galerie-Syntax:
+```markdown
+{% gallery %}
+/assets/images/folder/bild1.jpg | Beschreibung für Bild 1
+/assets/images/folder/bild2.jpg | Beschreibung für Bild 2  
+/assets/images/folder/bild3.jpg
+{% endgallery %}
+```
+
+### Wichtige Hinweise:
+- **Beschreibungen sind optional:** Mit `|` kannst du Bildunterschriften hinzufügen
+- **Bilder hochladen:** Lade alle Bilder zuerst in `assets/images/` hoch
+- **Pfade kopieren:** Rechtsklick auf das Bild → "Link kopieren" für den korrekten Pfad
+
+### Galerie-Features:
+- **Automatisches Layout:** Pinterest-ähnliche Anordnung der Thumbnails
+- **Lightbox-Navigation:** Klick auf Bild öffnet Vollansicht mit Pfeilen
+- **Responsive:** Passt sich an Handy, Tablet und Desktop an
+- **Touch-Unterstützung:** Wischen zwischen Bildern auf Mobilgeräten
+
+### Beispiel einer Event-Galerie:
+```markdown
+Hier sind Impressionen von unserem Workshop:
+
+{% gallery %}
+/assets/images/events/workshop-2025/eröffnung.jpg | Begrüßung der Teilnehmer*innen
+/assets/images/events/workshop-2025/gruppenarbeit.jpg | Intensive Diskussionen in Kleingruppen
+/assets/images/events/workshop-2025/präsentation.jpg | Vorstellung der Ergebnisse
+/assets/images/events/workshop-2025/networking.jpg
+{% endgallery %}
+```
+
 **Ausführliche Referenz:** [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 
 ## Bilder hochladen
@@ -170,10 +206,22 @@ Markdown ist eine einfache Formatierungssprache:
 ```
 assets/images/
 ├── team/          # Teamfotos
-├── events/        # Event-Bilder  
+├── events/        # Event-Bilder und Galerien
 ├── projekte/      # Projekt-Screenshots
 ├── blog/          # Blog-Header-Bilder
 └── icons/         # Icons (bereits vorhanden)
+```
+
+### Tipp für Event-Galerien:
+Erstelle Unterordner für jedes Event:
+```
+assets/images/events/
+├── workshop-2025-01/
+│   ├── foto1.jpg
+│   ├── foto2.jpg
+│   └── foto3.jpg
+├── hackathon-2025/
+└── innovation-meetup-feb/
 ```
 
 ## Arbeitsweisen
