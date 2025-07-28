@@ -1,0 +1,39 @@
+{% comment %}
+Gallery Include for GitHub Pages compatibility
+Usage: {% include gallery.html images="image1.jpg|Caption 1,image2.jpg|Caption 2,image3.jpg" folder="/assets/images/events/workshop/" %}
+{% endcomment %}
+
+{% assign gallery_id = include.gallery_id | default: 'gallery' | append: '-' | append: forloop.index | default: '1' %}
+{% assign folder = include.folder | default: '/assets/images/' %}
+{% assign images_raw = include.images | split: ',' %}
+
+<div class="image-gallery" data-gallery-id="{{ gallery_id }}">
+  {% for image_raw in images_raw %}
+    {% assign image_parts = image_raw | split: '|' %}
+    {% assign image_path = image_parts[0] | strip %}
+    {% assign image_caption = image_parts[1] | strip | default: '' %}
+    
+    {% comment %} Generate alt text from filename if no caption {% endcomment %}
+    {% if image_caption == '' %}
+      {% assign filename = image_path | split: '/' | last | split: '.' | first %}
+      {% assign image_caption = filename | replace: '-', ' ' | replace: '_', ' ' | capitalize %}
+    {% endif %}
+    
+    {% comment %} Add folder path if not absolute {% endcomment %}
+    {% unless image_path contains '/' %}
+      {% assign image_path = folder | append: image_path %}
+    {% endunless %}
+    
+    <div class="gallery-item" data-index="{{ forloop.index0 }}">
+      <img src="{{ image_path }}" 
+           alt="{{ image_caption }}" 
+           data-caption="{{ image_caption }}" 
+           data-gallery="{{ gallery_id }}" 
+           loading="lazy" 
+           class="gallery-thumbnail">
+      <div class="gallery-overlay">
+        <span class="gallery-zoom-icon">🔍</span>
+      </div>
+    </div>
+  {% endfor %}
+</div>

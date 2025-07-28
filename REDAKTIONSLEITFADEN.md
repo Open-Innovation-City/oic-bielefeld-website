@@ -141,12 +141,14 @@ Markdown ist eine einfache Formatierungssprache:
 
 ### Galerie-Syntax:
 ```markdown
-{% gallery %}
-/assets/images/folder/bild1.jpg | Beschreibung für Bild 1
-/assets/images/folder/bild2.jpg | Beschreibung für Bild 2  
-/assets/images/folder/bild3.jpg
-{% endgallery %}
+{% include gallery.html 
+   images="bild1.jpg|Beschreibung 1,bild2.jpg|Beschreibung 2,bild3.jpg" 
+   folder="/assets/images/events/workshop-2025/" %}
 ```
+
+**Parameter:**
+- `images`: Komma-getrennte Liste von Dateinamen mit optionalen Beschreibungen (getrennt durch `|`)
+- `folder`: Pfad zum Ordner mit den Bildern
 
 ### Wichtige Hinweise:
 - **Beschreibungen sind optional:** Mit `|` kannst du Bildunterschriften hinzufügen
@@ -163,12 +165,9 @@ Markdown ist eine einfache Formatierungssprache:
 ```markdown
 Hier sind Impressionen von unserem Workshop:
 
-{% gallery %}
-/assets/images/events/workshop-2025/eröffnung.jpg | Begrüßung der Teilnehmer*innen
-/assets/images/events/workshop-2025/gruppenarbeit.jpg | Intensive Diskussionen in Kleingruppen
-/assets/images/events/workshop-2025/präsentation.jpg | Vorstellung der Ergebnisse
-/assets/images/events/workshop-2025/networking.jpg
-{% endgallery %}
+{% include gallery.html 
+   images="eröffnung.jpg|Begrüßung der Teilnehmer*innen,gruppenarbeit.jpg|Intensive Diskussionen in Kleingruppen,präsentation.jpg|Vorstellung der Ergebnisse,networking.jpg" 
+   folder="/assets/images/events/workshop-2025/" %}
 ```
 
 **Ausführliche Referenz:** [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)

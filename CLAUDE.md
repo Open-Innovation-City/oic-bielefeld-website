@@ -86,13 +86,11 @@ Edit `_data/projects.yml` with status tracking:
 ```
 
 ### Adding Image Galleries
-Use the `{% gallery %}` tag in posts and pages:
+Use the gallery include for GitHub Pages compatibility:
 ```markdown
-{% gallery %}
-/assets/images/folder/image1.jpg | Optional caption for image 1
-/assets/images/folder/image2.jpg | Another caption
-/assets/images/folder/image3.jpg
-{% endgallery %}
+{% include gallery.html 
+   images="image1.jpg|Optional caption 1,image2.jpg|Another caption,image3.jpg" 
+   folder="/assets/images/folder/" %}
 ```
 
 **Gallery Features:**

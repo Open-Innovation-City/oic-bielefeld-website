@@ -13,28 +13,21 @@ Diese Seite demonstriert die neue Bildergalerie-Funktionalität. Redakteure kön
 
 ### Verwendung der Galerie
 
-Die Syntax ist sehr einfach:
+Die Syntax für GitHub Pages:
 
 ```markdown
-{% gallery %}
-/pfad/zum/bild1.jpg | Optionale Beschreibung
-/pfad/zum/bild2.jpg | Weitere Beschreibung  
-/pfad/zum/bild3.jpg
-{% endgallery %}
+{% include gallery.html 
+   images="bild1.jpg|Beschreibung 1,bild2.jpg|Beschreibung 2,bild3.jpg" 
+   folder="/assets/images/ordner/" %}
 ```
 
 ### Beispiel-Galerie
 
 Hier ist eine Beispiel-Galerie mit Team-Bildern:
 
-{% gallery %}
-/assets/images/team/jens.png | Jens Edler - Projektleitung
-/assets/images/team/lisa.png | Lisa Weber - UX Design
-/assets/images/team/maria.png | Maria González - Entwicklung
-/assets/images/team/sarah.png | Sarah Müller - Content Strategy
-/assets/images/team/stephan.png | Stephan Koch - Technische Leitung
-/assets/images/team/tatjana.png | Tatjana Richter - Community Management
-{% endgallery %}
+{% include gallery.html 
+   images="jens.png|Jens Edler - Projektleitung,lisa.png|Lisa Weber - UX Design,maria.png|Maria González - Entwicklung,sarah.png|Sarah Müller - Content Strategy,stephan.png|Stephan Koch - Technische Leitung,tatjana.png|Tatjana Richter - Community Management" 
+   folder="/assets/images/team/" %}
 
 ### Features der Galerie
 
