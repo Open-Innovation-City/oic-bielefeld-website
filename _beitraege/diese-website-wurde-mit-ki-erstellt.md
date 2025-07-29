@@ -15,7 +15,7 @@ Als klar war, dass wir eine neue Website für Open Innovation City Bielefeld bra
 
 Pustekuchen!
 
-Stellt sich raus: In den letzten 15 Jahren haben sich doch einige Dinge verändert. Die Installation von Wordpress ist immer noch schnell erledigt, aber beim Thema Themes... da hat sich einiges getan. Die Ära von einfachen Themes scheint vorbei zu sein. Alles, was irgendwie ansehnlich daher kommt, versteckt sich in einem Themebuilder, mit dem man sich haarklein sein Layout zusammenbauen kann. Das sit sicherlich super, wenn man sich damit auskennt. Das sit aber weniger toll, wenn man einfach nur eine Website haben möchte.
+Stellt sich raus: In den letzten 15 Jahren haben sich doch einige Dinge verändert. Die Installation von Wordpress ist immer noch schnell erledigt, aber beim Thema Themes... da hat sich einiges getan. Die Ära von einfachen Themes scheint vorbei zu sein. Alles, was irgendwie ansehnlich daher kommt, versteckt sich in einem Themebuilder, mit dem man sich haarklein sein Layout zusammenbauen kann. Das sit sicherlich super, wenn man sich damit auskennt. Das ist aber weniger toll, wenn man einfach nur eine Website haben möchte.
 
 ### Wie denn dann?
 
@@ -33,6 +33,8 @@ Im Gegensatz dazu waren meine ersten Programmierversuche mit ChatGPT vor 2 Jahre
 - ...
 
 Ein sehr mühsamer Prozess, der zudem noch fehleranfällig war.
+
+![Das ist Jens](/assets/images/team/jens.png)
 
 Mit Tools wie Claude Code gehört das der Vergangenheit an, weil es direkt da arbeitet, wo man beim Programmieren auch arbeitet: Direkt auf dem eigenen Computer. Mit genau den Dateien, mit denen man selber arbeitet. Dadurch ist Claude Code selber in der Lage, das Programmierte zu testen, Fehlermeldungen zu analysieren und Korrekturen selbstständig durchzuführen.
 
