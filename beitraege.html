@@ -5,7 +5,7 @@ description: Aktuelle Beiträge und Artikel von Open Innovation City Bielefeld z
 ---
 
 <!-- Navigation -->
-<nav class="navbar dark-theme" id="navbar">
+<nav class="navbar light-theme" id="navbar">
     <div class="nav-container">
         <div class="logo">
             <a href="{{ '/' | relative_url }}">
@@ -35,7 +35,7 @@ description: Aktuelle Beiträge und Artikel von Open Innovation City Bielefeld z
         
         <ul class="nav-links" id="navLinks">
             {% for item in site.navigation %}
-            <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+            <li><a href="{{ site.baseurl }}/{{ item.link }}">{{ item.name }}</a></li>
             {% endfor %}
         </ul>
         
