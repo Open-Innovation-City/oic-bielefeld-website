@@ -1,0 +1,94 @@
+---
+layout: default
+title: Beiträge
+description: Aktuelle Beiträge und Artikel von Open Innovation City Bielefeld zu Innovation, Technologie und Stadtentwicklung.
+---
+
+<!-- Navigation -->
+<nav class="navbar dark-theme" id="navbar">
+    <div class="nav-container">
+        <div class="logo">
+            <a href="{{ '/' | relative_url }}">
+                <!-- Dark version logo (for dark backgrounds) -->
+                <img src="{{ '/assets/images/logo-light.png' | relative_url }}" 
+                     alt="{{ site.title }} Logo Light" 
+                     class="logo-dark" 
+                     onerror="handleLogoError(this)">
+                <!-- Light version logo (for light backgrounds) -->
+                <img src="{{ '/assets/images/logo-dark.png' | relative_url }}" 
+                     alt="{{ site.title }} Logo Dark" 
+                     class="logo-light" 
+                     onerror="handleLogoError(this)">
+                
+                <!-- Fallback falls beide Logos nicht laden -->
+                <div class="logo-fallback" id="logoFallback">
+                    <div class="logo-circle"></div>
+                    <div class="logo-rect"></div>
+                    <div class="logo-shape"></div>
+                    <div class="logo-text">
+                        <div>Open Innovation City</div>
+                        <div>Bielefeld</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        
+        <ul class="nav-links" id="navLinks">
+            {% for item in site.navigation %}
+            <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+            {% endfor %}
+        </ul>
+        
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menü öffnen">☰</button>
+    </div>
+</nav>
+
+<!-- Beiträge Section -->
+<section id="beitraege" class="section">
+    <div class="container">
+        <h1 class="section-title fade-in">Beiträge</h1>
+        <div class="fade-in">
+            <p style="text-align: center; font-size: 1.2rem; max-width: 800px; margin: 0 auto 3rem auto;">
+                Entdecken Sie unsere aktuellen Beiträge zu Innovation, Technologie und Stadtentwicklung. Von praktischen Erfahrungen bis zu technischen Einblicken.
+            </p>
+        </div>
+        
+        {% assign sorted_beitraege = site.beitraege | sort: 'date' | reverse %}
+        
+        {% if sorted_beitraege.size > 0 %}
+        <div class="projects-grid">
+            {% for beitrag in sorted_beitraege %}
+            <div class="project-card fade-in has-link">
+                {% if beitrag.category %}
+                <div class="project-tag">{{ beitrag.category }}</div>
+                {% endif %}
+                <h3>{{ beitrag.title }}</h3>
+                {% if beitrag.teaser %}
+                <p>{{ beitrag.teaser }}</p>
+                {% endif %}
+                
+                <div class="project-meta">
+                    {% if beitrag.author %}
+                    <div><strong>Autor:</strong> {{ beitrag.author }}</div>
+                    {% endif %}
+                    {% if beitrag.date %}
+                    <div><strong>Datum:</strong> {{ beitrag.date | date: "%d.%m.%Y" }}</div>
+                    {% endif %}
+                </div>
+                
+                <div class="project-footer">
+                    <a href="{{ beitrag.url | relative_url }}" class="project-link-btn">
+                        Weiterlesen
+                    </a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="projects-empty">
+            <h3>Keine Beiträge verfügbar</h3>
+            <p>Schauen Sie bald wieder vorbei für neue Inhalte!</p>
+        </div>
+        {% endif %}
+    </div>
+</section>
