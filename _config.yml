@@ -37,8 +37,11 @@ exclude:
 email: innovationen@bielefeld.de
 phone: "+49 521 51-0"
 address: 
-  street: "Niederwall 23"
+  street: "Alter Markt 13"
   city: "33602 Bielefeld"
+postaddress: 
+  poststreet: "Niederwall 23"
+  postcity: "33602 Bielefeld"
 opening_hours: "Mo-Fr 9:00-17:00 Uhr"
 
 # Social Media (optional)
