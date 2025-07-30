@@ -34,8 +34,6 @@ Im Gegensatz dazu waren meine ersten Programmierversuche mit ChatGPT vor 2 Jahre
 
 Ein sehr mühsamer Prozess, der zudem noch fehleranfällig war.
 
-![Das ist Jens](/assets/images/team/jens.png)
-
 Mit Tools wie Claude Code gehört das der Vergangenheit an, weil es direkt da arbeitet, wo man beim Programmieren auch arbeitet: Direkt auf dem eigenen Computer. Mit genau den Dateien, mit denen man selber arbeitet. Dadurch ist Claude Code selber in der Lage, das Programmierte zu testen, Fehlermeldungen zu analysieren und Korrekturen selbstständig durchzuführen.
 
 ### Was denn jetzt genau?
