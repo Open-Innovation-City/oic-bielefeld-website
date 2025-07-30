@@ -111,6 +111,8 @@ p {
   align-items: center;
   gap: 1rem;
   position: relative;
+  min-width: 300px;
+  flex-shrink: 0;
 }
 
 .logo a {
@@ -221,6 +223,8 @@ p {
   display: flex;
   list-style: none;
   gap: 2rem;
+  flex-shrink: 1;
+  min-width: 0;
 }
 
 .nav-links a {
@@ -930,7 +934,7 @@ p {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .mobile-menu-btn {
     display: block;
   }
@@ -1009,7 +1013,18 @@ p {
   }
 }
 
+/* Tablet adjustments */
+@media (max-width: 768px) {
+  .logo {
+    min-width: 250px;
+  }
+}
+
 @media (max-width: 480px) {
+  .logo {
+    min-width: 200px;
+  }
+  
   .hero h1 {
     font-size: 2.5rem;
   }
