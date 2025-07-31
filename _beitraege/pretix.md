@@ -7,6 +7,6 @@ date: 2025-07-31
 # header_image: "/assets/images/ki.png"
 ---
 
-## Jetzt kommt das Widget
+## Jetzt kommt das Widget (hoffentlich richtig)
 
 {% include pretix-widget.html event="ki-zivil-4" %}
