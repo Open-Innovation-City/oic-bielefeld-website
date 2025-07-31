@@ -35,7 +35,7 @@ description: Aktuelle Beiträge und Artikel von Open Innovation City Bielefeld z
         
         <ul class="nav-links" id="navLinks">
             {% for item in site.navigation %}
-            <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+            <li><a href="{% if item.link contains '#' %}/{{ item.link }}{% else %}{{ item.link }}{% endif %}">{{ item.name }}</a></li>
             {% endfor %}
         </ul>
         
