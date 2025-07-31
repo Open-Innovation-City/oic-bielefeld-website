@@ -1,5 +1,5 @@
 {% comment %}
-Pretix Widget Include - CSS/JS wird global im Head geladen
+Pretix Widget Include - Generiert originalen pretix-Code
 Usage: {% include pretix-widget.html event="event-name" %}
 Optional parameters:
 - items: "123,124" (spezifische Ticket-IDs)
@@ -7,12 +7,15 @@ Optional parameters:
 - disable-vouchers: true (Gutschein-Eingabe deaktivieren)
 {% endcomment %}
 
-<!-- Widget Container -->
-<div class="pretix-widget-container">
-  <pretix-widget 
-    event="https://pretix.eu/OIC-BIE/{{ include.event }}/"
-    {% if include.items %}items="{{ include.items }}"{% endif %}
-    {% if include.voucher %}voucher="{{ include.voucher }}"{% endif %}
-    {% if include.disable-vouchers %}disable-vouchers="true"{% endif %}>
-  </pretix-widget>
-</div>
+<pretix-widget 
+  event="https://pretix.eu/OIC-BIE/{{ include.event }}/"
+  {% if include.items %}items="{{ include.items }}"{% endif %}
+  {% if include.voucher %}voucher="{{ include.voucher }}"{% endif %}
+  {% if include.disable-vouchers %}disable-vouchers="true"{% endif %}></pretix-widget>
+<noscript>
+   <div class="pretix-widget">
+        <div class="pretix-widget-info-message">
+            JavaScript ist in Ihrem Browser deaktiviert. Um unseren Ticketshop ohne JavaScript aufzurufen, klicken Sie bitte <a target="_blank" rel="noopener" href="https://pretix.eu/OIC-BIE/{{ include.event }}/">hier</a>.
+        </div>
+    </div>
+</noscript>
