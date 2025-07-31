@@ -273,7 +273,7 @@ description: Gemeinsam gestalten wir die Zukunft unserer Stadt durch offene Inno
                             <div class="event-target">{{ event.target_audience }}</div>
                             <div class="event-cost{% if event.cost != 'Kostenlos' %} paid{% endif %}">{{ event.cost }}</div>
                             <a href="{{ event.booking_url }}" target="_blank" rel="noopener" class="event-book-btn">
-                                Anmelden
+                                {% if event.link_text %}{{ event.link_text }}{% else %}Anmelden{% endif %}
                             </a>
                         </div>
                     </div>
