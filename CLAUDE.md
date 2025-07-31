@@ -124,6 +124,31 @@ Use the gallery include for GitHub Pages compatibility:
 - **Captions support** with `|` separator (auto-generated from filename if omitted)
 - **Progressive enhancement** - works without JavaScript for basic image display
 
+### Adding Pretix Event Widgets
+For embedding event registration forms directly in blog posts:
+```markdown
+{% include pretix-widget.html event="event-name" %}
+```
+
+**Optional Parameters:**
+```markdown
+{% include pretix-widget.html event="ki-zivil-4" items="123,124" voucher="GUTSCHEIN2025" %}
+```
+
+**Widget Features:**
+- **Direct registration** without leaving the website
+- **Responsive design** optimized for all screen sizes
+- **Automatic localization** in German
+- **On-demand loading** - CSS/JS only loaded when widget is used
+- **Mobile-optimized** checkout flow
+- **Consistent styling** integrated with website design
+
+**Parameters:**
+- `event`: Pretix event name (required) - only the event identifier, e.g., "ki-zivil-4"
+- `items`: Specific ticket IDs to display (optional) - comma-separated list
+- `voucher`: Pre-fill voucher code (optional)
+- `disable-vouchers`: Set to "true" to hide voucher input (optional)
+
 ### Styling Considerations
 - **Background color detection**: Navigation automatically adapts to section backgrounds
 - **Animation delays**: Use consistent staggered timing (0.1s, 0.2s, 0.3s increments)

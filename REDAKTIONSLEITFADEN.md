@@ -180,6 +180,69 @@ Hier sind Impressionen von unserem Workshop:
    folder="/assets/images/events/workshop-2025/" %}
 ```
 
+## Event-Anmeldungen einbinden (Pretix-Widgets)
+
+**Neu seit Juli 2025:** Du kannst jetzt Anmeldeformulare direkt in Blog-Beiträge einbinden!
+
+### Widget-Syntax:
+```markdown
+{% include pretix-widget.html event="ki-zivil-4" %}
+```
+
+### Erweiterte Optionen:
+```markdown
+{% include pretix-widget.html event="ki-zivil-4" items="123,124" voucher="GUTSCHEIN2025" %}
+```
+
+**Parameter:**
+- `event`: **Pflichtfeld** - Name des Events in Pretix (z.B. "ki-zivil-4")
+- `items`: Optional - Spezifische Ticket-IDs anzeigen (komma-getrennt)
+- `voucher`: Optional - Gutschein-Code vorausfüllen
+- `disable-vouchers`: Optional - Gutschein-Eingabe verstecken (Wert: "true")
+
+### Event-Namen herausfinden:
+1. Gehe zu deinem Event in Pretix (https://pretix.eu/OIC-BIE/)
+2. Die URL zeigt den Event-Namen: `https://pretix.eu/OIC-BIE/ki-workshop-2025/`
+3. **Event-Name:** `ki-workshop-2025`
+
+### Praktisches Beispiel:
+```markdown
+---
+title: "KI Workshop für die Zivilgesellschaft"
+teaser: "Lerne, wie künstliche Intelligenz deine Vereinsarbeit unterstützen kann"
+author: "Sarah Mueller"
+category: "Events"
+date: 2025-08-15
+---
+
+## Workshop Details
+
+Am 15. August 2025 veranstalten wir einen spannenden Workshop zum Thema "KI in der Zivilgesellschaft". 
+
+### Anmeldung
+
+Melde dich jetzt direkt an:
+
+{% include pretix-widget.html event="ki-zivil-4" %}
+
+### Weitere Informationen
+
+Der Workshop findet im Innovation Office statt...
+```
+
+### Widget-Features:
+- **Direkte Anmeldung** ohne Weiterleitung zu externer Seite
+- **Automatisch responsive** für Handy, Tablet und Desktop
+- **Deutsche Übersetzung** bereits eingebaut
+- **Sichere Bezahlung** über Pretix-System
+- **Konsistentes Design** passend zur Website
+
+### Wichtige Hinweise:
+- **Nur bei Bedarf:** Das Widget lädt nur CSS/JS wenn es verwendet wird
+- **Keine Konfiguration nötig:** Funktioniert sofort nach Einbindung
+- **Kompatibel mit Galerien:** Kann mit Bildergalerien kombiniert werden
+- **Mobile-optimiert:** Funktioniert einwandfrei auf allen Geräten
+
 **Ausführliche Referenz:** [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 
 ## Bilder hochladen

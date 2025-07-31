@@ -1,15 +1,11 @@
 {% comment %}
-Pretix Widget Include - lädt JS/CSS nur bei Bedarf
-Usage: {% include pretix-widget.html event="oic-bielefeld/event-name" %}
+Pretix Widget Include - CSS/JS wird global im Head geladen
+Usage: {% include pretix-widget.html event="event-name" %}
 Optional parameters:
 - items: "123,124" (spezifische Ticket-IDs)
 - voucher: "GUTSCHEIN2025" (Gutschein vorausfüllen)
 - disable-vouchers: true (Gutschein-Eingabe deaktivieren)
 {% endcomment %}
-
-<!-- Pretix Widget Ressourcen - nur für diese Seite -->
-<link rel="stylesheet" href="https://pretix.eu/widget/v2.css">
-<script src="https://pretix.eu/widget/v2.de.js" async></script>
 
 <!-- Widget Container -->
 <div class="pretix-widget-container">
