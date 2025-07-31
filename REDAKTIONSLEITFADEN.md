@@ -66,8 +66,18 @@ Finde den entsprechenden Eintrag und ändere die gewünschten Felder.
   target_audience: "Alle Bürger*innen"
   cost: "Kostenlos"
   booking_url: "https://pretix.eu/..."  # Optional
+  link_text: "Jetzt anmelden"  # Optional, Button-Text anpassen
   featured: true  # oder false
 ```
+
+### Button-Text anpassen:
+Mit dem `link_text` Parameter kannst du den Text auf dem Anmelde-Button individuell gestalten:
+- **Standard:** Wenn kein `link_text` angegeben ist, steht "Anmelden" auf dem Button
+- **Individuell:** Du kannst jeden beliebigen Text verwenden, z.B.:
+  - `link_text: "Jetzt anmelden"`
+  - `link_text: "Mehr erfahren"`
+  - `link_text: "Tickets sichern"`
+  - `link_text: "Teilnehmen"`
 
 ### Verfügbare Icons:
 - `/assets/images/icons/workshop.svg`

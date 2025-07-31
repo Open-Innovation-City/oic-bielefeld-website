@@ -38,7 +38,7 @@ This site uses a **data-driven approach** where all dynamic content is managed t
 
 - Team members include animation delays for staggered loading effects
 - Projects support status tracking ("Im Live-Betrieb", "Umgesetzt", "Gestartet") 
-- Events can have conditional booking URLs and target audience specifications
+- Events can have conditional booking URLs with customizable button text and target audience specifications
 - All content supports rich metadata (dates, locations, links, categories)
 
 ### CSS Architecture  
@@ -84,6 +84,29 @@ Edit `_data/projects.yml` with status tracking:
   date: "2024"
   link: "https://optional-url.com"  # Optional
 ```
+
+### Adding Events
+Edit `_data/events.yml` with all event details:
+```yaml
+- title: "Event Title"
+  description: "Event description..."
+  date: "2025-08-15"
+  time: "18:00"
+  duration: "2 Stunden"
+  location: "Innovation Office, Niederwall 23"
+  category: "Workshop"  # or "Vortrag", "Meetup", etc.
+  icon: "/assets/images/icons/workshop.svg"
+  target_audience: "Alle Bürger*innen"
+  cost: "Kostenlos"
+  booking_url: "https://pretix.eu/..."  # Optional
+  link_text: "Anmelden"  # Optional, fallback: "Anmelden"
+  featured: true  # or false
+```
+
+**Event Parameters:**
+- `link_text`: Custom text for the booking button (optional, defaults to "Anmelden" if omitted)
+- `booking_url`: If provided, displays button with link_text or "Anmelden"
+- `featured`: Controls prominence on event pages
 
 ### Adding Image Galleries
 Use the gallery include for GitHub Pages compatibility:
