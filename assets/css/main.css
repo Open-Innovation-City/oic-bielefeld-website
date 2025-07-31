@@ -1846,33 +1846,50 @@ p {
   }
 }
 
-/* ===== Pretix Widget Styles ===== 
-.pretix-widget-container {
-  margin: 2rem 0;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: var(--shadow-light);
-  background: white;
-  border: 1px solid #e9ecef;
+/* ===== Pretix Widget CSS Reset ===== */
+/* Verhindert, dass Website-CSS die Pretix-Widget Styles überschreibt */
+.pretix-widget-container * {
+  /* Reset globaler Button-Überschreibungen */
+  font-family: inherit !important;
 }
 
-.pretix-widget-container pretix-widget {
-  display: block;
-  min-height: 400px;
-} */
-
-/* Responsive Widget 
-@media (max-width: 768px) {
-  .pretix-widget-container {
-    margin: 1rem -1rem;
-    border-radius: 0;
-    border-left: none;
-    border-right: none;
-  }
+/* Spezifische Pretix-Button Styles schützen */
+.pretix-widget-container .btn,
+.pretix-widget-container button,
+.pretix-widget-container .btn-primary,
+.pretix-widget-container .btn-success,
+.pretix-widget-container .btn-info {
+  /* Pretix-eigene Styles haben Vorrang */
+  background: unset !important;
+  border: unset !important;
+  color: unset !important;
+  padding: unset !important;
+  font-size: unset !important;
+  border-radius: unset !important;
+  text-decoration: unset !important;
+  transform: unset !important;
+  box-shadow: unset !important;
+  transition: unset !important;
 }
 
-@media (max-width: 480px) {
-  .pretix-widget-container {
-    margin: 1rem -0.5rem;
-  }
-} */
+/* Hover-Effekte der Website nicht auf Pretix-Buttons anwenden */
+.pretix-widget-container .btn:hover,
+.pretix-widget-container button:hover {
+  background: unset !important;
+  border: unset !important;
+  color: unset !important;
+  transform: unset !important;
+  box-shadow: unset !important;
+}
+
+/* Links in Pretix-Widget schützen */
+.pretix-widget-container a {
+  color: unset !important;
+  text-decoration: unset !important;
+}
+
+.pretix-widget-container a:hover {
+  color: unset !important;
+  text-decoration: unset !important;
+  transform: unset !important;
+}
