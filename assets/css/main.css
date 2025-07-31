@@ -1845,3 +1845,34 @@ p {
     touch-action: pan-x;
   }
 }
+
+/* ===== Pretix Widget Styles ===== */
+.pretix-widget-container {
+  margin: 2rem 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: var(--shadow-light);
+  background: white;
+  border: 1px solid #e9ecef;
+}
+
+.pretix-widget-container pretix-widget {
+  display: block;
+  min-height: 400px;
+}
+
+/* Responsive Widget */
+@media (max-width: 768px) {
+  .pretix-widget-container {
+    margin: 1rem -1rem;
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .pretix-widget-container {
+    margin: 1rem -0.5rem;
+  }
+}
