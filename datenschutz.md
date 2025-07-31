@@ -117,6 +117,9 @@ Die von Ihnen im Kontaktformular eingegebenen Daten verbleiben bei uns, bis Sie 
 
 Wenn Sie mit uns per E-Mail in Kontakt treten, wird Ihre E-Mail-Adresse sowie der Inhalt Ihrer Nachricht bei uns gespeichert. Die in diesem Zusammenhang anfallenden Daten löschen wir, nachdem die Speicherung nicht mehr erforderlich ist, oder schränken die Verarbeitung ein, falls gesetzliche Aufbewahrungspflichten bestehen.
 
+### pretix Ticket-Shop
+Innerhalb unseres Veranstaltungsangebotes werden Funktionen und Inhalte des Dienstes pretix, angeboten durch pretix GmbH, Berthold-Mogel-Straße 1, 69126 Heidelberg, Deutschland, eingebunden. Hierzu gehört der Ticketshop, welcher über ein JavaScript-Widget eingebunden ist. Wenn du ein Ticket kaufst, nutzt pretix ein technisch notwendiges Cookie, um den Bestellablauf zu ermöglichen und sich zu merken, welcher Warenkorb zu dir gehört. Das Cookie wird gesetzt, sobald du mit dem Widget interagierst. pretix speichert keine IP-Adressen, Browser-Informationen oder andere unnötige Metadaten über die Dauer deiner Anfrage hinaus. Weitere Infos zu Datenschutz bei pretix findest du hier: https://pretix.eu/about/de/privacy
+
 ## 5. Ihre Rechte
 
 ### Auskunft, Löschung und Berichtigung
