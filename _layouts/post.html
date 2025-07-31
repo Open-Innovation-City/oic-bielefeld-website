@@ -33,7 +33,7 @@ layout: default
         
         <ul class="nav-links" id="navLinks">
             {% for item in site.navigation %}
-            <li><a href="{{ site.baseurl }}/{{ item.link }}">{{ item.name }}</a></li>
+            <li><a href="{{ item.link }}">{{ item.name }}</a></li>
             {% endfor %}
         </ul>
         
