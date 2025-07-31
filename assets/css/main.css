@@ -1846,7 +1846,7 @@ p {
   }
 }
 
-/* ===== Pretix Widget Styles ===== */
+/* ===== Pretix Widget Styles ===== 
 .pretix-widget-container {
   margin: 2rem 0;
   border-radius: 8px;
@@ -1859,9 +1859,9 @@ p {
 .pretix-widget-container pretix-widget {
   display: block;
   min-height: 400px;
-}
+} */
 
-/* Responsive Widget */
+/* Responsive Widget 
 @media (max-width: 768px) {
   .pretix-widget-container {
     margin: 1rem -1rem;
@@ -1875,4 +1875,4 @@ p {
   .pretix-widget-container {
     margin: 1rem -0.5rem;
   }
-}
+} */
