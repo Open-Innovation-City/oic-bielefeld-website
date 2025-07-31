@@ -9,4 +9,4 @@ date: 2025-07-31
 
 ## Jetzt kommt das Widget
 
-{% include pretix-widget.html event="OIC-BIE/ki-zivil-4/" %}
+{% include pretix-widget.html event="ki-zivil-4" %}
