@@ -9,8 +9,9 @@
   target_audience: "Alle Bürger*innen"
   cost: "Kostenlos"
   booking_url: "https://pretix.eu/OIC-BIE/ki-zivil-2/"
-#  link_text: "Details"
+  link_text: "Details"
   featured: false
+  topic: "ki-zivilgesellschaft"
 
 - title: "KI und die Zivilgesellschaft: AI-driven Innovation - wie KI im Innovationsprozess unterstützen kann"
   description: "Mit dem AI-driven Innovation Experten Carl Robert Brand lernst du im Workshop wie KI als kreativer Sparringspartner in Innovationsprozessen fungieren kann. Am Ende des Workshops hast du ein praxisnahes Verständnis von KI in Innovationsprozessen und Inspiration für eigene Anwendungsideen."
@@ -23,8 +24,9 @@
   target_audience: "Alle Bürger*innen"
   cost: "Kostenlos"
   booking_url: "https://pretix.eu/OIC-BIE/ki-zivil-3/"
-#  link_text: "Details"
+  link_text: "Details"
   featured: false
+  topic: "ki-zivilgesellschaft"
 
 - title: "KI und Wissenstransfer - Mensch im Fokus. KI als Unterstützung."
   description: "Mit der Beraterin und Trainerin für strukturierten Wissenstransfer in Unternehmen, Elena Schüßler-Roggenhofer, lernst du in diesem interaktiven Impuls wie KI beim Wissenstransfer unterstützen kann. Am Ende des interaktiven Impulses verstehst du was Wissen ist und wie du KI gezielt im Wissenstransfer einsetzen kannst."
@@ -39,3 +41,4 @@
   booking_url: "https://pretix.eu/OIC-BIE/ki-zivil-4/"
   link_text: "Details & Anmeldung"
   featured: true
+  topic: "ki-zivilgesellschaft"

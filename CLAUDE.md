@@ -101,12 +101,41 @@ Edit `_data/events.yml` with all event details:
   booking_url: "https://pretix.eu/..."  # Optional
   link_text: "Anmelden"  # Optional, fallback: "Anmelden"
   featured: true  # or false
+  topic: "ki-zivilgesellschaft"  # Optional, für thematische Landing-Pages
 ```
 
 **Event Parameters:**
 - `link_text`: Custom text for the booking button (optional, defaults to "Anmelden" if omitted)
 - `booking_url`: If provided, displays button with link_text or "Anmelden"
 - `featured`: Controls prominence on event pages
+- `topic`: Thematic grouping for filtered event pages (optional, e.g., "ki-zivilgesellschaft", "digitalisierung")
+
+### Creating Thematic Event Landing Pages
+For specialized event pages that show only events from a specific topic, use the topic filtering system:
+
+**Filter Logic Example** (from `ki-zivilgesellschaft.html`):
+```liquid
+{% assign today = 'now' | date: '%Y-%m-%d' %}
+{% assign ki_events = site.data.events | where: 'topic', 'ki-zivilgesellschaft' | sort: 'date' %}
+
+<!-- Upcoming events -->
+{% assign upcoming_events = ki_events | where_exp: 'event', 'event.date >= today' %}
+
+<!-- Past events (reverse chronological) -->
+{% assign past_events = ki_events | where_exp: 'event', 'event.date < today' | sort: 'date' | reverse %}
+```
+
+**Features:**
+- **Topic-based filtering**: Only shows events matching the specified topic
+- **Dual sections**: Separate display for upcoming and past events
+- **Consistent styling**: Uses the same event-card components as the main events page
+- **Reusable pattern**: Can be applied to other thematic landing pages
+
+**Topic Values:**
+- `"ki-zivilgesellschaft"`: KI und Zivilgesellschaft event series
+- `"digitalisierung"`: Digitization-focused events
+- `"innovation"`: Innovation workshops and talks
+- Add new topics as needed for future landing pages
 
 ### Adding Image Galleries
 Use the gallery include for GitHub Pages compatibility:

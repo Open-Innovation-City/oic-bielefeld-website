@@ -68,6 +68,7 @@ Finde den entsprechenden Eintrag und ändere die gewünschten Felder.
   booking_url: "https://pretix.eu/..."  # Optional
   link_text: "Jetzt anmelden"  # Optional, Button-Text anpassen
   featured: true  # oder false
+  topic: "ki-zivilgesellschaft"  # Optional, für thematische Seiten
 ```
 
 ### Button-Text anpassen:
@@ -86,6 +87,29 @@ Mit dem `link_text` Parameter kannst du den Text auf dem Anmelde-Button individu
 - `/assets/images/icons/data.svg`
 - `/assets/images/icons/hackathon.svg`
 - `/assets/images/icons/startup.svg`
+
+### Thematische Event-Gruppierung (Topic):
+Mit dem `topic`-Parameter kannst du Events thematisch gruppieren für spezialisierte Landing-Pages:
+
+**Verfügbare Topics:**
+- `"ki-zivilgesellschaft"`: Für KI und Zivilgesellschaft Events (erscheinen auf `/ki/`)
+- `"digitalisierung"`: Für Digitalisierungs-Events  
+- `"innovation"`: Für Innovations-Workshops
+
+**Wichtige Hinweise:**
+- **Optional:** Events ohne Topic erscheinen auf der Haupt-Events-Seite
+- **Mit Topic:** Events erscheinen sowohl auf der Haupt-Seite als auch auf der thematischen Seite
+- **Vergangene Events:** Werden automatisch in einem separaten "Erfolgreiche MeetUps" Bereich angezeigt
+- **Neue Topics:** Können für zukünftige Landing-Pages hinzugefügt werden
+
+**Beispiel KI-Event:**
+```yaml
+- title: "KI Workshop für Vereine"
+  description: "Lerne, wie KI deine Vereinsarbeit unterstützen kann"
+  date: "2025-09-15"
+  # ... andere Felder ...
+  topic: "ki-zivilgesellschaft"  # Erscheint auf /ki/
+```
 
 ### Event ausblenden:
 Setze `#` vor jede Zeile des Events (siehe auskommentiertes Beispiel in der Datei).
@@ -385,15 +409,9 @@ assets/images/events/
 
 ## Rollen und Zuständigkeiten
 
-### Redakteurinnen:
-- **Sarah:** Events und Innovationsthemen
-- **Lisa:** Office-Updates und allgemeine Inhalte  
-- **Maria:** Community und Partnerschaften
-- **Tatjana:** Smart City und Technologie-Posts
-
-### Reviewer/Admins:
-- **Jens:** Hauptverantwortlicher, finale Freigaben
-- **Stephan:** Technische Reviews, bei Jens' Abwesenheit
+### Reviews
+- Neue Inhalte können von allen Teammitgleidern reviewed und gemerged werden
+- Bei neuen Funktionen sollten Stephan und Jens gegenseitig Reviews durchführen 
 
 ### Eskalation:
 Bei technischen Problemen oder Konflikten: jens.edler@bielefeld.de

@@ -32,6 +32,7 @@ exclude:
   - node_modules
   - vendor
   - CLAUDE.md
+  - _compress_images_cache.yml
 
 # Site data
 email: innovationen@bielefeld.de

@@ -1248,6 +1248,8 @@ p {
   transform: translateY(20px);
   opacity: 0;
   border: 2px solid transparent;
+  display: flex;
+  flex-direction: column;
 }
 
 .event-card.visible {
@@ -1285,6 +1287,7 @@ p {
   background: linear-gradient(135deg, var(--primary-turquoise) 0%, var(--secondary-blue) 100%);
   color: white;
   position: relative;
+  flex: 1;
 }
 
 .event-icon {
@@ -1332,6 +1335,7 @@ p {
 
 .event-details {
   padding: 1.5rem;
+  margin-top: auto;
 }
 
 .event-meta {
