@@ -120,7 +120,8 @@ Setze `#` vor jede Zeile des Events (siehe auskommentiertes Beispiel in der Date
 
 ### Neuen Beitrag erstellen:
 1. Erstelle eine neue Datei: `dateiname.md` (z.B. `mein-neuer-beitrag.md`)
-2. Verwende folgende Vorlage:
+2. Benutze für den Dateinamen nut Kleinschreibung. Statt Leerzeiche bitte Bindestriche benutzen.
+3. Verwende folgende Vorlage:
 
 ```markdown
 ---
