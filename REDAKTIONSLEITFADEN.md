@@ -268,6 +268,56 @@ Der Workshop findet im Innovation Office statt...
 - **Kompatibel mit Galerien:** Kann mit Bildergalerien kombiniert werden
 - **Mobile-optimiert:** Funktioniert einwandfrei auf allen Geräten
 
+## YouTube-Videos einbetten
+
+Du kannst einfach YouTube-Videos in Blog-Beiträge einbinden. Das Video wird als interaktives Thumbnail angezeigt und lädt erst beim Klick.
+
+### Video-Syntax:
+```markdown
+{% include youtube.html id="VIDEO_ID" title="Titel des Videos" %}
+```
+
+**Parameter:**
+- `id`: **Pflichtfeld** - Die YouTube Video-ID (der Teil nach `v=` in der URL)
+- `title`: Optional - Titel des Videos (wird als Beschreibung angezeigt)
+
+### Video-ID herausfinden:
+1. Öffne das Video auf YouTube
+2. Kopiere die URL: `https://www.youtube.com/watch?v=dQw4w9WgXcQ`
+3. **Video-ID:** `dQw4w9WgXcQ` (der Teil nach `v=`)
+
+### Praktisches Beispiel:
+```markdown
+---
+title: "Workshop Dokumentation"
+author: "Maria Schmidt"
+category: "Events"
+date: 2025-08-15
+---
+
+## Rückblick auf unseren KI-Workshop
+
+Hier ist die Aufzeichnung unseres Workshops:
+
+{% include youtube.html id="dQw4w9WgXcQ" title="KI Workshop für Vereine - Vollständige Aufzeichnung" %}
+
+### Was du gelernt hast
+
+Im Workshop haben wir verschiedene KI-Tools vorgestellt...
+```
+
+### Video-Features:
+- **Datenschutzfreundlich:** YouTube lädt erst beim Klick (kein automatisches Tracking)
+- **Thumbnail-Vorschau:** Zeigt automatisch das YouTube-Thumbnail
+- **Responsive Design:** Passt sich an alle Bildschirmgrößen an
+- **Accessible:** Unterstützt Screenreader und Tastaturnavigation
+- **Performance-optimiert:** Lädt keine YouTube-Scripts im Hintergrund
+
+### Wichtige Hinweise:
+- **Nur öffentliche Videos:** Das Video muss auf YouTube öffentlich verfügbar sein
+- **Copyright beachten:** Nur Videos einbetten, für die du die Rechte hast
+- **Kombination möglich:** Videos können mit Galerien und Pretix-Widgets kombiniert werden
+
 **Ausführliche Referenz:** [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 
 ## Bilder hochladen
