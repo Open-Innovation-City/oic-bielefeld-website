@@ -1022,7 +1022,17 @@ p {
 
 @media (max-width: 480px) {
   .logo {
-    min-width: 200px;
+    min-width: 160px;
+  }
+}
+
+@media (max-width: 320px) {
+  .logo {
+    min-width: 120px;
+  }
+  
+  .nav-container {
+    padding: 0 1rem;
   }
   
   .hero h1 {
