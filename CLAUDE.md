@@ -153,6 +153,26 @@ Use the gallery include for GitHub Pages compatibility:
 - **Captions support** with `|` separator (auto-generated from filename if omitted)
 - **Progressive enhancement** - works without JavaScript for basic image display
 
+### Adding Images with Captions in Blog Posts
+**New as of January 2025:** Images in blog posts now support automatic caption display using the title attribute:
+
+```markdown
+![Alt text for accessibility](/assets/images/image.jpg "Visible caption text")
+```
+
+**Image Caption System:**
+- **Alt text** (between `[]`): Used for accessibility and screen readers
+- **Title attribute** (between `""`): Automatically displayed as visible caption below image
+- **Lightbox integration**: Title text is shown in enlarged view instead of alt text
+- **Automatic styling**: Captions are styled with italic font and proper spacing
+- **Optional**: Images without title attribute work normally without captions
+
+**Implementation Details:**
+- CSS class `.image-caption` for styling captions
+- JavaScript automatically creates caption elements for images with title attributes
+- Optimized spacing: Image margin adjusted to bring caption closer to image
+- Responsive design: Captions adapt to all screen sizes
+
 ### Adding Pretix Event Widgets
 For embedding event registration forms directly in blog posts:
 ```markdown

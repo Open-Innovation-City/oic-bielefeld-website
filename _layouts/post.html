@@ -276,7 +276,30 @@ layout: default
     box-shadow: var(--shadow-light);
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    margin: 2rem 0;
+    margin: 2rem 0 0 0;
+}
+
+/* Image with caption has no bottom margin */
+.post-article img + .image-caption {
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Image without caption keeps normal margin */
+.post-article img:not(:has(+ .image-caption)) {
+    margin-bottom: 2rem;
+}
+
+/* Image caption styling */
+.image-caption {
+    display: block;
+    text-align: center;
+    font-style: italic;
+    color: var(--text-light);
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
 }
 
 .post-article img:hover {
@@ -586,8 +609,16 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add click handlers to all images in the post content (single images)
     const postImages = document.querySelectorAll('.post-article img:not(.gallery-thumbnail)');
     postImages.forEach(function(img) {
+        // Create caption if title attribute exists
+        if (img.title && img.title.trim() !== '') {
+            const caption = document.createElement('div');
+            caption.className = 'image-caption';
+            caption.textContent = img.title;
+            img.parentNode.insertBefore(caption, img.nextSibling);
+        }
+        
         img.addEventListener('click', function() {
-            showLightbox(this.src, this.alt || this.title || '', null, 0, []);
+            showLightbox(this.src, this.title || '', null, 0, []);
         });
     });
     

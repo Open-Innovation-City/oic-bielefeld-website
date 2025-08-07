@@ -165,10 +165,39 @@ Markdown ist eine einfache Formatierungssprache:
 
 [Link Text](https://example.com)
 
-![Bildtext](/assets/images/bild.png)
+![Alt-Text](/assets/images/bild.png)
+![Alt-Text](/assets/images/bild.png "Bildunterschrift für das Bild")
 
 > Zitat oder wichtiger Hinweis
 ```
+
+## Bilder einfügne
+
+### Bilder ohne Bildunterschrift:
+```markdown
+![Alt-Text für Barrierefreiheit](/assets/images/mein-bild.jpg)
+```
+
+### Bilder mit Bildunterschrift:
+```markdown
+![Alt-Text für Barrierefreiheit](/assets/images/mein-bild.jpg "Diese Bildunterschrift wird angezeigt")
+```
+
+**Wichtige Hinweise:**
+- **Alt-Text** (zwischen `[]`): Für Barrierefreiheit und Screenreader - kurze Beschreibung des Bildinhalts
+- **Bildunterschrift** (zwischen `""`): Wird als sichtbare Bildunterschrift unter dem Bild angezeigt
+- **Lightbox**: Beim Klick auf das Bild wird die Bildunterschrift auch in der vergrößerten Ansicht gezeigt
+- **Optional**: Wenn keine Bildunterschrift gewünscht ist, einfach den Teil mit `"..."` weglassen
+
+### Praktisches Beispiel:
+```markdown
+![Teilnehmer*innen beim Workshop](/assets/images/workshop-2025.jpg "Intensive Diskussionen in der Gruppenarbeitsphase")
+```
+
+**Ergebnis:**
+- Das Bild wird normal angezeigt
+- Darunter erscheint kursiv: *"Intensive Diskussionen in der Gruppenarbeitsphase"*  
+- In der Lightbox (vergrößerte Ansicht) wird dieselbe Bildunterschrift angezeigt
 
 ## Bildergalerien erstellen
 

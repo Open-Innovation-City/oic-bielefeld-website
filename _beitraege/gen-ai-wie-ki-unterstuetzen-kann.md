@@ -14,7 +14,7 @@ header_image: "/assets/images/ki.png"
 Am Dienstag 17. Juni 2025 kamen im Innovation Office am Alter Markt 13 in Bielefeld 17 Personen aus der Bielefelder Zivilgesellschaft, Wissenschaft, Wirtschaft, und Verwaltung zusammen.
 Kenntnisse waren nicht notwendig, um teilzunehmen. 
 
-![Meetup Bild](/assets/images/events/Meetup-GenAI/Gruppenbild_GenAI_Juni-2025.jpg) Gruppenbild
+![Meetup Bild](/assets/images/events/Meetup-GenAI/Gruppenbild_GenAI_Juni-2025.jpg "Gruppenbild")
 
 In 90 Minuten wurde erarbeitet wie GenAI bei der eigenen Arbeit unterstützen kann. 
 
@@ -35,7 +35,7 @@ Am Ende hatten die Teilnehmenden gelernt
 Im Ganzen wurde ein kritischer Umgang mit dieser potenten Ressource vermittelt.
 Die Teilnehmenden erhielten im Nachgang ein übersichtliches Handout mit theroetischen und praktischen Grundlagen zum Thema wie im Meetup vermittelt.
 
-![Meetup Bild](/assets/images/events/Meetup-GenAI/Gruppenbild-2_GenAI_Juni-2025.jpg) Gruppenbild in Aktion
+![Meetup Bild](/assets/images/events/Meetup-GenAI/Gruppenbild-2_GenAI_Juni-2025.jpg "Gruppenbild in Aktion")
 
 Zum Schluss gab es die Gelegenheit zum Netzwerken und Austauschen in der Gruppe.
 
