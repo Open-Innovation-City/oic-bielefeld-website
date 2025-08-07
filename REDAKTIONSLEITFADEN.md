@@ -407,17 +407,13 @@ assets/images/events/
 
 ## Pull Request Workflow im Team
 
-### Rollen definieren:
-- **Redakteurinnen:** Sarah, Lisa, Maria, Tatjana (erstellen Inhalte)
-- **Reviewer:** Jens, Stephan (prüfen und geben frei)
-
 ### Wann welchen Workflow nutzen?
 - **Kleine Korrekturen** (Tippfehler, E-Mail ändern): Direkter Weg
 - **Neue Inhalte** (Blog-Posts, Events, neue Teammitglieder): Pull Request
 - **Bei Unsicherheit:** Immer Pull Request verwenden
 
 ### Kommunikation:
-- Pull Request Link per E-Mail/Slack an Reviewer senden
+- Pull Request Link per E-Mail/Stackfield an Reviewer senden
 - Bei dringenden Änderungen explizit erwähnen
 - Reviewerin antwortet innerhalb von 24h (Werktage)
 
