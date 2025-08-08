@@ -35,7 +35,7 @@ Am Ende hatten die Teilnehmenden gelernt
 Im Ganzen wurde ein kritischer Umgang mit dieser potenten Ressource vermittelt.
 Die Teilnehmenden erhielten im Nachgang ein übersichtliches Handout mit theroetischen und praktischen Grundlagen zum Thema wie im Meetup vermittelt.
 
-**Das Handout kann hier heruntergeladen werden: [Handout "GenAI am Arbeitsplatz"](/assets/downloads/KI-Meetup_Handout_Roschig_v2.pdf)**
+**Das Handout kann hier heruntergeladen werden: <a href="/assets/downloads/KI-Meetup_Handout_Roschig_v2.pdf" target="_blank">Handout "GenAI am Arbeitsplatz"</a>**
 
 ![Meetup Bild](/assets/images/events/Meetup-GenAI/Gruppenbild-2_GenAI_Juni-2025.jpg "Gruppenbild in Aktion")
 
