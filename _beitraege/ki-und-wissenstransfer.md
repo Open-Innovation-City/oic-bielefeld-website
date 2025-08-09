@@ -1,6 +1,6 @@
 ---
 title: "KI und Wissenstransfer - Mensch im Fokus. KI als Unterstützung."
-teaser: "IDas dritte Meetup aus der Reihe KI und Zivilgesellschaft behandelt das Thema Wissenstransfer."
+teaser: "Das dritte Meetup aus der Reihe KI und Zivilgesellschaft behandelt das Thema Wissenstransfer."
 author: "Maria Goncalves"
 category: "KI und Zivilgesellschaft"
 date: 2025-08-08
