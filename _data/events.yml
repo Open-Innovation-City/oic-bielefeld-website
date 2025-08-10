@@ -1,3 +1,19 @@
+- title: "Markt der digitalen Möglichkeiten"
+  description: "In Bielefeld gibt es zahlreiche Angebote für mehr digitale Teilhabe. Beim Markt der digitalen Möglichkeiten stellen sich Organisationen, haupt- und ehrenamtlich Aktive vor.
+Komm bei Kaffee und Kuchen ins Gespräch, stell deine Fragen oder probiere Technik aus – ganz ohne Druck. Für mehr Selbstständigkeit und Sicherheit im digitalen Alltag. Offen für alle, egal ob mit viel oder wenig Vorwissen."
+  date: "2025-10-31"
+  time: "15:00"
+  duration: "3 Stunden"
+  location: "Historischer Saal, VHS Bielefeld"
+  category: "Event"
+  icon: "/assets/images/icons/dialog.svg"
+  target_audience: "Alle Bürger*innen"
+  cost: "Kostenlos"
+  booking_url: "https://www.vhs-bielefeld.de/kurssuche/kurs/Markt-der-digitalen-Moeglichkeiten/2527750E8#inhalt"
+  link_text: "Mehr Informationen"
+  featured: false
+#  topic: "ki-zivilgesellschaft"
+
 - title: "KI und die Zivilgesellschaft: KI - wie GenAI soziale, kulturelle und Vereinsarbeit unterstützen kann."
   description: "Wir zeigen dir im Meetup, wie generative Künstliche Intelligenz helfen kann, deinen Arbeitsalltag zu erleichtern und neue kreative Möglichkeiten zu erschließen."
   date: "2025-06-17"
