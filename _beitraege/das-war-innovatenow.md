@@ -7,11 +7,11 @@ date: 2025-06-28
 header_image: "/assets/images/events/innovatenow_pitch_day/innovatenow_2.jpeg"
 ---
 ### Eine spannende Innovationsreise
-Als wir – die WEGE, tomorrow bird und OIC – uns im Februar auf den Weg gemacht haben, die Methode der Adobe Kickbox zum ersten Mal auf Ebene einer Stadt zu erproben, wussten wir nicht so recht, was uns erwarten wird. Wir hatten aber alle das Gefühl: „Das kann was Großes werden.“
+Als wir – die WEGE, tomorrow bird und OIC – uns im Februar auf den Weg gemacht haben, die Methode der **[Adobe Kickbox](https://kickbox.org)** zum ersten Mal auf Ebene einer Stadt zu erproben, wussten wir nicht so recht, was uns erwarten wird. Wir hatten aber alle das Gefühl: „Das kann was Großes werden.“
 
-Nach der Bewerbungsphase mit ca. 100 zukünftigen Innovatorinnen und Innovatoren und der anschließenden Teambildung war schnell klar: „Das wird wirklich was!“.
+Dazu hatten wir das Projekt **[InnovateNOW – Deine Stadt. Dein Projekt](https://innovatenow-bielefeld.de)** ins Leben gerufen, das vom Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen gefördert wurde. Aufgrund der Förderung Stand fest, dass sich alles um digitale Ideen für die Weiterentwicklung der Bielefelder Innenstadt drehen wird. Wir wollten Menschen zu Innovatorinnen und Innovatoren machen, indem wir es ihnen ermöglichen, ihre Ideen zum Leben zu erwecken. Ende Febraur haben dann voll Spannung die Bewerbungsphase gestartet. Bis zum 25. März hatten die MEnschen in Bielefeld Zeit, ihre Ideen einzureichen. Nach dem Ende der Bewerbungsphase mit ca. 100 zukünftigen Innovatorinnen und Innovatoren und dem anschließenden ersten KickOff zur Teambildung war schnell klar: „Das wird wirklich was!“.
 
-In den darauf folgenden 12 arbeitsreichen Wochen haben die Teilnehmenden ihre Ideen weiterentwickelt, mit potentiellen Nutzenden getestet und die gewonnenen Erkenntnisse wieder in ihre Ideen einfließen lassen. Besonderer Dank gilt Mia Richeton und Kai Hohmeier von tomorrow bird, die ihr geballtes Innovationswissen an die Teilnehmenden vermittelt haben und im wahrsten Sinne des Wortes rund um die Uhr für die Teilnehmenden da waren.  Auch das City.Team, in Person von Desirée Lukowski von der WEGE, stand jederzeit für die Teilnehmenden bereit, um die nötigen Verbindungen zur Stadt Bielefeld und in die Wirtschaft herzustellen.
+In den darauf folgenden 12 arbeitsreichen Wochen haben die Teilnehmenden ihre Ideen weiterentwickelt, mit potentiellen Nutzenden getestet und die gewonnenen Erkenntnisse wieder in ihre Ideen einfließen lassen. Besonderer Dank gilt **[Mia Richeton](https://www.linkedin.com/in/mia-r-1b3745224/)** und **[Kai Hohmeier](https://www.linkedin.com/in/kaihohmeier/)**  von tomorrow bird, die ihr geballtes Innovationswissen an die Teilnehmenden vermittelt haben und im wahrsten Sinne des Wortes rund um die Uhr für die Teilnehmenden da waren.  Auch das City.Team, in Person von **[Desirée Lukowski](https://www.linkedin.com/in/dlukowski/)** von der WEGE, stand jederzeit für die Teilnehmenden bereit, um die nötigen Verbindungen zur Stadt Bielefeld und in die Wirtschaft herzustellen.
 
 ### Ein würdiger Abschluss
 Am 24.06.2025 war es dann endlich soweit: Alle Teams, die den den gesamten Innovationsprozess beendet haben, hatten die Gelegenheit, ihre Innovation vor einer Fachjury zu präsentieren. Die Jury hatte die Aufgabe, die drei überzeugendsten Projekte für die weitere Umsetzung auszuwählen und ein kleines Preisgeld zu verteilen. 
@@ -49,6 +49,9 @@ Die folgende 3 Teams wurden von der Jury als besonders überzeugend ausgewählt 
 **Kurzbeschreibung:** WirParken macht Miet- und Anwohnerparkpläte im Airbnb-Stil buchbar. Dadurch soll der Parksuchverkehr reduziert werden und bestehender Parkraum effizienter genutzt werden.
 
 **Zu WirParken:** [Website](https://wirparken.com)
+
+### Und jetzt?
+Alle Siegerteams werden in den nächsten Wochen und Monaten dabei unterstützt, ihre Ideen weiterzuentwickeln. Außerdem schauen wir, wie wir soetwas wie InnovateNOW in Zukunft regelmäßig umsetzen können, denn eines hat die Erprobung gezeigt: Es funktioniert! Und wir brauchen mehr Innovatorinnen und Innovatoren, um die Zukunft Bielefeld zu gestalten.
 
 ### Impressionen
 {% include gallery.html 
