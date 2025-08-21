@@ -40,8 +40,8 @@ Die Teilnehmenden erhielten im Nachgang ein übersichtliches Handout mit theroet
 
 Hier sind Impressionen aus dem Workshop:
 {% include gallery.html 
-   images="Teilnehmer-im-Gespraech-mit-Carl.jpg|Teilnehmer-vor-Skala_Workshop-Style.jpg|Impulsvortrag_Design-Thinking.jpg|Impulsvortrag_Desing-Thinking_02.jpg|Impulsvortrag_Design-Thinking_03.jpg|Teilnehmer_beim_Vortrag.jpg|Workshop_Ergebnisse.jpg|Netzwerken_nach_Meetup.jpg" 
-   folder="/assets/images/events/neuer-ordner/" %}
+   images="Teilnehmer-im-Gespraech-mit-Carl.jpg,Teilnehmer-vor-Skala_Workshop-Style.jpg,Impulsvortrag_Design-Thinking.jpg,Impulsvortrag_Desing-Thinking_02.jpg,Impulsvortrag_Design-Thinking_03.jpg,Teilnehmer_beim_Vortrag.jpg,Workshop_Ergebnisse.jpg,Netzwerken_nach_Meetup.jpg" 
+   folder="/assets/images/events/meetup-ai-driven-innovation/" %}
 
 Zum Schluss gab es die Gelegenheit zum Netzwerken und Austauschen in der Gruppe.
 
