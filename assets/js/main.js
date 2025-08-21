@@ -420,9 +420,14 @@
         const images = document.querySelectorAll('.team-image');
         
         images.forEach(function(img) {
-            img.addEventListener('load', function() {
-                this.style.opacity = '1';
-            });
+            // Check if image is already loaded (cached)
+            if (img.complete && img.naturalWidth > 0) {
+                img.classList.add('loaded');
+            } else {
+                img.addEventListener('load', function() {
+                    this.classList.add('loaded');
+                });
+            }
             
             img.addEventListener('error', function() {
                 // Fallback to placeholder if image fails to load

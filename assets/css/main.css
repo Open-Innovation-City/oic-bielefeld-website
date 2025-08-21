@@ -686,7 +686,7 @@ p {
   transition: opacity 0.3s ease;
 }
 
-.team-image:loaded {
+.team-image.loaded {
   opacity: 1;
 }
 
