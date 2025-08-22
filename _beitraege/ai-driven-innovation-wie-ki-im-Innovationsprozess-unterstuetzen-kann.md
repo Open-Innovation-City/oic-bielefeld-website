@@ -12,14 +12,12 @@ header_image: "/assets/images/ki.png"
 ### Wie kann KI sinnvoll im Innovationsprozesse eingebunden werden? Kann KI ein guter Sparringspartner sein?
 
 Am Montag 14. Juli 2025 fand das Meetup #02 **AI-driven Innovation - wie KI im Innovationsprozess unterstützen kann** statt. 
-[Carl Robert Brand][2] war der perfekte Facilitator für dieses Thema. Er hat 10 Jahre Erfahrung im Innovationsbereich, eine Ausbildung zum Design Thinking Coach und hat Künstliche Intelligenz sinnvoll in den Innovationsprozess eingebunden.
-Mit dem [AI Co-Innovation Card Deck][3] hat er ein Format entwickelt, das den Einstieg in KI-gestützte Innovationsarbeit erleichtert und praxisnah gestaltet.  
+Der Innovationsexperte Carl Robert Brand war der perfekte Facilitator für dieses Thema. Er hat 10 Jahre Erfahrung im Innovationsbereich, eine Ausbildung zum Design Thinking Coach und hat Künstliche Intelligenz sinnvoll in den Innovationsprozess eingebunden.
+Mit dem [AI Co-Innovation Card Deck][https://ai-coinnovation.de/de] hat er ein Format entwickelt, das den Einstieg in KI-gestützte Innovationsarbeit erleichtert und praxisnah gestaltet.  
 
-Das Meetup im Workshop-Format fand ausnahmsweise im [Pioneers Club][1], Ritterstr. 8 in Bielefeld statt. 
+Das Meetup im Workshop-Format fand ausnahmsweise im [Pioneers Club][https://pioneers.club], Ritterstr. 8 in Bielefeld statt. 
 Der Raum bot genügend Platz für über 20 angemeldete Innovationswillige; der Querschnitt der Bielefelder Stadtgesellschaft aus Zivilgesellschaft, Wissenschaft, Wirtschaft, und Verwaltung.
 Die Teilnehmerinnen und Teilnehmern benötigten keine Kenntnisse, um die notwendige Theorie mit hohem Praxisanteil zu erproben. 
-
-![zwei Personen stehen vor einer Skala](/assets/images/ai-driven-meetup_Ansicht_skala.jpg "Skala zur Abfrage der Kenntnisse - Workshop-Style")
 
 ### Die Stationen in den 120 Minuten waren 
 -	Mini Design Thinking Sprint
@@ -40,15 +38,10 @@ Die Teilnehmenden erhielten im Nachgang ein übersichtliches Handout mit theroet
 
 Hier sind Impressionen aus dem Workshop:
 {% include gallery.html 
-   images="Teilnehmer-im-Gespraech-mit-Carl.jpg,Teilnehmer-vor-Skala_Workshop-Style.jpg,Impulsvortrag_Design-Thinking.jpg,Impulsvortrag_Desing-Thinking_02.jpg,Impulsvortrag_Design-Thinking_03.jpg,Teilnehmer_beim_Vortrag.jpg,Workshop_Ergebnisse.jpg,Netzwerken_nach_Meetup.jpg" 
+   images="Teilnehmer-im-Gespraech-mit-Carl.jpg,Impulsvortrag_Design-Thinking.jpg,Impulsvortrag_Desing-Thinking_02.jpg,Impulsvortrag_Design-Thinking_03.jpg,Teilnehmer_beim_Vortrag.jpg,Workshop_Ergebnisse.jpg,Netzwerken_nach_Meetup.jpg" 
    folder="/assets/images/events/meetup-ai-driven-innovation/" %}
 
 Zum Schluss gab es die Gelegenheit zum Netzwerken und Austauschen in der Gruppe.
 
 ### Was folgte:
-Einladung zur **Community of Practice** zur Bearbeitung dieses Themas in der Gruppe.
-
-### Links:
-[1]: https://pioneers.club
-[2]: https://www.wirtschaftsfoerderung-hannover.de/de/Erfolgsgeschichten/hannoverimpuls/GS_August_2025.php
-[3]: https://ai-coinnovation.de/de
+Einladung zur **Community of Practice** zur weiteren Bearbeitung dieses Themas in der Gruppe.
