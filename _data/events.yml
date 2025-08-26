@@ -58,3 +58,18 @@ Komm bei Kaffee und Kuchen ins Gespräch, stell deine Fragen oder probiere Techn
   link_text: "Details & Anmeldung"
   featured: true
   topic: "ki-zivilgesellschaft"
+
+- title: "KI und Digitale Assistenten - Wie KI Teams ergänzt und effizienter macht."
+  description: "Mit dem Senior AI Solution Archtect, Conner Kuhlmann, lernst du in diesem Impuls & Workshop welche Chancen und Herausforderungen KI und Digitale Assistenten bieten können."
+  date: "2025-09-25"
+  time: "16:30"
+  duration: "1,5 Stunden"
+  location: "Innovation Office, Alter Markt 13"
+  category: "Impuls-Workshop"
+  icon: "/assets/images/icons/workshop.svg"
+  target_audience: "Alle Bürger*innen"
+  cost: "Kostenlos"
+  booking_url: "https://pretix.eu/OIC-BIE/ki-zivil-5/"
+  link_text: "Details & Anmeldung"
+  featured: true
+  topic: "ki-zivilgesellschaft"
