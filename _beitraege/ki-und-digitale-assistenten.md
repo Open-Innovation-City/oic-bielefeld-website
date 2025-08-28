@@ -12,7 +12,7 @@ In diesem interaktiven Workshop beleuchten wir die transformative Rolle von Kün
 **Es sind keine Vorkenntnisse notwendig.** 
 
 ### Fachexpertise
-**Conner Kuhlmann** ist Senior AI Solution Architekt mit langjähriger Erfahrung in der Umsetzung von KI-Lösungen. Er begleitet Unternehmen bei der Entwicklung und Integration innovativer Anwendungen – von Sprachassistenzsystemen im Gesundheitswesen mit höchsten Datenschutzanforderungen bis hin zum Aufbau skalierbarer KI-Infrastrukturen. 
+**Conner Kuhlmeyer** ist Senior AI Solution Architect mit langjähriger Erfahrung in der Umsetzung von KI-Lösungen. Er begleitet Unternehmen bei der Entwicklung und Integration innovativer Anwendungen – von Sprachassistenzsystemen im Gesundheitswesen mit höchsten Datenschutzanforderungen bis hin zum Aufbau skalierbarer KI-Infrastrukturen. 
 In seiner aktuellen Rolle entwickelt er maßgeschneiderte KI-Lösungen und Strategien und unterstützt führende Unternehmen aus Gesundheitswesen, Aerospace, Baugewerbe und weiteren Branchen bei der erfolgreichen Nutzung von Künstlicher Intelligenz.
 Mit Conner lernst du in diesem Impuls & Workshop **welche Chancen und Herausforderungen KI und Digitale Assistenten bieten können**.
 
