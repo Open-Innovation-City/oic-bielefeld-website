@@ -8,7 +8,7 @@ header_image: "/assets/images/ki.png"
 ---
 
 Wir laden euch herzlich zum 90-minütigen Impuls & Workshop Meetup zum **Einsatz von Digitalen Assistenten in Organisationen** ein.
-In diesem interaktiven Workshop beleuchten wir die transformative Rolle von Künstlicher Intelligenz in Unternehmen und zeigen, wie KI die Arbeitswelt nachhaltig verändert. 
+In diesem interaktiven Workshop beleuchten wir die transformative Rolle von Künstlicher Intelligenz in Organisatione und Initiativen und zeigen, wie KI die Arbeitswelt nachhaltig verändert. 
 **Es sind keine Vorkenntnisse notwendig.** 
 
 ### Fachexpertise
