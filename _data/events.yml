@@ -75,7 +75,7 @@ Komm bei Kaffee und Kuchen ins Gespräch, stell deine Fragen oder probiere Techn
   topic: "ki-zivilgesellschaft"
 
 - title: "Save-the-Date: Meetup zum Thema KI und Vibe Coding / Agenten"
-  description: "Eine Konzerngitaristin und Ökonomin erzählt, wie sie als Nicht-Entwicklerin KI im Kulturbereich einsetzt. - Mehr zum Meetup folgt in Kürze."
+  description: "Eine Konzertgitarristin und Ökonomin erzählt, wie sie als Nicht-Entwicklerin im Kulturbereich KI einsetzt. - Mehr zum Meetup folgt in Kürze."
   date: "2025-10-07"
   time: "16:30"
   duration: "1,5 Stunden"
@@ -84,5 +84,7 @@ Komm bei Kaffee und Kuchen ins Gespräch, stell deine Fragen oder probiere Techn
   icon: "/assets/images/icons/workshop.svg"
   target_audience: "Alle Bürger*innen"
   cost: "Kostenlos"
+  booking_url: "-"
+  link_text: "Anmeldelink folgt"
   featured: false
   topic: "ki-zivilgesellschaft"
