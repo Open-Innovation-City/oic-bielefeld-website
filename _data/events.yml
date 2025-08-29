@@ -73,3 +73,18 @@ Komm bei Kaffee und Kuchen ins Gespräch, stell deine Fragen oder probiere Techn
   link_text: "Details & Anmeldung"
   featured: true
   topic: "ki-zivilgesellschaft"
+
+- title: "save-the-date Meetup zum Thema KI und Vibe Coding / Agenten."
+  description: "Eine Konzerngitaristin und Ökonomin erzählt wie sie als Nicht-Entwicklerin KI im Kulturbereich einsetzt. - Inhalt folgt in Kürze."
+  date: "2025-10-07"
+  time: "16:30"
+  duration: "1,5 Stunden"
+  location: "Innovation Office, Alter Markt 13"
+  category: "Impuls & Workshop"
+  icon: "/assets/images/icons/workshop.svg"
+  target_audience: "Alle Bürger*innen"
+  cost: "Kostenlos"
+  booking_url: "Anmeldung noch nicht geöffnet"
+  link_text: "save the date"
+  featured: true
+  topic: "ki-zivilgesellschaft"
