@@ -62,7 +62,6 @@ Finde den entsprechenden Eintrag und ändere die gewünschten Felder.
   duration: "2 Stunden"
   location: "Innovation Office, Niederwall 23"
   category: "Workshop"  # oder "Vortrag", "Meetup", etc.
-  icon: "/assets/images/icons/workshop.svg"
   target_audience: "Alle Bürger*innen"
   cost: "Kostenlos"
   booking_url: "https://pretix.eu/..."  # Optional
@@ -80,13 +79,7 @@ Mit dem `link_text` Parameter kannst du den Text auf dem Anmelde-Button individu
   - `link_text: "Tickets sichern"`
   - `link_text: "Teilnehmen"`
 
-### Verfügbare Icons:
-- `/assets/images/icons/workshop.svg`
-- `/assets/images/icons/presentation.svg`
-- `/assets/images/icons/dialog.svg`
-- `/assets/images/icons/data.svg`
-- `/assets/images/icons/hackathon.svg`
-- `/assets/images/icons/startup.svg`
+**Hinweis:** Die Icon-Zeile wurde aus der Event-Struktur entfernt. Die SVG-Icons werden nicht mehr in den Event-Kacheln verwendet.
 
 ### Thematische Event-Gruppierung (Topic):
 Mit dem `topic`-Parameter kannst du Events thematisch gruppieren für spezialisierte Landing-Pages:

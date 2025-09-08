@@ -95,7 +95,6 @@ Edit `_data/events.yml` with all event details:
   duration: "2 Stunden"
   location: "Innovation Office, Niederwall 23"
   category: "Workshop"  # or "Vortrag", "Meetup", etc.
-  icon: "/assets/images/icons/workshop.svg"
   target_audience: "Alle Bürger*innen"
   cost: "Kostenlos"
   booking_url: "https://pretix.eu/..."  # Optional

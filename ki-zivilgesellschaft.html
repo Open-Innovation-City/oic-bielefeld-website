@@ -100,17 +100,6 @@ Offene Innovationen, Austausch und Co-Creation über Organisationsgrenzen hinaus
             {% for event in upcoming_events limit: 12 %}
                 <div class="event-card fade-in{% if event.featured %} featured{% endif %}" data-category="{{ event.category }}">
                     <div class="event-header">
-                        <div class="event-icon">
-                            {% if event.icon %}
-                                <img src="{{ event.icon | relative_url }}" alt="{{ event.category }} Icon">
-                            {% else %}
-                                <!-- Fallback icon -->
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/>
-                                </svg>
-                            {% endif %}
-                        </div>
-                        
                         <div class="event-category">{{ event.category }}</div>
                         <h3 class="event-title">{{ event.title }}</h3>
                         <p class="event-description">{{ event.description }}</p>
@@ -186,17 +175,6 @@ Offene Innovationen, Austausch und Co-Creation über Organisationsgrenzen hinaus
             {% for event in past_events %}
                 <div class="event-card fade-in past-event{% if event.featured %} featured{% endif %}" data-category="{{ event.category }}">
                     <div class="event-header">
-                        <div class="event-icon">
-                            {% if event.icon %}
-                                <img src="{{ event.icon | relative_url }}" alt="{{ event.category }} Icon">
-                            {% else %}
-                                <!-- Fallback icon -->
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/>
-                                </svg>
-                            {% endif %}
-                        </div>
-                        
                         <div class="event-category">{{ event.category }}</div>
                         <h3 class="event-title">{{ event.title }}</h3>
                         <p class="event-description">{{ event.description }}</p>
