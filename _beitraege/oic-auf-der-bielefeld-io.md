@@ -1,6 +1,6 @@
 ---
 title: "OIC auf der Bielefeld I/O 2025"
-teaser: "Auch dieses Jahr sind wir wieder Teil der Bielefeld I/O. In diesem Jahr rücken wir – natürlich – das Thema Künstlixhe Intelligenz in den Vordergrund. Bei Open Innovation City geht es diesmal um das Thema \"Community of Practice\" und wie ihr selbst aktiv werden könnt."
+teaser: "Auch dieses Jahr sind wir wieder Teil der Bielefeld I/O. In diesem Jahr rücken wir – natürlich – das Thema Künstliche Intelligenz in den Vordergrund. Bei Open Innovation City geht es diesmal um das Thema \"Community of Practice\" und wie ihr selbst aktiv werden könnt."
 author: "Jens Edler"
 category: "Events"
 date: 2025-09-08
