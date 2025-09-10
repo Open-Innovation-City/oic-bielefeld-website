@@ -20,7 +20,7 @@ Wir nutzen <a href="https://de.wikipedia.org/wiki/Co-Creation" target="_blank">C
 ### Protoypen entwickeln  
 Wir unterstützen bei der Umsetzung von wirkungsvollen Lösungskonzepten in Prototypen.
 
-#### Verbessern
+### Verbessern
 Wir nutzen das gewonnene Feedback der Nutzer, um Prototypen Schritt für Schritt weiterzuentwickeln. Damit stellen wir gemeinsam sicher, dass Lösungen auch die Bedarfe der Nutzer decken.
 
 ### Reflexion & Übergabe
