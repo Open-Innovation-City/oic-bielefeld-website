@@ -1,28 +1,31 @@
 ---
-title: "OIC auf der Bielefeld I/O 2025"
-teaser: "Auch dieses Jahr sind wir wieder Teil der Bielefeld I/O. In diesem Jahr rücken wir – natürlich – das Thema Künstliche Intelligenz in den Vordergrund. Bei Open Innovation City geht es diesmal um das Thema \"Community of Practice\" und wie ihr selbst aktiv werden könnt."
+title: „KI und Open Source: Digitale Souveränität mit openWebUI“
+teaser: „Ihr wollt euch nicht nur auf große US-Unternehmen verlassen und wieder in die nächste Abhängigkeit laufen? Mit der Kombination aus Open Source-Tool, frei verfügbaren LLMs und europäischen KI-Anbietern gibt es gute Alternativen. Wir stellen euch eine Kombination vor, die ihr mal ausprobieren solltet.“ 
 author: "Jens Edler"
-category: "Events"
-date: 2025-09-08
+category: „Tools“
+date: 2025-09-17
 header\_image: "/assets/images/ki.png"
 ---
-### Was ist die Bielefeld I/O?
+### Warum brauchen wir Alternativen?
 Die [Bielefeld I/O][1] ist vor Jahren als Parallelveranstaltung zur Google I/O, der jährlichen Entwickler\*innenkonferenz von Google gestartet. Was als fast reine Nerd-Veranstaltung gestartet ist, hat sich über die Jahre zu einer festen Größe im Bielefelder Event-Kalender gemausert. Außer dem Namen hat sie nicht mehr viel mit der ursprünglichen Veranstaltung zu tun. 
 
 Jedes Jahr im Herbst laden die vier Partner **[comspace][2]**, **[Founders Foundation][3]**, **[Pioneers Club][4]** und **[Open Innovation City Bielefeld][5]** zum einem spannenden Thema ein und bieten verschiedene Vorträge und Workshops dazu an. Das große Thema in diesem Jahr ist **Künstliche Intelligenz**, zu dem es spannende [Vorträge und Workshops][6] geben wird. **[Maria und Jens][7]** sind mit einem Barcamp zum Thema **\"Community of Practice\"** dabei.
 
-### Warum ein Barcamp?
-Für uns steht die gemeinsame Arbeit an aktuellen Problemen im Vordergrund. Das ist der Kern der Open Innovation: Menschen aus allen Teile der Stadtgesellschaft – Verwaltung, Wissenschaft, Wirtschaft und Zivilgesellschaft – kommen zusammen und bringen ihr Wissen und ihre Erfahrungen mit. Dabei lernen wir voneinander und miteinander und nehmen neue Perspektiven ein. 
+### openWebUI als zentrale KI-Schnittstelle
+Für uns steht die gemeinsame Arbeit an aktuellen Problemen im Vordergrund. Das ist der Kern der Open Innovation: Menschen aus allen Teile der Stadtgesellschaft – Verwaltung, Wissenschaft, Wirtschaft und Zivilgesellschaft – kommen zusammen und bringen ihr Wissen und ihre Erfahrungen mit. Dabei lernen wir voneinander und miteinander und nehmen neue Persoektiven ein. 
 
 Ein Barcamp ist gewissermaßen genau dafür optimiert! Die Teilnehmenden kommen zu einem vorher festgelegten Thema zusammen und können Fragen oder Impulse mitbringen, zu denen sich dann selbstorganisiert Gruppen zusammenfinden, die sich zu den Fragen und Impulsen austauschen, Ideen generieren und Lösungen finden. Die Erkenntnisse der einzelnen Gruppen werden am Ende mit allen Teilnehmenden geteilt, sodass alle davon profitieren können.
 
-### Was ist eine Community of Practice?
-Das Oberthema für unser Barcamp ist \"Vom Impuls zu deiner Community of Practice\". Eine **Community of Practice** ist eine Art Selbstlerngruppe. Menschen mit einem gemeinsamen Interesse treffen sich regelmäßig, um zu diesem geteilten Interesse zusammen zu Arbeiten und es gemeinsam weiterzuentwickeln. In den letzten Jahren haben Firmen wie Spotify die Communities of Practice populär gemacht, wo sie als \"Guilds\" fester Bestandteil der [Arbeitskultur][8] wurden.  
+### Lokale LLMs
+Das Oberthema für unser Barcamp ist \"Vom Impuls zu deiner Community of Practice\". Eine **Community of Practice** ist eine Art Selbstlerngruppe. Menschen mit einem gemeinsamen Interesse treffen sich regelmäßig, um zu diesem geteilten Interesse zusammen zu Arbeiten und es gemeinsam weiterzuentwickeln. In den letzten Jahren haben Firmen wie Spotify die Comunities of Practice populär gemacht, wo sie als \"Guilds\" fester Bestandteil der [Arbeitskultur][8] wurden.  
 
-### Mehr erfahren und anmelden
+### Mehr Power mit Mistral
 In unserem Barcamp wählt ihr gemeinsam die Impulse, die euch wirklich interessieren. Ihr könnt KI- Anwendungsfälle diskutieren, Erfahrungen austauschen und den Grundstein für eure eigene KI-Community of Practice legen. 
 
-**Mehr Informationen zum Programm der Bielefeld I/O 2025 und den Link zur Anmeldung findet ihr hier: [Website der Bielefeld I/O 2025][9]**
+* Nettetal
+* LibreChat
+* Mistral
+* Ollama
 
 [1]:	https://www.bielefeld.io
 [2]:	https://www.comspace.de
@@ -32,4 +35,3 @@ In unserem Barcamp wählt ihr gemeinsam die Impulse, die euch wirklich interessi
 [6]:	https://www.bielefeld.io
 [7]:	https://oic-bielefeld.de/#team
 [8]:	https://digitaleneuordnung.de/blog/spotify-model
-[9]:	https://www.bielefeld.io
