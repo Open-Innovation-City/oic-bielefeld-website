@@ -27,8 +27,7 @@ Wir nutzen das gewonnene Feedback der Nutzer, um Prototypen Schritt für Schritt
 Wir übergeben die getesteten und validierten Prototypen und helfen bei der Entscheidungsfindung zur endgültigen Umsetzung.
 
 ## Darstellung in einem einfachen Diagramm
-![Darstellung des Open Innovation City Funnels](/assets/images/OIC_Funnel_1920x1080.jpg "Open Innovation City Funnel")
-
+![Darstellung Schema des Innvationsprozesses](/assets/images/betitrage/innovationsprozess-diagramm.svg "Schema des Innvationsprozesses")
 
 
 Wenn ihr mehr über das dahinter liegende Konzept über unseren Innovationsprozess erfahren wollt, dann nehmt gerne Kontakt mit **[Jens Edler](https://www.linkedin.com/in/jens-edler-059aaa5/)** von OIC Bielefeld.
