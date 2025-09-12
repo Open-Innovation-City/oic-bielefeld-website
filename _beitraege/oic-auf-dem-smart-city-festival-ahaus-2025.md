@@ -20,7 +20,9 @@ Auf der Bühne der Konferenz durfte ich die Diskussion zu Smart Cities weiter au
 
 ![Tatjana Dzepina steht auf einer Bühne. Im Hintergrund ist eine Präsentation zu sehen, auf der beschrieben wird, wie eine Stadt eine Open Innovation City wird.](/assets/images/beitraege/ahaus/tatjana_dzepina_ahaus.jpg)
 
-Dort habe ich diese Frage gestellt und beantwortet „Was haben die NASA, 3M (die Post-it-Erfinder) und die Stadt Bielefeld gemeinsam? Alle drei nutzen das Prinzip von Open Innovation.“
+### Was haben die NASA, 3M (die Post-it-Erfinder) und die Stadt Bielefeld gemeinsam?
+
+Diese Frage habe ich dort gestellt. Die Antwort lautet: **"Alle drei nutzen das Prinzip von Open Innovation.“**
 
 Neben Grundladen zu Open Innovation, der Historie der Initiative und unserem Bielefelder Weg zur Umsetzung lag der Fokus auf dem Punkt „WIE“ man eine Open Innovation City wird und dem Appell auch eine Open Innovation City zu werden. Unsere Vision ist, dass auch andere Städte internes UND externes Wissen nutzen, um mit digitalen und gesellschaftlichen Innovationen nachhaltiger, lebenswerter und vernetzter werden zu können.
 
