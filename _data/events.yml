@@ -68,8 +68,8 @@
   featured: true
   topic: "ki-zivilgesellschaft"
 
-- title: "Save-the-Date: Meetup zum Thema KI und Vibe Coding / Agenten"
-  description: "Eine Konzertgitarristin und Ökonomin erzählt, wie sie als Nicht-Entwicklerin im Kulturbereich KI einsetzt. - Mehr zum Meetup folgt in Kürze."
+- title: "KI und praktische Automatisierung: Zeit und Ressourcen sparen ohne Programmierkenntnisse (No-Code)."
+  description: "Mit der verifizierten n8n Creator und Konzertgitarristin Yulia Dmitrievna lernst du, wie du KI-Tools effektiv nutzen und Automatisierungsprozesse umsetzen kannst."
   date: "2025-10-07"
   time: "16:30"
   duration: "1,5 Stunden"
@@ -79,7 +79,7 @@
   cost: "Kostenlos"
   booking_url: "-"
   link_text: "Anmeldelink folgt"
-  featured: false
+  featured: true
   topic: "ki-zivilgesellschaft"
 
   - title: "Save-the-Date: Meetup zum Thema KI und New Work"
@@ -97,7 +97,7 @@
   topic: "ki-zivilgesellschaft"
 
   - title: "Save-the-Date: Meetup zum Thema KI und Soziale Innovation"
-  description: "Ein Kulturwissenschaftler erzählt, wie KI ermöglicht hat eine Lösung für ein gesellschaftliches Problem zu finden. - Mehr zum Meetup folgt in Kürze."
+  description: "Wie sprechen darüber wie KI ermöglich Lösungen für gesellschaftliche Probleme zu finden und umzusetzen. - Mehr zum Meetup folgt in Kürze."
   date: "2025-Oktober/November"
   time: "16:30"
   duration: "1,5 Stunden"
