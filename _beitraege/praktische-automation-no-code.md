@@ -8,13 +8,13 @@ header_image: "/assets/images/ki.png"
 ---
 
 Wir laden herzlich zum 90 minütigen **Impuls + Workshop Meetup zur praktischen Automatisierung mit KI** ein. 
-In diesem interaktiven Workshop erkunden wir, wie Künstliche Intelligenz und No-Code-Tools dabei unterstützen können, Zeit und Ressourcen zu sparen
+In diesem interaktiven Workshop erkunden wir, wie Künstliche Intelligenz und [No-Code-Tools](https://de.wikipedia.org/wiki/No-Code-Plattform) dabei unterstützen können, Zeit und Ressourcen zu sparen
 **- ohne Programmierkenntnisse**. 
 **Es sind keine Vorkenntnisse notwendig.** 
 
 ### Fachexpertise
-**Yulia Dmitrievna** ist verifizierter n8n Creator und Konzertgitarristin mit Fokus auf kreative Automatisierungslösungen. 
-Die Lösung n8n funktioniert ist wie ein Baukasten, mit dem du deine eigenen Automatisierungslösungen zusammenbauen kannst - Bausteine, sogenannte 'nodes' werden zusammengeklickt. Ganz ohne Programmierkenntnisse. Also **no-code = keine Progammierung**. 
+**[Yulia Dmitrievna](https://www.linkedin.com/in/yulia-dmitrievna-1112361b5/)** ist verifizierter [n8n](https://n8n.io) Creator und Konzertgitarristin mit Fokus auf kreative Automatisierungslösungen. 
+Die Lösung n8n funktioniert wie ein Baukasten, mit dem du deine eigenen Automatisierungslösungen zusammenbauen kannst - Bausteine, sogenannte 'nodes' werden zusammengeklickt. Ganz ohne Programmierkenntnisse. Also **no-code = keine Progammierung**. 
 Als aktive Freelance-Autorin für n8n verbindet Yulia technische Automation mit kreativen Lösungsansätzen. 
 **Mit ihr lernst du, wie du KI-Tools effektiv nutzen und Automatisierungsprozesse umsetzen kannst.**
 
@@ -27,10 +27,10 @@ Am Ende des Impuls-Workshops kannst du
 ### Materialien
 - Bring' deinen Laptop mit.
 
-###Transparenz: KI Unterstützung bei der Erstellung dieses Textes###
+### Transparenz: KI Unterstützung bei der Erstellung dieses Textes
 **Getestet**: Googles Gemini 2.5 Flash, über die Webseite Duck.ai OpenAI GPT-5 und Mistrals Le Chat. 
 Eindeutiger **Sieger**: #Le Chat#. Hat sich komplett an meine Vorgaben gehalten. Ich habe den Text etwas verfeinert und n8n erklärt. 
-Die Modelle von Google und OpenAI haben, wie ich es nenne, 'geschwafelt'  und vieles dazu halluziniert. 
+Die Modelle von Google und OpenAI haben, wie ich es nenne, 'geschwafelt' und vieles dazu halluziniert. 
 
 
 ### Info zur MeetUp-Reihe
