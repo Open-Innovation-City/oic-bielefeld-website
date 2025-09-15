@@ -10,7 +10,7 @@ header_image: "/assets/images/ki.png"
 Wir laden herzlich zum 90 minütigen **Impuls + Workshop Meetup zur praktischen Automatisierung mit KI** ein. 
 In diesem interaktiven Workshop erkunden wir, wie Künstliche Intelligenz und No-Code-Tools dabei unterstützen können, Zeit und Ressourcen zu sparen
 **- ohne Programmierkenntnisse**. 
-**Es sind keine Vorkenntnisse notwendig.**
+**Es sind keine Vorkenntnisse notwendig.** 
 
 ### Fachexpertise
 **Yulia Dmitrievna** ist verifizierter n8n Creator und Konzertgitarristin mit Fokus auf kreative Automatisierungslösungen. 
