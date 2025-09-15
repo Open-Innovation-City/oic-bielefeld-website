@@ -82,6 +82,34 @@
   featured: false
   topic: "ki-zivilgesellschaft"
 
+  - title: "Save-the-Date: Meetup zum Thema KI und New Work"
+  description: "Ein international bekannter Speaker erzählt, wie KI unsere Arbeit beeinflusst und verändern könnte. - Mehr zum Meetup folgt in Kürze."
+  date: "2025-10-09"
+  time: "16:30"
+  duration: "1,5 Stunden"
+  location: "Innovation Office, Alter Markt 13"
+  category: "Impuls & Workshop"
+  target_audience: "Zivilgesellschaft"
+  cost: "Kostenlos"
+  booking_url: "-"
+  link_text: "Anmeldelink folgt"
+  featured: false
+  topic: "ki-zivilgesellschaft"
+
+  - title: "Save-the-Date: Meetup zum Thema KI und Soziale Innovation"
+  description: "Ein Kulturwissenschaftler erzählt, wie KI ermöglicht hat eine Lösung für ein gesellschaftliches Problem zu finden. - Mehr zum Meetup folgt in Kürze."
+  date: "2025-Oktober/November"
+  time: "16:30"
+  duration: "1,5 Stunden"
+  location: "Innovation Office, Alter Markt 13"
+  category: "Impuls & Workshop"
+  target_audience: "Zivilgesellschaft"
+  cost: "Kostenlos"
+  booking_url: "-"
+  link_text: "Anmeldelink folgt"
+  featured: false
+  topic: "ki-zivilgesellschaft"
+
 - title: "BarCamp AI: Vom Impuls zu deiner Community of Practice"
   description: "Du gestaltest aktiv mit, statt nur zuzusehen. In unserem Bar Camp wählt ihr gemeinsam die Impulse, die euch wirklich interessieren. Ihr könnt Anwendungsfälle diskutieren, Erfahrungen austauschen und den Grundstein für eure eigene KI-Community legen."
   date: "2025-10-30"
