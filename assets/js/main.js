@@ -599,4 +599,66 @@
      */
     window.handleLogoError = handleLogoError;
 
+    /**
+     * Event Alert Banner Functions
+     */
+    function closeEventAlert() {
+        const alertBanner = document.getElementById('eventAlert');
+        const navbar = document.querySelector('.navbar');
+
+        if (alertBanner) {
+            // Animate banner out
+            alertBanner.style.transform = 'translateY(-100%)';
+            alertBanner.style.opacity = '0';
+
+            // Adjust navbar position
+            if (navbar) {
+                navbar.style.top = '0';
+            }
+
+            // Remove element after animation
+            setTimeout(() => {
+                alertBanner.remove();
+
+                // Store dismissal in localStorage to remember user preference
+                localStorage.setItem('eventAlert_dismissed', 'true');
+                localStorage.setItem('eventAlert_dismissTime', Date.now().toString());
+            }, 300);
+        }
+    }
+
+    function checkAlertDismissal() {
+        const alertBanner = document.getElementById('eventAlert');
+        const dismissed = localStorage.getItem('eventAlert_dismissed');
+        const dismissTime = localStorage.getItem('eventAlert_dismissTime');
+
+        // Check if alert was dismissed in the last 24 hours
+        if (dismissed && dismissTime) {
+            const dismissedDate = new Date(parseInt(dismissTime));
+            const now = new Date();
+            const hoursDiff = (now - dismissedDate) / (1000 * 60 * 60);
+
+            // If dismissed less than 24 hours ago, hide the alert
+            if (hoursDiff < 24 && alertBanner) {
+                alertBanner.style.display = 'none';
+
+                // Reset navbar position
+                const navbar = document.querySelector('.navbar');
+                if (navbar) {
+                    navbar.style.top = '0';
+                }
+            }
+        }
+    }
+
+    // Initialize alert banner functionality when DOM is ready
+    document.addEventListener('DOMContentLoaded', function() {
+        checkAlertDismissal();
+    });
+
+    /**
+     * Global functions (can be called from HTML)
+     */
+    window.closeEventAlert = closeEventAlert;
+
 })();
