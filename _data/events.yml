@@ -40,9 +40,9 @@
   featured: false
   topic: "ki-zivilgesellschaft"
 
-- title: "KI und Wissenstransfer - Mensch im Fokus. KI als Unterstützung."
+- title: "VERSCHOBEN: KI und Wissenstransfer - Mensch im Fokus. KI als Unterstützung."
   description: "Mit der Beraterin und Trainerin für strukturierten Wissenstransfer in Unternehmen, Elena Schüßler-Roggenhofer, lernst du in diesem interaktiven Impuls wie KI beim Wissenstransfer unterstützen kann. Am Ende des interaktiven Impulses verstehst du was Wissen ist und wie du KI gezielt im Wissenstransfer einsetzen kannst."
-  date: "2025-09-18"
+  date: "Wird neu festgelegt"
   time: "16:30"
   duration: "1,5 Stunden"
   location: "Innovation Office, Alter Markt 13"
@@ -50,8 +50,8 @@
   target_audience: "Zivilgesellschaft"
   cost: "Kostenlos"
   booking_url: "https://pretix.eu/OIC-BIE/ki-zivil-4/"
-  link_text: "Details & Anmeldung"
-  featured: true
+  link_text: "Details"
+  featured: false
   topic: "ki-zivilgesellschaft"
   
 - title: "KI und Digitale Assistenten - Wie KI Teams ergänzt und effizienter macht."
