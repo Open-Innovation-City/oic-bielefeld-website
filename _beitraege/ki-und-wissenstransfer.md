@@ -8,7 +8,7 @@ header_image: "/assets/images/ki.png"
 ---
 
 
-**Achtung: Der ursprünglich Termin am 18.09. musste leider abgesagt werden. Sobald eine neuer Termin feststeht, werden wir diese Seite aktualisieren.** 
+**Achtung: Der ursprünglich Termin am 18.09. musste leider abgesagt werden. Sobald ein neuer Termin feststeht, werden wir diese Seite aktualisieren.** 
 
 Wir laden euch herzlich zum 90-minütigen praxisnahen und interaktiven Impuls zum Austausch von Wissen in Organisationen und zwischen Individuen ein.
 Der Fokus liegt dabei auf der menschlichen Komponente, die aber an passenden Stellen durch KI ergänzt werden kann. Es sind keine Vorkenntnisse notwendig. 
