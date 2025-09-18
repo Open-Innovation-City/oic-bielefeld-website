@@ -1,7 +1,7 @@
 ---
 title: "Open Innovation City auf dem Smart City Festival 2025 in Ahaus"
 teaser: "Auf dem Smart City Festival der Digitalstadt Ahaus hat Tatjana Džepina einen Vortrag darüber gehalten, wie Städte Open Innovation Cities werden können. Expert*innen aus Verwaltung, Wirtschaft und Wissenschaft kamen zusammen, um über die Zukunft deutscher Städte zu sprechen."
-author: "Tajana Džepina"
+author: "Tatjana Džepina"
 category: "Events"
 date: 2025-09-12
 header_image: "/assets/images/beitraege/ahaus/tatjana_dzepina_ahaus.jpg"
@@ -35,7 +35,7 @@ Neben Grundladen zu Open Innovation, der Historie der Initiative und unserem Bie
 
 Um euch auf dem Weg zur Open Innovation City zu unterstützen, stellen wir unser [Corporate Design](https://github.com/Open-Innovation-City/corporate-design) frei zur Verfügung. Außerdem empfehlen wir euch am Bildungsangebot zur OIC-Managerin oder zum OIC-Manager teilzunehmen. Hier geht’s zum kostenlosen Bildungsangebot mit Zertifikat: **[eLearning OIC-Manager\*in auf iVersity](https://iversity.org/en/courses/open-innovation-city-manager-in)**
 
-Mein Aufruf „Werde auch eine OIC“ ist von interessierten Zuhörern aufgenommen wurden, sodass wir im Anschluss z. B. zu Fragen diskutiert haben wie:  Wie pflegen wir unser Netzwerk? Und wie wurde das damals genau initiiert?
+Mein Aufruf „Werde auch eine OIC“ ist von interessierten Zuhörern aufgenommen worden, sodass wir im Anschluss z. B. zu Fragen diskutiert haben wie:  Wie pflegen wir unser Netzwerk? Und wie wurde das damals genau initiiert?
 
 ### Eure Stadt soll auch eine Open Innovation City werden?
 An der Stelle wollen wir auch hier nochmal das Angebot platzieren: Tauscht euch mit uns zu eben solchen Fragen aus und wir unterstützen euch dabei auch das Prinzip von Open Innovation in euren Städten zu etablieren. Die Kontaktdaten findet ihr am Ende des Artikels.
