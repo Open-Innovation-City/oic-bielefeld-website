@@ -3,7 +3,7 @@ title: "KI und praktische Automatisierung: Zeit und Ressourcen sparen ohne Progr
 teaser: "Das fünfte Meetup aus der Reihe KI und Zivilgesellschaft behandelt das Thema Automation ohne Programmierkenntnisse."
 author: "Maria Goncalves"
 category: "KI und Zivilgesellschaft"
-date: 2025-09-15
+date: 2025-10-07
 header_image: "/assets/images/ki.png"
 ---
 
@@ -39,7 +39,7 @@ Die aktuelle Meetup-Reihe der Open Innovation City Bielefeld, [**KI und Zivilges
 ### Ort und Zeit
 **Innovation Office, Alter Markt 13, 33602 Bielefeld**
 
-**Donnerstag, 25. September 2025**
+**Donnerstag, 07. Oktober 2025**
 **Beginn:** 16:30 Uhr
 **Ende:** 18:00 Uhr
 **Einlass:** 16:00 Uhr
