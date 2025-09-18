@@ -7,6 +7,9 @@ date: 2025-08-08
 header_image: "/assets/images/ki.png"
 ---
 
+
+**Achtung: Der ursprünglich Termin am 18.09. musste leider abgesagt werden. Sobald ein neuer Termin feststeht, werden wir diese Seite aktualisieren.** 
+
 Wir laden euch herzlich zum 90-minütigen praxisnahen und interaktiven Impuls zum Austausch von Wissen in Organisationen und zwischen Individuen ein.
 Der Fokus liegt dabei auf der menschlichen Komponente, die aber an passenden Stellen durch KI ergänzt werden kann. Es sind keine Vorkenntnisse notwendig. 
 
@@ -28,10 +31,9 @@ Die aktuelle Meetup-Reihe der Open Innovation City Bielefeld, [**KI und Zivilges
 ### Ort und Zeit
 **Innovation Office, Alter Markt 13, 33602 Bielefeld**
 
-**Donnerstag, 18. September 2025**<br>
+**Termin wird neu festgelegt.**<br>
 **Beginn:** 16:30 Uhr<br>
 **Ende:** 18:00 Uhr<br>
 **Einlass:** 16:00 Uhr
 
-### Kostenlose Anmeldung
-{% include pretix-widget.html event="ki-zivil-4" %}
+**Anmeldung folgt.**
