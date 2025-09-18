@@ -59,3 +59,14 @@
     - "Daten-Konsolidierung"
   email: "stephan.berkowitz@bielefeld.de"
   animation_delay: 0.6
+  
+- name: "Tim Taylor"
+  role: "Handwerkerkönig"
+  image: "/assets/images/team/stephan.png"
+  expertise:
+    - "Digitale Trends & Technologien"
+    - "Softwarelösungen"
+    - "Künstliche Intelligenz"
+    - "Daten-Konsolidierung"
+  email: "stephan.berkowitz@bielefeld.de"
+  animation_delay: 0.7
