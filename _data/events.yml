@@ -111,8 +111,8 @@
   topic: "ki-zivilgesellschaft"
   
 - title: "Save-the-Date: Meetup zum Thema KI und Soziale Innovation"
-  description: "Wie sprechen darüber wie KI ermöglicht Lösungen für gesellschaftliche Probleme zu finden und umzusetzen. - Mehr zum Meetup folgt in Kürze."
-  date: "2025-Oktober/November"
+  description: "Wir sprechen darüber wie KI ermöglicht Lösungen für gesellschaftliche Probleme zu finden und umzusetzen. - Mehr zum Meetup folgt in Kürze."
+  date: "2025-11-18"
   time: "16:30"
   duration: "1,5 Stunden"
   location: "Innovation Office, Alter Markt 13"
@@ -137,3 +137,31 @@
   link_text: "Mehr Informationen"
   featured: false
 #  topic: "ki-zivilgesellschaft"
+
+- title: "Save-the-Date: Meetup zum Thema KI und Offene Innovation"
+  description: "Wir sprechen KI und Offene Innovationen. - Mehr zum Meetup folgt in Kürze."
+  date: "2025-11-06"
+  time: "16:30"
+  duration: "1,5 Stunden"
+  location: "Fachhochschule des Mittelstands (FHM), Bielefeld"
+  category: "Impuls"
+  target_audience: "Zivilgesellschaft"
+  cost: "Kostenlos"
+  booking_url: "-"
+  link_text: "Anmeldelink folgt"
+  featured: false
+  topic: "ki-zivilgesellschaft"
+
+- title: "Save-the-Date: Meetup zum Thema KI-Kompetenz"
+  description: "Wir sprechen darüber was KI-Kompetenz ist und warum sie wichtig ist. - Mehr zum Meetup folgt in Kürze."
+  date: "2025-11-11"
+  time: "16:30"
+  duration: "1,5 Stunden"
+  location: "Innovation Office, Alter Markt 13"
+  category: "Impuls & Workshop"
+  target_audience: "Zivilgesellschaft"
+  cost: "Kostenlos"
+  booking_url: "-"
+  link_text: "Anmeldelink folgt"
+  featured: false
+  topic: "ki-zivilgesellschaft"
