@@ -12,13 +12,13 @@ In diesem interaktiven Workshop beleuchten wir die transformative Rolle von Kün
 **Es sind keine Vorkenntnisse notwendig.** 
 
 ### Fachexpertise
-**Conner Kuhlmeyer** ist Senior AI Solution Architect mit langjähriger Erfahrung in der Umsetzung von KI-Lösungen. Er begleitet Unternehmen bei der Entwicklung und Integration innovativer Anwendungen – von Sprachassistenzsystemen im Gesundheitswesen mit höchsten Datenschutzanforderungen bis hin zum Aufbau skalierbarer KI-Infrastrukturen. 
-In seiner aktuellen Rolle entwickelt er maßgeschneiderte KI-Lösungen und Strategien und unterstützt führende Unternehmen aus Gesundheitswesen, Aerospace, Baugewerbe und weiteren Branchen bei der erfolgreichen Nutzung von Künstlicher Intelligenz.
+**[Conner Kuhlmeyer](https://www.linkedin.com/in/conner-kuhlmeyer-91b4b9158/)** ist Senior AI Solution Architect mit langjähriger Erfahrung in der Umsetzung von KI-Lösungen. Er begleitet Unternehmen bei der Entwicklung und Integration innovativer Anwendungen – von Sprachassistenzsystemen im Gesundheitswesen mit höchsten Datenschutzanforderungen bis hin zum Aufbau skalierbarer KI-Infrastrukturen. 
+In seiner aktuellen Rolle entwickelt er maßgeschneiderte KI-Lösungen und Strategien und unterstützt führende Unternehmen aus Gesundheitswesen, Aerospace (Luftfahrt), Baugewerbe und weiteren Branchen bei der erfolgreichen Nutzung von Künstlicher Intelligenz.
 Mit Conner lernst du in diesem Impuls & Workshop **welche Chancen und Herausforderungen KI und Digitale Assistenten bieten können**.
 
 ### Inhalt 
 Am Ende des Impuls-Workshops
-- hast du ein Verständnis für **Einsatzfelder von KI & Large Language Models (LLMs) und worauf es zu achten gilt**
+- hast du ein Verständnis für **Einsatzfelder von KI & [Large Language Models (LLMs)](https://de.wikipedia.org/wiki/Large_Language_Model) und worauf es zu achten gilt**
 - verstehst du **Agenten und ihr Zukunftspotenzial als Assistenten oder gar Digitale Mitarbeiter**
 - hast du das Wissen, um **fundierte Einsatz- & Integrationsentscheidungen treffen** zu können
 
