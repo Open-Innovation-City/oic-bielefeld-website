@@ -13,8 +13,8 @@ Wir laden euch herzlich ein, im 90-minütigen Impuls-Workshop Barrieren zu ident
 In diesem interaktiven Workshop schauen wir uns Use Cases an und zeigen, wie KI Barrierefreiheit unterstützen kann. 
 
 ### Fachexpertise
-**Dr. Markus Paulußen** ist Experte für Digitale Barrierefreiheit und KI. Entwickler von barrierefrAI, einem KI-Assistenzsystem für Inklusion, und Visionär einer digitalen Zukunft ohne Barrieren. 
-Publikumspreisträger beim **InnovateNOW! 2025**. Im Projekt 'barrierefrAI' geht es um inklusive Assistenz für Menschen mit Behinderung und ältere Menschen mit Hilfe von KI. Bis Ende des Jahres soll ein Pilot in Bielefeld an den Start gehen. **Soziale Innovation made in Bielefeld.**
+**[Dr. Markus Paulußen](https://www.linkedin.com/in/barrierefrai/)** ist Experte für Digitale Barrierefreiheit und KI. Entwickler von barrierefrAI, einem KI-Assistenzsystem für Inklusion, und Visionär einer digitalen Zukunft ohne Barrieren. 
+Publikumspreisträger beim **[InnovateNOW! 2025](https://oic-bielefeld.de/beitraege/das-war-innovatenow/)**. Im Projekt 'barrierefrAI' geht es um inklusive Assistenz für Menschen mit Behinderung und ältere Menschen mit Hilfe von KI. Bis Ende des Jahres soll ein Pilot in Bielefeld an den Start gehen. **Soziale Innovation made in Bielefeld.**
 Mit Markus lernst du in diesem Impuls & Workshop welche Chancen und Herausforderungen KI in Barrierefreiheit bieten können.
 
 ### Inhalt 
