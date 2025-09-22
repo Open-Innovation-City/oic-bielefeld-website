@@ -3,12 +3,12 @@ title: "KI und Wissenstransfer - Mensch im Fokus. KI als Unterstützung."
 teaser: "Das dritte Meetup aus der Reihe KI und Zivilgesellschaft behandelt das Thema Wissenstransfer."
 author: "Maria Goncalves"
 category: "KI und Zivilgesellschaft"
-date: 2025-08-08
+date: 2025-24-09
 header_image: "/assets/images/ki.png"
 ---
 
 
-**Achtung: Der ursprünglich Termin am 18.09. musste leider abgesagt werden. Sobald ein neuer Termin feststeht, werden wir diese Seite aktualisieren.** 
+**Ausweichtermin: Der ursprünglich abgesagte Termin vom 18.09. wird hiermit am Di, 21.10. nachgeholt.** 
 
 Wir laden euch herzlich zum 90-minütigen praxisnahen und interaktiven Impuls zum Austausch von Wissen in Organisationen und zwischen Individuen ein.
 Der Fokus liegt dabei auf der menschlichen Komponente, die aber an passenden Stellen durch KI ergänzt werden kann. Es sind keine Vorkenntnisse notwendig. 
@@ -31,9 +31,11 @@ Die aktuelle Meetup-Reihe der Open Innovation City Bielefeld, [**KI und Zivilges
 ### Ort und Zeit
 **Innovation Office, Alter Markt 13, 33602 Bielefeld**
 
-**Termin wird neu festgelegt.**<br>
+**Ausweichtermin**<br>
+**Dienstag, 21. Oktober 2025**<br>
 **Beginn:** 16:30 Uhr<br>
 **Ende:** 18:00 Uhr<br>
 **Einlass:** 16:00 Uhr
 
-**Anmeldung folgt.**
+### Kostenlose Anmeldung
+{% include pretix-widget.html event="ki-zivil-4.1" %}
