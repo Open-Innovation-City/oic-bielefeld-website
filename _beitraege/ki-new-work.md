@@ -7,7 +7,7 @@ date: 2025-09-22
 header_image: "/assets/images/ki.png"
 ---
 
-### Das sechste Meetup aus der Reihe KI und Zivilgesellschaft behandelt das Thema KI und New Work. 
+### Das sechste Meetup aus der Reihe KI und Zivilgesellschaft behandelt das Thema KI und New Work.  
 
 Wir laden herzlich ein zum **Impuls mit anschließender Diskussionsrunde zum Einfluss von KI in der Arbeitswelt**. In diesem Meetup diskutieren wir, wie **Künstliche Intelligenz unsere Arbeitswelt** nachhaltig beeinflusst und über KI in **Alltag, Führung, Zusammenarbeit**.
 
