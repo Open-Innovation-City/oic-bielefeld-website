@@ -7,8 +7,7 @@ date: 2025-09-24
 header_image: "/assets/images/ki.png"
 ---
 
-
-**Ausweichtermin: Der ursprünglich abgesagte Termin vom 18.09. wird hiermit am Di, 21.10. nachgeholt.** 
+**Ausweichtermin: Der ursprünglich abgesagte Termin vom 18.09. wird am Di, 21.10. nachgeholt.** 
 
 Wir laden euch herzlich zum 90-minütigen praxisnahen und interaktiven Impuls zum Austausch von Wissen in Organisationen und zwischen Individuen ein.
 Der Fokus liegt dabei auf der menschlichen Komponente, die aber an passenden Stellen durch KI ergänzt werden kann. Es sind keine Vorkenntnisse notwendig. 
