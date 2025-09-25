@@ -8,7 +8,7 @@ header_image: ""
 ---
 ## Innovationszirkel  
   
-Ein Innovationszirkel ist eine Arbeitsgruppe, in der Personen mit verschiedenen Perspektiven gemeinsam einen Lösungsansatz für eine lokale Herausforderung entwickeln. Ein Innovationszirkel trifft sich regelmäßig, über einen Zeitraum von wenigen Monaten. Ein Innovationszirkel trifft sich regelmäßig, über einen Zeitraum von wenigen Monaten. In den moderierten Arbeitstreffen werden kreative Methoden für die Zusammenarbeit eingesetzt.     
+Ein Innovationszirkel ist eine Arbeitsgruppe, in der Personen mit verschiedenen Perspektiven gemeinsam einen Lösungsansatz für eine lokale Herausforderung entwickeln. Ein Innovationszirkel trifft sich regelmäßig, über einen Zeitraum von wenigen Monaten. In den moderierten Arbeitstreffen werden kreative Methoden für die Zusammenarbeit eingesetzt.     
   
 ### Wieso "Zirkel"?  
 Sobald ein Lösungsansatz entwickelt wurde, geht der Innovationszirkel zu Ende – die Ergebnisse werden veröffentlich und die Gruppe löst sich auf.  
