@@ -16,9 +16,9 @@ Als nächstes kann ein neuer Zirkel, mit neuen Mitgliedern, zu einer anderen Her
   
 #### Ablauf    
   
-1. Kick-Off-Veranstaltung: Kennenlernen und gemeinsamer Blick auf die Herausforderung  
-2. Arbeitstreffen, Anzahl nach Bedarf: Mithilfe kreativer Methoden diskutiert die Mitglieder des Innovationszirkels die Problemstellung und entwickeln einen Lösungsansatz.
-3. Abschlussveranstaltung: Der Lösungsansatz wird veröffentlicht und nächste Schritte definiert. Danach löst sich der Innovationszirkel auf und ein nächster anderer Zirkel kann entstehen.  
+1. **Kick Off-Veranstaltung:** Kennenlernen und gemeinsamer Blick auf die Herausforderung  
+2. **Arbeitstreffen**, Anzahl nach Bedarf: Mithilfe kreativer Methoden diskutiert die Mitglieder des Innovationszirkels die Problemstellung und entwickeln einen Lösungsansatz.
+3. **Abschlussveranstaltung**: Der Lösungsansatz wird veröffentlicht und nächste Schritte definiert. Danach löst sich der Innovationszirkel auf und ein nächster anderer Zirkel kann entstehen.  
   
 ### Wer macht's?  
   
