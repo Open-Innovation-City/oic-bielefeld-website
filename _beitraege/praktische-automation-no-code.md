@@ -28,8 +28,8 @@ Am Ende des Impuls-Workshops kannst du
 - Bring' deinen Laptop mit.
 
 ### Transparenz: KI Unterstützung bei der Erstellung dieses Textes
-**Getestet**: Googles Gemini 2.5 Flash, über die Webseite Duck.ai OpenAI GPT-5 und Mistrals Le Chat. 
-Eindeutiger **Sieger**: #Le Chat#. Hat sich komplett an meine Vorgaben gehalten. Ich habe den Text etwas verfeinert und n8n erklärt. 
+Ich habe zur Erstellung dieses Textes 1. **Googles Gemini 2.5 Flash**, 2. **Mistrals Le Chat** und noch über die Webseite Duck.ai das Modell **OpenAI GPT-5**. 
+**Eindeutiger Sieger** war **Le Chat**. Als Vorlage für den Prompt habe ich meine bisherigen Texte hochgeladen. Le Chat hat sich daran orientiert und die neuen Angaben passend eingefügt. Das Ergebnis habe ich noch etwas verfeinert für die Veröffentlichung hier. 
 Die Modelle von Google und OpenAI haben, wie ich es nenne, 'geschwafelt' und vieles dazu halluziniert. 
 
 
