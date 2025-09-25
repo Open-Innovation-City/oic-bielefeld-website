@@ -8,7 +8,7 @@ header_image: ""
 ---
 ## Innovationszirkel  
   
-Ein Innovationszirkel ist eine Arbeitsgruppe, in der Personen mit verschiedenen Perspektiven gemeinsam einen Lösungsansatz für eine lokale Herausforderung entwickeln. Ein Innovationszirkel trifft sich regelmäßig, über einen Zeitraum von wenigen Monaten. In den moderierten Arbeitstreffen werden kreative Methoden für die Zusammenarbeit eingesetzt.     
+Ein Innovationszirkel ist eine Arbeitsgruppe, in der Personen mit verschiedenen Perspektiven gemeinsam einen Lösungsansatz für eine lokale Herausforderung entwickeln. Ein Innovationszirkel trifft sich regelmäßig, über einen Zeitraum von wenigen Monaten. In den moderierten Arbeitstreffen werden kreative Methoden für die offene Zusammenarbeit eingesetzt.     
   
 ### Wieso "Zirkel"?  
 Sobald ein Lösungsansatz entwickelt wurde, geht der Innovationszirkel zu Ende – die Ergebnisse werden veröffentlich und die Gruppe löst sich auf.  
@@ -23,9 +23,9 @@ Als nächstes kann ein neuer Zirkel, mit neuen Mitgliedern, zu einer anderen Her
 ### Wer macht's?  
   
 Idealerweise setzt sich die Gruppe aus 15 Personen zusammen. Je eine Person aus der Bielefelder Verwaltung, Wissenschaft, Wirtschaft, Politik und Zivilgesellschaft; fünf Fachexpert:innen und fünf engagierte Bielefelder:innen.  
-Je nach Herausforderung oder Thema, kann auch eine andere Teilnehmer:innen-Konstellation sinnvoll sein. Wichtig ist nur, dass Menschen mit verschiedenen Blickwinkeln zusammenkommen. Denn dank ihrer verschiedenen Denkansätze und Stärken können innovative Lösungsansätze entstehen.  
+Je nach Herausforderung oder Thema, kann auch eine andere Teilnehmer:innen-Konstellation sinnvoll sein. Wichtig ist nur, dass Menschen mit verschiedenen Blickwinkeln zusammenkommen. Denn **dank ihrer verschiedenen Denkansätze und Stärken können innovative Lösungsansätze entstehen**. Genau hierin steckt der **Open Innovation**-Ansatz.
     
-Wir von Open Innovation City Bielefeld gestalten den Rahmen: Wir sprechen gezielt Akteure zu einem Thema an und laden sie ein mitzumachen; wir übernehmen die Vor- und Nachbereitung der Treffen, moderieren die Zusammenarbeit und überführen die Ergebnisse. – Zum Beispiel in ein Projekt oder wir übergeben den Lösungsansatz an einen anderen Bielefelder Akteur. 
+Wir von Open Innovation City Bielefeld gestalten den Rahmen: Wir sprechen gezielt Akteure zu einem Thema an und laden sie ein mitzumachen; wir übernehmen die Vor- und Nachbereitung der Treffen, moderieren die Zusammenarbeit und überführen die Ergebnisse. – Zum Beispiel in ein Projekt oder wir übergeben den Lösungsansatz an einen anderen, passenden Bielefelder Akteur. 
 Auch ein zweiter Innovationszirkel im selben Themenfeld ist denkbar, falls ein Lösungsansatz beispielsweise überprüft oder weiterentwickelt werden soll. In jedem Falle, organisieren wir einen neuen Zirkel mit neuen Mitgliedern.
   
 ### Was ist ein Lösungsansatz?   
