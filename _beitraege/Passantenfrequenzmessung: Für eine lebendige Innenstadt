@@ -19,14 +19,14 @@ Um Passanten zu zählen, wurden Sensoren von der Firma Ariadne Maps GmbH install
 * Es werden keine Informationen übertragen, die das Gerät oder seine Nutzer*innen identifizierbar machen.
 * Einzelne Personen werden erst ab einem bestimmten Schwellenwert registriert, wenn sich mehrere Smartphones in der Nähe eines Sensors befinden. Es werden also Gruppen gezählt und nicht einzelne Personen.
 Die Daten ermöglichen es, Bewegungsmuster und Verweildauern anonymisiert zu analysieren. Diese Informationen werden in Form von Heatmaps oder Zeitreihenanalysen im Dashboard visualisiert und können Stadtplanerinnen, Einzelhändlern und anderen Akteur*innen dabei helfen, die Innenstadt gezielt zu gestalten.
-![Eine Laterne ist zu sehen, an der ein Sensor angebracht ist.](/assets/images/beitraege/ahaus/ahaus_session.jpg)
+![Eine Laterne ist zu sehen, an der ein Sensor angebracht ist.](/assets/images/beitraege/passantenfrequenzmessung/passantenfrequenzmessung_sensor_an_laterne.png)
 
 ## Standorte und Erhebung
 In der Pilotphase bis Ende 2025 werden rund 100 Messkästen in der Bielefelder Innenstadt installiert. Sie erfassen Passantenströme tagsüber von 6 Uhr bis Mitternacht in zwei zentralen Bereichen:
 1. Altstadt: Niedernstraße, Obernstraße und Rathausstraße.
 2. Quartier Bahnhofstraße: Bahnhofstraße, Stresemannstraße und Arndtstraße.
 Die Sensoren sind dort an Straßenlaternen in Zugängen zu Haupteinkaufsstraßen und Plätzen angebracht. Zusätzlich werden im Projektverlauf weitere Datenquellen von Zählsystemen, wie von Hystreet und EcoCounter, in die Analysen einbezogen.
-![Eine Karte vom Quartier Bahnhofstraße und der Altstadt ist zu sehen, wo die Messbereiche der Passantenfrequenzmessung markiert sind.](/assets/images/beitraege/ahaus/ahaus_session.jpg)
+![Eine Karte vom Quartier Bahnhofstraße und der Altstadt ist zu sehen, wo die Messbereiche der Passantenfrequenzmessung markiert sind.](/assets/images/beitraege/passantenfrequenzmessung/passantenfrequenzmessung_anwendungsbereiche_bielefeld_city.png)
 
 ## Der Nutzen der Datenauswertung
 Die kontinuierliche Erhebung von Daten bietet Antworten auf folgende Fragen:
