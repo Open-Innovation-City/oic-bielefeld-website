@@ -34,6 +34,15 @@ exclude:
   - vendor
   - CLAUDE.md
   - _compress_images_cache.yml
+  - DEPLOYMENT.md
+  - DEV-STAGING-SETUP.md
+  - NEWSLETTER*
+  - REDAKTIONSLEITFADEN.md
+  - beispiel-ki-tool.md
+  - gallery-test.md
+  - newsletter*
+  - pretix-integration-evaluation.md
+  - vorlage.md
 
 # Site data
 email: innovationen@bielefeld.de
