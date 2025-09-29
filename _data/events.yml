@@ -65,7 +65,7 @@
   cost: "Kostenlos"
   booking_url: "https://pretix.eu/OIC-BIE/ki-zivil-5/"
   link_text: "Details & Anmeldung"
-  featured: true
+  featured: false
   topic: "ki-zivilgesellschaft"
 
 - title: "KI und praktische Automatisierung: Zeit und Ressourcen sparen ohne Programmierkenntnisse (No-Code)."
