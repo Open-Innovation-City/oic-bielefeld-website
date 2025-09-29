@@ -1,0 +1,61 @@
+---
+title: "Passantenfrequenzmessung"
+teaser: "Die Passantenfrequenzmessung liefert datenbasierte Einblicke in Besucherströme der Innenstadt, damit Bielefeld noch lebendiger und attraktiver wird."
+author: "Tatjana Džepina"
+category: "Projekte"
+date: 2025-09-12
+header_image: "assets/images/beitraege/passantenfrequenzmessung/passantenfrequenzmessung_header_16x9.png"
+---
+{% include youtube.html id="KlRMuMBxHrY" title="Passantenfrequenzmessung in Bielefeld" %}
+
+## Passantenfrequenzmessung: Für eine lebendige Innenstadt
+Was macht eine Innenstadt aus, in der Menschen gerne Zeit verbringen - und wie lässt sich das erkennen? Diese Frage steht im Mittelpunkt eines gemeinschaftlichen Projekts vom [City.Team Bielefeld](https://www.citybielefeld.de/) und der Stadt Bielefeld. Seit August 2024 wird in der Bielefelder Innenstadt eine Passantenfrequenzmessung durchgeführt, die als Grundlage für datenbasierte Entscheidungen dient. Ziel ist es, die Innenstadt Bielefelds lebenswert zu gestalten und zu einem Ort zu machen, an dem sich Menschen gerne aufhalten.
+
+## Herausforderungen und Ziele
+Innenstädte stehen vor vielfältigen Herausforderungen: die Digitalisierung und geänderte Freizeit- sowie Einkaufsgewohnheiten. Das kann zu leerstehenden Schaufenstern und wenig genutzten öffentlichen Plätzen führen. Um diesen Entwicklungen zu begegnen, braucht es verlässliche Daten, die zeigen, wie stark die Innenstadt besucht ist und wo die Besucherströme entlanglaufen.
+Wenn die Daten von den Erwartungen abweichen, muss analysiert werden, was die Ursachen sein können. Das können Faktoren wie zu wenig Schatten spendende Bäume, keine barrierefreien Zugänge, oder die Entfernung zu Bushaltestellen oder Parkplätzen sein. Indem Maßnahmen abgeleitet werden, kann die Innenstadt belebt, Leerstände vermieden und der Einzelhandel sowie die Gastronimie gefördert werden.
+
+## Technologie und Datenschutz
+Um Passanten zu zählen, wurden Sensoren von der Firma Ariadne Maps GmbH installiert, die Funksignale mobiler Endgeräte wie Smartphones und Smartwatches erfassen. Diese Technologie bietet eine präzise und gleichzeitig datenschutzfreundliche Lösung. Die Sensoren erkennen, dass ein Smartphone sich im Raum bewegt, speichern jedoch keine personenbezogenen Daten.
+**Zwei Mechanismen gewährleisten den Datenschutz:**
+* Es werden keine Informationen übertragen, die das Gerät oder seine Nutzer*innen identifizierbar machen.
+* Einzelne Personen werden erst ab einem bestimmten Schwellenwert registriert, wenn sich mehrere Smartphones in der Nähe eines Sensors befinden. Es werden also Gruppen gezählt und nicht einzelne Personen.
+Die Daten ermöglichen es, Bewegungsmuster und Verweildauern anonymisiert zu analysieren. Diese Informationen werden in Form von Heatmaps oder Zeitreihenanalysen im Dashboard visualisiert und können Stadtplanerinnen, Einzelhändlern und anderen Akteur*innen dabei helfen, die Innenstadt gezielt zu gestalten.
+![Eine Laterne ist zu sehen, an der ein Sensor angebracht ist.](/assets/images/beitraege/passantenfrequenzmessung/passantenfrequenzmessung_sensor_an_laterne.png)
+
+## Standorte und Erhebung
+In der Pilotphase bis Ende 2025 werden rund 100 Messkästen in der Bielefelder Innenstadt installiert. Sie erfassen Passantenströme tagsüber von 6 Uhr bis Mitternacht in zwei zentralen Bereichen:
+1. Altstadt: Niedernstraße, Obernstraße und Rathausstraße.
+2. Quartier Bahnhofstraße: Bahnhofstraße, Stresemannstraße und Arndtstraße.
+Die Sensoren sind dort an Straßenlaternen in Zugängen zu Haupteinkaufsstraßen und Plätzen angebracht. Zusätzlich werden im Projektverlauf weitere Datenquellen von Zählsystemen, wie von Hystreet und EcoCounter, in die Analysen einbezogen.
+![Eine Karte vom Quartier Bahnhofstraße und der Altstadt ist zu sehen, wo die Messbereiche der Passantenfrequenzmessung markiert sind.](/assets/images/beitraege/passantenfrequenzmessung/passantenfrequenzmessung_anwendungsbereiche_bielefeld_city.png)
+
+## Der Nutzen der Datenauswertung
+Die kontinuierliche Erhebung von Daten bietet Antworten auf folgende Fragen:
+* Welche Orte werden besonders häufig besucht?
+* Wo halten sich Menschen lange auf?
+* Wie bewegen sich Menschen durch die Innenstadt?
+* Wie wirken sich Veranstaltungen oder bauliche Maßnahmen auf die Besucherzahlen aus?
+* Wie verändert sich das Verhalten über Wochen, Monate oder Jahre?
+Die gewonnenen Daten aus der Passantenfrequenzmessung bieten viele Möglichkeiten, die Bielefelder Innenstadt gezielt zu verbessern. Sie helfen dabei, Veranstaltungen besser zu planen und die Besucherströme gezielt zu lenken, damit sich Menschen gut orientieren können und möglichst viele Bereiche genutzt werden. Außerdem können die Daten frühzeitig Hinweise auf mögliche Leerstände oder Orte geben, die schwer zugänglich sind. So lassen sich rechtzeitig Lösungen finden wie zum Beispiel barrierefreie Zugänge, eine bessere Straßenbeleuchtung oder ansprechende Angebote.  
+
+Ein übergeordnetes Ziel ist es, die Aufenthaltsqualität in der Innenstadt zu steigern und sie zu einem Ort zu entwickeln, an dem sich alle wohlfühlen und gerne Zeit verbringen. Die Daten bieten Erkenntnisse darüber, ob die abgeleiteten Maßnahmen Erfolge zeigen und die Innenstadt somit stärker besucht wird. Damit dies gelingt, arbeiten die Stadt Bielefeld und das City.Team Bielefeld mit anderen Akteuren wie zum Beispiel Bielefeld Marketing oder dem Einzelhandel zusammen. 
+
+## Nächste Schritte
+Nach einer längeren Testphase, die wissenschaftlich begleitet wurde, befindet sich das Projekt seit August 2024 in der Umsetzungsphase. Seitdem werden die Daten erhoben und ausgewertet. Im nächsten Schritt werden bis Ende 2025 die bisherigen Erhebungspunkte überprüft und weitere geeignete Standorte bewertet. Langfristig ist eine Ausweitung auf weitere Innenstadtbereiche geplant.
+Die Passantenfrequenzmessung ist ein wegweisendes Projekt, das zeigt, wie innovative Technologien und die Zusammenarbeit zwischen verschiedenen Akteuren die Innenstadt zu einem lebenswerteren Ort machen können.
+
+## Ansprechpersonen zum Projekt
+
+**Tatjana Džepina**
+Projektmanagerin Smart City
+Open Innovation City Bielefeld
++49 521 51-54305
+tatjana.dzepina@bielefeld.de
+
+**Desirée Lukowski**
+Citymanagerin
+City.Team Bielefeld, WEGE mbH
++49 521 557 660-47
+lukowski@wege-bielefeld.de
+
