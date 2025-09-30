@@ -47,15 +47,15 @@ Die Passantenfrequenzmessung ist ein wegweisendes Projekt, das zeigt, wie innova
 
 ## Ansprechpersonen zum Projekt
 
-**Tatjana Džepina**
-Projektmanagerin Smart City
-Open Innovation City Bielefeld
-+49 521 51-54305
+**Tatjana Džepina**<br>
+Projektmanagerin Smart City<br>
+Open Innovation City Bielefeld<br>
++49 521 51-54305<br>
 tatjana.dzepina@bielefeld.de
 
-**Desirée Lukowski**
-Citymanagerin
-City.Team Bielefeld, WEGE mbH
-+49 521 557 660-47
+**Desirée Lukowski**<br>
+Citymanagerin<br>
+City.Team Bielefeld, WEGE mbH<br>
++49 521 557 660-47<br>
 lukowski@wege-bielefeld.de
 
