@@ -34,7 +34,7 @@
   link: "https://www.bielefeld.de/gemeinsam-digital"
   link_text: "Zur Übersicht"
 
-  - title: "LoRaWAN - Experimente mit Sensorik"
+- title: "LoRaWAN - Experimente mit Sensorik"
   tag: "Smart City"
   description: "Wir testen Sensoren zur Erfassung von Umweltdaten, Füllständen bei Mülleimern und Straßenschäden zusammen mit der Verwaltung, Zivilgesellschaft und Wirtschaft."
   status: "Im Live-Betrieb"
