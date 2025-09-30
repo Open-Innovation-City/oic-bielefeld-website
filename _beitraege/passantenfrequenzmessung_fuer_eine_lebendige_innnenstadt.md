@@ -9,7 +9,7 @@ header_image: "assets/images/beitraege/passantenfrequenzmessung/passantenfrequen
 {% include youtube.html id="KlRMuMBxHrY" title="Passantenfrequenzmessung in Bielefeld" %}
 
 ## Passantenfrequenzmessung: Für eine lebendige Innenstadt
-Was macht eine Innenstadt aus, in der Menschen gerne Zeit verbringen - und wie lässt sich das erkennen? Diese Frage steht im Mittelpunkt eines gemeinschaftlichen Projekts vom [City.Team Bielefeld](https://www.citybielefeld.de/) und der Stadt Bielefeld. Seit August 2024 wird in der Bielefelder Innenstadt eine Passantenfrequenzmessung durchgeführt, die als Grundlage für datenbasierte Entscheidungen dient. Ziel ist es, die Innenstadt Bielefelds lebenswert zu gestalten und zu einem Ort zu machen, an dem sich Menschen gerne aufhalten.
+Was macht eine Innenstadt aus, in der Menschen gerne Zeit verbringen und wie lässt sich das erkennen? Diese Frage steht im Mittelpunkt eines gemeinschaftlichen Projekts vom [City.Team Bielefeld](https://www.citybielefeld.de/) und der Stadt Bielefeld. Seit August 2024 wird in der Bielefelder Innenstadt eine Passantenfrequenzmessung durchgeführt, die als Grundlage für datenbasierte Entscheidungen dient. Ziel ist es, die Innenstadt Bielefelds lebenswert zu gestalten und zu einem Ort zu machen, an dem sich Menschen gerne aufhalten.
 
 ## Herausforderungen und Ziele
 Innenstädte stehen vor vielfältigen Herausforderungen: die Digitalisierung und geänderte Freizeit- sowie Einkaufsgewohnheiten. Das kann zu leerstehenden Schaufenstern und wenig genutzten öffentlichen Plätzen führen. Um diesen Entwicklungen zu begegnen, braucht es verlässliche Daten, die zeigen, wie stark die Innenstadt besucht ist und wo die Besucherströme entlanglaufen.
