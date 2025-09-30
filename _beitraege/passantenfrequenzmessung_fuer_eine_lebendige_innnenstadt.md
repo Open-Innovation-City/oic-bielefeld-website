@@ -23,6 +23,7 @@ Um Passanten zu zählen, wurden Sensoren von der Firma Ariadne Maps GmbH install
 * Einzelne Personen werden erst ab einem bestimmten Schwellenwert registriert, wenn sich mehrere Smartphones in der Nähe eines Sensors befinden. Es werden also Gruppen gezählt und nicht einzelne Personen.
 
 Die Daten ermöglichen es, Bewegungsmuster und Verweildauern anonymisiert zu analysieren. Diese Informationen werden in Form von Heatmaps oder Zeitreihenanalysen im Dashboard visualisiert und können Stadtplanerinnen, Einzelhändlern und anderen Akteur*innen dabei helfen, die Innenstadt gezielt zu gestalten.
+
 ![Eine Laterne ist zu sehen, an der ein Sensor angebracht ist.](/assets/images/beitraege/passantenfrequenzmessung/passantenfrequenzmessung_sensor_an_laterne.png)
 
 ## Standorte und Erhebung
