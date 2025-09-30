@@ -34,6 +34,15 @@
   link: "https://www.bielefeld.de/gemeinsam-digital"
   link_text: "Zur Übersicht"
 
+  - title: "LoRaWAN - Experimente mit Sensorik"
+  tag: "Smart City"
+  description: "Wir testen Sensoren zur Erfassung von Umweltdaten, Füllständen bei Mülleimern und Straßenschäden zusammen mit der Verwaltung, Zivilgesellschaft und Wirtschaft."
+  status: "Im Live-Betrieb"
+  start_date: "2022-10-01"
+  responsible: "Tatjana Džepina"
+#  link: "https://oic-bielefeld.de/beitraege/passantenfrequenzmessung-fuer-eine-lebendige-innnenstadt/"
+#  link_text: "Mehr zum Projekt"
+
 #- title: "Maker Space Bielefeld"
 #  tag: "Innovation Lab"
 #  description: "Ein offener Raum für Prototyping und kreative Zusammenarbeit. Ausstattung mit 3D-Druckern, Laser-Cuttern und Elektronik-Werkstätten für alle Bürger."
