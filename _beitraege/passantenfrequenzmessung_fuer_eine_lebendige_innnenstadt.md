@@ -17,9 +17,11 @@ Wenn die Daten von den Erwartungen abweichen, muss analysiert werden, was die Ur
 
 ## Technologie und Datenschutz
 Um Passanten zu zählen, wurden Sensoren von der Firma Ariadne Maps GmbH installiert, die Funksignale mobiler Endgeräte wie Smartphones und Smartwatches erfassen. Diese Technologie bietet eine präzise und gleichzeitig datenschutzfreundliche Lösung. Die Sensoren erkennen, dass ein Smartphone sich im Raum bewegt, speichern jedoch keine personenbezogenen Daten.
+
 **Zwei Mechanismen gewährleisten den Datenschutz:**
 * Es werden keine Informationen übertragen, die das Gerät oder seine Nutzer*innen identifizierbar machen.
 * Einzelne Personen werden erst ab einem bestimmten Schwellenwert registriert, wenn sich mehrere Smartphones in der Nähe eines Sensors befinden. Es werden also Gruppen gezählt und nicht einzelne Personen.
+
 Die Daten ermöglichen es, Bewegungsmuster und Verweildauern anonymisiert zu analysieren. Diese Informationen werden in Form von Heatmaps oder Zeitreihenanalysen im Dashboard visualisiert und können Stadtplanerinnen, Einzelhändlern und anderen Akteur*innen dabei helfen, die Innenstadt gezielt zu gestalten.
 ![Eine Laterne ist zu sehen, an der ein Sensor angebracht ist.](/assets/images/beitraege/passantenfrequenzmessung/passantenfrequenzmessung_sensor_an_laterne.png)
 
@@ -37,6 +39,7 @@ Die kontinuierliche Erhebung von Daten bietet Antworten auf folgende Fragen:
 * Wie bewegen sich Menschen durch die Innenstadt?
 * Wie wirken sich Veranstaltungen oder bauliche Maßnahmen auf die Besucherzahlen aus?
 * Wie verändert sich das Verhalten über Wochen, Monate oder Jahre?
+
 Die gewonnenen Daten aus der Passantenfrequenzmessung bieten viele Möglichkeiten, die Bielefelder Innenstadt gezielt zu verbessern. Sie helfen dabei, Veranstaltungen besser zu planen und die Besucherströme gezielt zu lenken, damit sich Menschen gut orientieren können und möglichst viele Bereiche genutzt werden. Außerdem können die Daten frühzeitig Hinweise auf mögliche Leerstände oder Orte geben, die schwer zugänglich sind. So lassen sich rechtzeitig Lösungen finden wie zum Beispiel barrierefreie Zugänge, eine bessere Straßenbeleuchtung oder ansprechende Angebote.  
 
 Ein übergeordnetes Ziel ist es, die Aufenthaltsqualität in der Innenstadt zu steigern und sie zu einem Ort zu entwickeln, an dem sich alle wohlfühlen und gerne Zeit verbringen. Die Daten bieten Erkenntnisse darüber, ob die abgeleiteten Maßnahmen Erfolge zeigen und die Innenstadt somit stärker besucht wird. Damit dies gelingt, arbeiten die Stadt Bielefeld und das City.Team Bielefeld mit anderen Akteuren wie zum Beispiel Bielefeld Marketing oder dem Einzelhandel zusammen. 
