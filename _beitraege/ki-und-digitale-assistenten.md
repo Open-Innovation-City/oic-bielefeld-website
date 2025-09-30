@@ -1,7 +1,7 @@
 ---
 title: "KI und Digitale Assistenten - Wie KI Teams ergänzt und effizienter macht."
 teaser: "Das vierte Meetup aus der Reihe KI und Zivilgesellschaft behandelt das Thema Digitale Assistenten."
-author: "Maria Goncalves"
+author: "Maria Gonçalves"
 category: "KI und Zivilgesellschaft"
 date: 2025-08-26
 header_image: "/assets/images/ki.png"

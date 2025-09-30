@@ -1,7 +1,7 @@
 ---
 title: "KI und praktische Automatisierung: Zeit und Ressourcen sparen ohne Programmier&shy;kenntnisse (No-Code)."
 teaser: "Das fünfte Meetup aus der Reihe KI und Zivilgesellschaft behandelt das Thema Automation ohne Programmierkenntnisse."
-author: "Maria Goncalves"
+author: "Maria Gonçalves"
 category: "KI und Zivilgesellschaft"
 date: 2025-09-19
 header_image: "/assets/images/ki.png"

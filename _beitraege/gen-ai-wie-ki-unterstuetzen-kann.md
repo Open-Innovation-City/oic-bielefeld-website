@@ -1,7 +1,7 @@
 ---
 title: "KI - wie GenAI soziale, kulturelle und Vereinsarbeit unterstützen kann."
 teaser: "In dem Meetup ging es darum, wie generative Künstliche Intelligenz helfen kann, den Arbeitsalltag zu erleichtern und neue kreative Möglichkeiten zu erschließen."
-author: "Maria Goncalves"
+author: "Maria Gonçalves"
 category: "KI und Zivilgesellschaft"
 date: 2025-08-04
 header_image: "/assets/images/ki.png"
