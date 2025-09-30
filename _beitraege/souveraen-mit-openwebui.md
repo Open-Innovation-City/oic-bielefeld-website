@@ -3,7 +3,7 @@ title: "KI und Open Source – Digitale Souveränität mit openWebUI"
 teaser: "Ihr wollt euch nicht nur auf große US-Unternehmen verlassen und wieder in die nächste Abhängigkeit laufen? Mit der Kombination aus Open Source-Tool, frei verfügbaren LLMs und europäischen KI-Anbietern gibt es gute Alternativen. Wir stellen euch eine Kombination vor, die ihr mal ausprobieren solltet."
 author: "Jens Edler"
 category: "Tools"
-date: 2025-09-10 
+date: 2025-10-01 
 header_image: "/assets/images/graffiti.png"
 ---
 ### Warum brauchen wir Alternativen?
