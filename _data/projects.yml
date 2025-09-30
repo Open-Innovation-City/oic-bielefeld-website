@@ -7,6 +7,15 @@
   link: "https://oic-bielefeld.de/beitraege/passantenfrequenzmessung-fuer-eine-lebendige-innnenstadt/"
   link_text: "Mehr zum Projekt"
 
+- title: "Digitaler Zwilling im Stadtlabor Sennestadt"
+  tag: "Smart City"
+  description: "Erprobung eines Digitalen Zwillings in Sennestadt, um die Einbindung der Stadtgesellschaft in Stadtentwicklungsthemen neu zu denken."
+  status: "Gestartet"
+  start_date: "2024-02-01"
+  responsible: "Tatjana Džepina"
+#  link: "https://oic-bielefeld.de/beitraege/passantenfrequenzmessung-fuer-eine-lebendige-innnenstadt/"
+#  link_text: "Mehr zum Projekt"
+
 - title: "MeetUp-Reihe KI und Zivilgesellschaft"
   tag: "Künstliche Intelligenz"
   description: "Organisation einer MeetUp-Reihe zu Fragestellungen der Künstlichen Intelligenz. Fokus auf dem Nutzen für die Zivilgesellschaft."
