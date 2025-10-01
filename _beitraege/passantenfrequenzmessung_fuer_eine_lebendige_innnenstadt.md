@@ -1,5 +1,5 @@
 ---
-title: "Passantenfrequenzmessung"
+title: "Passanten&shy;frequenz&shy;messung"
 teaser: "Die Passantenfrequenzmessung liefert datenbasierte Einblicke in Besucherströme der Innenstadt, damit Bielefeld noch lebendiger und attraktiver wird."
 author: "Tatjana Džepina"
 category: "Projekte"
@@ -8,7 +8,7 @@ header_image: "assets/images/beitraege/passantenfrequenzmessung/passantenfrequen
 ---
 {% include youtube.html id="KlRMuMBxHrY" title="Passantenfrequenzmessung in Bielefeld" %}
 
-## Passantenfrequenzmessung: Für eine lebendige Innenstadt
+## Passanten&shy;frequenzmessung: Für eine lebendige Innenstadt
 Was macht eine Innenstadt aus, in der Menschen gerne Zeit verbringen und wie lässt sich das erkennen? Diese Frage steht im Mittelpunkt eines gemeinschaftlichen Projekts vom [City.Team Bielefeld](https://www.citybielefeld.de/) und der Stadt Bielefeld. Seit August 2024 wird in der Bielefelder Innenstadt eine Passantenfrequenzmessung durchgeführt, die als Grundlage für datenbasierte Entscheidungen dient. Ziel ist es, die Innenstadt Bielefelds lebenswert zu gestalten und zu einem Ort zu machen, an dem sich Menschen gerne aufhalten.
 
 ### Herausforderungen und Ziele

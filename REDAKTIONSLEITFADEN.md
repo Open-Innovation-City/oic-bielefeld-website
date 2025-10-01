@@ -164,6 +164,14 @@ Markdown ist eine einfache Formatierungssprache:
 > Zitat oder wichtiger Hinweis
 ```
 
+### Silbentrennung bei langen Wörtern steuern
+Bei Langen Wörten wie z.B. Passantenfrequnezmessung kann es vorkommen, dass diese zu lang für die vollständige Darstellung sind. Mit dem HTML-Schnipsel `&shy;` könnt ihr vorgeben, an welcher Stelle ein Wort mit Bindestrich umgebrochen werden kann. Dazu musst der HTML-Schnipsel an die gewünschte Stelle im Wort eingesetzt werden. Das Wort wird dann im Bedarfsfall automatisch getrennt.
+
+#### Praktisches Beispiel:
+```markdown
+Passanten&shy;frequenz&shy;messung
+```
+
 ## Bilder einfügne
 
 ### Bilder ohne Bildunterschrift:
@@ -487,4 +495,4 @@ Bei technischen Problemen oder Konflikten: jens.edler@bielefeld.de
 
 ---
 
-*Erstellt: Juli 2025 | Version 1.1*
+*Letzte Änderung: Oktober 2025 | Version 1.2*
