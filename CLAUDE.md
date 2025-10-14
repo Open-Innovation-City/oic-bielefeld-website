@@ -197,6 +197,83 @@ For embedding event registration forms directly in blog posts:
 - `voucher`: Pre-fill voucher code (optional)
 - `disable-vouchers`: Set to "true" to hide voucher input (optional)
 
+### Linking Event Announcements and Retrospectives
+
+**New as of October 2025:** Event announcements and retrospectives can be elegantly linked without cluttering the blog overview!
+
+#### Workflow:
+
+**1. Create Event Announcement:**
+Create a regular blog post for the event announcement in `_beitraege/`:
+```markdown
+---
+title: "KI Workshop for Associations"
+teaser: "Learn how AI can support your association work"
+author: "Sarah Mueller"
+category: "Events"
+date: 2025-08-15
+---
+
+Event details, registration form, etc.
+```
+
+**2. After Event: Create Retrospective:**
+Create a new post with "-rueckschau" suffix:
+```markdown
+---
+title: "KI Workshop for Associations - Retrospective"
+teaser: "An inspiring evening with many practical insights"
+author: "Sarah Mueller"
+category: "Events"
+date: 2025-08-20
+related_post: "ki-workshop-vereine"
+is_retrospective: true
+---
+
+Event recap, photos, summary, etc.
+```
+
+**3. Link Posts Together:**
+Add to the **original announcement post**:
+```yaml
+retrospective_post: "ki-workshop-vereine-rueckschau"
+```
+
+#### Key Parameters:
+
+- **`is_retrospective: true`**: Marks post as retrospective
+  - Retrospectives are **filtered out** from `/beitraege/` overview page
+  - Accessible via banner link or direct URL only
+
+- **`related_post: "filename"`**: Links back to announcement
+  - Automatically displays "📅 Event Announcement" banner with link
+
+- **`retrospective_post: "filename"`**: Links to retrospective
+  - Automatically displays "📸 Event Retrospective Available" banner with link
+
+#### Implementation Details:
+
+**Banner Component:** `_includes/related-post-banner.html`
+- Automatically included in `_layouts/post.html`
+- Bidirectional linking with visual banners
+- Responsive design with slide-in animation
+- Different color schemes for announcement vs. retrospective
+
+**Filtering:** `beitraege.html`
+```liquid
+{% for beitrag in sorted_beitraege %}
+{% unless beitrag.is_retrospective %}
+  <!-- Only show non-retrospective posts -->
+{% endunless %}
+{% endfor %}
+```
+
+**Benefits:**
+- Clean blog overview (only announcements visible)
+- No lost content (retrospectives accessible via links)
+- Automatic visual connection between related posts
+- Optional system (only use when needed)
+
 ### Styling Considerations
 - **Background color detection**: Navigation automatically adapts to section backgrounds
 - **Animation delays**: Use consistent staggered timing (0.1s, 0.2s, 0.3s increments)

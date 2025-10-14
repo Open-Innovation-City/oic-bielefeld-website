@@ -67,6 +67,9 @@ layout: default
 <main class="post-content">
     <div class="container">
         <div class="content-wrapper">
+            <!-- Related Post Banner -->
+            {% include related-post-banner.html %}
+
             <article class="post-article">
                 {{ content }}
             </article>
@@ -325,6 +328,90 @@ layout: default
     border-radius: 2px;
 }
 
+/* Related Post Banner */
+.related-post-banner {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem 2rem;
+    margin-bottom: 3rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-medium);
+    animation: slideIn 0.5s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.related-post-banner.retrospective-available {
+    background: linear-gradient(135deg, #e8f8f9 0%, #f0f4ff 100%);
+    border-left: 4px solid var(--primary-turquoise);
+}
+
+.related-post-banner.announcement-link {
+    background: linear-gradient(135deg, #fff9e6 0%, #f0f4ff 100%);
+    border-left: 4px solid var(--primary-yellow);
+}
+
+.related-post-banner .banner-icon {
+    font-size: 3rem;
+    flex-shrink: 0;
+    line-height: 1;
+}
+
+.related-post-banner .banner-content {
+    flex: 1;
+}
+
+.related-post-banner .banner-content strong {
+    display: block;
+    font-size: 1.2rem;
+    color: var(--text-dark);
+    margin-bottom: 0.5rem;
+}
+
+.related-post-banner .banner-content p {
+    margin: 0;
+    color: var(--text-light);
+    font-size: 0.95rem;
+}
+
+.related-post-banner .banner-button {
+    flex-shrink: 0;
+    background: var(--primary-turquoise);
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 178, 187, 0.3);
+}
+
+.related-post-banner .banner-button:hover {
+    background: var(--secondary-blue);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(102, 108, 222, 0.4);
+}
+
+.related-post-banner.announcement-link .banner-button {
+    background: var(--secondary-blue);
+    box-shadow: 0 2px 8px rgba(102, 108, 222, 0.3);
+}
+
+.related-post-banner.announcement-link .banner-button:hover {
+    background: var(--primary-turquoise);
+    box-shadow: 0 4px 12px rgba(0, 178, 187, 0.4);
+}
+
 /* Author Section */
 .post-author {
     margin-top: 4rem;
@@ -574,6 +661,26 @@ layout: default
     .post-meta {
         flex-direction: column;
         gap: 0.5rem;
+    }
+
+    .related-post-banner {
+        flex-direction: column;
+        text-align: center;
+        padding: 1.5rem;
+        gap: 1rem;
+    }
+
+    .related-post-banner .banner-icon {
+        font-size: 2.5rem;
+    }
+
+    .related-post-banner .banner-content strong {
+        font-size: 1.1rem;
+    }
+
+    .related-post-banner .banner-button {
+        width: 100%;
+        padding: 0.9rem 1.5rem;
     }
 }
 </style>

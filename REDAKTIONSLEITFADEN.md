@@ -138,6 +138,106 @@ Weiterer Text...
 ### Praktischer Tipp:
 **Vorlage kopieren:** Öffne `_beitraege/diese-website-wurde-mit-ki-erstellt.md`, kopiere den Inhalt und passe ihn für deinen neuen Beitrag an.
 
+### Event-Ankündigungen und Rückschauen verknüpfen
+
+**Neu seit Oktober 2025:** Du kannst Event-Ankündigungen und Rückschauen elegant miteinander verknüpfen, ohne die Beitragsübersicht zu überladen!
+
+#### Workflow für Event-Beiträge:
+
+**1. Event-Ankündigung erstellen:**
+Erstelle wie gewohnt einen Beitrag zur Event-Ankündigung:
+```markdown
+---
+title: "KI Workshop für Vereine"
+teaser: "Lerne, wie KI deine Vereinsarbeit unterstützen kann"
+author: "Sarah Mueller"
+category: "Events"
+date: 2025-08-15
+---
+
+Details zum Event, Anmeldeformular, etc.
+```
+
+**2. Nach dem Event: Rückschau erstellen:**
+Erstelle einen neuen Beitrag mit dem Suffix "-rueckschau":
+```markdown
+---
+title: "KI Workshop für Vereine - Rückschau"
+teaser: "Ein inspirierender Abend mit vielen praktischen Einblicken"
+author: "Sarah Mueller"
+category: "Events"
+date: 2025-08-20
+related_post: "ki-workshop-vereine"
+is_retrospective: true
+---
+
+Rückblick auf das Event, Bilder, Zusammenfassung, etc.
+```
+
+**3. Verknüpfung herstellen:**
+Füge im **Original-Beitrag** (Ankündigung) folgende Zeile hinzu:
+```yaml
+retrospective_post: "ki-workshop-vereine-rueckschau"
+```
+
+#### Wichtige Parameter:
+
+- **`is_retrospective: true`**: Markiert den Beitrag als Rückschau
+  - Rückschauen erscheinen **nicht** in der Beitragsübersicht `/beitraege/`
+  - Sie sind nur über die Verlinkung oder direkte URL erreichbar
+
+- **`related_post: "dateiname"`**: Verlinkt zurück zur Ankündigung
+  - Zeigt automatisch ein Banner "📅 Event-Ankündigung" mit Link
+
+- **`retrospective_post: "dateiname"`**: Verlinkt zur Rückschau
+  - Zeigt automatisch ein Banner "📸 Event-Rückschau verfügbar" mit Link
+
+#### Vollständiges Beispiel:
+
+**Event-Ankündigung** (`ki-workshop-vereine.md`):
+```markdown
+---
+title: "KI Workshop für Vereine"
+teaser: "Lerne, wie KI deine Vereinsarbeit unterstützen kann"
+author: "Sarah Mueller"
+category: "Events"
+date: 2025-08-15
+retrospective_post: "ki-workshop-vereine-rueckschau"
+---
+
+## Workshop Details
+Am 15. August veranstalten wir...
+
+{% include pretix-widget.html event="ki-workshop" %}
+```
+
+**Event-Rückschau** (`ki-workshop-vereine-rueckschau.md`):
+```markdown
+---
+title: "KI Workshop für Vereine - Rückschau"
+teaser: "Ein inspirierender Abend mit vielen praktischen Einblicken"
+author: "Sarah Mueller"
+category: "Events"
+date: 2025-08-20
+related_post: "ki-workshop-vereine"
+is_retrospective: true
+---
+
+## Highlights des Abends
+Der Workshop war ein voller Erfolg...
+
+{% include gallery.html
+   images="workshop1.jpg|Teilnehmende bei der Arbeit,workshop2.jpg|Präsentation der Ergebnisse"
+   folder="/assets/images/events/ki-workshop/" %}
+```
+
+#### Vorteile:
+
+✅ **Übersichtliche Beitragsseite**: Nur Ankündigungen erscheinen in der Liste
+✅ **Keine verlorenen Inhalte**: Rückschauen sind über Banner und URL erreichbar
+✅ **Automatische Banner**: Bidirektionale Verlinkung wird automatisch angezeigt
+✅ **Flexibel**: Du entscheidest, für welche Events du Rückschauen erstellst
+
 ## Markdown Grundlagen
 
 Markdown ist eine einfache Formatierungssprache:
