@@ -27,7 +27,8 @@ Unser Dank geht auch an unseren Kollegen Stephan, der die Fläche vorab grundier
 
 ## Nach dem Workshop...
 gab uns Stephan eine exklusive Führung durch die rund 2.2000 m² des Kulturhauses. Dabei erhielten wir spannende Einblicke in Ateliers, Ausstellungen und Gemeinschaftsräume. Wer neugierig ist, was das Kulturhaus sonst noch bietet, kann sich hier die [Website](https://kulturhaus-ostblock.de/) anschauen.
-**Zum Abschluss** ging es gemütlich zu Tatjana, wo wir bei Thüringer Bratwürsten, Ćevape und Apfelkuchen entspannt den Nachmittag ausklingen ließen. Dort plauderten wir über portugiesische Wörter wie „saudade“, Musikgenres und das Thema „Mansplaining“.
+  
+**Zum Abschluss** ging es gemütlich zu Tatjana, wo wir bei Thüringer Bratwürsten, Ćevape und Apfelkuchen entspannt den Nachmittag ausklingen ließen. Dort plauderten wir über portugiesische Wörter wie „saudade“, Musikgenres und das Thema „Mansplaining“.  
 Wir sind sehr zufrieden mit unserem OIC-Graffiti und freuen uns schon auf das nächste Team-Event. Vielleicht machen wir dann eine Alpaka-Wanderung. Wir halten euch auf dem Laufenden!
 
 
