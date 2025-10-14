@@ -31,6 +31,5 @@ Wir sind sehr zufrieden mit unserem OIC-Graffiti und freuen uns schon auf das n√
 
 
 {% include gallery.html 
-date: 2025-09-24
    images="teamtag_2025_2.jpg,teamtag_2025_13.jpg,teamtag_2025_8.jpg,teamtag_2025_9.jpg,teamtag_2025_4.jpg,teamtag_2025_5.jpg,teamtag_2025_10.jpg,teamtag_2025_11.jpg,teamtag_2025_12.jpg,teamtag_2025_14.jpg,teamtag_2025_15.jpg,teamtag_2025_6.jpg,teamtag_2025_7.jpg,teamtag_2025_16.jpg,teamtag_2025_17.jpg,teamtag_2025_1.jpg,teamtag_2025_18.jpg,teamtag_2025_19.jpg,teamtag_2025_20.jpg,teamtag_2025_21.jpg,teamtag_2025_22.jpg" folder="/assets/images/events/teamtag_2025/" %}
 
