@@ -15,7 +15,7 @@ Geschäftsbereich 100.3
 Niederwall 23  
 33602 Bielefeld  
 
-**Telefon:** +49 521 51-0  
+**Telefon:** +49 521 51-344 08  
 **E-Mail:** innovationen@bielefeld.de 
 **Website:** {{ site.url }}{{ site.baseurl }}
 
