@@ -4,7 +4,7 @@ teaser: "In diesem Jahr haben wir wieder etwas Neues an unserem Teamtag ausprobi
 author: "Tatjana Džepina"
 category: "Events"
 date: 2025-09-24
-header_image: "/assets/images/events/teamtag_2025/teamtag_2025_22.jpeg" 
+header_image: "/assets/images/events/teamtag_2025/teamtag_2025_22.jpg" 
 
 ---
 Unser Team von Open Innovation City Bielefeld hat sich zu einem besonderen Teamtag getroffen. Ganz unter dem Motto: Neues wagen – gemeinsam und kreativ.
@@ -14,7 +14,7 @@ Gemeinsam haben wir am Kulturhaus Bielefeld einen großen Container mit einem Gr
 Über zwei Stunden haben wir Hand angelegt, gesprüht und gefeilt, bis wir mit dem Ergebnis zufrieden waren. Unser Learning: Wer Neues wagt, muss mutig sein. Dabei hatten wir bei diesem Teamtag vor allem Mut zur Imperfektion. Denn wir alle hatten zum ersten Mal die Spraydose in der Hand.
 Die Entstehung des Kunstwerks könnt ihr in unserer Galerie verfolgen. Das finale Ergebnis seht ihr hier.
 
-![Ein Graffiti-Bild ist auf einem Container zu sehen. Darauf sieht man eine Rakete, die ins All fliegt. Daneben steht OIC Open Innovation City Bielefeld](/assets/images/beitraege/ahaus/ahaus_session.jpg)
+![Ein Graffiti-Bild ist auf einem Container zu sehen. Darauf sieht man eine Rakete, die ins All fliegt. Daneben steht OIC Open Innovation City Bielefeld](/assets/images/events/teamtag_2025/teamtag_2025_23.jpg)
 
 **Unterstützt wurden wir von Mitja**, einem Vorstandsmitglied des Kulturhauses und Mitglied im Verein [Hoch2wei](https://kulturhaus-ostblock.de/shortcuts/workshops/community-graffiti-workshop/) für Urban-Art, Street-Art und Graffiti. Er hat den Workshop für uns geleitet, uns eine Einführung gegeben und den ganzen Nachmittag mit wertvollen Tipps begleitet. Vielleicht hat er auch an der ein oder anderen Stelle geholfen...
 
@@ -32,5 +32,5 @@ Wir sind sehr zufrieden mit unserem OIC-Graffiti und freuen uns schon auf das n�
 
 {% include gallery.html 
 date: 2025-09-24
-   images="teamtag_2025_2.jpeg,teamtag_2025_13.jpeg,teamtag_2025_8.jpeg,teamtag_2025_9.jpeg,teamtag_2025_4.jpeg,teamtag_2025_5.jpeg,teamtag_2025_10.jpeg,teamtag_2025_11.jpeg,teamtag_2025_12.jpeg,teamtag_2025_14.jpeg,teamtag_2025_15.jpeg,teamtag_2025_6.jpeg,teamtag_2025_7.jpeg,teamtag_2025_16.jpeg,teamtag_2025_17.jpeg,teamtag_2025_1.jpeg,teamtag_2025_18.jpeg,teamtag_2025_19.jpeg,teamtag_2025_20.jpeg,teamtag_2025_21.jpeg,teamtag_2025_22.jpeg" folder="/assets/images/events/teamtag_2025/" %}
+   images="teamtag_2025_2.jpg,teamtag_2025_13.jpg,teamtag_2025_8.jpg,teamtag_2025_9.jpg,teamtag_2025_4.jpg,teamtag_2025_5.jpg,teamtag_2025_10.jpg,teamtag_2025_11.jpg,teamtag_2025_12.jpg,teamtag_2025_14.jpg,teamtag_2025_15.jpg,teamtag_2025_6.jpg,teamtag_2025_7.jpg,teamtag_2025_16.jpg,teamtag_2025_17.jpg,teamtag_2025_1.jpg,teamtag_2025_18.jpg,teamtag_2025_19.jpg,teamtag_2025_20.jpg,teamtag_2025_21.jpg,teamtag_2025_22.jpg" folder="/assets/images/events/teamtag_2025/" %}
 
