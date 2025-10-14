@@ -22,6 +22,7 @@ Die Entstehung des Kunstwerks könnt ihr in unserer Galerie verfolgen. Das final
 * Die Spraydose muss immer parallel zur Wand gehalten werden.
 * Es gibt verschiedene Sprühköpfe, mit denen unterschiedlich viel Druck ausgeübt werden kann.
 * Es gibt Dosen mit wenig, mittel und viel Druck. Mit viel Druck lässt sich schneller sprayen. Wann das besonders nützlich ist, könnt ihr euch sicher vorstellen…
+
 Unser Dank geht auch an unseren Kollegen Stephan, der die Fläche vorab grundiert hat und auf die großartige Idee gekommen ist, unseren Teamtag mal anders zu gestalten.
 
 ## Nach dem Workshop...
