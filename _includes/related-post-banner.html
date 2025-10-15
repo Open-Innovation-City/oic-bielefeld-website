@@ -6,10 +6,10 @@
   <div class="related-post-banner retrospective-available">
     <div class="banner-icon">📸</div>
     <div class="banner-content">
-      <strong>Event-Rückschau verfügbar</strong>
+      <strong>Event-Rückblick verfügbar</strong>
       <p>Das Event hat stattgefunden! Schau dir Eindrücke, Bilder und eine Zusammenfassung an.</p>
     </div>
-    <a href="{{ retro_post.url | relative_url }}" class="banner-button">Zur Rückschau</a>
+    <a href="{{ retro_post.url | relative_url }}" class="banner-button">Zum Rückblick</a>
   </div>
   {% endif %}
 {% elsif page.related_post %}
@@ -19,10 +19,10 @@
   <div class="related-post-banner announcement-link">
     <div class="banner-icon">📅</div>
     <div class="banner-content">
-      <strong>Event-Ankündigung</strong>
-      <p>Hier findest du alle Details zum Event, Programm und Informationen.</p>
+      <strong>Eventdetails</strong>
+      <p>Hier findest du alle Details zum ursprünglichen Event.</p>
     </div>
-    <a href="{{ announcement_post.url | relative_url }}" class="banner-button">Zur Ankündigung</a>
+    <a href="{{ announcement_post.url | relative_url }}" class="banner-button">Zum ursprünglichen Event</a>
   </div>
   {% endif %}
 {% endif %}
