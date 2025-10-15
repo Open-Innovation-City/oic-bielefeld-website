@@ -1,0 +1,28 @@
+<!-- Banner for linking announcement and retrospective posts -->
+{% if page.retrospective_post %}
+  <!-- Show banner linking to retrospective -->
+  {% assign retro_post = site.beitraege | where_exp: "item", "item.url contains page.retrospective_post" | first %}
+  {% if retro_post %}
+  <div class="related-post-banner retrospective-available">
+    <div class="banner-icon">📸</div>
+    <div class="banner-content">
+      <strong>Event-Rückschau verfügbar</strong>
+      <p>Das Event hat stattgefunden! Schau dir Eindrücke, Bilder und eine Zusammenfassung an.</p>
+    </div>
+    <a href="{{ retro_post.url | relative_url }}" class="banner-button">Zur Rückschau</a>
+  </div>
+  {% endif %}
+{% elsif page.related_post %}
+  <!-- Show banner linking back to announcement -->
+  {% assign announcement_post = site.beitraege | where_exp: "item", "item.url contains page.related_post" | first %}
+  {% if announcement_post %}
+  <div class="related-post-banner announcement-link">
+    <div class="banner-icon">📅</div>
+    <div class="banner-content">
+      <strong>Event-Ankündigung</strong>
+      <p>Hier findest du alle Details zum Event, Programm und Informationen.</p>
+    </div>
+    <a href="{{ announcement_post.url | relative_url }}" class="banner-button">Zur Ankündigung</a>
+  </div>
+  {% endif %}
+{% endif %}

@@ -54,10 +54,11 @@ description: Aktuelle Beiträge und Artikel von Open Innovation City Bielefeld z
         </div>
         
         {% assign sorted_beitraege = site.beitraege | sort: 'date' | reverse %}
-        
+
         {% if sorted_beitraege.size > 0 %}
         <div class="projects-grid">
             {% for beitrag in sorted_beitraege %}
+            {% unless beitrag.is_retrospective %}
             <div class="project-card fade-in has-link">
                 {% if beitrag.category %}
                 <div class="project-tag">{{ beitrag.category }}</div>
@@ -82,6 +83,7 @@ description: Aktuelle Beiträge und Artikel von Open Innovation City Bielefeld z
                     </a>
                 </div>
             </div>
+            {% endunless %}
             {% endfor %}
         </div>
         {% else %}
