@@ -37,9 +37,9 @@ Die aktuelle Meetup-Reihe der Open Innovation City Bielefeld, [**KI und Zivilges
 **Innovation Office, Alter Markt 13, 33602 Bielefeld**
 
 **Dienstag, 06. November 2025**<br>
-**Beginn:** ~16:00 Uhr<br>
-**Ende:** ~17:30 Uhr<br>
-**Treffpunkt und -zeit:** wird noch bekanntgegeben
+**Beginn:** 16:00 Uhr<br>
+**Ende:** 17:30 Uhr<br>
+**Treffpunkt und -zeit:** Treffen Ravensberger Str. 10G (Treppen im Innenhof der FHM), ab 15:45 Uhr.
 
 ### Kostenlose Anmeldung
 {% include pretix-widget.html event="ki-zivil-9" %}
