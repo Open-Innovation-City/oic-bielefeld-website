@@ -10,8 +10,8 @@ header_image: ""
 ## Open Innovation Hour  
 ### Gemeinsam statt nebeneinander – Wie wir in Bielefeld Begegnungsräume für alle gestalten  
 
-**Wie können wir Orte schaffen, an denen sich Jung und Alt, Menschen mit unterschiedlichen Berufen, Perspektiven und Haltungen begegnen – und voneinander lernen?**  
-Genau diese Frage steht im Mittelpunkt der ersten Open Innovation Hour! Ein **neues Online-Format**, bei dem **deine Ideen und deine Perspektive** gefragt sind.  
+Wie können wir Orte schaffen, an denen sich Jung und Alt, Menschen mit unterschiedlichen Berufen, Perspektiven und Haltungen begegnen – und voneinander lernen?  
+Genau diese Frage steht im Mittelpunkt der ersten Open Innovation Hour! Ein **neues Online-Format**, bei dem deine Ideen und deine Perspektive gefragt sind.  
 **Jeden ersten Donnerstag im Monat, um 12.30 Uhr schauen wir gemeinsam auf eine herausfordernde Fragestellung**.  
 
 ### Warum das Thema der 1. Open Innovation Hour uns alle angeht  
