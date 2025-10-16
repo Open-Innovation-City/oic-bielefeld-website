@@ -133,9 +133,9 @@
   category: "Impuls"
   target_audience: "Zivilgesellschaftlich engagierte Menschen, Vereinsaktive und Interessierte"
   cost: "Kostenlos"
-  booking_url: "-"
-  link_text: "Anmeldelink folgt"
-  featured: false
+  booking_url:  "/beitraege/ki-und-open-innovation/"
+  link_text: "Mehr Informationen"
+  featured: true
   topic: "ki-zivilgesellschaft"
 
 - title: "Save-the-Date: Meetup zum Thema KI-Kompetenz"
