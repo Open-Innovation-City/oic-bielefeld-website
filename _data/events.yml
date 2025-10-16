@@ -138,6 +138,20 @@
   featured: true
   topic: "ki-zivilgesellschaft"
 
+  - title: "Open Innovation Hour: Gemeinsam statt nebeneinander"
+  description: "Wie können wir Orte schaffen, an denen sich Jung und Alt, Menschen mit unterschiedlichen Berufen, Perspektiven und Haltungen begegnen – und voneinander lernen? Genau diese Frage steht im Mittelpunkt der ersten Open Innovation Hour! Ein neues Online-Format, bei dem deine Ideen und deine Perspektive gefragt sind."
+  date: "2025-11-06"
+  time: "12:30"
+  duration: "1 Stunde"
+  location: "Online"
+  category: "Online: Open Innovation Hour"
+  target_audience: "Alle Interessierten aus Politik, Verwaltung, Wirtschaft, Wissenschaft & Zivilgesellschaft"
+  cost: "Kostenlos"
+  booking_url:  "/open-innovation-hour-begegnungsraeume/"
+  link_text: "Mehr Informationen"
+  featured: true
+  topic: "open-innovation-hour"
+
 - title: "Save-the-Date: Meetup zum Thema KI-Kompetenz"
   description: "Wir sprechen mit Prof'in Dr. Barbara Hammer, Profession für Maschinelles Lernen an der Universität Bielefeld, mit der Fähigkeit auch Laien die Relevanz von KI-Kompetenz zu vermitteln. - Mehr zum Meetup folgt in Kürze."
   date: "2025-11-11"
