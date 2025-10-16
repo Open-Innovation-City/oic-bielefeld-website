@@ -138,7 +138,7 @@
   featured: true
   topic: "ki-zivilgesellschaft"
 
-  - title: "Open Innovation Hour: Gemeinsam statt nebeneinander"
+- title: "Open Innovation Hour: Gemeinsam statt nebeneinander"
   description: "Wie können wir Orte schaffen, an denen sich Jung und Alt, Menschen mit unterschiedlichen Berufen, Perspektiven und Haltungen begegnen – und voneinander lernen? Genau diese Frage steht im Mittelpunkt der ersten Open Innovation Hour! Ein neues Online-Format, bei dem deine Ideen und deine Perspektive gefragt sind."
   date: "2025-11-06"
   time: "12:30"
@@ -147,7 +147,7 @@
   category: "Online: Open Innovation Hour"
   target_audience: "Alle Interessierten aus Politik, Verwaltung, Wirtschaft, Wissenschaft & Zivilgesellschaft"
   cost: "Kostenlos"
-  booking_url:  "https://pretix.eu/OIC-BIE/open-inno-hour-1/"
+  booking_url:  "/beitraege/open-innovation-hour-begegnungsraeume"
   link_text: "Details & Anmeldung"
   featured: true
   topic: "open-innovation-hour"
