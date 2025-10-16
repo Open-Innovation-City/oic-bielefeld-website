@@ -147,8 +147,8 @@
   category: "Online: Open Innovation Hour"
   target_audience: "Alle Interessierten aus Politik, Verwaltung, Wirtschaft, Wissenschaft & Zivilgesellschaft"
   cost: "Kostenlos"
-  booking_url:  "/open-innovation-hour-begegnungsraeume/"
-  link_text: "Mehr Informationen"
+  booking_url:  "https://pretix.eu/OIC-BIE/open-inno-hour-1/"
+  link_text: "Details & Anmeldung"
   featured: true
   topic: "open-innovation-hour"
 
