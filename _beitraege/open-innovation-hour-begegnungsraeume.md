@@ -41,6 +41,9 @@ Die 60 Minuten im Überblick:
 **Donnerstag, 6. November 2025**  
 **Zoom** – Den Link erhältst du mit deiner Anmeldung   
 
+### Kostenlose Anmeldung  
+{% include pretix-widget.html event="open-inno-hour-1" %}  
+
 Die Open Innovation Hour ist mehr als ein Workshop: **Sie ist der Startpunkt für Netzwerke, Projekte oder tiefergehende Formate, die Bielefeld verbinden.**   
 **Dich beschäftigt eine Herausforderung, zu der du aktiv werden möchtest?**  
 Dann melde dich bei [Sarah](mailto:sarah.bollmann@bielefeld.de)! Wir freuen uns auf dich.   
