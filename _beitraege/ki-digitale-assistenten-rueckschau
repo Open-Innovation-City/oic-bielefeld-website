@@ -1,9 +1,11 @@
 title: "KI und Digitale Assistenten - Wie KI Teams ergänzt und effizienter macht - Meetup-Rückschau"
 teaser: "Im 4. Meetup der Reihe 'KI und Zivilgesellschaft' zeigte Conner Kuhlmeyer praxisnah, wie Digitale Assistenten in Organisationen eingesetzt werden können."
 author: "Maria Goncalves"
-category: "KI und Zivilgesellschaft"
+category: "KI und Zivilgesellschaft" "Rückblick"
 date: 2025-09-27
 header_image: "/assets/images/ki.png"
+related_post: "ki-barrierefreiheit"
+is_retrospective: false
 
 
 ## Künstliche Intelligenz (KI) als Unterstützung für die Zivilgesellschaft
@@ -33,6 +35,9 @@ Mit einem kostenfreien Toolzugang zum Testen und Ausprobieren nahmen konkrete Ha
 
 Materialien & Follow‑up
 Workshop‑Handout und weiterführende Links werden an die Teilnehmenden verteilt.
+
+{% include gallery.html
+images="ki_assistenten_01, ki_assistenten_04, ki_assistenten_06, ki_assistenten_12, ki_assistenten_13, ki_assistenten_14, ki_assistenten_18"}
 
 images="header-placeholder.jpg,workshop-1.jpg,workshop-2.jpg,netzwerken.jpg"
 folder="/assets/images/events/meetup-ki-digitale-assistenten/" %}
