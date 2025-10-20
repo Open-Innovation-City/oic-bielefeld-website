@@ -32,7 +32,7 @@ Am Ende des Vortrags
 Die aktuelle Meetup-Reihe der Open Innovation City Bielefeld, [**KI und Zivilgesellschaft**](https://oic-bielefeld.de/ki/), stärkt die Innovationskraft der Bielefelder Zivilgesellschaft. In Meetups vermitteln Fachleute wichtige Kompetenzen zum kritischen Einsatz Künstlicher Intelligenz. Die Teilnehmenden bilden Communities of Practice (CoP). Die selbstständig arbeitenden Gruppen stehen für Offene Innovationen, Austausch und Co-Creation über Organisationsgrenzen hinaus.
 
 ### Ort und Zeit
-**Fachhochschule des Mittelstands (FHM), Treffen Ravensberger Str. 10G (Treppen im Innenhof der FHM), 33602 Bielefeld**
+**Fachhochschule des Mittelstands (FHM), Ravensberger Str. 10G, 33602 Bielefeld**
 
 **Dienstag, 06. November 2025**<br>
 **Beginn:** 16:00 Uhr<br>
