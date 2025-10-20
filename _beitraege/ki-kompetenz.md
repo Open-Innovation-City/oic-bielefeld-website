@@ -12,7 +12,9 @@ Beim 9. Meetup aus der Reihe KI und Zivilgesellschaft beschäftigen wir uns mit 
 In einem 90-minütigen **Impuls-Workshop** möchten wir ein wenig hinter die Kulissen heutiger KI-Tools schauen: auf welchen Prinzipien basieren **heutige KI-Verfahren** und was ist an KI-Verfahren so anders als an herkömmlichen Methoden? **Welche Chancen** ergeben sich dadurch und **was ist bei der Verwendung von KI-basierten Tools zu beachten?**
 
 In diesem Workshop schauen wir uns an, welche verschiedenen KI-Verfahren es gibt und was typische Prinzipien sind, wie diese KI-Verfahren ‚lernen‘. Davon ausgehend beleuchten wir, **welche zum Teil unerwarteten Fehler die Verfahren machen und welche Risiken mit den Verfahren einhergehen.**
-Es sind **keine Vorkenntnisse** notwendig.
+Es sind **keine Vorkenntnisse** notwendig. 
+
+Hinweis: Diese Veranstaltung behandelt **weder rechtlichen Aspekte des EU AI Act noch andere rechtliche Fragen**. Der Fokus liegt auf dem **bewussten Umgang mit KI-Technologien**.
 
 
 ### Fachexpertise
