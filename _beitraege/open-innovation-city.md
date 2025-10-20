@@ -20,8 +20,11 @@ Wir reden auf Augenhöhe miteinander, wir Duzen. Kennst du vom schwedischen Möb
 
 ### Die Idee dahinter
 
-**Professor Henry Chesbrough**, der Vordenker des Open-Innovation-Prinzips, bringt es auf den Punkt: 
->„Mit einer offenen Denkweise und der effektiven Nutzung digitaler Technologien haben wir die Möglichkeit, mit Open Innovation Cities ein neues Kapitel zu schreiben.“
+**Professor Henry Chesbrough**, der Vordenker des Open-Innovation-Prinzips, bringt es auf den Punkt:
+
+{% include quote.html
+   text="Mit einer offenen Denkweise und der effektiven Nutzung digitaler Technologien haben wir die Möglichkeit, mit Open Innovation Cities ein neues Kapitel zu schreiben."
+   author="Professor Henry Chesbrough" %}
 
 Im Gegensatz zu geschlossenen Prozessen, bei denen Innovationen oft innerhalb einzelner Organisationen entstehen, fördert der Open-Innovation-Ansatz die bewusste Öffnung nach außen. Es geht darum, über die eigenen Grenzen hinauszuschauen, Know-how zu bündeln und so schneller und effektiver zu neuen Lösungen zu gelangen.
 ![Darstellung des Open Innovation City Funnels](/assets/images/OIC_Funnel_1920x1080.jpg "Open Innovation City Funnel")
