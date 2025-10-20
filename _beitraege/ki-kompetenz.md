@@ -18,9 +18,9 @@ Es sind **keine Vorkenntnisse** notwendig.
 Diese Veranstaltung behandelt **weder rechtlichen Aspekte des EU AI Act noch andere rechtliche Fragen**. Bei dem Meetup geht es um den **bewussten Umgang mit KI-Technologien**.
 
 ### Fachexpertise
-**Barbara Hammer** [LinkedIn](https://www.linkedin.com/in/barbara-hammer-62963295/) ist Professorin für Maschinelles Lernen an der Universität Bielefeld. Ihr Forschungsschwerpunkt liegt in der Entwicklung von Verfahren des maschinellen Lernens, die in realen Umgebungen und mit nur wenigen Daten beweisbar robust und sicher funktionieren. Sowie an der Anwendung unter anderem im Bereich kritischer Infrastruktur, in Produktionsprozessen und im medizinischen Kontext.
+**Barbara Hammer** ist Professorin für Maschinelles Lernen an der Universität Bielefeld. Ihr Forschungsschwerpunkt liegt in der Entwicklung von Verfahren des maschinellen Lernens, die in realen Umgebungen und mit nur wenigen Daten beweisbar robust und sicher funktionieren. Sowie an der Anwendung unter anderem im Bereich kritischer Infrastruktur, in Produktionsprozessen und im medizinischen Kontext. [Barbara Hammer LinkedIn-Profil](https://www.linkedin.com/in/barbara-hammer-62963295/) 
 
-**Benjamin Paaßen** [LinkedIn](https://www.linkedin.com/in/benjamin-paa%C3%9Fen-9a643a266/) hat die Juniorprofessur für Wissensrepräsentation und Maschinelles Lernen an der Universität Bielefeld inne. Zentrale Forschungsfragen sind, wie sich menschliches Wissen in maschinelle Lernverfahren integrieren lässt, und wie sich aus Modellen des maschinellen Lernens für Menschen verstehbares Wissen herausholen lässt. Benjamin Paaßen forscht vor allem an KI-Systemen in der Bildung.
+**Benjamin Paaßen** hat die Juniorprofessur für Wissensrepräsentation und Maschinelles Lernen an der Universität Bielefeld inne. Zentrale Forschungsfragen sind, wie sich menschliches Wissen in maschinelle Lernverfahren integrieren lässt, und wie sich aus Modellen des maschinellen Lernens für Menschen verstehbares Wissen herausholen lässt. Benjamin Paaßen forscht vor allem an KI-Systemen in der Bildung. [Benjamin Paaßen LinkedIn-Profil](https://www.linkedin.com/in/benjamin-paa%C3%9Fen-9a643a266/)
 
 ### Inhalt
 Am Ende des Impuls-Workshops
