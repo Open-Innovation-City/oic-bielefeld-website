@@ -27,7 +27,6 @@ Am Ende des Vortrags
 
 ### Keine Materialien notwendig.
 
-### Änderungen an Inhalt sind noch möglich!
 
 ### Info zur MeetUp-Reihe
 Die aktuelle Meetup-Reihe der Open Innovation City Bielefeld, [**KI und Zivilgesellschaft**](https://oic-bielefeld.de/ki/), stärkt die Innovationskraft der Bielefelder Zivilgesellschaft. In Meetups vermitteln Fachleute wichtige Kompetenzen zum kritischen Einsatz Künstlicher Intelligenz. Die Teilnehmenden bilden Communities of Practice (CoP). Die selbstständig arbeitenden Gruppen stehen für Offene Innovationen, Austausch und Co-Creation über Organisationsgrenzen hinaus.
