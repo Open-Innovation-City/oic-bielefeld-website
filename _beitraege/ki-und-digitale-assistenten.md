@@ -5,6 +5,7 @@ author: "Maria Gonçalves"
 category: "KI und Zivilgesellschaft"
 date: 2025-08-26
 header_image: "/assets/images/ki.png"
+retrospective_post: "rueckblick-ki-digitale-assistenten"
 ---
 
 Wir laden herzlich zum 90-minütigen Impuls & Workshop Meetup zum **Einsatz von Digitalen Assistenten in Organisationen** ein.
