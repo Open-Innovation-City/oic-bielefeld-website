@@ -31,9 +31,6 @@ Am Ende des Impuls-Workshops
 ### Materialien
 **Laptop oder Smartphone**
 
-### Info zur MeetUp-Reihe
-Die aktuelle Meetup-Reihe der Open Innovation City Bielefeld, [**KI und Zivilgesellschaft**](https://oic-bielefeld.de/ki/), stärkt die Innovationskraft der Bielefelder Zivilgesellschaft. In Meetups vermitteln Fachleute wichtige Kompetenzen zum kritischen Einsatz Künstlicher Intelligenz. Die Teilnehmenden bilden Communities of Practice (CoP). Die selbstständig arbeitenden Gruppen stehen für Offene Innovationen, Austausch und Co-Creation über Organisationsgrenzen hinaus.
-
 ### Ort und Zeit
 **Innovation Office, Alter Markt 13, 33602 Bielefeld**
 
@@ -41,6 +38,9 @@ Die aktuelle Meetup-Reihe der Open Innovation City Bielefeld, [**KI und Zivilges
 **Beginn:** 16:30 Uhr<br>
 **Ende:** 18:00 Uhr<br>
 **Einlass:** 16:00 Uhr
+
+### Info zur MeetUp-Reihe
+Die aktuelle Meetup-Reihe der Open Innovation City Bielefeld, [**KI und Zivilgesellschaft**](https://oic-bielefeld.de/ki/), stärkt die Innovationskraft der Bielefelder Zivilgesellschaft. In Meetups vermitteln Fachleute wichtige Kompetenzen zum kritischen Einsatz Künstlicher Intelligenz. Die Teilnehmenden bilden Communities of Practice (CoP). Die selbstständig arbeitenden Gruppen stehen für Offene Innovationen, Austausch und Co-Creation über Organisationsgrenzen hinaus.
 
 ### Kostenlose Anmeldung
 {% include pretix-widget.html event="ki-zivil-10" %}
