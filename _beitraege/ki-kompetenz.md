@@ -14,8 +14,8 @@ In einem 90-minütigen **Impuls-Workshop** möchten wir ein wenig hinter die Kul
 In diesem Workshop schauen wir uns an, welche verschiedenen KI-Verfahren es gibt und was typische Prinzipien sind, wie diese KI-Verfahren ‚lernen‘. Davon ausgehend beleuchten wir, **welche zum Teil unerwarteten Fehler die Verfahren machen und welche Risiken mit den Verfahren einhergehen.**
 Es sind **keine Vorkenntnisse** notwendig. 
 
-Hinweis: Diese Veranstaltung behandelt **weder rechtlichen Aspekte des EU AI Act noch andere rechtliche Fragen**. Der Fokus liegt auf dem **bewussten Umgang mit KI-Technologien**.
-
+## Hinweis: 
+Diese Veranstaltung behandelt **weder rechtlichen Aspekte des EU AI Act noch andere rechtliche Fragen**. Bei dem Meetup geht es um den **bewussten Umgang mit KI-Technologien**.
 
 ### Fachexpertise
 **Barbara Hammer** [LinkedIn](https://www.linkedin.com/in/barbara-hammer-62963295/) ist Professorin für Maschinelles Lernen an der Universität Bielefeld. Ihr Forschungsschwerpunkt liegt in der Entwicklung von Verfahren des maschinellen Lernens, die in realen Umgebungen und mit nur wenigen Daten beweisbar robust und sicher funktionieren. Sowie an der Anwendung unter anderem im Bereich kritischer Infrastruktur, in Produktionsprozessen und im medizinischen Kontext.
