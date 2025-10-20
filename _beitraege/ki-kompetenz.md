@@ -9,9 +9,11 @@ header_image: "/assets/images/ki.png"
 
 Beim 9. Meetup aus der Reihe KI und Zivilgesellschaft beschäftigen wir uns mit der Notwendigkeit von KI-Kompetenz. 
 
-In einem 90-minütigen Impuls-Workshop möchten wir ein wenig hinter die Kulissen heutiger KI-Tools schauen: auf welchen Prinzipien basieren heutige KI-Verfahren und was ist an KI-Verfahren so anders als an herkömmlichen Methoden? Welche Chancen ergeben sich dadurch und was ist bei der Verwendung von KI-basierten Tools zu beachten?
+In einem 90-minütigen **Impuls-Workshop** möchten wir ein wenig hinter die Kulissen heutiger KI-Tools schauen: auf welchen Prinzipien basieren **heutige KI-Verfahren** und was ist an KI-Verfahren so anders als an herkömmlichen Methoden? **Welche Chancen** ergeben sich dadurch und **was ist bei der Verwendung von KI-basierten Tools zu beachten?**
 
-In diesem Workshop schauen wir uns an, welche verschiedenen KI-Verfahren es gibt und was typische Prinzipien sind, wie diese KI-Verfahren ‚lernen‘. Davon ausgehend beleuchten wir, welche zum Teil unerwarteten Fehler die Verfahren machen und welche Risiken mit den Verfahren einhergehen.
+In diesem Workshop schauen wir uns an, welche verschiedenen KI-Verfahren es gibt und was typische Prinzipien sind, wie diese KI-Verfahren ‚lernen‘. Davon ausgehend beleuchten wir, **welche zum Teil unerwarteten Fehler die Verfahren machen und welche Risiken mit den Verfahren einhergehen.**
+Es sind **keine Vorkenntnisse** notwendig.
+
 
 ### Fachexpertise
 **Barbara Hammer** [LinkedIn](https://www.linkedin.com/in/barbara-hammer-62963295/) ist Professorin für Maschinelles Lernen an der Universität Bielefeld. Ihr Forschungsschwerpunkt liegt in der Entwicklung von Verfahren des maschinellen Lernens, die in realen Umgebungen und mit nur wenigen Daten beweisbar robust und sicher funktionieren. Sowie an der Anwendung unter anderem im Bereich kritischer Infrastruktur, in Produktionsprozessen und im medizinischen Kontext.
