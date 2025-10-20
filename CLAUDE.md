@@ -274,6 +274,118 @@ retrospective_post: "ki-workshop-vereine-rueckschau"
 - Automatic visual connection between related posts
 - Optional system (only use when needed)
 
+### Category Filter System for Blog Posts
+
+**New as of October 2025:** The `/beitraege/` page includes an interactive category filter system with full accessibility support!
+
+#### Features:
+
+**Filter Functionality:**
+- **Dynamic filtering** by blog post categories
+- **URL parameter support** - filters can be shared via URL (`?filter=kategorie`)
+- **Automatic counting** - shows number of posts per category
+- **Smooth animations** - staggered card appearance when filtering
+- **Keyboard navigation** - full arrow key support for accessibility
+- **Screen reader support** - ARIA labels and live region announcements
+
+**Visual Design:**
+- **Gradient active state** with turquoise-to-blue gradient
+- **Hover effects** with shimmer animation
+- **Responsive layout** - wraps gracefully on mobile devices
+- **Count badges** - automatically hidden on very small screens
+- **Focus indicators** - yellow outline for keyboard navigation
+
+#### Implementation:
+
+**HTML Structure** (`beitraege.html`):
+```liquid
+<!-- Automatic category detection -->
+{% assign all_categories = site.beitraege | where_exp: "item", "item.is_retrospective != true" | map: 'category' | uniq | compact | sort %}
+
+<!-- Filter buttons with accessibility -->
+<nav aria-label="Beiträge filtern" class="filter-section fade-in">
+    <div role="radiogroup" aria-label="Kategorie auswählen" class="filter-buttons">
+        <button role="radio"
+                aria-checked="true"
+                class="filter-btn active"
+                data-filter="all">
+            Alle <span class="filter-count">({{ site.beitraege.size }})</span>
+        </button>
+
+        {% for category in all_categories %}
+            <button role="radio"
+                    class="filter-btn"
+                    data-filter="{{ category | slugify }}">
+                {{ category }} <span class="filter-count">(count)</span>
+            </button>
+        {% endfor %}
+    </div>
+</nav>
+
+<!-- Blog cards with category data attribute -->
+<div class="project-card" data-category="{{ beitrag.category | slugify }}">
+    <!-- Card content -->
+</div>
+```
+
+**JavaScript Class** (`assets/js/main.js:668-887`):
+```javascript
+class BeitraegeFilter {
+    // Handles filtering logic, animations, keyboard navigation
+    // Updates URL parameters and announces changes to screen readers
+}
+```
+
+**Key Methods:**
+- `applyFilter(filter)` - Applies selected filter with animations
+- `setupKeyboardNavigation()` - Arrow keys, Home/End navigation
+- `updateResultCount()` - Updates and announces filter results
+- `checkURLParameter()` - Restores filter from URL on page load
+
+**CSS Styling** (`assets/css/main.css:2005-2206`):
+- `.filter-section` - Container with responsive margins
+- `.filter-btn` - Button styling with transitions
+- `.filter-btn.active` - Gradient background for active filter
+- `.filter-count` - Badge styling for post counts
+
+#### Usage:
+
+**Adding Categories to Blog Posts:**
+Simply add a `category` field in the front matter:
+```yaml
+---
+title: "Blog Post Title"
+category: "Workshop"  # or "Events", "Tutorial", etc.
+---
+```
+
+**URL Filtering:**
+Users can share filtered views via URL:
+- All posts: `/beitraege/`
+- Filtered: `/beitraege/?filter=workshop`
+
+**Keyboard Shortcuts:**
+- **Arrow keys / Tab**: Navigate between filters
+- **Enter / Space**: Activate selected filter
+- **Home / End**: Jump to first/last filter
+
+#### Accessibility Features:
+
+- **ARIA roles**: `radiogroup` for filter buttons with `aria-checked` states
+- **Screen reader announcements**: Live region updates on filter changes
+- **Keyboard focus management**: Proper tabindex handling
+- **Reduced motion support**: Animations disabled for users with motion sensitivity
+- **Semantic HTML**: `<nav>` with descriptive labels
+
+#### Integration with Retrospectives:
+
+The filter system **automatically excludes** retrospective posts (marked with `is_retrospective: true`) from:
+- Category counting
+- Filter results
+- "Alle" button count
+
+This ensures clean category organization while keeping retrospectives accessible via linked announcements.
+
 ### Styling Considerations
 - **Background color detection**: Navigation automatically adapts to section backgrounds
 - **Animation delays**: Use consistent staggered timing (0.1s, 0.2s, 0.3s increments)
