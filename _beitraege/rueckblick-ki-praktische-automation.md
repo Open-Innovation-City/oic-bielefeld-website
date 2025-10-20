@@ -43,8 +43,8 @@ Achte auf **Datenschutz und die Sicherheit deiner Daten**, vorallem am Arbeitspl
 ### Handout
 Ein Handout in Form einer Präsentation wurde den Teilnehmer:innen zur Verfügung gestellt.
 {% include gallery.html 
-   images="praktische_automation_no_code09.jpeg, praktische_automation_no_code08.jpeg,  praktische_automation_no_code07.jpeg, praktische_automation_no_code04.jpeg, praktische_automation_no_code03.jpeg, 
-   praktische_automation_no_code19.jpeg, praktische_automation_no_code18.jpeg, praktische_automation_no_code14.peg, praktische_automation_no_code13.jpeg, praktische_automation_no_code12.jpeg, praktische_automation_no_code11.jpeg"  
+   images="praktische_automation_no_code1.jpeg, praktische_automation_no_code2.jpeg,  praktische_automation_no_code3.jpeg, praktische_automation_no_code4.jpeg, praktische_automation_no_code5.jpeg, 
+   praktische_automation_no_code6.jpeg, praktische_automation_no_code7.jpeg, praktische_automation_no_code8.jpeg, praktische_automation_no_code9.jpeg, praktische_automation_no_code10.jpeg, praktische_automation_no_code11.jpeg, praktische_automation_no_code12.jpeg, praktische_automation_no_code13.jpeg, praktische_automation_no_code14.jpeg, praktische_automation_no_code15.jpeg, praktische_automation_no_code16.jpeg, praktische_automation_no_code17.jpeg, praktische_automation_no_code18.jpeg, praktische_automation_no_code19.jpeg"  
    folder="/assets/images/events/meetup_ki_automation_no_code/" %}
 
 ### Info zur MeetUp-Reihe

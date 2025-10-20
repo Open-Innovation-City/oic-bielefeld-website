@@ -5,6 +5,7 @@ author: "Maria Gonçalves"
 category: "KI und Zivilgesellschaft"
 date: 2025-09-19
 header_image: "/assets/images/ki.png"
+retrospective_post: "rueckblick-ki-praktische-automation"
 ---
 
 Wir laden herzlich zum 90 minütigen **Impuls + Workshop Meetup zur praktischen Automatisierung mit KI** ein. 
