@@ -41,4 +41,4 @@ Die aktuelle Meetup-Reihe der Open Innovation City Bielefeld, [**KI und Zivilges
 **Einlass:** 16:00 Uhr
 
 ### Kostenlose Anmeldung
-{% include pretix-widget.html event="ki-zivil-9" %}
+{% include pretix-widget.html event="ki-zivil-10" %}
