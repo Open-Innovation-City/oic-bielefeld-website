@@ -11,6 +11,7 @@ Das 8. Meetup aus der Reihe KI und Zivilgesellschaft behandelt das Thema Open In
 
 Wir laden euch herzlich ein, im Impulsvortrag **Potentiale für Offene Innovation zu identifizieren und zu beleuchten, wie KI unterstützen kann.**
 **In diesem Vortrag schauen wir uns Fallbespiele, Use Cases an und zeigen, wie KI die Innovationskraft stärken kann.** 
+Es sind **keine Vorkenntnisse** notwendig.
 
 ### Fachexpertise
 **[Prof. Dr. Henning Duderstadt](https://www.linkedin.com/in/henning-duderstadt/)** ist an der Bielefelder Fachhochschule des Mittelstands (FHM) Professor für Unternehmensgründung. Als Experte für Innovationsmanagement und Open Innovation war er als strategische und kaufmännische Geschäftsführung im Projekt Open Innovation City verantwortlich. 
