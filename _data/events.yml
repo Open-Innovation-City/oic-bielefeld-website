@@ -152,8 +152,8 @@
   featured: true
   topic: "open-innovation-hour"
 
-- title: "Save-the-Date: Meetup zum Thema KI-Kompetenz"
-  description: "Wir sprechen mit Prof'in Dr. Barbara Hammer, Profession für Maschinelles Lernen an der Universität Bielefeld, mit der Fähigkeit auch Laien die Relevanz von KI-Kompetenz zu vermitteln. - Mehr zum Meetup folgt in Kürze."
+- title: "KI-Kompetenz – KI sachkundig, sicher und sinnvoll einsetzen."
+  description: "Prof'in Dr. Barbara Hammer und Prof. Dr. Benjamin Paaßen, beide an der Universität Bielefeld, zeigen im Impuls-Workshop die Notwendigkeit von KI-Kompetenz."
   date: "2025-11-11"
   time: "16:30"
   duration: "1,5 Stunden"
@@ -161,8 +161,8 @@
   category: "Impuls & Workshop"
   target_audience: "Zivilgesellschaftlich engagierte Menschen, Vereinsaktive und Interessierte"
   cost: "Kostenlos"
-  booking_url: "-"
-  link_text: "Anmeldelink folgt"
+  booking_url: "/beitraege/ki-kompetenz"
+  link_text: "Details & Anmeldung"
   featured: false
   topic: "ki-zivilgesellschaft"
 
