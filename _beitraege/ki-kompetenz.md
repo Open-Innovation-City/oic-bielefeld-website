@@ -14,7 +14,7 @@ In einem 90-minütigen **Impuls-Workshop** möchten wir ein wenig hinter die Kul
 In diesem Workshop schauen wir uns an, welche verschiedenen KI-Verfahren es gibt und was typische Prinzipien sind, wie diese KI-Verfahren ‚lernen‘. Davon ausgehend beleuchten wir, **welche zum Teil unerwarteten Fehler die Verfahren machen und welche Risiken mit den Verfahren einhergehen.**
 Es sind **keine Vorkenntnisse** notwendig. 
 
-## Hinweis: 
+### Hinweis: 
 Diese Veranstaltung behandelt **weder rechtlichen Aspekte des EU AI Act noch andere rechtliche Fragen**. Bei dem Meetup geht es um den **bewussten Umgang mit KI-Technologien**.
 
 ### Fachexpertise
