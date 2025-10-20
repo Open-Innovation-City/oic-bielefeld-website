@@ -25,7 +25,7 @@ Am Ende des Vortrags
 - siehst du wie KI **zur Lösung von aktuellen wirtschaftlichen Herausforderungen wie aufwendige Dokumentation oder Kundenorientierung** eingesetzt werden kann
 - begreifst du die Chancen und Risiken für **Innovation durch und mit KI**
 
-### Keine Materialien notwendig.
+**Keine Materialien notwendig.**
 
 
 ### Info zur MeetUp-Reihe
