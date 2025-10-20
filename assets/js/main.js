@@ -661,4 +661,229 @@
      */
     window.closeEventAlert = closeEventAlert;
 
+    /**
+     * Beitraege Filter System
+     * Handles category filtering with accessibility and animations
+     */
+    class BeitraegeFilter {
+        constructor() {
+            this.filterButtons = document.querySelectorAll('.filter-btn');
+            this.beitraegeCards = document.querySelectorAll('.project-card[data-category]');
+            this.resultText = document.getElementById('filter-result-text');
+            this.beitraegeGrid = document.getElementById('beitraege-grid');
+            this.currentFilter = 'all';
+
+            if (this.filterButtons.length > 0) {
+                this.init();
+            }
+        }
+
+        init() {
+            this.setupFilterButtons();
+            this.setupKeyboardNavigation();
+            this.checkURLParameter();
+        }
+
+        setupFilterButtons() {
+            this.filterButtons.forEach((button) => {
+                button.addEventListener('click', (e) => {
+                    const filter = e.currentTarget.dataset.filter;
+                    this.applyFilter(filter);
+                });
+            });
+        }
+
+        setupKeyboardNavigation() {
+            const filterContainer = document.querySelector('.filter-buttons');
+            if (!filterContainer) return;
+
+            filterContainer.addEventListener('keydown', (e) => {
+                const currentButton = document.activeElement;
+
+                if (!currentButton.classList.contains('filter-btn')) return;
+
+                const buttons = Array.from(this.filterButtons);
+                const currentIndex = buttons.indexOf(currentButton);
+
+                let targetIndex = currentIndex;
+
+                // Arrow key navigation
+                switch(e.key) {
+                    case 'ArrowRight':
+                    case 'ArrowDown':
+                        e.preventDefault();
+                        targetIndex = (currentIndex + 1) % buttons.length;
+                        break;
+                    case 'ArrowLeft':
+                    case 'ArrowUp':
+                        e.preventDefault();
+                        targetIndex = (currentIndex - 1 + buttons.length) % buttons.length;
+                        break;
+                    case 'Home':
+                        e.preventDefault();
+                        targetIndex = 0;
+                        break;
+                    case 'End':
+                        e.preventDefault();
+                        targetIndex = buttons.length - 1;
+                        break;
+                    case 'Enter':
+                    case ' ':
+                        e.preventDefault();
+                        currentButton.click();
+                        return;
+                }
+
+                if (targetIndex !== currentIndex) {
+                    buttons[targetIndex].focus();
+                    buttons[targetIndex].tabIndex = 0;
+                    currentButton.tabIndex = -1;
+                }
+            });
+        }
+
+        checkURLParameter() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const filterParam = urlParams.get('filter');
+
+            if (filterParam) {
+                this.applyFilter(filterParam);
+            }
+        }
+
+        applyFilter(filter) {
+            if (this.currentFilter === filter) return;
+
+            this.currentFilter = filter;
+
+            // Update button states
+            this.updateButtonStates(filter);
+
+            // Filter cards with animation
+            this.filterCards(filter);
+
+            // Update URL parameter
+            this.updateURL(filter);
+
+            // Update result count
+            this.updateResultCount();
+        }
+
+        updateButtonStates(activeFilter) {
+            this.filterButtons.forEach((button) => {
+                const isActive = button.dataset.filter === activeFilter;
+
+                button.classList.toggle('active', isActive);
+                button.setAttribute('aria-checked', isActive.toString());
+                button.tabIndex = isActive ? 0 : -1;
+            });
+        }
+
+        filterCards(filter) {
+            let visibleCount = 0;
+
+            this.beitraegeCards.forEach((card, index) => {
+                const category = card.dataset.category;
+                const shouldShow = filter === 'all' || category === filter;
+
+                if (shouldShow) {
+                    visibleCount++;
+                    card.classList.remove('filtered-out');
+                    card.classList.add('filtered-in');
+
+                    // Staggered animation
+                    card.style.animationDelay = (index * 0.05) + 's';
+                } else {
+                    card.classList.add('filtered-out');
+                    card.classList.remove('filtered-in');
+                }
+            });
+
+            // Show/hide empty state message
+            this.handleEmptyState(visibleCount);
+        }
+
+        handleEmptyState(visibleCount) {
+            const existingMessage = this.beitraegeGrid?.querySelector('.no-results-message');
+
+            if (visibleCount === 0) {
+                if (!existingMessage && this.beitraegeGrid) {
+                    const emptyMessage = document.createElement('div');
+                    emptyMessage.className = 'no-results-message';
+                    emptyMessage.innerHTML = `
+                        <h3>Keine Beiträge gefunden</h3>
+                        <p>Für diese Kategorie sind aktuell keine Beiträge verfügbar.</p>
+                    `;
+                    this.beitraegeGrid.appendChild(emptyMessage);
+                }
+            } else if (existingMessage) {
+                existingMessage.remove();
+            }
+        }
+
+        updateURL(filter) {
+            const url = new URL(window.location);
+
+            if (filter === 'all') {
+                url.searchParams.delete('filter');
+            } else {
+                url.searchParams.set('filter', filter);
+            }
+
+            window.history.replaceState({}, '', url);
+        }
+
+        updateResultCount() {
+            const visibleCards = Array.from(this.beitraegeCards).filter(
+                card => !card.classList.contains('filtered-out')
+            );
+
+            const count = visibleCards.length;
+            const filterName = this.getFilterName();
+
+            if (this.resultText) {
+                const text = this.currentFilter === 'all'
+                    ? `${count} Beiträge`
+                    : `${count} Beiträge in "${filterName}"`;
+
+                this.resultText.textContent = text;
+
+                // Announce to screen readers
+                this.announceToScreenReader(text);
+            }
+        }
+
+        getFilterName() {
+            const activeButton = document.querySelector('.filter-btn.active');
+            if (!activeButton) return '';
+
+            const buttonText = activeButton.textContent.trim();
+            // Remove count badge from button text
+            return buttonText.replace(/\s*\(\d+\)\s*$/, '').trim();
+        }
+
+        announceToScreenReader(message) {
+            // Create a temporary live region announcement
+            const announcement = document.createElement('div');
+            announcement.setAttribute('role', 'status');
+            announcement.setAttribute('aria-live', 'polite');
+            announcement.className = 'sr-only';
+            announcement.style.cssText = 'position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden;';
+            announcement.textContent = message;
+
+            document.body.appendChild(announcement);
+
+            setTimeout(() => {
+                announcement.remove();
+            }, 1000);
+        }
+    }
+
+    /**
+     * Initialize Beitraege Filter when DOM is ready
+     */
+    document.addEventListener('DOMContentLoaded', function() {
+        new BeitraegeFilter();
+    });
+
 })();

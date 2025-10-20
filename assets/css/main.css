@@ -2001,3 +2001,206 @@ body:has(.event-alert-banner) .navbar {
     touch-action: pan-x;
   }
 }
+
+/* ===== FILTER SECTION STYLES ===== */
+
+/* Filter Container */
+.filter-section {
+  margin: 3rem auto;
+  max-width: 100%;
+}
+
+/* Filter Buttons Container */
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  padding: 0 1rem;
+}
+
+/* Individual Filter Button */
+.filter-btn {
+  background: white;
+  border: 2px solid var(--primary-turquoise);
+  color: var(--primary-turquoise);
+  padding: 0.65rem 1.5rem;
+  border-radius: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  outline: none;
+}
+
+/* Filter Count Badge */
+.filter-count {
+  font-weight: 500;
+  opacity: 0.8;
+  font-size: 0.85rem;
+  margin-left: 0.25rem;
+}
+
+/* Hover State */
+.filter-btn:hover {
+  background: rgba(0, 178, 187, 0.1);
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 4px 12px rgba(0, 178, 187, 0.2);
+}
+
+/* Active State */
+.filter-btn.active {
+  background: linear-gradient(135deg, var(--primary-turquoise) 0%, var(--secondary-blue) 100%);
+  color: white;
+  border-color: var(--primary-turquoise);
+  box-shadow: 0 4px 15px rgba(0, 178, 187, 0.3);
+  transform: translateY(-2px);
+}
+
+.filter-btn.active:hover {
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 6px 20px rgba(0, 178, 187, 0.4);
+}
+
+.filter-btn.active .filter-count {
+  opacity: 0.95;
+}
+
+/* Focus State (Accessibility) */
+.filter-btn:focus {
+  outline: 3px solid var(--primary-yellow);
+  outline-offset: 3px;
+  box-shadow: 0 0 0 3px rgba(255, 245, 100, 0.3);
+}
+
+/* Shimmer Animation on Hover */
+.filter-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  transition: left 0.5s ease;
+  pointer-events: none;
+}
+
+.filter-btn:hover::before {
+  left: 100%;
+}
+
+/* Filter Results Text */
+.filter-results {
+  text-align: center;
+  font-size: 1rem;
+  color: var(--text-light);
+  font-weight: 500;
+  min-height: 1.5rem;
+  transition: opacity 0.3s ease;
+}
+
+#filter-result-text {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: var(--bg-light);
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+/* Beitraege Grid Filtering */
+.project-card.filtered-out {
+  display: none;
+  opacity: 0;
+  transform: scale(0.8);
+}
+
+.project-card.filtered-in {
+  display: block;
+  animation: fadeInScale 0.4s ease forwards;
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.9) translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* Empty State when no results */
+.no-results-message {
+  text-align: center;
+  padding: 3rem 2rem;
+  color: var(--text-light);
+  font-size: 1.1rem;
+  grid-column: 1 / -1;
+}
+
+.no-results-message h3 {
+  color: var(--primary-turquoise);
+  margin-bottom: 1rem;
+}
+
+/* Responsive Filter Buttons */
+@media (max-width: 768px) {
+  .filter-buttons {
+    gap: 0.5rem;
+    padding: 0 0.5rem;
+  }
+
+  .filter-btn {
+    padding: 0.5rem 1.2rem;
+    font-size: 0.85rem;
+  }
+
+  .filter-count {
+    font-size: 0.75rem;
+  }
+
+  .filter-section {
+    margin: 2rem auto;
+  }
+
+  .filter-results {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .filter-buttons {
+    gap: 0.4rem;
+  }
+
+  .filter-btn {
+    padding: 0.45rem 1rem;
+    font-size: 0.8rem;
+  }
+
+  .filter-count {
+    display: none; /* Hide counts on very small screens */
+  }
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+  .filter-btn,
+  .filter-btn::before,
+  .project-card.filtered-in {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  .filter-btn:hover,
+  .filter-btn.active {
+    transform: none !important;
+  }
+}
