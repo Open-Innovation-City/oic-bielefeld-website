@@ -398,6 +398,59 @@ Der Workshop findet im Innovation Office statt...
 - **Kompatibel mit Galerien:** Kann mit Bildergalerien kombiniert werden
 - **Mobile-optimiert:** Funktioniert einwandfrei auf allen Geräten
 
+## Zitate einbinden
+
+Du kannst stilvolle Zitate in Blog-Beiträge einbinden. Das Zitat wird in einer hervorgehobenen Box mit großem Anführungszeichen angezeigt.
+
+### Zitat-Syntax:
+```markdown
+{% include quote.html
+   text="Der Zitat-Text kommt hier rein."
+   author="Name des Urhebers" %}
+```
+
+**Parameter:**
+- `text`: **Pflichtfeld** - Der Text des Zitats
+- `author`: Optional - Name der Person oder Quelle (z.B. "Albert Einstein" oder "Frei nach Douglas Adams")
+
+### Praktisches Beispiel:
+```markdown
+---
+title: "Innovation und Kreativität"
+author: "Maria Schmidt"
+category: "Insights"
+date: 2025-10-20
+---
+
+## Die Kraft der Innovation
+
+Innovation beginnt oft mit einem einfachen Gedanken.
+
+{% include quote.html
+   text="Innovation unterscheidet zwischen einem Anführer und einem Verfolger."
+   author="Steve Jobs" %}
+
+In diesem Artikel schauen wir uns an, wie...
+```
+
+### Design-Features:
+- **Hervorgehobene Box:** Weißer Hintergrund mit Schatten und blauem Akzent
+- **Großes Anführungszeichen:** Türkisfarbenes dekoratives Element
+- **Kursiver Text:** Elegant formatierter Zitattext
+- **Quellenangabe:** Rechtsbündig unter dem Zitat (optional)
+- **Responsive:** Passt sich an alle Bildschirmgrößen an
+
+### Wichtige Hinweise:
+- **Anführungszeichen nicht nötig:** Das große dekorative Anführungszeichen wird automatisch hinzugefügt
+- **Längere Zitate:** Funktioniert auch für mehrzeilige Zitate
+- **Ohne Urheber:** Lasse `author` einfach weg, wenn die Quelle unbekannt ist
+
+**Beispiel ohne Urheber:**
+```markdown
+{% include quote.html
+   text="Die beste Zeit, einen Baum zu pflanzen, war vor 20 Jahren. Die zweitbeste Zeit ist jetzt." %}
+```
+
 ## YouTube-Videos einbetten
 
 Du kannst einfach YouTube-Videos in Blog-Beiträge einbinden. Das Video wird als interaktives Thumbnail angezeigt und lädt erst beim Klick.

@@ -1,0 +1,80 @@
+<!-- Quote Component -->
+<div class="quote-block">
+    <blockquote>
+        <p>{{ include.text }}</p>
+        {% if include.author %}
+        <cite>{{ include.author }}</cite>
+        {% endif %}
+    </blockquote>
+</div>
+
+<style>
+/* Quote Block Component (reused from 404 page) */
+.quote-block {
+    margin: 3rem 0;
+    padding: 2rem;
+    background: var(--white);
+    border-radius: 20px;
+    box-shadow: var(--shadow-medium);
+    border-left: 5px solid var(--secondary-blue);
+    position: relative;
+}
+
+.quote-block::before {
+    content: '"';
+    font-size: 4rem;
+    color: var(--primary-turquoise);
+    position: absolute;
+    top: -1rem;
+    left: 1rem;
+    font-family: Georgia, serif;
+}
+
+/* Override default blockquote styles from post.html */
+.quote-block blockquote {
+    margin: 0 !important;
+    padding: 0 !important;
+    background: transparent !important;
+    border-left: none !important;
+    border-radius: 0 !important;
+}
+
+.quote-block blockquote p {
+    font-size: 1.3rem;
+    font-style: italic;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+.quote-block cite {
+    display: block;
+    font-size: 0.9rem;
+    color: var(--text-light);
+    font-style: normal;
+    text-align: right;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .quote-block {
+        margin: 2rem 0;
+        padding: 1.5rem;
+    }
+
+    .quote-block blockquote p {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .quote-block {
+        padding: 1rem;
+    }
+
+    .quote-block::before {
+        font-size: 3rem;
+        top: -0.5rem;
+    }
+}
+</style>

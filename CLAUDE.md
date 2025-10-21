@@ -172,6 +172,38 @@ Use the gallery include for GitHub Pages compatibility:
 - Optimized spacing: Image margin adjusted to bring caption closer to image
 - Responsive design: Captions adapt to all screen sizes
 
+### Adding Quote Blocks
+**New as of October 2025:** For embedding styled quotes in blog posts:
+```markdown
+{% include quote.html
+   text="The quote text goes here."
+   author="Optional source or author name" %}
+```
+
+**Quote Block Component:**
+- **Reuses 404 page design**: Same styling as the Douglas Adams quote on the 404 error page
+- **Visual elements**: Large decorative quotation mark, white card with shadow, blue accent border
+- **Flexible layout**: Works with or without author attribution
+- **Responsive design**: Adapts to all screen sizes with mobile-optimized spacing
+
+**Parameters:**
+- `text`: Quote text (required)
+- `author`: Source/author attribution (optional) - displayed right-aligned below quote
+
+**Implementation Details:**
+- Component file: `_includes/quote.html`
+- Self-contained styling within component (no main.css dependencies)
+- CSS uses design token variables: `--primary-turquoise`, `--secondary-blue`, `--text-dark`, etc.
+- Responsive breakpoints at 768px and 480px
+- Font size scales from 1.3rem (desktop) to 1.1rem (mobile)
+
+**Example Usage:**
+```markdown
+{% include quote.html
+   text="Innovation unterscheidet zwischen einem Anführer und einem Verfolger."
+   author="Steve Jobs" %}
+```
+
 ### Adding Pretix Event Widgets
 For embedding event registration forms directly in blog posts:
 ```markdown
