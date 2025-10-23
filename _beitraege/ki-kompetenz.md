@@ -15,7 +15,7 @@ In diesem Workshop schauen wir uns an, welche verschiedenen KI-Verfahren es gibt
 Es sind **keine Vorkenntnisse** notwendig. 
 
 ### Hinweis: 
-Diese Veranstaltung behandelt **weder rechtlichen Aspekte des EU AI Act noch andere rechtliche Fragen**. Bei dem Meetup geht es um den **bewussten Umgang mit KI-Technologien**.
+Diese Veranstaltung behandelt **weder rechtliche Aspekte des EU AI Act noch andere rechtliche Fragen**. Bei dem Meetup geht es um den **bewussten Umgang mit KI-Technologien**.
 
 ### Fachexpertise
 **Barbara Hammer** ist Professorin für Maschinelles Lernen an der Universität Bielefeld. Ihr Forschungsschwerpunkt liegt in der Entwicklung von Verfahren des maschinellen Lernens, die in realen Umgebungen und mit nur wenigen Daten beweisbar robust und sicher funktionieren. Sowie an der Anwendung unter anderem im Bereich kritischer Infrastruktur, in Produktionsprozessen und im medizinischen Kontext. [Barbara Hammer LinkedIn-Profil](https://www.linkedin.com/in/barbara-hammer-62963295/) 
