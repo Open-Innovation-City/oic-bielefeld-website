@@ -62,6 +62,48 @@ p {
   font-weight: 400;
 }
 
+/* External Link Icons for Content */
+/* Targets external links in paragraphs, lists, and content areas */
+p a[href^="http"]::after,
+li a[href^="http"]::after,
+.post-content a[href^="http"]::after,
+.about a[href^="http"]::after {
+  content: " ↗";
+  font-size: 0.85em;
+  vertical-align: super;
+  color: inherit;
+  display: inline-block;
+  transition: transform 0.2s ease;
+  margin-left: 0.15em;
+}
+
+/* Hover effect for external link icon */
+p a[href^="http"]:hover::after,
+li a[href^="http"]:hover::after,
+.post-content a[href^="http"]:hover::after,
+.about a[href^="http"]:hover::after {
+  transform: translate(2px, -2px);
+}
+
+/* Exclude internal links (same domain) - adjust domain as needed */
+p a[href*="oic-bielefeld.de"]::after,
+li a[href*="oic-bielefeld.de"]::after,
+.post-content a[href*="oic-bielefeld.de"]::after,
+.about a[href*="oic-bielefeld.de"]::after {
+  content: none;
+}
+
+/* Exclude buttons and CTAs from getting icons */
+.cta-button::after,
+.event-book-btn::after,
+.project-link-btn::after,
+.alert-link::after,
+.contact-link::after,
+button a[href^="http"]::after,
+.filter-btn a[href^="http"]::after {
+  content: none !important;
+}
+
 /* Event Alert Banner */
 .event-alert-banner {
   position: fixed;
