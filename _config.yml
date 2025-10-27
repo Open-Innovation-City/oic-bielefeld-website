@@ -57,9 +57,10 @@ opening_hours: "Mo-Fr 9:00-17:00 Uhr"
 
 # Social Media (optional)
 social:
-  twitter: ""
-  linkedin: ""
-  github: ""
+  github: "https://github.com/Open-Innovation-City"
+  instagram: "https://www.instagram.com/openinnovationcitybielefeld/"
+  linkedin: "https://de.linkedin.com/company/open-innovation-city"
+  youtube: "https://www.youtube.com/channel/UCzDMmceHt8U-RUIJSsYxZ4Q"
 
 # Google Analytics (optional)
 google_analytics: ""

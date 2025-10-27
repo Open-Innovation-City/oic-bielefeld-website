@@ -1334,6 +1334,16 @@ body:has(.event-alert-banner) .navbar {
   gap: 1rem;
 }
 
+.footer-copyright {
+  margin: 0;
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
 .footer-links {
   display: flex;
   gap: 2rem;
@@ -1347,6 +1357,31 @@ body:has(.event-alert-banner) .navbar {
 
 .footer-links a:hover {
   color: var(--primary-turquoise);
+}
+
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) invert(1);
+  transition: opacity 0.3s ease;
+}
+
+.social-icon:hover {
+  opacity: 0.7;
 }
 
 /* Skip Link for Accessibility */
@@ -1409,11 +1444,25 @@ body:has(.event-alert-banner) .navbar {
     flex-direction: column;
     text-align: center;
   }
-  
+
+  .footer-copyright {
+    order: 1;
+  }
+
+  .footer-right {
+    order: 2;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .footer-social {
+    justify-content: center;
+  }
+
   .footer-links {
     justify-content: center;
   }
-  
+
   .cookie-content {
     flex-direction: column;
     text-align: center;
