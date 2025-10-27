@@ -886,4 +886,57 @@
         new BeitraegeFilter();
     });
 
+    /**
+     * ====================================
+     * Newsletter Modal
+     * ====================================
+     */
+    class NewsletterModal {
+        constructor() {
+            this.modal = document.getElementById('newsletterModal');
+            this.openBtn = document.getElementById('newsletterCTA');
+            this.closeBtn = document.getElementById('newsletterModalClose');
+            this.overlay = document.getElementById('newsletterModalOverlay');
+
+            if (this.modal && this.openBtn) {
+                this.init();
+            }
+        }
+
+        init() {
+            // Open modal
+            this.openBtn.addEventListener('click', () => this.open());
+
+            // Close modal
+            this.closeBtn.addEventListener('click', () => this.close());
+            this.overlay.addEventListener('click', () => this.close());
+
+            // Close on ESC key
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape' && this.modal.classList.contains('active')) {
+                    this.close();
+                }
+            });
+        }
+
+        open() {
+            this.modal.classList.add('active');
+            this.modal.setAttribute('aria-hidden', 'false');
+            document.body.style.overflow = 'hidden'; // Prevent background scrolling
+        }
+
+        close() {
+            this.modal.classList.remove('active');
+            this.modal.setAttribute('aria-hidden', 'true');
+            document.body.style.overflow = ''; // Restore scrolling
+        }
+    }
+
+    /**
+     * Initialize Newsletter Modal when DOM is ready
+     */
+    document.addEventListener('DOMContentLoaded', function() {
+        new NewsletterModal();
+    });
+
 })();

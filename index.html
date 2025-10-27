@@ -319,7 +319,7 @@ description: Gemeinsam gestalten wir die Zukunft unserer Stadt durch offene Inno
         <p style="text-align: center; font-size: 1.2rem; margin-bottom: 3rem;">
             Hast Du Ideen, Fragen oder möchtest Teil unserer Initiative werden? Melde dich bei uns!
         </p>
-        
+
         <div class="contact-info">
             <div class="contact-card">
                 <h4>Allgemeine Anfragen</h4>
@@ -331,7 +331,70 @@ description: Gemeinsam gestalten wir die Zukunft unserer Stadt durch offene Inno
                 <h4>Innovation Office</h4>
                 <p>Das Innovation Office findet Du hier:<br><br>{{ site.address.street }}<br>{{ site.address.city }}</p>
             </div>
+        </div>
 
+        <!-- Newsletter CTA -->
+        <div class="cta-container" style="margin-top: 3rem;">
+            <button id="newsletterCTA" class="cta-button">Newsletter abonnieren</button>
         </div>
     </div>
 </section>
+
+<!-- Newsletter Modal -->
+<div id="newsletterModal" class="modal" role="dialog" aria-labelledby="newsletterModalTitle" aria-hidden="true">
+    <div class="modal-overlay" id="newsletterModalOverlay"></div>
+    <div class="modal-content">
+        <button class="modal-close" id="newsletterModalClose" aria-label="Modal schließen">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+            </svg>
+        </button>
+
+        <div class="modal-header">
+            <h3 id="newsletterModalTitle">Newsletter abonnieren</h3>
+            <p>Bleib auf dem Laufenden über unsere Events, Projekte und Neuigkeiten aus dem Innovation Office.</p>
+        </div>
+
+        <div class="modal-body">
+            <iframe
+                src="https://www.bielefeld.de/webform/newsletter_abo_oicb/share/iframe-resizer/4.2.10"
+                title="Newsletter Abo OICB | Bielefeld"
+                class="webform-share-iframe newsletter-iframe"
+                frameborder="0"
+                allow="geolocation; microphone; camera"
+                allowtransparency="true"
+                allowfullscreen="true"
+                style="width:1px;min-width:100%">
+            </iframe>
+        </div>
+
+        <div class="modal-footer">
+            <p><small>Wir respektieren deine Privatsphäre. Informationen zur Datenverarbeitung findest du in unserer <a href="{{ site.baseurl }}/datenschutz">Datenschutzerklärung</a>.</small></p>
+        </div>
+    </div>
+</div>
+
+<!-- Iframe Resizer Script -->
+<script src="https://cdn.jsdelivr.net/gh/davidjbradshaw/iframe-resizer@4.2.10/js/iframeResizer.min.js"></script>
+<script>
+    // Initialize iframe resizer when modal opens
+    document.addEventListener('DOMContentLoaded', function() {
+        const modal = document.getElementById('newsletterModal');
+        const modalObserver = new MutationObserver(function(mutations) {
+            mutations.forEach(function(mutation) {
+                if (mutation.attributeName === 'class' && modal.classList.contains('active')) {
+                    if (typeof iFrameResize === 'function') {
+                        setTimeout(function() {
+                            iFrameResize({
+                                log: false,
+                                checkOrigin: false,
+                                heightCalculationMethod: 'taggedElement'
+                            }, '.newsletter-iframe');
+                        }, 100);
+                    }
+                }
+            });
+        });
+        modalObserver.observe(modal, { attributes: true });
+    });
+</script>
