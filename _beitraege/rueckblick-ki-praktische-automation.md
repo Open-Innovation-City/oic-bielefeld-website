@@ -40,6 +40,12 @@ Die Fragen der Teilnehmer:innen wurden aufgenommen und verständlich beantwortet
 Frage dich, welche Aufgabe automatisiert werden sollte. Achte dabei auf unstrukturierte Daten. Welche Regeln können angewendet werden? Gibt es eine passende KI dafür? 
 Achte auf **Datenschutz und die Sicherheit deiner Daten**, vorallem am Arbeitsplatz und bei der Verwendung persönlicher Daten. Experimentieren.Lernen.Testen.
 
+### Kontakt zur n8n Expertin:  
+Du suchst eine Person, die entweder über NoCode referieren oder bei der Umsetzung eines Workflows unterstützen soll? 
+Schreib Yulia Dmitrievna an
+per E-Mail: ki.automatisierung.ws@gmail.com
+per LinkedIn: https://www.linkedin.com/in/yulia-dmitrievna-1112361b5/
+
 ### Handout
 Ein Handout in Form einer Präsentation wurde den Teilnehmer:innen zur Verfügung gestellt.
 {% include gallery.html 
