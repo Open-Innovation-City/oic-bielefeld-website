@@ -24,7 +24,7 @@ In der Open Innovation Hour **entwickeln wir gemeinsam Ideen** für Begegnungsm�
 
 Die 60 Minuten im Überblick:  
 
-Wir freuen uns auf einen spannenden **Impuls von Heiko Kolz**, der als CFO und CNO von P3 - PEOPLE PLACES PURPOSE in Schleswig-Holstein Zukunftsorte gestaltet.  
+Wir freuen uns auf einen spannenden **Impuls von Heiko Kolz**, der als CFO und CNO von P3 - PEOPLE PLACES PURPOSE Zukunftsorte gestaltet.  
 
 * **Bestandsaufnahme:** Wo gibt es in Bielefeld bereits Orte und Formate, die Begegnung ermöglichen? Wo fehlen sie? (z. B. Wochenmärkte, Bibliotheken, Stadtteilsfeste)  
 * **Perspektivwechsel:** Wie erleben unterschiedliche Menschen – von der 80-jährigen Rentnerin bis zum 16-jährigen Azubi – unsere Stadt? Was zieht sie an, was schreckt sie ab?  
