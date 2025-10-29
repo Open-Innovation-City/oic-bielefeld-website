@@ -31,10 +31,34 @@
             </div>
             
             <div class="footer-bottom">
-                <p>Alle Inhalte und Bilder &copy; Open Innovation City Bielefeld, sofern nicht anders angegeben.</p>
-                <div class="footer-links">
-                    <a href="{{ site.baseurl }}/impressum">Impressum</a>
-                    <a href="{{ site.baseurl }}/datenschutz">Datenschutz</a>
+                <p class="footer-copyright">Alle Inhalte und Bilder &copy; Open Innovation City Bielefeld, sofern nicht anders angegeben.</p>
+                <div class="footer-right">
+                    <div class="footer-social">
+                        {% if site.social.github and site.social.github != "" %}
+                        <a href="{{ site.social.github }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <img src="{{ site.baseurl }}/assets/images/icons/github.svg" alt="GitHub" class="social-icon">
+                        </a>
+                        {% endif %}
+                        {% if site.social.instagram and site.social.instagram != "" %}
+                        <a href="{{ site.social.instagram }}" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <img src="{{ site.baseurl }}/assets/images/icons/instagram.svg" alt="Instagram" class="social-icon">
+                        </a>
+                        {% endif %}
+                        {% if site.social.linkedin and site.social.linkedin != "" %}
+                        <a href="{{ site.social.linkedin }}" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <img src="{{ site.baseurl }}/assets/images/icons/linkedin.svg" alt="LinkedIn" class="social-icon">
+                        </a>
+                        {% endif %}
+                        {% if site.social.youtube and site.social.youtube != "" %}
+                        <a href="{{ site.social.youtube }}" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                            <img src="{{ site.baseurl }}/assets/images/icons/youtube.svg" alt="YouTube" class="social-icon">
+                        </a>
+                        {% endif %}
+                    </div>
+                    <div class="footer-links">
+                        <a href="{{ site.baseurl }}/impressum">Impressum</a>
+                        <a href="{{ site.baseurl }}/datenschutz">Datenschutz</a>
+                    </div>
                 </div>
             </div>
         </div>
