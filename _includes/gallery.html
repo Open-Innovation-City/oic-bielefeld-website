@@ -1,39 +1,67 @@
 {% comment %}
-Gallery Include for GitHub Pages compatibility
-Usage: {% include gallery.html images="image1.jpg|Caption 1,image2.jpg|Caption 2,image3.jpg" folder="/assets/images/events/workshop/" %}
+Gallery Include with automatic folder loading
+Usage:
+  Manual: {% include gallery.html images="img1.jpg|Caption,img2.jpg" folder="/assets/images/event/" %}
+  Auto:   {% include gallery.html folder="/assets/images/event/" %}
 {% endcomment %}
 
 {% assign gallery_id = include.gallery_id | default: 'gallery' %}
 {% unless include.gallery_id %}
-  {% assign random_num = page.url | size | times: include.images | size %}
-  {% assign gallery_id = 'gallery-' | append: random_num %}
+  {% comment %} Generate unique gallery ID using folder path and timestamp-like value {% endcomment %}
+  {% assign folder_hash = include.folder | default: '/assets/images/' | remove: '/' | remove: '.' %}
+  {% assign images_hash = include.images | default: 'auto' | size %}
+  {% assign random_num = page.url | size | times: images_hash | times: 997 | plus: folder_hash | size %}
+  {% assign gallery_id = 'gallery-' | append: folder_hash | append: '-' | append: random_num %}
 {% endunless %}
 {% assign folder = include.folder | default: '/assets/images/' %}
-{% assign images_raw = include.images | split: ',' %}
+
+{% if include.images %}
+  {% comment %} OLD BEHAVIOR: Manual image list {% endcomment %}
+  {% assign images_raw = include.images | split: ',' %}
+  {% assign image_mode = 'manual' %}
+{% else %}
+  {% comment %} NEW BEHAVIOR: Auto-load all images from folder {% endcomment %}
+  {% assign image_extensions = ".jpg,.jpeg,.png,.gif,.webp,.JPG,.JPEG,.PNG,.GIF,.WEBP" | split: "," %}
+  {% assign auto_images = "" | split: "" %}
+
+  {% for file in site.static_files %}
+    {% if file.path contains folder %}
+      {% if image_extensions contains file.extname %}
+        {% assign auto_images = auto_images | push: file.path %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+  {% assign images_raw = auto_images | sort %}
+  {% assign image_mode = 'auto' %}
+{% endif %}
 
 <div class="image-gallery" data-gallery-id="{{ gallery_id }}">
   {% for image_raw in images_raw %}
-    {% assign image_parts = image_raw | split: '|' %}
-    {% assign image_path = image_parts[0] | strip %}
-    {% assign image_caption = image_parts[1] | strip | default: '' %}
-    
-    {% comment %} Generate alt text from filename if no caption {% endcomment %}
+    {% if image_mode == 'manual' %}
+      {% assign image_parts = image_raw | split: '|' %}
+      {% assign image_path = image_parts[0] | strip %}
+      {% assign image_caption = image_parts[1] | strip | default: '' %}
+
+      {% unless image_path contains '/' %}
+        {% assign image_path = folder | append: image_path %}
+      {% endunless %}
+    {% else %}
+      {% assign image_path = image_raw %}
+      {% assign image_caption = '' %}
+    {% endif %}
+
     {% if image_caption == '' %}
       {% assign filename = image_path | split: '/' | last | split: '.' | first %}
       {% assign image_caption = filename | replace: '-', ' ' | replace: '_', ' ' | capitalize %}
     {% endif %}
-    
-    {% comment %} Add folder path if not absolute {% endcomment %}
-    {% unless image_path contains '/' %}
-      {% assign image_path = folder | append: image_path %}
-    {% endunless %}
-    
+
     <div class="gallery-item" data-index="{{ forloop.index0 }}">
-      <img src="{{ image_path }}" 
-           alt="{{ image_caption }}" 
-           data-caption="{{ image_caption }}" 
-           data-gallery="{{ gallery_id }}" 
-           loading="lazy" 
+      <img src="{{ image_path }}"
+           alt="{{ image_caption }}"
+           data-caption="{{ image_caption }}"
+           data-gallery="{{ gallery_id }}"
+           loading="lazy"
            class="gallery-thumbnail">
       <div class="gallery-overlay"></div>
     </div>

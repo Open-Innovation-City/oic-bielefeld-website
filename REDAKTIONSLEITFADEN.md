@@ -305,20 +305,41 @@ Passanten&shy;frequenz&shy;messung
 **Neu seit Januar 2025:** Du kannst jetzt einfach Bildergalerien in Blog-Beiträgen einbinden!
 
 ### Galerie-Syntax:
+
+**Option 1: Automatisch (alle Bilder aus Ordner)** ⭐ Empfohlen für viele Bilder
 ```markdown
-{% include gallery.html 
-   images="bild1.jpg|Beschreibung 1,bild2.jpg|Beschreibung 2,bild3.jpg" 
+{% include gallery.html folder="/assets/images/events/workshop-2025/" %}
+```
+
+**Option 2: Manuell (spezifische Bilder mit Beschreibungen)**
+```markdown
+{% include gallery.html
+   images="bild1.jpg|Beschreibung 1,bild2.jpg|Beschreibung 2,bild3.jpg"
    folder="/assets/images/events/workshop-2025/" %}
 ```
 
 **Parameter:**
-- `images`: Komma-getrennte Liste von Dateinamen mit optionalen Beschreibungen (getrennt durch `|`)
-- `folder`: Pfad zum Ordner mit den Bildern
+- `folder`: **Pflichtfeld** - Pfad zum Ordner mit den Bildern
+- `images`: Optional - Komma-getrennte Liste von Dateinamen mit optionalen Beschreibungen (getrennt durch `|`)
+
+### Automatischer Modus (neu seit Oktober 2025):
+Wenn du **nur den Ordner** angibst, werden automatisch **alle Bilder** aus diesem Ordner geladen:
+- ✅ **Einfacher:** Nur Ordner-Pfad angeben, fertig!
+- ✅ **Keine Liste:** Bildnamen müssen nicht aufgezählt werden
+- ✅ **Sortierung:** Bilder werden alphabetisch sortiert
+- 💡 **Tipp:** Nummeriere Dateien für gewünschte Reihenfolge: `01-eröffnung.jpg`, `02-workshop.jpg` etc.
+
+### Manueller Modus (klassisch):
+Wenn du **spezifische Bilder** auswählst oder **individuelle Beschreibungen** brauchst:
+- ✅ **Kontrolle:** Du bestimmst exakt, welche Bilder erscheinen
+- ✅ **Bildunterschriften:** Individuelle Beschreibungen mit `|` Trenner
+- ✅ **Reihenfolge:** Bilder erscheinen in der angegebenen Reihenfolge
 
 ### Wichtige Hinweise:
-- **Beschreibungen sind optional:** Mit `|` kannst du Bildunterschriften hinzufügen
+- **Bildunterschriften automatisch:** Ohne Beschreibungen werden Dateinamen als Caption genutzt (`workshop-raum.jpg` → "Workshop raum")
 - **Bilder hochladen:** Lade alle Bilder zuerst in `assets/images/` hoch
 - **Pfade kopieren:** Rechtsklick auf das Bild → "Link kopieren" für den korrekten Pfad
+- **Mehrere Galerien:** Du kannst mehrere Galerien auf einer Seite einbinden - jede wird separat in der Lightbox angezeigt
 
 ### Galerie-Features:
 - **Automatisches Layout:** Pinterest-ähnliche Anordnung der Thumbnails
@@ -327,13 +348,34 @@ Passanten&shy;frequenz&shy;messung
 - **Touch-Unterstützung:** Wischen zwischen Bildern auf Mobilgeräten
 
 ### Beispiel einer Event-Galerie:
+
+**Automatisch (alle Bilder aus Ordner):**
 ```markdown
 Hier sind Impressionen von unserem Workshop:
 
-{% include gallery.html 
-   images="eröffnung.jpg|Begrüßung der Teilnehmer*innen,gruppenarbeit.jpg|Intensive Diskussionen in Kleingruppen,präsentation.jpg|Vorstellung der Ergebnisse,networking.jpg" 
+{% include gallery.html folder="/assets/images/events/workshop-2025/" %}
+```
+
+**Manuell (mit individuellen Beschreibungen):**
+```markdown
+Hier sind Impressionen von unserem Workshop:
+
+{% include gallery.html
+   images="eröffnung.jpg|Begrüßung der Teilnehmer*innen,gruppenarbeit.jpg|Intensive Diskussionen in Kleingruppen,präsentation.jpg|Vorstellung der Ergebnisse,networking.jpg"
    folder="/assets/images/events/workshop-2025/" %}
 ```
+
+**Mehrere Galerien auf einer Seite:**
+```markdown
+## Vormittagssession
+
+{% include gallery.html folder="/assets/images/events/workshop-2025/vormittag/" %}
+
+## Nachmittagssession
+
+{% include gallery.html folder="/assets/images/events/workshop-2025/nachmittag/" %}
+```
+👉 Jede Galerie wird in der Lightbox separat behandelt - keine Vermischung!
 
 ## Event-Anmeldungen einbinden (Pretix-Widgets)
 
