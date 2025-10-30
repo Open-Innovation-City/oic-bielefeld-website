@@ -138,19 +138,34 @@ For specialized event pages that show only events from a specific topic, use the
 
 ### Adding Image Galleries
 Use the gallery include for GitHub Pages compatibility:
+
+**Automatic mode (recommended for multiple images):**
 ```markdown
-{% include gallery.html 
-   images="image1.jpg|Optional caption 1,image2.jpg|Another caption,image3.jpg" 
+{% include gallery.html folder="/assets/images/folder/" %}
+```
+
+**Manual mode (for specific images with custom captions):**
+```markdown
+{% include gallery.html
+   images="image1.jpg|Optional caption 1,image2.jpg|Another caption,image3.jpg"
    folder="/assets/images/folder/" %}
 ```
 
 **Gallery Features:**
+- **Automatic folder loading** (new as of October 2025): Omit `images` parameter to load all images from folder
 - **Pinterest-style masonry layout** with responsive grid (5→3→2→1 columns)
 - **Enhanced lightbox** with arrow navigation and keyboard support (←/→ keys)
 - **Touch gestures** for mobile (swipe left/right to navigate)
 - **Image preloading** for smooth navigation experience
 - **Captions support** with `|` separator (auto-generated from filename if omitted)
 - **Progressive enhancement** - works without JavaScript for basic image display
+- **Gallery isolation**: Multiple galleries on same page are kept separate in lightbox navigation
+
+**Implementation Details:**
+- **Unique gallery IDs**: Gallery ID is generated from folder path to ensure separation between multiple galleries
+- **Automatic image detection**: Uses Jekyll's `site.static_files` to find all images (jpg, jpeg, png, gif, webp) in specified folder
+- **Alphabetical sorting**: Auto-loaded images are sorted alphabetically (use numerical prefixes for custom order: `01-first.jpg`, `02-second.jpg`)
+- **Manual override**: Use `gallery_id` parameter to explicitly set gallery ID if needed
 
 ### Adding Images with Captions in Blog Posts
 **New as of January 2025:** Images in blog posts now support automatic caption display using the title attribute:
@@ -429,3 +444,4 @@ This ensures clean category organization while keeping retrospectives accessible
 - **German language**: Content structure optimized for German municipal website requirements
 - **Legal compliance**: Includes proper Impressum/Datenschutz pages
 - **Asset optimization**: Images automatically compressed, CSS/JS minified on build
+- Always assume, that a Jekyll with Livereload ist running in the background for testing purposes.
