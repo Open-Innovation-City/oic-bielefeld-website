@@ -30,7 +30,7 @@ Leitung Open Innovation City
 **E-Mail:** {{ site.email }}  
 **Telefon:** {{ site.phone }}
 
-Die Stadt Bielefeld ist eine Körperschaft des Öffentlichen Rechts. Sie wird vertreten durch den Oberbürgermeister Pit Clausen.
+Die Stadt Bielefeld ist eine Körperschaft des Öffentlichen Rechts. Sie wird vertreten durch den Oberbürgermeisterin Dr. Christiane Bauer.
 
 ## Umsatzsteuer-ID
 
