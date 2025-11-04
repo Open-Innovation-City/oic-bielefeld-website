@@ -166,8 +166,8 @@
   featured: false
   topic: "ki-zivilgesellschaft"
 
-- title: "Save-the-Date: Meetup zum Thema KI und Soziale Innovation"
-  description: "Wir sprechen darüber wie KI ermöglicht Lösungen für gesellschaftliche Probleme zu finden und umzusetzen. - Mehr zum Meetup folgt in Kürze."
+- title: "KI und Soziale Innovationen - Wie KI für das Gemeinwohl sozial-innovativ eingesetzt werden kann."
+  description: "Wir laden euch herzlich ein, das Thema Soziale Innovationen und KI im Einsatz für das Gemeinwohl im Zusammenhang zu beleuchten."
   date: "2025-11-18"
   time: "16:30"
   duration: "1,5 Stunden"
@@ -175,7 +175,8 @@
   category: "Impuls & Workshop"
   target_audience: "Zivilgesellschaftlich engagierte Menschen, Vereinsaktive und Interessierte"
   cost: "Kostenlos"
-  booking_url: "-"
-  link_text: "Anmeldelink folgt"
+  booking_url: "/beitraege/ki-und-soziale-innovationen"
+  featured: false
+  link_text: "Details & Anmeldungen"
   featured: false
   topic: "ki-zivilgesellschaft"
