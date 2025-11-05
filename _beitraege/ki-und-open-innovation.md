@@ -34,7 +34,7 @@ Die aktuelle Meetup-Reihe der Open Innovation City Bielefeld, [**KI und Zivilges
 ### Ort und Zeit
 **Fachhochschule des Mittelstands (FHM), Ravensberger Str. 10G, 33602 Bielefeld**
 
-**Dienstag, 06. November 2025**<br>
+**Donnerstag, 06. November 2025**<br>
 **Beginn:** 16:00 Uhr<br>
 **Ende:** 17:30 Uhr<br>
 **Treffpunkt und -zeit:** Treffen Ravensberger Str. 10G (Treppen im Innenhof der FHM), ab 15:45 Uhr.
