@@ -50,7 +50,7 @@
   target_audience: "Zivilgesellschaftlich engagierte Menschen, Vereinsaktive und Interessierte"
   cost: "Kostenlos"
   booking_url: "/beitraege/ki-und-wissenstransfer/"
-  link_text: "Details"
+  link_text: "Mehr Informationen"
   featured: false
   topic: "ki-zivilgesellschaft"
   
@@ -64,7 +64,7 @@
   target_audience: "Zivilgesellschaftlich engagierte Menschen, Vereinsaktive und Interessierte"
   cost: "Kostenlos"
   booking_url: "https://pretix.eu/OIC-BIE/ki-zivil-5/"
-  link_text: "Details & Anmeldung"
+  link_text: "Mehr Informationen"
   featured: false
   topic: "ki-zivilgesellschaft"
 
@@ -78,7 +78,7 @@
   target_audience: "Zivilgesellschaftlich engagierte Menschen, Vereinsaktive und Interessierte"
   cost: "Kostenlos"
   booking_url: "https://pretix.eu/OIC-BIE/ki-zivil-6/"
-  link_text: "Details & Anmeldung"
+  link_text: "Mehr Informationen"
   featured: true
   topic: "ki-zivilgesellschaft"
 
@@ -92,7 +92,7 @@
   target_audience: "Zivilgesellschaftlich engagierte Menschen, Vereinsaktive und Interessierte"
   cost: "Kostenlos"
   booking_url: "https://pretix.eu/OIC-BIE/ki-zivil-7/"
-  link_text: "Details & Anmeldung"
+  link_text: "Mehr Informationen"
   featured: true
   topic: "ki-zivilgesellschaft"
 
@@ -106,7 +106,7 @@
   target_audience: "Zivilgesellschaftlich engagierte Menschen, Vereinsaktive und Interessierte"
   cost: "Kostenlos"
   booking_url: "https://pretix.eu/OIC-BIE/ki-zivil-8/"
-  link_text: "Details & Anmeldung"
+  link_text: "Mehr Informationen"
   featured: true
   topic: "ki-zivilgesellschaft"
   
