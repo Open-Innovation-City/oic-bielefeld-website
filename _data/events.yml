@@ -163,7 +163,7 @@
   cost: "Kostenlos"
   booking_url: "/beitraege/ki-kompetenz"
   link_text: "Details & Anmeldung"
-  featured: false
+  featured: true
   topic: "ki-zivilgesellschaft"
 
 - title: "KI und Soziale Innovationen - Wie KI für das Gemeinwohl sozial-innovativ eingesetzt werden kann."
@@ -176,7 +176,6 @@
   target_audience: "Zivilgesellschaftlich engagierte Menschen, Vereinsaktive und Interessierte"
   cost: "Kostenlos"
   booking_url: "/beitraege/ki-und-soziale-innovationen"
-  featured: false
   link_text: "Details & Anmeldungen"
-  featured: false
+  featured: true
   topic: "ki-zivilgesellschaft"
