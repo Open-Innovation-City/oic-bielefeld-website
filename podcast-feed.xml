@@ -1,0 +1,80 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OIC Bielefeld Podcast</title>
+    <link>{{ site.url }}{{ site.baseurl }}/podcasts/</link>
+    <atom:link href="{{ site.url }}{{ site.baseurl }}/podcast-feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Der Podcast der Open Innovation City Bielefeld - Gespräche über Innovation, Digitalisierung und die Zukunft unserer Stadt.</description>
+    <language>de</language>
+    <copyright>{{ site.time | date: '%Y' }} Open Innovation City Bielefeld</copyright>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <webMaster>{{ site.email }} (OIC Bielefeld Team)</webMaster>
+    <managingEditor>{{ site.email }} (OIC Bielefeld Team)</managingEditor>
+    <image>
+      <url>{{ site.url }}{{ site.baseurl }}/assets/images/podcast-cover.jpg</url>
+      <title>OIC Bielefeld Podcast</title>
+      <link>{{ site.url }}{{ site.baseurl }}/podcasts/</link>
+    </image>
+
+    <!-- iTunes Tags -->
+    <itunes:author>Open Innovation City Bielefeld</itunes:author>
+    <itunes:summary>Der Podcast der Open Innovation City Bielefeld - Gespräche über Innovation, Digitalisierung und die Zukunft unserer Stadt.</itunes:summary>
+    <itunes:subtitle>Innovation und Digitalisierung in Bielefeld</itunes:subtitle>
+    <itunes:owner>
+      <itunes:name>Open Innovation City Bielefeld</itunes:name>
+      <itunes:email>{{ site.email }}</itunes:email>
+    </itunes:owner>
+    <itunes:image href="{{ site.url }}{{ site.baseurl }}/assets/images/podcast-cover.jpg"/>
+    <itunes:category text="Technology"/>
+    <itunes:category text="Education"/>
+    <itunes:category text="Government">
+      <itunes:category text="Local"/>
+    </itunes:category>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+
+    {% assign podcasts = site.podcasts | sort: 'date' | reverse %}
+    {% for episode in podcasts %}
+    <item>
+      <title>{{ episode.title | xml_escape }}</title>
+      <link>{{ site.url }}{{ site.baseurl }}{{ episode.url }}</link>
+      <guid isPermaLink="true">{{ site.url }}{{ site.baseurl }}{{ episode.url }}</guid>
+      <pubDate>{{ episode.date | date_to_rfc822 }}</pubDate>
+      <description>{{ episode.description | xml_escape }}</description>
+      <content:encoded><![CDATA[{{ episode.content }}]]></content:encoded>
+
+      <!-- Audio enclosure -->
+      <enclosure url="{{ episode.audio_url }}"
+                 length="{{ episode.audio_size | default: 0 }}"
+                 type="audio/mpeg"/>
+
+      <!-- iTunes Episode Tags -->
+      <itunes:title>{{ episode.title | xml_escape }}</itunes:title>
+      <itunes:author>{{ episode.author | default: 'Open Innovation City Bielefeld' | xml_escape }}</itunes:author>
+      <itunes:summary>{{ episode.description | xml_escape }}</itunes:summary>
+      <itunes:subtitle>{{ episode.subtitle | xml_escape }}</itunes:subtitle>
+      {% if episode.image %}
+      <itunes:image href="{{ site.url }}{{ site.baseurl }}{{ episode.image }}"/>
+      {% else %}
+      <itunes:image href="{{ site.url }}{{ site.baseurl }}/assets/images/podcast-cover.jpg"/>
+      {% endif %}
+      <itunes:duration>{{ episode.duration }}</itunes:duration>
+      <itunes:explicit>{{ episode.explicit | default: 'no' }}</itunes:explicit>
+      {% if episode.episode_number %}
+      <itunes:episode>{{ episode.episode_number }}</itunes:episode>
+      {% endif %}
+      {% if episode.season_number %}
+      <itunes:season>{{ episode.season_number }}</itunes:season>
+      {% endif %}
+      <itunes:episodeType>{{ episode.episode_type | default: 'full' }}</itunes:episodeType>
+    </item>
+    {% endfor %}
+  </channel>
+</rss>

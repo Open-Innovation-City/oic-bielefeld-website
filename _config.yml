@@ -86,6 +86,8 @@ navigation:
     link: "#projects"
   - name: "Beiträge"
     link: "/beitraege/"
+  - name: "Podcast"
+    link: "/podcasts/"
   - name: "Events"
     link: "#events"
   - name: "Kontakt"
@@ -100,6 +102,9 @@ collections:
   beitraege:
     output: true
     permalink: /beitraege/:name/
+  podcasts:
+    output: true
+    permalink: /podcasts/:name/
 
 # Defaults
 defaults:
@@ -123,3 +128,8 @@ defaults:
       type: "beitraege"
     values:
       layout: "post"
+  - scope:
+      path: ""
+      type: "podcasts"
+    values:
+      layout: "podcast"

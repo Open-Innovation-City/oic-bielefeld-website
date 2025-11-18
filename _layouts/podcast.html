@@ -1,0 +1,599 @@
+---
+layout: default
+---
+
+<!-- Adaptive Navigation -->
+<nav class="navbar light-theme" id="navbar">
+    <div class="nav-container">
+        <div class="logo">
+            <a href="{{ '/' | relative_url }}">
+                <img src="{{ '/assets/images/logo-light.png' | relative_url }}"
+                     alt="{{ site.title }} Logo Light"
+                     class="logo-dark"
+                     onerror="handleLogoError(this)">
+                <img src="{{ '/assets/images/logo-dark.png' | relative_url }}"
+                     alt="{{ site.title }} Logo Dark"
+                     class="logo-light"
+                     onerror="handleLogoError(this)">
+
+                <div class="logo-fallback" id="logoFallback">
+                    <div class="logo-circle"></div>
+                    <div class="logo-rect"></div>
+                    <div class="logo-shape"></div>
+                    <div class="logo-text">
+                        <div>Open Innovation City</div>
+                        <div>Bielefeld</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <ul class="nav-links" id="navLinks">
+            {% for item in site.navigation %}
+            <li><a href="{% if item.link contains '#' %}/{{ item.link }}{% else %}{{ item.link }}{% endif %}">{{ item.name }}</a></li>
+            {% endfor %}
+        </ul>
+
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menü öffnen">☰</button>
+    </div>
+</nav>
+
+<!-- Podcast Episode Header -->
+<header class="podcast-header">
+    <div class="container">
+        <div class="podcast-meta">
+            <span class="podcast-badge">🎙️ Podcast</span>
+            {% if page.episode_number %}
+            <span class="episode-number">Episode {{ page.episode_number }}</span>
+            {% endif %}
+            {% if page.season_number %}
+            <span class="season-number">Staffel {{ page.season_number }}</span>
+            {% endif %}
+            <time class="podcast-date" datetime="{{ page.date | date_to_xmlschema }}">
+                {{ page.date | date: "%d.%m.%Y" }}
+            </time>
+        </div>
+        <h1 class="podcast-title">{{ page.title }}</h1>
+        {% if page.subtitle %}
+        <p class="podcast-subtitle">{{ page.subtitle }}</p>
+        {% endif %}
+        {% if page.description %}
+        <p class="podcast-description">{{ page.description }}</p>
+        {% endif %}
+    </div>
+</header>
+
+<!-- Podcast Content -->
+<main class="podcast-content">
+    <div class="container">
+        <div class="content-wrapper">
+
+            <!-- Audio Player Section -->
+            <section class="audio-player-section">
+                <div class="audio-player-container">
+                    {% if page.image %}
+                    <div class="episode-artwork">
+                        <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" loading="lazy">
+                    </div>
+                    {% endif %}
+
+                    <div class="player-controls">
+                        <audio controls preload="metadata" class="audio-player">
+                            <source src="{{ page.audio_url }}" type="audio/mpeg">
+                            Ihr Browser unterstützt das Audio-Element nicht.
+                        </audio>
+
+                        <div class="episode-info">
+                            {% if page.duration %}
+                            <div class="info-item">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg>
+                                <span>{{ page.duration }}</span>
+                            </div>
+                            {% endif %}
+
+                            {% if page.author %}
+                            <div class="info-item">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="12" cy="7" r="4"></circle>
+                                </svg>
+                                <span>{{ page.author }}</span>
+                            </div>
+                            {% endif %}
+                        </div>
+
+                        <!-- Subscribe Section -->
+                        <div class="subscribe-section">
+                            <p class="subscribe-label">Podcast abonnieren:</p>
+                            <div class="subscribe-links">
+                                <a href="{{ site.url }}{{ site.baseurl }}/podcast-feed.xml" class="subscribe-btn rss" title="RSS Feed">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19 7.38 20 6.18 20C5 20 4 19 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1z"/>
+                                    </svg>
+                                    RSS
+                                </a>
+                                <a href="https://podcasts.apple.com/podcast/id0000000000" class="subscribe-btn apple" target="_blank" rel="noopener" title="Apple Podcasts">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2.182c5.423 0 9.818 4.395 9.818 9.818 0 5.423-4.395 9.818-9.818 9.818-5.423 0-9.818-4.395-9.818-9.818 0-5.423 4.395-9.818 9.818-9.818zm0 3.273c-2.086 0-3.782 1.696-3.782 3.782 0 1.44.814 2.691 2.005 3.327v5.618c0 .489.396.885.885.885h1.782c.489 0 .885-.396.885-.885v-5.618c1.191-.636 2.005-1.887 2.005-3.327 0-2.086-1.696-3.782-3.78-3.782zm0 1.745c1.124 0 2.036.912 2.036 2.037s-.912 2.036-2.036 2.036-2.036-.912-2.036-2.036.912-2.037 2.036-2.037z"/>
+                                    </svg>
+                                    Apple
+                                </a>
+                                <a href="https://open.spotify.com/show/0000000000" class="subscribe-btn spotify" target="_blank" rel="noopener" title="Spotify">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/>
+                                    </svg>
+                                    Spotify
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Shownotes -->
+            <article class="podcast-shownotes">
+                <h2>Shownotes</h2>
+                {{ content }}
+            </article>
+
+            <!-- Author Section -->
+            {% if page.author %}
+                {% assign author = site.data.team | where: "name", page.author | first %}
+                {% if author %}
+                <section class="podcast-author">
+                    <div class="author-card">
+                        <div class="author-avatar">
+                            <img src="{{ author.image | relative_url }}" alt="{{ author.name }}" loading="lazy">
+                        </div>
+                        <div class="author-info">
+                            <h3 class="author-name">{{ author.name }}</h3>
+                            <p class="author-role">{{ author.role }}</p>
+                            <div class="author-expertise">
+                                {% for skill in author.expertise %}
+                                <span class="expertise-tag">{{ skill }}</span>
+                                {% endfor %}
+                            </div>
+                            <a href="mailto:{{ author.email }}" class="author-contact">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                                Kontakt aufnehmen
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                {% endif %}
+            {% endif %}
+        </div>
+    </div>
+</main>
+
+<style>
+/* Podcast-specific styles */
+.podcast-header {
+    background: linear-gradient(135deg, var(--primary-turquoise) 0%, var(--secondary-blue) 100%);
+    color: white;
+    padding: 8rem 0 4rem;
+    text-align: center;
+}
+
+.podcast-meta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+    opacity: 0.9;
+    flex-wrap: wrap;
+}
+
+.podcast-badge,
+.episode-number,
+.season-number {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+.podcast-date {
+    font-weight: 400;
+}
+
+.podcast-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.podcast-subtitle {
+    font-size: 1.3rem;
+    opacity: 0.95;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.podcast-description {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.podcast-content {
+    padding: 4rem 0;
+}
+
+.content-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Audio Player Section */
+.audio-player-section {
+    background: var(--bg-light);
+    border-radius: 16px;
+    padding: 2rem;
+    margin-bottom: 3rem;
+    box-shadow: var(--shadow-medium);
+}
+
+.audio-player-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.episode-artwork {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.episode-artwork img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: var(--shadow-light);
+}
+
+.player-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.audio-player {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.episode-info {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-light);
+    font-size: 0.95rem;
+}
+
+.info-item .icon {
+    width: 20px;
+    height: 20px;
+    color: var(--primary-turquoise);
+}
+
+/* Subscribe Section */
+.subscribe-section {
+    text-align: center;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e0e0e0;
+}
+
+.subscribe-label {
+    margin-bottom: 1rem;
+    color: var(--text-light);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.subscribe-links {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.subscribe-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.7rem 1.2rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    color: white;
+}
+
+.subscribe-btn svg {
+    width: 18px;
+    height: 18px;
+}
+
+.subscribe-btn.rss {
+    background: #ee802f;
+}
+
+.subscribe-btn.rss:hover {
+    background: #d96f1f;
+    transform: translateY(-2px);
+}
+
+.subscribe-btn.apple {
+    background: #9933cc;
+}
+
+.subscribe-btn.apple:hover {
+    background: #7a29a3;
+    transform: translateY(-2px);
+}
+
+.subscribe-btn.spotify {
+    background: #1db954;
+}
+
+.subscribe-btn.spotify:hover {
+    background: #1aa34a;
+    transform: translateY(-2px);
+}
+
+/* Shownotes */
+.podcast-shownotes {
+    line-height: 1.8;
+    font-size: 1.1rem;
+    margin-bottom: 4rem;
+}
+
+.podcast-shownotes h2 {
+    color: var(--primary-turquoise);
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--primary-yellow);
+    font-size: 2rem;
+}
+
+.podcast-shownotes h3 {
+    color: var(--secondary-blue);
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+
+.podcast-shownotes h4 {
+    color: var(--text-dark);
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    font-size: 1.3rem;
+}
+
+.podcast-shownotes p {
+    margin-bottom: 1.5rem;
+}
+
+.podcast-shownotes ul, .podcast-shownotes ol {
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.podcast-shownotes li {
+    margin-bottom: 0.5rem;
+}
+
+.podcast-shownotes a {
+    color: var(--primary-turquoise);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.podcast-shownotes a:hover {
+    border-bottom-color: var(--primary-turquoise);
+}
+
+.podcast-shownotes blockquote {
+    border-left: 4px solid var(--primary-turquoise);
+    margin: 2rem 0;
+    padding: 1rem 2rem;
+    background: var(--bg-light);
+    border-radius: 0 8px 8px 0;
+    font-style: italic;
+    color: var(--text-light);
+}
+
+/* Author Section */
+.podcast-author {
+    margin-top: 4rem;
+    padding-top: 3rem;
+    border-top: 1px solid #eee;
+}
+
+.author-card {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    background: var(--bg-light);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-light);
+}
+
+.author-avatar {
+    flex-shrink: 0;
+}
+
+.author-avatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--primary-turquoise);
+}
+
+.author-info {
+    flex: 1;
+}
+
+.author-name {
+    color: var(--text-dark);
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.author-role {
+    color: var(--text-light);
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.author-expertise {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.expertise-tag {
+    background: var(--primary-turquoise);
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.author-contact {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--primary-turquoise);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.author-contact:hover {
+    color: var(--secondary-blue);
+}
+
+.author-contact .icon {
+    width: 18px;
+    height: 18px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .podcast-header {
+        padding: 6rem 0 3rem;
+    }
+
+    .podcast-title {
+        font-size: 2rem;
+    }
+
+    .podcast-subtitle {
+        font-size: 1.1rem;
+    }
+
+    .podcast-content {
+        padding: 3rem 0;
+    }
+
+    .content-wrapper {
+        padding: 0 1rem;
+    }
+
+    .audio-player-section {
+        padding: 1.5rem;
+    }
+
+    .episode-info {
+        gap: 1rem;
+    }
+
+    .subscribe-links {
+        flex-direction: column;
+    }
+
+    .subscribe-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .podcast-shownotes {
+        font-size: 1rem;
+    }
+
+    .podcast-shownotes h2 {
+        font-size: 1.6rem;
+    }
+
+    .podcast-shownotes h3 {
+        font-size: 1.4rem;
+    }
+
+    .author-card {
+        flex-direction: column;
+        text-align: center;
+        gap: 1.5rem;
+    }
+
+    .author-avatar img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .podcast-meta {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .podcast-title {
+        font-size: 1.6rem;
+    }
+
+    .episode-info {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+</style>
+
+<script>
+// Navbar scroll effect
+window.addEventListener('scroll', function() {
+    const navbar = document.getElementById('navbar');
+    if (window.pageYOffset > 50) {
+        navbar.classList.add('scrolled');
+    } else {
+        navbar.classList.remove('scrolled');
+    }
+});
+</script>
