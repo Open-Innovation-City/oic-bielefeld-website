@@ -1,0 +1,40 @@
+<!-- Newsletter Subscription Section -->
+<div class="newsletter-wrapper">
+    <div class="newsletter-content">
+        <div class="newsletter-header">
+            <h3>📧 Bleib auf dem Laufenden!</h3>
+            <p>Erhalte regelmäßig Updates zu unseren Events, Projekten und Neuigkeiten aus dem Innovation Office.</p>
+        </div>
+
+        <div class="newsletter-form-container">
+            <!-- Bielefeld Newsletter Form mit Iframe-Resizer -->
+            <iframe
+                src="https://www.bielefeld.de/webform/newsletter_abo_oicb/share/iframe-resizer/4.2.10"
+                title="Newsletter Abo OICB | Bielefeld"
+                class="webform-share-iframe newsletter-iframe"
+                frameborder="0"
+                allow="geolocation; microphone; camera"
+                allowtransparency="true"
+                allowfullscreen="true"
+                style="width:1px;min-width:100%">
+            </iframe>
+        </div>
+
+        <p class="newsletter-privacy">
+            <small>Wir respektieren deine Privatsphäre. Informationen zur Datenverarbeitung findest du in unserer <a href="{{ site.baseurl }}/datenschutz">Datenschutzerklärung</a>.</small>
+        </p>
+    </div>
+</div>
+
+<!-- Iframe Resizer Script (nur einmal pro Seite laden) -->
+<script src="https://cdn.jsdelivr.net/gh/davidjbradshaw/iframe-resizer@4.2.10/js/iframeResizer.min.js"></script>
+<script>
+    // Initialize iframe resizer for newsletter form
+    if (typeof iFrameResize === 'function') {
+        iFrameResize({
+            log: false,
+            checkOrigin: false,
+            heightCalculationMethod: 'taggedElement'
+        }, '.newsletter-iframe');
+    }
+</script>
