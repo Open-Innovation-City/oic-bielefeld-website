@@ -203,13 +203,59 @@ button a[href^="http"]::after,
   color: var(--alert-warning);
 }
 
+/* Newsletter Alert Banner Variant */
+.newsletter-banner {
+  background: linear-gradient(135deg, var(--primary-turquoise), var(--secondary-blue));
+  border-bottom: 3px solid var(--secondary-blue);
+}
+
+.newsletter-banner .alert-icon {
+  color: var(--white);
+}
+
+.newsletter-banner .alert-text {
+  color: var(--white);
+}
+
+.alert-cta-btn {
+  display: inline-block;
+  padding: 0.6rem 1.5rem;
+  margin-left: 1rem;
+  background: var(--white);
+  color: var(--primary-turquoise);
+  border: none;
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all var(--animation-duration) ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.alert-cta-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  background: var(--primary-yellow);
+  color: var(--text-dark);
+}
+
+.newsletter-banner .alert-close {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.newsletter-banner .alert-close:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: var(--white);
+}
+
 .alert-close svg {
   width: 20px;
   height: 20px;
 }
 
 /* Adjust navbar top position when alert is visible */
-body:has(.event-alert-banner) .navbar {
+body:has(.event-alert-banner) .navbar,
+body:has(.newsletter-banner) .navbar {
   top: 120px;
 }
 
@@ -232,13 +278,21 @@ body:has(.event-alert-banner) .navbar {
     font-size: 0.9rem;
   }
 
+  .alert-cta-btn {
+    margin-left: 0;
+    margin-top: 0.75rem;
+    padding: 0.5rem 1.25rem;
+    font-size: 0.9rem;
+  }
+
   .alert-close {
     position: absolute;
     top: 0.5rem;
     right: 1rem;
   }
 
-  body:has(.event-alert-banner) .navbar {
+  body:has(.event-alert-banner) .navbar,
+  body:has(.newsletter-banner) .navbar {
     top: 140px;
   }
 }

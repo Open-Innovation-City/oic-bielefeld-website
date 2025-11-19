@@ -654,12 +654,66 @@
     // Initialize alert banner functionality when DOM is ready
     document.addEventListener('DOMContentLoaded', function() {
         checkAlertDismissal();
+        checkNewsletterAlertDismissal();
     });
+
+    /**
+     * Newsletter Alert Banner Functions
+     */
+    function closeNewsletterAlert() {
+        const alertBanner = document.getElementById('newsletterAlert');
+        const navbar = document.querySelector('.navbar');
+
+        if (alertBanner) {
+            // Animate banner out
+            alertBanner.style.transform = 'translateY(-100%)';
+            alertBanner.style.opacity = '0';
+
+            // Adjust navbar position
+            if (navbar) {
+                navbar.style.top = '0';
+            }
+
+            // Remove element after animation
+            setTimeout(() => {
+                alertBanner.remove();
+
+                // Store dismissal in localStorage (7 days)
+                localStorage.setItem('newsletterAlert_dismissed', 'true');
+                localStorage.setItem('newsletterAlert_dismissTime', Date.now().toString());
+            }, 300);
+        }
+    }
+
+    function checkNewsletterAlertDismissal() {
+        const alertBanner = document.getElementById('newsletterAlert');
+        const dismissed = localStorage.getItem('newsletterAlert_dismissed');
+        const dismissTime = localStorage.getItem('newsletterAlert_dismissTime');
+
+        // Check if alert was dismissed in the last 7 days
+        if (dismissed && dismissTime) {
+            const dismissedDate = new Date(parseInt(dismissTime));
+            const now = new Date();
+            const daysDiff = (now - dismissedDate) / (1000 * 60 * 60 * 24);
+
+            // If dismissed less than 7 days ago, hide the alert
+            if (daysDiff < 7 && alertBanner) {
+                alertBanner.style.display = 'none';
+
+                // Reset navbar position
+                const navbar = document.querySelector('.navbar');
+                if (navbar) {
+                    navbar.style.top = '0';
+                }
+            }
+        }
+    }
 
     /**
      * Global functions (can be called from HTML)
      */
     window.closeEventAlert = closeEventAlert;
+    window.closeNewsletterAlert = closeNewsletterAlert;
 
     /**
      * Beitraege Filter System
@@ -936,7 +990,15 @@
      * Initialize Newsletter Modal when DOM is ready
      */
     document.addEventListener('DOMContentLoaded', function() {
-        new NewsletterModal();
+        const newsletterModal = new NewsletterModal();
+
+        // Connect alert CTA button to newsletter modal
+        const alertCTA = document.getElementById('newsletterAlertCTA');
+        if (alertCTA && newsletterModal.modal) {
+            alertCTA.addEventListener('click', () => {
+                newsletterModal.open();
+            });
+        }
     });
 
 })();
