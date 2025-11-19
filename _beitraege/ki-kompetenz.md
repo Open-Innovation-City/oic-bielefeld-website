@@ -5,6 +5,7 @@ author: "Maria Gonçalves"
 category: "KI und Zivilgesellschaft"
 date: 2025-10-20
 header_image: "/assets/images/ki.png"
+retrospective_post: "rueckblick-ki-kompetenzt"
 ---
 
 Beim 9. Meetup aus der Reihe KI und Zivilgesellschaft beschäftigen wir uns mit der Notwendigkeit von KI-Kompetenz. 
