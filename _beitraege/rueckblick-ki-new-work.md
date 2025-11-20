@@ -27,7 +27,7 @@ Was können wir tun, um in Zeiten großer Umwälzungen handlungsfähig zu bleibe
 - Haltung! Wir Menschen entscheiden, wie die Welt aussieht, in der wir leben. Dafür müssen wir Werte definieren und für sie einstehen. 
 - Zusammenkommen und austauschen: Gemeinschaft ist menschlich und tut uns gut.
 
-Im abschließenden Checkout des Meetups teilten wir Teilnehmenden mit, wie wir zukünftig 15 Minuten pro Tag investieren wollen, um uns mit KI auseinanderzusetzen. Ein Vorschlag war bspw. täglich ein neues KI-Tool auszuprobieren. Das werde ich auf jeden Fall auch in meinen Alltag integrieren.
+Im abschließenden Checkout des Meetups teilte eine Teilnehmerin mit, dass sie zukünftig 15 Minuten pro Tag investieren will, um sich mit KI auseinanderzusetzen. Zum Beispiel indem sie täglich ein neues KI-Tool ausprobiert. Das werde ich auf jeden Fall auch in meinen Alltag integrieren.
 
 Die Kernessenz des Meetups war: 
 
