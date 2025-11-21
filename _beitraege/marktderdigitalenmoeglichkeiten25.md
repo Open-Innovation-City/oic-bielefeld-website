@@ -13,8 +13,6 @@ Am Freitag, 31.10.2025, haben sich an 16 Marktständen über 100 Besucher*innen 
 ### Eine Veranstaltung für alle  
 Digitale Geräte und das Internet sind aus dem Alltag nicht mehr wegzudenken. Doch nicht jeder Mensch fühlt sich im Umgang mit Smartphone, Tablet oder Computer sicher. Genau hier setzt der Markt der digitalen Möglichkeiten an: Eine Veranstaltung für alle, die Unterstützung beim Einstieg oder im Umgang mit digitalen Technologien suchen – ganz unabhängig vom Alter oder Vorkenntnissen.  
 
-![Graphic Recording von www.moderatrix.de](/assets/images/events/markt_der_digitalen_moeglichkeiten_2025/graphic_recording/graphic_recording_moderatix.jpg "Markt der digitalen Möglichkeiten 2025")
-
 ### Vor Ort dabei waren:  
 AWO Kreisverband & Bürgerforum Schildesche, AWO OWL Freiwilligenakademie, BGW, BIE-Digital der Stadt Bielefeld, CareTech OWL der Hochschule Bielefeld, Diakonie Verband Brackwede (Treffpunkt Alter), Diakonie für Bielefeld, #DigitalcheckNRW, Freiwilligenagentur Bielefeld e. V., Hackerspace Bielefeld e. V., Kriminalkommissariat für Kriminalprävention und Opferschutz der Polizei Bielefeld, moBiel, Stadtbibliothek Bielefeld, Volkshochschule Bielefeld, Wohnberatung Stadt Bielefeld  
 
