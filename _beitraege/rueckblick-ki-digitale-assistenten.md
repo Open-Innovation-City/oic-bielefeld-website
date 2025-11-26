@@ -19,9 +19,9 @@ Am 25.09.2025 wurde im Meetup #04 das Thema *KI und Digitale Assistenten - Wie K
 ### Kurzüberblick
 Das 90‑minütige Format kombinierte einen kompakten Impulsvortrag mit praktischen Übungen. 
 Die Teilnehmenden bekamen ein Verständnis für Einsatzfelder von 
-- [Künstlicher Intelligenz (KI)][https://de.wikipedia.org/wiki/K%C3%BCnstliche_Intelligenz] 
-- [Large Language Models (LLMs)][https://de.wikipedia.org/wiki/Large_Language_Model] und 
-- [Agenten][https://de.wikipedia.org/wiki/KI-Agent] als digitale Assistenten oder digitale Mitarbeiter zu vermitteln.
+- [Künstlicher Intelligenz (KI)](https://de.wikipedia.org/wiki/K%C3%BCnstliche_Intelligenz)
+- [Large Language Models (LLMs)](https://de.wikipedia.org/wiki/Large_Language_Model) und 
+- [Agenten](https://de.wikipedia.org/wiki/KI-Agent) als digitale Assistenten oder digitale Mitarbeiter zu vermitteln.
 
 ### Inhalt & Lernziele
 Nachdem der Experte Grundlagen zum Verständnis vermittelt hatte, wurden Einsatzfelder von KI sowie LLMs besprochen und und worauf es beim Einsatz zu achten gilt.
