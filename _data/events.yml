@@ -63,8 +63,8 @@
   category: "Impuls & Workshop"
   target_audience: "Zivilgesellschaftlich engagierte Menschen, Vereinsaktive und Interessierte"
   cost: "Kostenlos"
-  booking_url: "https://pretix.eu/OIC-BIE/ki-zivil-5/"
-  link_text: "Mehr Informationen"
+  booking_url: "/beitraege/reuckblick-ki-digitale-assistenten/"
+  link_text: "Zum Rückblick"
   featured: false
   topic: "ki-zivilgesellschaft"
 
@@ -77,8 +77,8 @@
   category: "Impuls & Workshop"
   target_audience: "Zivilgesellschaftlich engagierte Menschen, Vereinsaktive und Interessierte"
   cost: "Kostenlos"
-  booking_url: "https://pretix.eu/OIC-BIE/ki-zivil-6/"
-  link_text: "Mehr Informationen"
+  booking_url: "/beitraege/reuckblick-ki-praktische-automation/"
+  link_text: "Zum Rückblick"
   featured: true
   topic: "ki-zivilgesellschaft"
 
@@ -91,8 +91,8 @@
   category: "Impuls & Diskussionsrunde"
   target_audience: "Zivilgesellschaftlich engagierte Menschen, Vereinsaktive und Interessierte"
   cost: "Kostenlos"
-  booking_url: "https://pretix.eu/OIC-BIE/ki-zivil-7/"
-  link_text: "Mehr Informationen"
+  booking_url: "/beitraege/reuckblick-ki-new-work/"
+  link_text: "Zum Rückblick"
   featured: true
   topic: "ki-zivilgesellschaft"
 
@@ -105,8 +105,8 @@
   category: "Impuls-Workshop"
   target_audience: "Zivilgesellschaftlich engagierte Menschen, Vereinsaktive und Interessierte"
   cost: "Kostenlos"
-  booking_url: "https://pretix.eu/OIC-BIE/ki-zivil-8/"
-  link_text: "Mehr Informationen"
+  booking_url: "/beitraege/reuckblick-ki-barrierefreiheit/"
+  link_text: "Zum Rückblick"
   featured: true
   topic: "ki-zivilgesellschaft"
   
@@ -133,8 +133,8 @@
   category: "Impuls"
   target_audience: "Zivilgesellschaftlich engagierte Menschen, Vereinsaktive und Interessierte"
   cost: "Kostenlos"
-  booking_url:  "/beitraege/ki-und-open-innovation/"
-  link_text: "Mehr Informationen"
+  booking_url:  "/beitraege/reuckblick-ki-open-innovation/"
+  link_text: "Zum Rückblick"
   featured: true
   topic: "ki-zivilgesellschaft"
 
@@ -161,8 +161,8 @@
   category: "Impuls & Workshop"
   target_audience: "Zivilgesellschaftlich engagierte Menschen, Vereinsaktive und Interessierte"
   cost: "Kostenlos"
-  booking_url: "/beitraege/ki-kompetenz"
-  link_text: "Details & Anmeldung"
+  booking_url: "/beitraege/reuckblick-ki-kompetenz/"
+  link_text: "Zum Rückblick"
   featured: true
   topic: "ki-zivilgesellschaft"
 
