@@ -63,7 +63,7 @@
   category: "Impuls & Workshop"
   target_audience: "Zivilgesellschaftlich engagierte Menschen, Vereinsaktive und Interessierte"
   cost: "Kostenlos"
-  booking_url: "/beitraege/reuckblick-ki-digitale-assistenten/"
+  booking_url: "/beitraege/rueckblick-ki-digitale-assistenten/"
   link_text: "Zum Rückblick"
   featured: false
   topic: "ki-zivilgesellschaft"
@@ -77,7 +77,7 @@
   category: "Impuls & Workshop"
   target_audience: "Zivilgesellschaftlich engagierte Menschen, Vereinsaktive und Interessierte"
   cost: "Kostenlos"
-  booking_url: "/beitraege/reuckblick-ki-praktische-automation/"
+  booking_url: "/beitraege/rueckblick-ki-praktische-automation/"
   link_text: "Zum Rückblick"
   featured: true
   topic: "ki-zivilgesellschaft"
@@ -91,7 +91,7 @@
   category: "Impuls & Diskussionsrunde"
   target_audience: "Zivilgesellschaftlich engagierte Menschen, Vereinsaktive und Interessierte"
   cost: "Kostenlos"
-  booking_url: "/beitraege/reuckblick-ki-new-work/"
+  booking_url: "/beitraege/rueckblick-ki-new-work/"
   link_text: "Zum Rückblick"
   featured: true
   topic: "ki-zivilgesellschaft"
@@ -105,7 +105,7 @@
   category: "Impuls-Workshop"
   target_audience: "Zivilgesellschaftlich engagierte Menschen, Vereinsaktive und Interessierte"
   cost: "Kostenlos"
-  booking_url: "/beitraege/reuckblick-ki-barrierefreiheit/"
+  booking_url: "/beitraege/rueckblick-ki-barrierefreiheit/"
   link_text: "Zum Rückblick"
   featured: true
   topic: "ki-zivilgesellschaft"
@@ -133,7 +133,7 @@
   category: "Impuls"
   target_audience: "Zivilgesellschaftlich engagierte Menschen, Vereinsaktive und Interessierte"
   cost: "Kostenlos"
-  booking_url:  "/beitraege/reuckblick-ki-open-innovation/"
+  booking_url:  "/beitraege/rueckblick-ki-open-innovation/"
   link_text: "Zum Rückblick"
   featured: true
   topic: "ki-zivilgesellschaft"
