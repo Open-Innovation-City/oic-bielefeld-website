@@ -58,6 +58,9 @@ Sowohl für Nutzer aus profitorientierten als auch aus gemeinnützigen Unternehm
 **Fun Fact**: Österreich ist der erste europäische Mitgliedsstaat, der eine umfassende nationale **Open Innovation Strategie** hat. in einem breiten Beteiligungsprozess entwickelt enthält die Strategie unter anderem eine Vision für 2025 und konkrete Maßnahmen zur Umsetzung. (aus: https://www.bmfwf.gv.at/forschung/forschung-oesterreich/strategische-ausrichtung-beratende-gremien/strategien/ois.html, Stand 20.11.2025, 12:20 Uhr) Der letzte Zwischenbericht stammt aus dem Jahr 2021.
 ###Das war das letzte Meetup aus der Reihe **KI und Zivilgesellschaft**.
 
+### Wonder-Panic
+**Wonder-Panic** - ein passendes Wort für den **Zustand zwischen Begeisterung und Panik bei der Beschäftigung mit KI**. Derzeit - und wahrscheinlich auch zukünftig. Mehr dazu auf [MIT Open Learning](https://aiopeneducation.pubpub.org/pub/vv4ze6i3/release/1)
+
 {% include gallery.html folder="/assets/images/events/ meetup_ki_open_innovation/" %}
 
 ### Info zur MeetUp-Reihe
