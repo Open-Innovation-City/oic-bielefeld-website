@@ -545,6 +545,68 @@ Im Workshop haben wir verschiedene KI-Tools vorgestellt...
 
 **Ausführliche Referenz:** [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 
+## Newsletter-Anmeldung per Link
+
+**Neu seit November 2025:** Du kannst jetzt direkte Links zur Newsletter-Anmeldung erstellen!
+
+### Wofür ist das nützlich?
+
+Mit direkten Newsletter-Links kannst du:
+- **E-Mails versenden** mit direktem Link zur Anmeldung
+- **Social Media Posts** erstellen, die direkt zur Anmeldung führen
+- **QR-Codes** für Events generieren
+- **Externe Kampagnen** starten
+
+### Link-Formate:
+
+**Option 1: URL-Parameter** ⭐ Empfohlen für E-Mails
+```
+https://oic-bielefeld.de/?newsletter=true
+https://oic-bielefeld.de/beitraege/?newsletter=true
+https://oic-bielefeld.de/events/?newsletter=true
+```
+
+**Option 2: Hash-Fragment** (kürzer)
+```
+https://oic-bielefeld.de/#newsletter
+https://oic-bielefeld.de/events/#newsletter
+```
+
+### Was passiert?
+
+Wenn jemand auf einen dieser Links klickt:
+1. Die Website öffnet sich normal
+2. Das Newsletter-Anmeldeformular erscheint automatisch als Overlay
+3. Die Person kann sich direkt anmelden
+4. Das Overlay lässt sich mit ESC oder durch Klick außerhalb schließen
+
+### Praktisches Beispiel für E-Mail:
+
+```
+Liebe Interessierte,
+
+bleiben Sie auf dem Laufenden über unsere neuesten Events und Projekte!
+
+👉 Jetzt zum Newsletter anmelden: https://oic-bielefeld.de/?newsletter=true
+
+Viele Grüße
+Ihr OIC Team
+```
+
+### Wichtige Hinweise:
+
+- ✅ **Funktioniert auf allen Seiten** der Website
+- ✅ **Kombination möglich** mit bestehenden Links (z.B. `/events/?newsletter=true`)
+- ✅ **Keine zusätzliche Konfiguration** nötig
+- ✅ **Mobile-optimiert** funktioniert auf allen Geräten
+
+### QR-Code erstellen:
+
+1. Gehe zu einem QR-Code-Generator (z.B. [qr-code-generator.com](https://www.qr-code-generator.com/))
+2. Gib die URL ein: `https://oic-bielefeld.de/?newsletter=true`
+3. Generiere und lade den QR-Code herunter
+4. Verwende ihn auf Flyern, Präsentationen oder Veranstaltungen
+
 ## Bilder hochladen
 
 **Verzeichnis:** `assets/images/`
