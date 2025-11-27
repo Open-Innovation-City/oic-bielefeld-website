@@ -971,6 +971,23 @@
                     this.close();
                 }
             });
+
+            // Check URL for automatic opening
+            this.checkURLForAutoOpen();
+        }
+
+        checkURLForAutoOpen() {
+            // Check for URL parameter ?newsletter=true
+            const urlParams = new URLSearchParams(window.location.search);
+            if (urlParams.get('newsletter') === 'true') {
+                this.open();
+                return;
+            }
+
+            // Check for hash #newsletter
+            if (window.location.hash === '#newsletter') {
+                this.open();
+            }
         }
 
         open() {

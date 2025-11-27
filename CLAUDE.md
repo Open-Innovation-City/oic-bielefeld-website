@@ -51,6 +51,7 @@ Single CSS file (`assets/css/main.css`) with **design token system**:
 ### JavaScript Interactions
 Class-based architecture (`assets/js/main.js`) with:
 - **AdaptiveNavigation class** for automatic theme switching via background color detection
+- **NewsletterModal class** for newsletter overlay with URL-based auto-opening (`?newsletter=true` or `#newsletter`)
 - **Intersection Observer API** for scroll-triggered animations with staggered delays
 - **Error-resilient asset loading** with logo fallback system
 - **Performance-optimized animations** using requestAnimationFrame
@@ -432,6 +433,38 @@ The filter system **automatically excludes** retrospective posts (marked with `i
 - "Alle" button count
 
 This ensures clean category organization while keeping retrospectives accessible via linked announcements.
+
+### Newsletter Direct Links
+
+**New as of November 2025:** The newsletter modal can be opened directly via URL parameters or hash fragments.
+
+**Use Cases:**
+- Email campaigns linking directly to newsletter signup
+- Social media posts with direct registration
+- QR codes at events
+- External marketing materials
+
+**URL Formats:**
+- **URL Parameter** (recommended): `?newsletter=true`
+  - Example: `https://oic-bielefeld.de/?newsletter=true`
+  - Example: `https://oic-bielefeld.de/beitraege/?newsletter=true`
+
+- **Hash Fragment**: `#newsletter`
+  - Example: `https://oic-bielefeld.de/#newsletter`
+  - Example: `https://oic-bielefeld.de/events/#newsletter`
+
+**Implementation Details:**
+- JavaScript class: `NewsletterModal` in `assets/js/main.js:948-1002`
+- Method: `checkURLForAutoOpen()` (line 979-991)
+- Auto-opens modal on page load when URL contains parameter/hash
+- Compatible with all existing modal functionality (ESC key, overlay click, close button)
+- Works on all pages where the newsletter modal is present
+
+**Technical Notes:**
+- Uses `URLSearchParams` API for parameter detection
+- Hash detection via `window.location.hash`
+- Modal opens automatically after DOM ready
+- No interference with regular modal triggers
 
 ### Styling Considerations
 - **Background color detection**: Navigation automatically adapts to section backgrounds
