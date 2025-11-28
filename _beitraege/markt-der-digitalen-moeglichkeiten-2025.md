@@ -13,6 +13,8 @@ Am Freitag, 31.10.2025, haben sich an 16 Marktständen über 100 Besucher\*innen
 ### Eine Veranstaltung für alle  
 Digitale Geräte und das Internet sind aus dem Alltag nicht mehr wegzudenken. Doch nicht jeder Mensch fühlt sich im Umgang mit Smartphone, Tablet oder Computer sicher. Genau hier setzt der Markt der digitalen Möglichkeiten an: Eine Veranstaltung für alle, die Unterstützung beim Einstieg oder im Umgang mit digitalen Technologien suchen – ganz unabhängig vom Alter oder Vorkenntnissen.  
 
+![Graphic Recording der Veranstaltung. Zu sehen sind die einzelnen Stationen des Marktes der Digitalen Möglichkeiten.](/assets/images/events/markt_der_digitalen_moeglichkeiten_2025/Graphic_Recording_von_Moderatrix.jpeg "Graphic Recording von Moderatrix (Melanie Flore-Glied)")  
+
 ### Vor Ort dabei waren:  
 AWO Kreisverband & Bürgerforum Schildesche, AWO OWL Freiwilligenakademie, BGW, BIE-Digital der Stadt Bielefeld, CareTech OWL der Hochschule Bielefeld, Diakonie Verband Brackwede (Treffpunkt Alter), Diakonie für Bielefeld, #DigitalcheckNRW, Freiwilligenagentur Bielefeld e. V., Hackerspace Bielefeld e. V., Kriminalkommissariat für Kriminalprävention und Opferschutz der Polizei Bielefeld, moBiel, Stadtbibliothek Bielefeld, Volkshochschule Bielefeld, Wohnberatung Stadt Bielefeld  
 
@@ -23,7 +25,5 @@ Das Netzwerk für Digitale Teilhabe setzt sich dafür ein, dass alle Menschen di
 Das Netzwerk ist ein loser Zusammenschluss von Einzelpersonen aus unterschiedlichen Organisationen der Stadtgesellschaft, die für mehr digitale Teilhabe in Bielefeld miteinander vernetzt und aktiv sind.  
 In Abständen von wenigen Wochen, trifft sich das Netzwerk abwechselnd online und vor Ort, um im engen Austausch zu bleiben und z.B. den nächsten Markt der digitalen Möglichkeiten zu planen. 
 Du möchtest Teil des Netzwerks werden? – Dann schreib einfach eine E-Mail an [sarah.bollmann@bielefeld.de](mailto:sarah.bollmann@bielefeld.de). 
-
-![Graphic Recording der Veranstaltung. Zu sehen sind die einzelnen Stationen des Marktes der Digitalen Möglichkeiten.](/assets/images/events/markt_der_digitalen_moeglichkeiten_2025/Graphic_Recording_von_Moderatrix.jpeg "Graphic Recording von Moderatrix (Melanie Flore-Glied)")
 
 {% include gallery.html images="Markt-der-digitalen-Moeglichkeiten-1.jpg,Markt-der-digitalen-Moeglichkeiten-2.jpg,Markt-der-digitalen-Moeglichkeiten-3.jpg,Markt-der-digitalen-Moeglichkeiten-4.jpg,Markt-der-digitalen-Moeglichkeiten-5.jpg" folder="/assets/images/events/markt_der_digitalen_moeglichkeiten_2025/" %}  
