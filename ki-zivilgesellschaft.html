@@ -89,79 +89,17 @@ wichtige Kompetenzen zum kritischen Einsatz Künstlicher Intelligenz. Die Teilne
 bilden Communities of Practice (CoP). Die selbstständig arbeitenden Gruppen stehen für
 Offene Innovationen, Austausch und Co-Creation über Organisationsgrenzen hinaus.
             </p>
-<br>
-            <p style="text-align: center; font-size: 1.2rem; max-width: 800px; margin: 0 auto;">
-Hier klicken, um eine Übersicht über alle Termine herunterzuladen: <br> <a href="/assets/downloads/oic_ki_meetup_reihe_maria_goncalves_plan_2025.pdf">Übersicht MeetUp-Reihe KI und Zivilgesellschaft als PDF herunterladen</a>
-            </p>
+        </div>
 
+        <div class="post-article" style="max-width: 800px; margin: 2rem auto;">
+            <p><img src="/assets/images/beitraege/ki-zivilgesellschaft/uebersicht_meetups_ki_zivilgesellschaft.png" alt="Übersicht über alle Termine der MeetUp-Reihe KI und Zivilgesellschaft." title="Übersicht über alle Termine der MeetUp-Reihe KI und Zivilgesellschaft" /></p>
         </div>
-        
-        {% assign today = 'now' | date: '%Y-%m-%d' %}
-        {% assign ki_events = site.data.events | where: 'topic', 'ki-zivilgesellschaft' | sort: 'date' %}
-        {% assign upcoming_events = ki_events | where_exp: 'event', 'event.date >= today' %}
-        
-        {% if upcoming_events.size > 0 %}
-        <div class="events-grid">
-            {% for event in upcoming_events limit: 12 %}
-                <div class="event-card fade-in{% if event.featured %} featured{% endif %}" data-category="{{ event.category }}">
-                    <div class="event-header">
-                        <div class="event-category">{{ event.category }}</div>
-                        <h3 class="event-title">{{ event.title }}</h3>
-                        <p class="event-description">{{ event.description }}</p>
-                    </div>
-                    
-                    <div class="event-details">
-                        <div class="event-meta">
-                            <div class="event-meta-item">
-                                <svg class="event-meta-icon" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/>
-                                </svg>
-                                <span><strong>Datum:</strong> {{ event.date | date: "%d.%m.%Y" }}</span>
-                            </div>
-                            
-                            <div class="event-meta-item">
-                                <svg class="event-meta-icon" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-                                </svg>
-                                <span><strong>Zeit:</strong> {{ event.time }} Uhr{% if event.duration %} ({{ event.duration }}){% endif %}</span>
-                            </div>
-                            
-                            <div class="event-meta-item">
-                                <svg class="event-meta-icon" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
-                                </svg>
-                                <span><strong>Ort:</strong> {{ event.location }}</span>
-                            </div>
-                            
-                            {% if event.target_audience %}
-                            <div class="event-meta-item">
-                                <svg class="event-meta-icon" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M16 4c0-1.11.89-2 2-2s2 .89 2 2-.89 2-2 2-2-.89-2-2zm4 18v-6h2.5l-2.54-7.63A2.997 2.997 0 0 0 17.07 7c-.8 0-1.54.5-1.85 1.26l-1.92 5.76c-.15.45-.05.96.26 1.33.31.36.77.56 1.26.56h2.68v6h2zM12.5 11.5c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5S11 9.17 11 10s.67 1.5 1.5 1.5zm1.5 1h-3c-.83 0-1.5.67-1.5 1.5v6h2v7h3v-7h2v-6c0-.83-.67-1.5-1.5-1.5zM5.5 6c1.11 0 2-.89 2-2s-.89-2-2-2-2 .89-2 2 .89 2 2 2zm1.5 1h-3C3.17 7 2.5 7.67 2.5 8.5v6h2v7h3v-7h2v-6C9.5 7.67 8.83 7 8 7z"/>
-                                </svg>
-                                <span><strong>Zielgruppe:</strong> {{ event.target_audience }}</span>
-                            </div>
-                            {% endif %}
-                        </div>
-                        
-                        <div class="event-footer">
-                            <div class="event-target">{{ event.target_audience }}</div>
-                            <div class="event-cost{% if event.cost != 'Kostenlos' %} paid{% endif %}">{{ event.cost }}</div>
-                            <a href="{{ event.booking_url }}" target="_blank" rel="noopener" class="event-book-btn">
-                                {% if event.link_text %}{{ event.link_text }}{% else %}Anmelden{% endif %}
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            {% endfor %}
-        </div>
-        {% else %}
-        <div class="events-empty">
-            <h3>Keine kommenden Veranstaltungen</h3>
-            <p>Folgen Sie uns, um über neue Events informiert zu werden!</p>
-        </div>
-        {% endif %}
     </div>
 </section>
+
+{% assign today = 'now' | date: '%Y-%m-%d' %}
+{% assign ki_events = site.data.events | where: 'topic', 'ki-zivilgesellschaft' | sort: 'date' %}
+{% assign upcoming_events = ki_events | where_exp: 'event', 'event.date >= today' %}
 
 <!-- Past Events Section -->
 {% assign past_events = ki_events | where_exp: 'event', 'event.date < today' | sort: 'date' | reverse %}
@@ -262,3 +200,181 @@ Hier klicken, um eine Übersicht über alle Termine herunterzuladen: <br> <a hre
         </div>
     </div>
 </section>
+
+<!-- Enhanced Lightbox Modal -->
+<div id="lightbox" class="lightbox">
+    <div class="lightbox-content">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-img" src="" alt="">
+        <div class="lightbox-caption-container">
+            <div class="lightbox-caption"></div>
+        </div>
+    </div>
+</div>
+
+<style>
+/* Reuse post-article image styles from post.html */
+.post-article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: var(--shadow-light);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 2rem 0 0 0;
+}
+
+.post-article img + .image-caption {
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.post-article img:not(:has(+ .image-caption)) {
+    margin-bottom: 2rem;
+}
+
+.image-caption {
+    display: block;
+    text-align: center;
+    font-style: italic;
+    color: var(--text-light);
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+}
+
+.post-article img:hover {
+    transform: scale(1.02);
+    box-shadow: var(--shadow-medium);
+}
+
+/* Lightbox styles */
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(5px);
+}
+
+.lightbox-content {
+    position: relative;
+    max-width: 90%;
+    max-height: 90%;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.lightbox-img {
+    max-width: 100%;
+    max-height: 80vh;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.lightbox-close {
+    position: absolute;
+    top: -40px;
+    right: 0;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 10000;
+    transition: color 0.3s ease;
+}
+
+.lightbox-close:hover {
+    color: var(--primary-turquoise);
+}
+
+.lightbox-caption-container {
+    margin-top: 1rem;
+}
+
+.lightbox-caption {
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .post-article img {
+        margin: 1.5rem 0 0 0;
+    }
+
+    .lightbox-close {
+        font-size: 30px;
+        top: -35px;
+    }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.querySelector('.lightbox-img');
+    const lightboxCaption = document.querySelector('.lightbox-caption');
+    const lightboxClose = document.querySelector('.lightbox-close');
+
+    // Add click handlers to all images in post-article containers
+    const postImages = document.querySelectorAll('.post-article img');
+    postImages.forEach(function(img) {
+        // Create caption if title attribute exists
+        if (img.title && img.title.trim() !== '') {
+            const caption = document.createElement('div');
+            caption.className = 'image-caption';
+            caption.textContent = img.title;
+            img.parentNode.insertBefore(caption, img.nextSibling);
+        }
+
+        img.addEventListener('click', function() {
+            showLightbox(this.src, this.title || '');
+        });
+    });
+
+    function showLightbox(src, caption) {
+        lightboxImg.src = src;
+        lightboxImg.alt = caption;
+        lightboxCaption.textContent = caption;
+
+        // Handle caption visibility
+        if (caption && caption.trim() !== '') {
+            lightboxCaption.style.display = 'block';
+        } else {
+            lightboxCaption.style.display = 'none';
+        }
+
+        lightbox.style.display = 'block';
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox() {
+        lightbox.style.display = 'none';
+        document.body.style.overflow = 'auto';
+    }
+
+    lightboxClose.addEventListener('click', closeLightbox);
+
+    lightbox.addEventListener('click', function(e) {
+        if (e.target === lightbox) {
+            closeLightbox();
+        }
+    });
+
+    // Keyboard navigation
+    document.addEventListener('keydown', function(e) {
+        if (lightbox.style.display === 'block' && e.key === 'Escape') {
+            closeLightbox();
+        }
+    });
+});
+</script>
