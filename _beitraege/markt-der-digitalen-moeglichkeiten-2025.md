@@ -26,4 +26,4 @@ Das Netzwerk ist ein loser Zusammenschluss von Einzelpersonen aus unterschiedlic
 In Abständen von wenigen Wochen, trifft sich das Netzwerk abwechselnd online und vor Ort, um im engen Austausch zu bleiben und z.B. den nächsten Markt der digitalen Möglichkeiten zu planen. 
 Du möchtest Teil des Netzwerks werden? – Dann schreib einfach eine E-Mail an [sarah.bollmann@bielefeld.de](mailto:sarah.bollmann@bielefeld.de). 
 
-{% include gallery.html images="Markt-der-digitalen-Moeglichkeiten-1.jpg,Markt-der-digitalen-Moeglichkeiten-2.jpg,Markt-der-digitalen-Moeglichkeiten-3.jpg,Markt-der-digitalen-Moeglichkeiten-4.jpg,Markt-der-digitalen-Moeglichkeiten-5.jpg" folder="/assets/images/events/markt_der_digitalen_moeglichkeiten_2025/" %}  
+{% include gallery.html images="Markt-der-digitalen-Moeglichkeiten-1.jpg,Markt-der-digitalen-Moeglichkeiten-2.jpg,Markt-der-digitalen-Moeglichkeiten-3.jpg,Markt-der-digitalen-Moeglichkeiten-4.jpg,Markt-der-digitalen-Moeglichkeiten-5.jpg" folder="/assets/images/events/markt_der_digitalen_moeglichkeiten_2025/" %}   
