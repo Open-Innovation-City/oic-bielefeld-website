@@ -137,6 +137,45 @@ For specialized event pages that show only events from a specific topic, use the
 - `"innovation"`: Innovation workshops and talks
 - Add new topics as needed for future landing pages
 
+### Event Display Logic on Homepage
+
+**New as of November 2025:** The homepage (`index.html`) uses intelligent filtering to show upcoming events or a fallback message.
+
+**Filter Logic:**
+```liquid
+{% assign today = 'now' | date: '%Y-%m-%d' %}
+{% assign all_events = site.data.events | sort: 'date' %}
+
+{% comment %} Filter upcoming events {% endcomment %}
+{% assign upcoming_events = "" | split: "" %}
+{% for event in all_events %}
+    {% assign event_date = event.date | date: '%Y-%m-%d' %}
+    {% if event_date >= today %}
+        {% assign upcoming_events = upcoming_events | push: event %}
+    {% endif %}
+{% endfor %}
+
+{% if upcoming_events.size > 0 %}
+    <!-- Show events grid -->
+{% else %}
+    <!-- Show fallback message and newsletter CTA -->
+{% endif %}
+```
+
+**How It Works:**
+1. **Filter first**: Creates `upcoming_events` array containing only future events
+2. **Check size**: Tests if `upcoming_events.size > 0` (not just if events exist)
+3. **Conditional display**:
+   - **If upcoming events exist**: Shows events grid with all future events
+   - **If no upcoming events**: Shows "Keine kommenden Veranstaltungen" message with newsletter CTA
+
+**Key Difference from Previous Implementation:**
+- ❌ **Old**: Checked if any events exist in `events.yml`, then filtered inside loop
+- ✅ **New**: Filters upcoming events first, then checks if filtered array has items
+- **Result**: Fallback message correctly displays when all events are in the past
+
+**Implementation Location:** `index.html:246-318`
+
 ### Adding Image Galleries
 Use the gallery include for GitHub Pages compatibility:
 
