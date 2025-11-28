@@ -237,20 +237,27 @@ description: Gemeinsam gestalten wir die Zukunft unserer Stadt durch offene Inno
 <section id="events" class="section events">
     <div class="container">
         <h2 class="section-title fade-in">Kommende Veranstaltungen</h2>
-        <div class="fade-in">
-            <p style="text-align: center; font-size: 1.2rem; max-width: 800px; margin: 0 auto;">
-                Entdecken Sie unsere spannenden Events rund um Innovation, Technologie und Stadtentwicklung. Von Workshops bis zu Networking-Events ist für jeden etwas dabei.
-            </p>
-        </div>
         
         {% assign today = 'now' | date: '%Y-%m-%d' %}
-        {% assign upcoming_events = site.data.events | sort: 'date' %}
-        
-        {% if site.data.events.size > 0 %}
+        {% assign all_events = site.data.events | sort: 'date' %}
+
+        {% comment %} Filter zukünftige Events {% endcomment %}
+        {% assign upcoming_events = "" | split: "" %}
+        {% for event in all_events %}
+            {% assign event_date = event.date | date: '%Y-%m-%d' %}
+            {% if event_date >= today %}
+                {% assign upcoming_events = upcoming_events | push: event %}
+            {% endif %}
+        {% endfor %}
+
+        {% if upcoming_events.size > 0 %}
         <div class="events-grid">
             {% for event in upcoming_events %}
-                {% assign event_date = event.date | date: '%Y-%m-%d' %}
-                {% if event_date >= today %}
+                <div class="fade-in">
+                    <p style="text-align: center; font-size: 1.2rem; max-width: 800px; margin: 0 auto;">
+                        Entdecke unsere spannenden Events rund um Innovation, Technologie und Stadtentwicklung. Von Workshops bis zu Networking-Events ist für jeden etwas dabei.
+                    </p>
+                </div>
                 <div class="event-card fade-in{% if event.featured %} featured{% endif %}" data-category="{{ event.category }}">
                     <div class="event-header">
                         <div class="event-category">{{ event.category }}</div>
@@ -300,13 +307,15 @@ description: Gemeinsam gestalten wir die Zukunft unserer Stadt durch offene Inno
                         </div>
                     </div>
                 </div>
-                {% endif %}
             {% endfor %}
         </div>
         {% else %}
-        <div class="events-empty">
-            <h3>Keine kommenden Veranstaltungen</h3>
-            <p>Folge uns, um über neue Events informiert zu werden!</p>
+        <div class="fade-in">
+            <p style="text-align: center; font-size: 1.2rem; max-width: 800px; margin: 0 auto;">Wir haben gerade keine Veranstaltungen geplant. Du möchtest immer auf dem Laufenden bleiben und über neue Veranstaltungen informiert werden?</p><br><p style="text-align: center; font-size: 1.2rem; max-width: 800px; margin: 0 auto;">Dann abonniere unseren Newsletter.</p>
+        </div>
+        <!-- Newsletter CTA -->
+        <div class="cta-container" style="margin-top: 3rem;">
+            <button id="newsletterCTA" class="cta-button">Newsletter abonnieren</button>
         </div>
         {% endif %}
     </div>
