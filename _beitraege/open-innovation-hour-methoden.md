@@ -1,6 +1,6 @@
 ---
 title: "2. Open Innovation Hour: Methodenkoffer"
-teaser: "In der zweiten Open Innovation Hour - unserem neuen Online-Format - dreht sich alles um die Frage: Wie können wir ko-kreativ zusammenarbeiten?" Lerne das Open Innovation Kartenset kennen."
+teaser: "In der zweiten Open Innovation Hour - unserem neuen Online-Format - dreht sich alles um die Frage: \"Wie können wir ko-kreativ zusammenarbeiten?\" Lerne das Open Innovation Kartenset kennen."
 author: "Sarah Bollmann"
 category: "Open Innovation Hour"
 date: 2025-12-01
@@ -23,7 +23,7 @@ und außerhalb einer Organisation fördert. Das [Kartenset "Open Innovation"](ht
 
 1.	**Impuls:** Das Kartenset im Überblick und zum Download.   
 2.	**Erfahrungsaustausch:** Wie erlebst du Zusammenarbeit in Gruppen? Wo und wie hast du Ko-Kreation erlebt? Oder woran ist sie gescheitert?   
-3.	**Netzwerken:** Welches Thema bewegt dich zur Zeit besonders? Sind andere Teilnehmer*innen auch daran interessiert? Let's connect!     
+3.	**Netzwerken:** Welches Thema bewegt dich zur Zeit besonders? Sind andere Teilnehmer\*innen auch daran interessiert? Let's connect!     
 
 **Wer kann teilnehmen?**   
 **Alle!** Egal, ob du dich für Soziales engagierst, einfach nur neugierig bist oder selbst eine Idee hast. Die Open Innovation Hour lebt von **vielfältigen Perspektiven** – ob aus der Verwaltung, Wissenschaft, Wirtschaft oder der Zivilgesellschaft.  
