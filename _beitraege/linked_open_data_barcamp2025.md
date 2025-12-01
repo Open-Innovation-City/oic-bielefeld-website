@@ -9,7 +9,7 @@ date: 2025-12-01
 ### Was ist ein Barcamp?  
 {% include quote.html
    text="Ein Barcamp (englisch; häufig auch BarCamp; deutsch Unkonferenz oder Ad-hoc-Nicht-Konferenz) ist eine offene Tagung mit offenen Workshops, deren Inhalte und Ablauf von den Teilnehmern zu Beginn der Tagung selbst entwickelt und im weiteren Verlauf gestaltet werden. Barcamps dienen dem inhaltlichen Austausch und der Diskussion, können aber auch bereits am Ende der Veranstaltung konkrete Ergebnisse vorweisen (z. B. bei gemeinsamen Programmierworkshops)."
-   author=" [de.wikipedia.org](https://de.wikipedia.org/wiki/Barcamp)" %}  
+   author=" de.wikipedia.org/wiki/Barcamp" %}  
 
 ### Was sind Linked Open Data?  
 [Linked Open Data (LOD)](https://de.wikipedia.org/wiki/Linked_Open_Data) sind offen im Internet  publizierte, standardisierte und verknüpfte Daten. In der Einladung zur Veranstaltung heißt es:  
@@ -18,10 +18,10 @@ date: 2025-12-01
    author=" " %}  
 
 ### Ein Tag voller Austausch und Vernetzung   
-Die 11 Teilnehmer*\innen, die aus ganz Deutschland angereist waren, haben nach dem ersten Kennenlernen, gemeinsam ihr Programm geplant.  
-Los ging es mit einer Einstiegssession zum Thema Linked Open Data, gefolgt von der Session \„Beauty & Beast: mit LLM zu LOD; Einführung CSVW\“. Nach einer Stärkung am Mittag ging es weiter zum Thema \„Nutzungsmöglichkeiten für FIM-Daten\“. Seinen Abschluss fand das Barcamp mit der Session „\Best Practice, LOD in der Verwaltung – Praxis & Potentiale, am Beispiel Haushaltsdaten“\.   
-Mit dabei waren Teilnehmer*\innen aus der Zivilgesellschaft, die sich in ihrer Freizeit mit Daten beschäftigen sowie Menschen, die bei Behörden und in Stiftungen mit (Linked) Open Data arbeiten bis hin zu Interessierten, die sich ganz frisch auf das Thema eingelassen haben und eine erste Orientierung im Themenfeld gesucht haben.  
-Entstanden ist ein ko-kreativer Tag voll spannendem, offenem Austausch, der u.a. Antworten auf ganz grundsätzliche Fragen wie \„Was ist denn eine sog. [‚Ontologie‘](https://de.wikipedia.org/wiki/Ontologie_(Informatik)) und wozu ist sie gut?\“, gegeben hat. Daneben gab es hands-on Anleitungen, z.B. wie man eine Metadaten-Datei zu einer CSV-Datei veröffentlichen kann und mit ihrer Hilfe eine standardisierte, vernetze Referenz erstellt. Die Methode nennt sich CSVW. Und auch gesellschaftliche Zusammenhänge und Abhängigkeiten wurden diskutiert.   
+Die 11 Teilnehmer\*innen, die aus ganz Deutschland angereist waren, haben nach dem ersten Kennenlernen, gemeinsam ihr Programm geplant.  
+Los ging es mit einer Einstiegssession zum Thema Linked Open Data, gefolgt von der Session „Beauty & Beast: mit LLM zu LOD; Einführung CSVW“. Nach einer Stärkung am Mittag ging es weiter zum Thema „Nutzungsmöglichkeiten für FIM-Daten“. Seinen Abschluss fand das Barcamp mit der Session „Best Practice, LOD in der Verwaltung – Praxis & Potentiale, am Beispiel Haushaltsdaten“.   
+Mit dabei waren Teilnehmer\*innen aus der Zivilgesellschaft, die sich in ihrer Freizeit mit Daten beschäftigen sowie Menschen, die bei Behörden und in Stiftungen mit (Linked) Open Data arbeiten bis hin zu Interessierten, die sich ganz frisch auf das Thema eingelassen haben und eine erste Orientierung im Themenfeld gesucht haben.  
+Entstanden ist ein ko-kreativer Tag voll spannendem, offenem Austausch, der u.a. Antworten auf ganz grundsätzliche Fragen wie „Was ist denn eine sog. [‚Ontologie‘](https://de.wikipedia.org/wiki/Ontologie_(Informatik)) und wozu ist sie gut?“, gegeben hat. Daneben gab es hands-on Anleitungen, z.B. wie man eine Metadaten-Datei zu einer CSV-Datei veröffentlichen kann und mit ihrer Hilfe eine standardisierte, vernetze Referenz erstellt. Die Methode nennt sich CSVW. Und auch gesellschaftliche Zusammenhänge und Abhängigkeiten wurden diskutiert.   
 
 Es war inspirierend mitzuerleben, wie konzentriert die Gruppe miteinander gearbeitet und voneinander gelernt hat. Toll, was eine Handvoll Engagierter gemeinsam auf die Beine stellen kann.  
 
