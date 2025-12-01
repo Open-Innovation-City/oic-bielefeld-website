@@ -1400,6 +1400,17 @@ body:has(.newsletter-banner) .navbar {
   border-bottom: 2px solid var(--bg-light);
 }
 
+.modal-logo {
+  margin-bottom: 1.5rem;
+}
+
+.modal-logo img {
+  max-width: 180px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 .modal-header h3 {
   color: var(--text-dark);
   font-size: 1.8rem;
@@ -1483,6 +1494,10 @@ body:has(.newsletter-banner) .navbar {
     padding: 2rem 1.5rem 1rem;
   }
 
+  .modal-logo img {
+    max-width: 150px;
+  }
+
   .modal-header h3 {
     font-size: 1.5rem;
   }
@@ -1503,6 +1518,10 @@ body:has(.newsletter-banner) .navbar {
 
   .modal-header {
     padding: 1.5rem 1rem 0.5rem;
+  }
+
+  .modal-logo img {
+    max-width: 120px;
   }
 
   .modal-header h3 {
