@@ -179,3 +179,17 @@
   link_text: "Details & Anmeldungen"
   featured: true
   topic: "ki-zivilgesellschaft"
+
+  - title: "Open Innovation Hour: Methodenkoffer"
+  description: "Wie können wir ko-kreativ zusammenarbeiten? Genau diese Frage steht im Mittelpunkt der zweiten Open Innovation Hour! Ein neues Online-Format, bei dem deine Ideen und deine Perspektive gefragt sind."
+  date: "2025-12-04"
+  time: "12:30"
+  duration: "1 Stunde"
+  location: "Online"
+  category: "Online: Open Innovation Hour"
+  target_audience: "Alle Interessierten aus Politik, Verwaltung, Wirtschaft, Wissenschaft & Zivilgesellschaft"
+  cost: "Kostenlos"
+  booking_url:  "https://pretix.eu/OIC-BIE/open-inno-hour-2/"
+  link_text: "Details & Anmeldung"
+  featured: true
+  topic: "open-innovation-hour"
