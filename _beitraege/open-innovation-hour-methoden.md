@@ -1,6 +1,6 @@
 ---
 title: "2. Open Innovation Hour: Methodenkoffer"
-teaser: "In der zweiten Open Innovation Hour - unserem neuen Online-Format - dreht sich alles um die Frage: Wie können wir ko-kreativ zusammenarbeiten?" Lerne das Open Innovation Kartenset kennen.
+teaser: "In der zweiten Open Innovation Hour - unserem neuen Online-Format - dreht sich alles um die Frage: Wie können wir ko-kreativ zusammenarbeiten?" Lerne das Open Innovation Kartenset kennen."
 author: "Sarah Bollmann"
 category: "Open Innovation Hour"
 date: 2025-12-01
