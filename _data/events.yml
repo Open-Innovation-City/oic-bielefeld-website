@@ -189,7 +189,7 @@
   category: "Online: Open Innovation Hour"
   target_audience: "Alle Interessierten aus Politik, Verwaltung, Wirtschaft, Wissenschaft & Zivilgesellschaft"
   cost: "Kostenlos"
-  booking_url: "https://pretix.eu/OIC-BIE/open-inno-hour-2/"
+  booking_url: "/beitraege/open-innovation-hour-methoden/"
   link_text: "Details & Anmeldung"
   featured: true
   topic: "open-innovation-hour"
