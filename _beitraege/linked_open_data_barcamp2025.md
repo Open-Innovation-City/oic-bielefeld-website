@@ -2,7 +2,7 @@
 title: "Ein Rückblick auf das Linked Open Data Barcamp, vom 27.11.2025"
 teaser: "Am 27. November 2025 haben die Organisationen Code for Bielefeld, FörderFunke, Open Knowledge Foundation Deutschland und sparkup ein Linked Open Data Barcamp im Innovation Office ausgerichtet. Sarah Bollmann gibt einen persönlichen Rückblick auf die Veranstaltung."
 author: "Sarah Bollmann"
-category: "Events"
+category: "Rückblick"
 date: 2025-12-01
 ---  
 
@@ -18,10 +18,10 @@ date: 2025-12-01
    author=" " %}  
 
 ### Ein Tag voller Austausch und Vernetzung   
-Die 11 Teilnehmer\*innen, die aus ganz Deutschland angereist waren, haben nach dem ersten Kennenlernen, gemeinsam ihr Programm geplant.  
+Die 11 Teilnehmer\*innen, die aus ganz Deutschland angereist waren, haben nach dem ersten Kennenlernen gemeinsam ihr Programm geplant.  
 Los ging es mit einer Einstiegssession zum Thema Linked Open Data, gefolgt von der Session „Beauty & Beast: mit LLM zu LOD; Einführung CSVW“. Nach einer Stärkung am Mittag ging es weiter zum Thema „Nutzungsmöglichkeiten für FIM-Daten“. Seinen Abschluss fand das Barcamp mit der Session „Best Practice, LOD in der Verwaltung – Praxis & Potentiale, am Beispiel Haushaltsdaten“.   
-Mit dabei waren Teilnehmer\*innen aus der Zivilgesellschaft, die sich in ihrer Freizeit mit Daten beschäftigen sowie Menschen, die bei Behörden und in Stiftungen mit (Linked) Open Data arbeiten bis hin zu Interessierten, die sich ganz frisch auf das Thema eingelassen haben und eine erste Orientierung im Themenfeld gesucht haben.  
-Entstanden ist ein ko-kreativer Tag voll spannendem, offenem Austausch, der u.a. Antworten auf ganz grundsätzliche Fragen wie „Was ist denn eine sog. [‚Ontologie‘](https://de.wikipedia.org/wiki/Ontologie_(Informatik)) und wozu ist sie gut?“, gegeben hat. Daneben gab es hands-on Anleitungen, z.B. wie man eine Metadaten-Datei zu einer CSV-Datei veröffentlichen kann und mit ihrer Hilfe eine standardisierte, vernetze Referenz erstellt. Die Methode nennt sich CSVW. Und auch gesellschaftliche Zusammenhänge und Abhängigkeiten wurden diskutiert.   
+Mit dabei waren Teilnehmer\*innen aus der Zivilgesellschaft, die sich in ihrer Freizeit mit Daten beschäftigen sowie Menschen, die bei Behörden und in Stiftungen mit (Linked) Open Data arbeiten, bis hin zu Interessierten, die sich ganz frisch auf das Thema eingelassen haben und eine erste Orientierung im Themenfeld gesucht haben.  
+Entstanden ist ein ko-kreativer Tag voll spannendem, offenem Austausch, der u.a. Antworten auf ganz grundsätzliche Fragen wie „Was ist denn eine sog. [‚Ontologie‘](https://de.wikipedia.org/wiki/Ontologie_(Informatik)) und wozu ist sie gut?“ gegeben hat. Daneben gab es auch hands-on Anleitungen, z.B. wie man eine Metadaten-Datei zu einer CSV-Datei veröffentlichen kann und mit ihrer Hilfe eine standardisierte, vernetze Referenz erstellt. Die Methode nennt sich CSVW. Und auch gesellschaftliche Zusammenhänge und Abhängigkeiten wurden diskutiert.   
 
 Es war inspirierend mitzuerleben, wie konzentriert die Gruppe miteinander gearbeitet und voneinander gelernt hat. Toll, was eine Handvoll Engagierter gemeinsam auf die Beine stellen kann.  
 
