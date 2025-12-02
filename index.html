@@ -251,13 +251,13 @@ description: Gemeinsam gestalten wir die Zukunft unserer Stadt durch offene Inno
         {% endfor %}
 
         {% if upcoming_events.size > 0 %}
+        <div class="fade-in">
+            <p style="text-align: center; font-size: 1.2rem; max-width: 800px; margin: 0 auto;">
+                Entdecke unsere spannenden Events rund um Innovation, Technologie und Stadtentwicklung. Von Workshops bis zu Networking-Events ist für jeden etwas dabei.
+            </p>
+        </div>
         <div class="events-grid">
             {% for event in upcoming_events %}
-                <div class="fade-in">
-                    <p style="text-align: center; font-size: 1.2rem; max-width: 800px; margin: 0 auto;">
-                        Entdecke unsere spannenden Events rund um Innovation, Technologie und Stadtentwicklung. Von Workshops bis zu Networking-Events ist für jeden etwas dabei.
-                    </p>
-                </div>
                 <div class="event-card fade-in{% if event.featured %} featured{% endif %}" data-category="{{ event.category }}">
                     <div class="event-header">
                         <div class="event-category">{{ event.category }}</div>
