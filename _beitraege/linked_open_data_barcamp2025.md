@@ -25,7 +25,7 @@ Entstanden ist ein ko-kreativer Tag voll spannendem, offenem Austausch, der u.a.
 
 Es war inspirierend mitzuerleben, wie konzentriert die Gruppe miteinander gearbeitet und voneinander gelernt hat. Toll, was eine Handvoll Engagierter gemeinsam auf die Beine stellen kann.  
 
-{% include gallery.html folder="/assets/images/events/linked_open_data_barcamp_2025/" %}  
+{% include gallery.html folder="/assets/images/events/linked_open_data_barcamp_2025/" %}  blabla
 
 
 
