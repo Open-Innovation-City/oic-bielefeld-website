@@ -14,7 +14,7 @@ Die Open Innovation Hour ist ein **Online-Format**, in dem deine Ideen und deine
 **Jeden ersten Donnerstag im Monat, um 12.30 Uhr schauen wir gemeinsam auf eine herausfordernde Fragestellung.**  
 
 ### Offen, niedrigschwellig und praxisnah. Die 60 Minuten im Überblick:   
-1.	**Impuls:** Hennrik Remmert gibt einen Impuls. Er organisiert selbst Schreibwerkstätten für Utopisches schreiben und verbindet so seine Leidenschaft für kreatives Schreiben und soziale Innovationen.     
+1.	**Impuls:** Henrik Remmert gibt einen Impuls. Er organisiert selbst Schreibwerkstätten für Utopisches schreiben und verbindet so seine Leidenschaft für kreatives Schreiben und soziale Innovationen.     
 2.	**Erfahrungsaustausch:** Hast du schon einmal überlegt selbst etwas zu starten? Was motiviert dich? Was hält dich ab?
 3.	**Netzwerken:** Welches Thema bewegt dich zur Zeit besonders? Sind andere Teilnehmer\*innen auch daran interessiert? Let's connect!   
 
