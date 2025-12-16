@@ -192,4 +192,18 @@
   booking_url: "/beitraege/open-innovation-hour-methoden/"
   link_text: "Details & Anmeldung"
   featured: true
+  topic: "open-innovation-hour"  
+  
+- title: "Open Innovation Hour: Wie werde ich aktiv?"
+  description: "Dich bewegt ein Thema, zu dem es kein Angebot in deiner Nähe gibt? Du vermisst einen Ort für Austausch oder Zusammenarbeit? – Wieso nicht selbst etwas starten? … Aber wie? Genau diese Fragen stehen im Mittelpunkt der 3. Open Innovation Hour. Mit Impuls von Henrik Remmert"
+  date: "2026-01-08"
+  time: "12:30"
+  duration: "1 Stunde"
+  location: "Online"
+  category: "Online: Open Innovation Hour"
+  target_audience: "Alle Interessierten aus Politik, Verwaltung, Wirtschaft, Wissenschaft & Zivilgesellschaft"
+  cost: "Kostenlos"
+  booking_url: "/beitraege/open-innovation-hour-aktiv-werden/"
+  link_text: "Details & Anmeldung"
+  featured: true
   topic: "open-innovation-hour"
