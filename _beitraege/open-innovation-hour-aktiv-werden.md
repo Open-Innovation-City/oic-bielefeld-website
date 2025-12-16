@@ -14,7 +14,7 @@ Die Open Innovation Hour ist ein **Online-Format**, in dem deine Ideen und deine
 **Jeden ersten Donnerstag im Monat, um 12.30 Uhr schauen wir gemeinsam auf eine herausfordernde Fragestellung.**  
 
 ### Offen, niedrigschwellig und praxisnah. Die 60 Minuten im Überblick:   
-1.	**Impuls:** Henrik Remmert gibt einen Impuls. Er organisiert selbst Schreibwerkstätten für Utopisches Schreiben und verbindet so seine Leidenschaften für kreatives Schreiben und soziale Innovationen.     
+1.	**Impuls:** **Henrik Remmert** gibt einen Impuls. Er organisiert selbst Schreibwerkstätten für Utopisches Schreiben und verbindet so seine Leidenschaften für kreatives Schreiben und soziale Innovationen.     
 2.	**Erfahrungsaustausch:** Hast du schon einmal überlegt selbst etwas zu starten? Was motiviert dich? Was hält dich ab?
 3.	**Netzwerken:** Welches Thema bewegt dich zur Zeit besonders? Sind andere Teilnehmer\*innen auch daran interessiert? Let's connect!   
 
@@ -28,6 +28,7 @@ Die Open Innovation Hour ist ein **Online-Format**, in dem deine Ideen und deine
 ### Kostenlose Anmeldung  
 {% include pretix-widget.html event="open-inno-hour-3" %}  
 
+  
 Die Open Innovation Hour ist mehr als ein Workshop: **Sie ist der Startpunkt für Netzwerke, Projekte oder tiefergehende Formate, die Bielefeld verbinden.**   
 **Dich beschäftigt eine Herausforderung, zu der du aktiv werden möchtest?**  
 Dann melde dich bei [Sarah](mailto:sarah.bollmann@bielefeld.de)! Wir freuen uns auf dich.   
