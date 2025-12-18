@@ -10,6 +10,8 @@ header_image: " "
 Du bist voller Tatendrang? Dich bewegen die Herausforderungen unserer Zeit?  
 Dann schreib los – in der **Utopischen Schreibwerkstatt. Jeden zweiten Dienstag im Monat, von 19 bis 21 Uhr**, im Innovation Office (Alter Markt 13, 33602 Bielefeld).  
 
+*Keine Anmeldung erforderlich!*
+
 ### Der Abend im Überblick:   
 1.	Von **19 - 20 Uhr** kannst du an **deinen eigenen Schreibprojekten** (weiter-)schreiben: von Tagebuch über ToDo-Listen bis hin zu Büchern. Du entscheidest, was du schreibst. Falls dir nichts einfällt, keine Sorge, du darfst die Ruhe in Gemeinschaft genießen oder du ziehst ein **Schreibimpuls**.  
 2.	Von **20 - 21 Uhr** wird es ein bisschen interaktiver. Nach einem kurzen Check In schreiben wir gemeinsam in einem kurzen, **gemeinsamen Methodenformat**. Am Ende können Freiwillige ihre Texte vorstellen.  
