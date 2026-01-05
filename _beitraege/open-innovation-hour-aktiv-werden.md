@@ -23,6 +23,7 @@ Die Open Innovation Hour ist ein **Online-Format**, in dem deine Ideen und deine
 
 **Wann und wo?**  
 **Donnerstag, 8. Januar 2025**  
+**12.30 - 13.30 Uhr**  
 **Zoom** – Den Link erhältst du mit deiner Anmeldung   
 
 ### Kostenlose Anmeldung  
