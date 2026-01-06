@@ -27,6 +27,7 @@ Wenn eine Stadt den Weg zur Open Innovation City einschlägt, entsteht ein leben
    
 ## 2025: Auch Münster wird Open Innovation City  
 
-Das Pilotprojekt in Bielefeld hat Strahlkraft: Auch Münster wird zur Open Innovation City.  
+Das Pilotprojekt in Bielefeld hat Strahlkraft: Auch [Münster](https://oic-muenster.de) ist ab sofort eine Open Innovation City.  
 In Münster hat die VOLT-Partei den Antrag in den Stadtrat eingebracht, ebenfalls zur Open Innovation City zu werden. Der Stadtrat Münster hat den Beschluss gefasst und die Wirtschaftsförderung gemeinsam mit der Technikförderung Münster beauftragt die Open Innovation City Münster möglich zu machen. Wir freuen uns, dass ein Netzwerk aus Open Innovation Cities entsteht!  
+Alle Informationen zur Open Innovation City Münster gibt's auf der Website: [oic-muenster.de](https://oic-muenster.de).
 
