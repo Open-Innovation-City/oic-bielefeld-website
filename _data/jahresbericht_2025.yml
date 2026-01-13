@@ -1,8 +1,30 @@
+leitsaetze:
+  - number: 1
+    title: "Digitale Transformation"
+    text: "BIE-Digital treibt die Digitale Transformation in Verwaltung und Stadtgesellschaft voran. Innovationen sind dabei ein wichtiger Bestandteil."
+
+  - number: 2
+    title: "Offene Innovation"
+    text: "Dafür gibt es den Geschäftsbereich Innovation, in dem wir die Initiative Open Innovation City verantworten. Wir nutzen und vermitteln dafür insbesondere das Prinzip der Offenen Innovation."
+
+  - number: 3
+    title: "Experimentierräume"
+    text: "Wir öffnen Experimentierräume, um mit anderen Organisationseinheiten neue Prozesse und Technologien zu erproben. Dazu bringen wir unsere Expertise im Bereich Innovation ein. Die Fachverantwortung bleibt bei den Organisationseinheiten."
+
+  - number: 4
+    title: "Stadtgesellschaft"
+    text: "Für die Stadtgesellschaft organisieren wir unterschiedliche Formate, die Zusammenarbeit, Austausch und Vernetzung fördern. Damit begegnen wir den ökonomischen, ökologischen und sozialen Herausforderungen in Bielefeld gemeinschaftlich."
+
+  - number: 5
+    title: "Innovation Office"
+    text: "Das Innovation Office ist der zentrale Ort, an dem Akteure aus Verwaltung, Wirtschaft, Wissenschaft und Zivilgesellschaft gemeinsam und offen an Innovationen arbeiten."
+
 categories:
   - name: "Verwaltung & Weiterbildung"
     description: "Interne Zusammenarbeit und Kompetenzaufbau"
     icon: "🏛️"
     color: "secondary-blue"
+    leitsaetze: [3]
     results:
       - title: "Dialogveranstaltungen innerhalb der Verwaltung"
         planned: 2
@@ -32,6 +54,7 @@ categories:
     description: "Kommunikation und Veranstaltungen für die Stadtgesellschaft"
     icon: "📢"
     color: "primary-turquoise"
+    leitsaetze: [4]
     results:
       - title: "Beiträge über alle Medien veröffentlichen"
         planned: 24
@@ -61,6 +84,7 @@ categories:
     description: "Umsetzung innovativer Lösungen mit Fachämtern"
     icon: "🚀"
     color: "secondary-green"
+    leitsaetze: [3]
     results:
       - title: "Prototypen und Pilotprojekte mit Fachämtern umsetzen"
         planned: 4
@@ -84,6 +108,7 @@ categories:
     description: "Vernetzung und Zusammenarbeit über Stadtgrenzen hinaus"
     icon: "🌐"
     color: "secondary-light-blue"
+    leitsaetze: [4]
     results:
       - title: "Netzwerk um Kontakte erweitern"
         planned: 100
@@ -119,6 +144,7 @@ categories:
     description: "Nutzung des Innovation Office als Begegnungsort"
     icon: "🏢"
     color: "secondary-pink"
+    leitsaetze: [5]
     results:
       - title: "Nutzung durch externe Akteure"
         planned: 24
