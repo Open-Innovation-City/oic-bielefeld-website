@@ -71,3 +71,6 @@ temp/
 # Cache
 .cache/
 generated-newsletters/
+
+# Input folder (local working directory)
+_input/

@@ -1,0 +1,737 @@
+---
+layout: default
+title: Jahresbericht 2025 - Open Innovation City Bielefeld
+description: Unsere Zielerreichung im Jahr 2025 - Erfolge, Herausforderungen und Erkenntnisse
+---
+
+<!-- Adaptive Navigation -->
+<nav class="navbar dark-theme" id="navbar">
+    <div class="nav-container">
+        <div class="logo">
+            <a href="{{ '/' | relative_url }}">
+                <!-- Dark version logo (for dark backgrounds) -->
+                <img src="{{ '/assets/images/logo-light.png' | relative_url }}"
+                     alt="{{ site.title }} Logo Light"
+                     class="logo-dark"
+                     onerror="handleLogoError(this)">
+                <!-- Light version logo (for light backgrounds) -->
+                <img src="{{ '/assets/images/logo-dark.png' | relative_url }}"
+                     alt="{{ site.title }} Logo Dark"
+                     class="logo-light"
+                     onerror="handleLogoError(this)">
+
+                <!-- Fallback falls beide Logos nicht laden -->
+                <div class="logo-fallback" id="logoFallback">
+                    <div class="logo-circle"></div>
+                    <div class="logo-rect"></div>
+                    <div class="logo-shape"></div>
+                    <div class="logo-text">
+                        <div>Open Innovation City</div>
+                        <div>Bielefeld</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <ul class="nav-links" id="navLinks">
+            {% for item in site.navigation %}
+            <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+            {% endfor %}
+        </ul>
+
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menü öffnen">☰</button>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="report-hero">
+    <div class="container">
+        <h1 class="report-title fade-in">Jahresbericht 2025</h1>
+        <p class="report-subtitle fade-in">Unsere Zielerreichung im Überblick</p>
+    </div>
+</section>
+
+<!-- Introduction Section -->
+<section class="report-intro">
+    <div class="container">
+        <div class="intro-content fade-in">
+            <h2>Ein Jahr voller Innovation und Zusammenarbeit</h2>
+            <p>
+                Das Jahr 2025 war für Open Innovation City Bielefeld ein Jahr der Höhen und Wendepunkte.
+                Wir haben uns ehrgeizige Ziele gesetzt und können stolz auf viele Erfolge zurückblicken –
+                gleichzeitig haben wir wichtige Erkenntnisse gewonnen, wo wir unseren Kurs anpassen mussten.
+            </p>
+            <p>
+                Besonders erfreulich: In vielen Bereichen haben wir unsere Ziele deutlich übertroffen.
+                Unsere Website wurde zum wichtigen Kommunikationskanal, unsere Veranstaltungen erreichten mehr Menschen als geplant,
+                und unser Netzwerk wuchs weit über die gesetzten Erwartungen hinaus.
+            </p>
+            <p>
+                Auf dieser Seite präsentieren wir transparent, welche Ziele wir uns gesetzt haben und wie wir diese erreicht haben –
+                sortiert nach unseren Handlungsfeldern. Jede Kennzahl erzählt eine Geschichte über unsere Arbeit für Innovation in Bielefeld.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Key Results by Category -->
+{% for category in site.data.jahresbericht_2025.categories %}
+<section class="report-category" data-category="{{ forloop.index }}">
+    <div class="container">
+        <div class="category-header fade-in">
+            <div class="category-icon">{{ category.icon }}</div>
+            <div class="category-info">
+                <h2 class="category-title">{{ category.name }}</h2>
+                <p class="category-description">{{ category.description }}</p>
+            </div>
+        </div>
+
+        <div class="results-grid">
+            {% for result in category.results %}
+            <div class="result-card fade-in" style="animation-delay: {{ forloop.index | times: 0.1 }}s">
+                <h3 class="result-title">{{ result.title }}</h3>
+
+                <div class="result-stats">
+                    <div class="stat">
+                        <span class="stat-label">Geplant</span>
+                        <span class="stat-value">{{ result.planned }}</span>
+                    </div>
+                    <div class="stat stat-achieved">
+                        <span class="stat-label">Erreicht</span>
+                        <span class="stat-value">{{ result.achieved }}</span>
+                    </div>
+                </div>
+
+                {% assign percentage = result.achieved | times: 100.0 | divided_by: result.planned %}
+                {% if result.planned == 0 %}
+                    {% assign status_class = "status-obsolete" %}
+                    {% assign status_text = "Nicht relevant" %}
+                {% elsif percentage >= 100 %}
+                    {% assign status_class = "status-success" %}
+                    {% assign status_text = "Ziel erreicht" %}
+                {% elsif percentage >= 50 %}
+                    {% assign status_class = "status-partial" %}
+                    {% assign status_text = "Teilweise erreicht" %}
+                {% else %}
+                    {% assign status_class = "status-missing" %}
+                    {% assign status_text = "Nicht erreicht" %}
+                {% endif %}
+
+                <div class="progress-section">
+                    <div class="progress-header">
+                        <span class="progress-label">{{ result.unit }}</span>
+                        <span class="progress-percentage {{ status_class }}">{{ percentage | round }}%</span>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar {{ status_class }}"
+                             data-percentage="{{ percentage }}"
+                             data-planned="{{ result.planned }}"
+                             data-achieved="{{ result.achieved }}">
+                            <div class="progress-fill" style="width: 0%"></div>
+                            {% if percentage > 100 %}
+                            <div class="overflow-indicator">
+                                <span class="overflow-badge">+{{ percentage | minus: 100 | round }}%</span>
+                            </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                    <div class="status-badge {{ status_class }}">{{ status_text }}</div>
+                </div>
+
+                {% if result.comment != "" %}
+                <div class="result-comment">
+                    <svg class="comment-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/>
+                    </svg>
+                    {{ result.comment }}
+                </div>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endfor %}
+
+<!-- Parkplatz Section -->
+<section class="report-parkplatz">
+    <div class="container">
+        <div class="parkplatz-card fade-in">
+            <h2 class="parkplatz-title">{{ site.data.jahresbericht_2025.parkplatz.title }}</h2>
+            <p class="parkplatz-description">{{ site.data.jahresbericht_2025.parkplatz.description }}</p>
+
+            <div class="parkplatz-stats">
+                <div class="parkplatz-number">{{ site.data.jahresbericht_2025.parkplatz.count }}</div>
+                <div class="parkplatz-label">Zusätzliche Aktivitäten</div>
+            </div>
+
+            <p class="parkplatz-examples">
+                <strong>Beispiele:</strong> {{ site.data.jahresbericht_2025.parkplatz.examples }}
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Summary Section -->
+<section class="report-summary">
+    <div class="container">
+        <div class="summary-content fade-in">
+            <h2>Fazit: Lernen, Anpassen, Weiterentwickeln</h2>
+            <p>
+                Die Zahlen zeigen: Innovation lässt sich nicht immer planen. Manche Formate wie Innovationszirkel
+                oder Office-Zeiten haben wir eingestellt, weil sie nicht den erhofften Mehrwert brachten.
+                Gleichzeitig haben wir in anderen Bereichen – besonders bei Veranstaltungen, Projekten und Vernetzung –
+                unsere eigenen Erwartungen weit übertroffen.
+            </p>
+            <p>
+                Diese Transparenz über Erfolge und Herausforderungen ist uns wichtig. Sie zeigt, dass Innovation
+                ein iterativer Prozess ist: ausprobieren, lernen, anpassen. Wir freuen uns auf das nächste Jahr
+                mit realistischen Zielen und neuen Ideen für Bielefeld.
+            </p>
+        </div>
+    </div>
+</section>
+
+<style>
+/* Jahresbericht 2025 Styles */
+
+.report-hero {
+    background: linear-gradient(135deg, var(--primary-turquoise) 0%, var(--secondary-blue) 100%);
+    padding: 120px 2rem 80px;
+    text-align: center;
+    color: var(--white);
+    position: relative;
+    overflow: hidden;
+}
+
+.report-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    opacity: 0.3;
+}
+
+.report-title {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    position: relative;
+    z-index: 1;
+}
+
+.report-subtitle {
+    font-size: 1.5rem;
+    opacity: 0.95;
+    position: relative;
+    z-index: 1;
+}
+
+.report-intro {
+    padding: 80px 2rem;
+    background: var(--white);
+}
+
+.intro-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.intro-content h2 {
+    color: var(--secondary-blue);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.intro-content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: var(--text-dark);
+    margin-bottom: 1.5rem;
+}
+
+.report-category {
+    padding: 80px 2rem;
+    background: var(--bg-light);
+}
+
+.report-category:nth-child(even) {
+    background: var(--white);
+}
+
+.category-header {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 3px solid var(--primary-turquoise);
+}
+
+.category-icon {
+    font-size: 4rem;
+    flex-shrink: 0;
+}
+
+.category-title {
+    font-size: 2.5rem;
+    color: var(--text-dark);
+    margin-bottom: 0.5rem;
+}
+
+.category-description {
+    font-size: 1.2rem;
+    color: var(--text-light);
+    margin-bottom: 0;
+}
+
+.results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
+.result-card {
+    background: var(--white);
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: var(--shadow-light);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.result-card.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.result-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-medium);
+}
+
+.result-title {
+    font-size: 1.3rem;
+    color: var(--text-dark);
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+}
+
+.result-stats {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    color: var(--text-light);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.stat-value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text-dark);
+}
+
+.stat-achieved .stat-value {
+    color: var(--primary-turquoise);
+}
+
+.progress-section {
+    margin-top: 1.5rem;
+}
+
+.progress-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.progress-label {
+    font-size: 0.95rem;
+    color: var(--text-light);
+}
+
+.progress-percentage {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.progress-percentage.status-success {
+    color: var(--secondary-green);
+}
+
+.progress-percentage.status-partial {
+    color: var(--alert-warning);
+}
+
+.progress-percentage.status-missing {
+    color: var(--secondary-pink);
+}
+
+.progress-percentage.status-obsolete {
+    color: var(--text-light);
+}
+
+.progress-bar-container {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 24px;
+    background: var(--bg-light);
+    border-radius: 12px;
+    overflow: visible;
+    position: relative;
+}
+
+.progress-fill {
+    height: 100%;
+    border-radius: 12px;
+    transition: width 1.5s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+}
+
+.status-success .progress-fill {
+    background: linear-gradient(90deg, var(--secondary-green), var(--primary-turquoise));
+}
+
+.status-partial .progress-fill {
+    background: linear-gradient(90deg, var(--alert-warning), var(--primary-yellow));
+}
+
+.status-missing .progress-fill {
+    background: linear-gradient(90deg, var(--secondary-pink), var(--alert-warning));
+}
+
+.status-obsolete .progress-fill {
+    background: var(--text-light);
+}
+
+.overflow-indicator {
+    position: absolute;
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.overflow-badge {
+    display: inline-block;
+    background: var(--secondary-blue);
+    color: var(--white);
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    box-shadow: var(--shadow-medium);
+    white-space: nowrap;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.status-badge.status-success {
+    background: rgba(165, 227, 95, 0.2);
+    color: #4a7c1f;
+}
+
+.status-badge.status-partial {
+    background: var(--alert-warning-bg);
+    color: #c44000;
+}
+
+.status-badge.status-missing {
+    background: rgba(250, 45, 110, 0.2);
+    color: #b01847;
+}
+
+.status-badge.status-obsolete {
+    background: rgba(102, 102, 102, 0.2);
+    color: var(--text-light);
+}
+
+.result-comment {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background: var(--bg-light);
+    border-left: 4px solid var(--secondary-light-blue);
+    border-radius: 4px;
+    font-size: 0.95rem;
+    color: var(--text-dark);
+    display: flex;
+    gap: 0.8rem;
+    align-items: flex-start;
+}
+
+.comment-icon {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    color: var(--secondary-light-blue);
+    margin-top: 0.1rem;
+}
+
+.report-parkplatz {
+    padding: 80px 2rem;
+    background: linear-gradient(135deg, var(--secondary-blue) 0%, var(--secondary-pink) 100%);
+}
+
+.parkplatz-card {
+    max-width: 800px;
+    margin: 0 auto;
+    background: var(--white);
+    border-radius: 16px;
+    padding: 3rem;
+    box-shadow: var(--shadow-heavy);
+    text-align: center;
+}
+
+.parkplatz-title {
+    font-size: 2.5rem;
+    color: var(--secondary-blue);
+    margin-bottom: 1rem;
+}
+
+.parkplatz-description {
+    font-size: 1.2rem;
+    color: var(--text-light);
+    margin-bottom: 2rem;
+}
+
+.parkplatz-stats {
+    margin: 2rem 0;
+}
+
+.parkplatz-number {
+    font-size: 5rem;
+    font-weight: 700;
+    color: var(--primary-turquoise);
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.parkplatz-label {
+    font-size: 1.2rem;
+    color: var(--text-dark);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.parkplatz-examples {
+    font-size: 1.1rem;
+    color: var(--text-dark);
+    margin-top: 2rem;
+    line-height: 1.6;
+}
+
+.report-summary {
+    padding: 80px 2rem;
+    background: var(--white);
+}
+
+.summary-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.summary-content h2 {
+    color: var(--primary-turquoise);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.summary-content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: var(--text-dark);
+    margin-bottom: 1.5rem;
+}
+
+/* Animations */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .report-title {
+        font-size: 2.5rem;
+    }
+
+    .report-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .category-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    .category-title {
+        font-size: 2rem;
+    }
+
+    .results-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .result-stats {
+        gap: 1rem;
+    }
+
+    .parkplatz-card {
+        padding: 2rem;
+    }
+
+    .parkplatz-number {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .report-hero {
+        padding: 100px 1rem 60px;
+    }
+
+    .report-title {
+        font-size: 2rem;
+    }
+
+    .report-subtitle {
+        font-size: 1rem;
+    }
+
+    .intro-content p,
+    .summary-content p {
+        font-size: 1rem;
+    }
+
+    .category-icon {
+        font-size: 3rem;
+    }
+
+    .category-title {
+        font-size: 1.5rem;
+    }
+
+    .overflow-badge {
+        font-size: 0.75rem;
+        padding: 0.2rem 0.6rem;
+    }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+    .fade-in,
+    .result-card,
+    .progress-fill {
+        transition: none;
+        animation: none;
+    }
+
+    .overflow-badge {
+        animation: none;
+    }
+}
+</style>
+
+<script>
+// Jahresbericht 2025 JavaScript
+class JahresberichtAnimations {
+    constructor() {
+        this.initObserver();
+        this.animateProgressBars();
+    }
+
+    initObserver() {
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all fade-in elements
+        document.querySelectorAll('.fade-in, .result-card').forEach(el => {
+            observer.observe(el);
+        });
+    }
+
+    animateProgressBars() {
+        const progressBars = document.querySelectorAll('.progress-bar');
+
+        const progressObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const bar = entry.target;
+                    const fill = bar.querySelector('.progress-fill');
+                    const percentage = parseFloat(bar.dataset.percentage);
+
+                    // Animate to 100% max for visual bar, actual percentage shown in badge
+                    const visualPercentage = Math.min(percentage, 100);
+
+                    setTimeout(() => {
+                        fill.style.width = visualPercentage + '%';
+                    }, 100);
+
+                    progressObserver.unobserve(bar);
+                }
+            });
+        }, { threshold: 0.5 });
+
+        progressBars.forEach(bar => progressObserver.observe(bar));
+    }
+}
+
+// Initialize when DOM is ready
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => {
+        new JahresberichtAnimations();
+    });
+} else {
+    new JahresberichtAnimations();
+}
+</script>
