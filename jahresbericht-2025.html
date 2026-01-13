@@ -44,15 +44,40 @@ description: Unsere Zielerreichung im Jahr 2025 - Erfolge, Herausforderungen und
 </nav>
 
 <!-- Hero Section -->
-<section class="report-hero">
-    <div class="container">
-        <h1 class="report-title fade-in">Jahresbericht 2025</h1>
-        <p class="report-subtitle fade-in">Unsere Zielerreichung im Überblick</p>
+<section id="hero" class="hero">
+    <div class="hero-bg"></div>
+
+    <!-- Graffiti Overlay mit Fehlerbehandlung -->
+    <img src="{{ '/assets/images/graffiti.png' | relative_url }}"
+         alt="Innovation Graffiti"
+         class="graffiti-overlay"
+         onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+
+    <!-- Fallback für fehlendes Graffiti -->
+    <div class="graffiti-fallback">Innovation</div>
+
+    <!-- Hero Overlay -->
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+        <h1>Jahresbericht 2025</h1>
+        <p>Unsere Zielerreichung im Überblick</p>
+
+        <!-- CTA Buttons Container -->
+        <div class="cta-container">
+            <a href="#leitsaetze" class="cta-button">Zu den Leitsätzen</a>
+        </div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator" onclick="document.getElementById('intro').scrollIntoView({behavior: 'smooth'})">
+        <div class="scroll-arrow"></div>
+        <div class="scroll-text">Scrollen für mehr</div>
     </div>
 </section>
 
 <!-- Introduction Section -->
-<section class="report-intro">
+<section id="intro" class="report-intro">
     <div class="container">
         <div class="intro-content fade-in">
             <h2>Ein Jahr voller Innovation und Zusammenarbeit</h2>
@@ -75,7 +100,7 @@ description: Unsere Zielerreichung im Jahr 2025 - Erfolge, Herausforderungen und
 </section>
 
 <!-- Leitsätze Section -->
-<section class="leitsaetze-section">
+<section id="leitsaetze" class="leitsaetze-section">
     <div class="container">
         <h2 class="leitsaetze-heading fade-in">Unsere Leitsätze</h2>
         <p class="leitsaetze-intro fade-in">
@@ -225,40 +250,6 @@ description: Unsere Zielerreichung im Jahr 2025 - Erfolge, Herausforderungen und
 
 <style>
 /* Jahresbericht 2025 Styles */
-
-.report-hero {
-    background: linear-gradient(135deg, var(--primary-turquoise) 0%, var(--secondary-blue) 100%);
-    padding: 120px 2rem 80px;
-    text-align: center;
-    color: var(--white);
-    position: relative;
-    overflow: hidden;
-}
-
-.report-hero::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-    opacity: 0.3;
-}
-
-.report-title {
-    font-size: 4rem;
-    margin-bottom: 1rem;
-    position: relative;
-    z-index: 1;
-}
-
-.report-subtitle {
-    font-size: 1.5rem;
-    opacity: 0.95;
-    position: relative;
-    z-index: 1;
-}
 
 .report-intro {
     padding: 80px 2rem;
@@ -743,14 +734,6 @@ description: Unsere Zielerreichung im Jahr 2025 - Erfolge, Herausforderungen und
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .report-title {
-        font-size: 2.5rem;
-    }
-
-    .report-subtitle {
-        font-size: 1.2rem;
-    }
-
     .leitsaetze-heading {
         font-size: 2rem;
     }
@@ -791,18 +774,6 @@ description: Unsere Zielerreichung im Jahr 2025 - Erfolge, Herausforderungen und
 }
 
 @media (max-width: 480px) {
-    .report-hero {
-        padding: 100px 1rem 60px;
-    }
-
-    .report-title {
-        font-size: 2rem;
-    }
-
-    .report-subtitle {
-        font-size: 1rem;
-    }
-
     .intro-content p,
     .summary-content p {
         font-size: 1rem;
