@@ -11,7 +11,7 @@ is_retrospective: false
 
 ## „Wie kann ich selbst aktiv werden?“ – ein Impuls von Henrik Remmert  
 Viele von uns kennen es: Da ist ein Thema, Hobby oder eine Frage, die uns bewegt. Doch es gibt kein Angebot, kein regelmäßiges Treffen dazu in unserer Nähe. 
-Wie wäre es, selbst etwas zu starten und nach anderen zu finden, die mitmachen wollen? – Aber wie? 
+Wie wäre es, selbst etwas zu starten und nach anderen zu suchen, die mitmachen wollen? – Aber wie? 
 Genau zu dieser Frage: „Wie kann ich selbst aktiv werden?“, hat Henrik Remmert am Donnerstag, 8. Januar einen Impuls in die Open Innovation Hour eingebracht.
 Henrik begeistert sich für Soziale Innovationen, liebt kreatives Schreiben und arbeitet als Coach mit Jugendlichen. Er hat bereits als Student damit begonnen Schreibwerkstätten und Innovation-Slams zu organisieren, weil ihm die entsprechenden Angebote gefehlt haben. 
 
