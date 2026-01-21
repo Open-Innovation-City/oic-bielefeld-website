@@ -12,7 +12,7 @@ header_image: " "
 Wir alle tragen Verantwortung – im Beruf, im Ehrenamt oder im Privatleben. Der Alltag ist voll, wir jonglieren Aufgaben und plötzlich passiert es: eine Krisensituation tritt ein. Wie können wir jetzt gute Entscheidungen treffen und richtig handeln? Genau diese Frage steht im Mittelpunkt der nächsten Open Innovation Hour.  
 
 Wir freuen uns auf einen **Impuls von Branddirektor Maximilian Rempe**, stellvertretender Leiter der Feuerwehr Bielefeld.    
-Er ist im regelmäßigen Einsatzdient, 24-Stunden-Dienst, tätig und verantwortet die höchste taktische Führungsebene der nicht polizeilichen Gefahrenabwehr in der Stadt Bielefeld. Unter Druck Verantwortung zu übernehmen und gute Entscheidungen zu treffen ist sein Job.   
+Er ist im regelmäßigen Einsatzdienst, 24-Stunden-Dienst, tätig und verantwortet die höchste taktische Führungsebene der nicht-polizeilichen Gefahrenabwehr in der Stadt Bielefeld. Unter Druck Verantwortung zu übernehmen und gute Entscheidungen zu treffen ist sein Job.   
 Im Anschluss an den Impulsvortrag arbeiten wir als Gruppe gemeinsam heraus, was wir vom Feuerwehr-Alltag auf unsere Lebenssituationen übertragen und wie wir, im Falle einer Krise, handeln können.    
 
 Die Open Innovation Hour ist ein **Online-Format**, in dem wir **jeden ersten Donnerstag im Monat, um 12.30 Uhr** gemeinsam auf eine herausfordernde Fragestellung blicken.  
