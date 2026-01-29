@@ -124,6 +124,7 @@ author: "Ihr Name"
 category: "Tools"  # oder "Events", "Projekte", etc.
 date: 2025-07-24
 header_image: "/assets/images/bildname.png"  # Optional
+header_image_credit: "© Fotograf Name / Quelle"  # Optional
 ---
 
 ## Hauptüberschrift
@@ -134,6 +135,27 @@ Hier beginnt Ihr Beitrag...
 
 Weiterer Text...
 ```
+
+### Header-Bild mit Copyright-Hinweis
+
+**Neu seit Januar 2025:** Du kannst jetzt eine Quellenangabe für Header-Bilder hinzufügen!
+
+Der Copyright-Hinweis erscheint dezent in der unteren rechten Ecke des Header-Bilds.
+
+**Einfache Quellenangabe:**
+```yaml
+header_image_credit: "© Max Mustermann"
+```
+
+**Mit Link (z.B. zu Unsplash):**
+```yaml
+header_image_credit: "© [Max Mustermann](https://unsplash.com/@max) / Unsplash"
+```
+
+**Wichtige Hinweise:**
+- Der Copyright-Hinweis ist **optional** - nur angeben wenn nötig
+- Links werden in Markdown-Syntax geschrieben: `[Linktext](URL)`
+- Der Hinweis passt sich automatisch an mobile Geräte an
 
 ### Praktischer Tipp:
 **Vorlage kopieren:** Öffne `_beitraege/diese-website-wurde-mit-ki-erstellt.md`, kopiere den Inhalt und passe ihn für deinen neuen Beitrag an.
@@ -752,4 +774,4 @@ Bei technischen Problemen oder Konflikten: jens.edler@bielefeld.de
 
 ---
 
-*Letzte Änderung: Oktober 2025 | Version 1.2*
+*Letzte Änderung: Januar 2025 | Version 1.3*

@@ -207,6 +207,36 @@ Use the gallery include for GitHub Pages compatibility:
 - **Alphabetical sorting**: Auto-loaded images are sorted alphabetically (use numerical prefixes for custom order: `01-first.jpg`, `02-second.jpg`)
 - **Manual override**: Use `gallery_id` parameter to explicitly set gallery ID if needed
 
+### Blog Post Header Images
+Blog posts can have a full-width header image with optional copyright credit:
+
+```yaml
+---
+title: "Event Title"
+header_image: "/assets/images/events/event-header.jpg"
+header_image_credit: "© Fotograf Name / Quelle"  # Optional
+---
+```
+
+**With Link (Markdown supported):**
+```yaml
+header_image_credit: "© [Max Mustermann](https://unsplash.com/@max) / Unsplash"
+```
+
+**Header Image Features:**
+- **Full-width display**: Image spans entire header area with gradient overlay
+- **Copyright credit**: Optional `header_image_credit` field displays attribution
+- **Markdown support**: Links can be added using standard Markdown syntax
+- **Credit positioning**: Bottom-right corner, semi-transparent background
+- **Responsive design**: Credit adjusts size and position on mobile devices
+
+**Implementation Details:**
+- Credit element uses `backdrop-filter: blur(4px)` for readability
+- Markdown is processed via `markdownify` filter
+- Links are styled white with underline for visibility
+- z-index ensures credit appears above overlay but below content
+- Mobile breakpoint reduces font size and padding
+
 ### Adding Images with Captions in Blog Posts
 **New as of January 2025:** Images in blog posts now support automatic caption display using the title attribute:
 

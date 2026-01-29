@@ -47,6 +47,9 @@ layout: default
     <div class="header-image">
         <img src="{{ page.header_image | relative_url }}" alt="{{ page.title }}" class="header-img">
         <div class="header-overlay"></div>
+        {% if page.header_image_credit %}
+        <div class="header-image-credit">{{ page.header_image_credit | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+        {% endif %}
     </div>
     {% endif %}
     <div class="container">
@@ -162,6 +165,29 @@ layout: default
     width: 100%;
     height: 100%;
     background: linear-gradient(135deg, rgba(0, 178, 187, 0.8) 0%, rgba(102, 108, 222, 0.8) 100%);
+}
+
+.header-image-credit {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 3;
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.85);
+    background: rgba(0, 0, 0, 0.4);
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    backdrop-filter: blur(4px);
+}
+
+.header-image-credit a {
+    color: rgba(255, 255, 255, 0.95);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.header-image-credit a:hover {
+    color: white;
 }
 
 .post-header .container {
@@ -661,6 +687,13 @@ layout: default
     .post-meta {
         flex-direction: column;
         gap: 0.5rem;
+    }
+
+    .header-image-credit {
+        bottom: 0.5rem;
+        right: 0.5rem;
+        font-size: 0.65rem;
+        padding: 0.2rem 0.5rem;
     }
 
     .related-post-banner {

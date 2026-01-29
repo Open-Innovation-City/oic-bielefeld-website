@@ -5,6 +5,7 @@ author: "Maria Goncalves"
 category: "Methoden"
 date: 2026-01-28
 header_image: "/assets/images/beitraege/delano-ramdas-a1t-eB2xHXM-unsplash.jpg"
+header_image_credit: "Foto von Delano Ramdas auf Unsplash"
 ---
 
 ## Wirkungsorientierung   
