@@ -680,6 +680,13 @@ assets/images/events/
 └── innovation-meetup-feb/
 ```
 
+## Kommunikationsgrundlagen
+Für die Kommunikation gelten folgende Grundregeln, die sich z.T. aus unseren CD-Manual ergeben:
+1. Sofern möglich nutzen wir immer deutsche Bezeichnungen. Wir vermeiden Fremdwörter, Anglizismen oder Fachbegriffe. Ist das nicht möglich, erklären wir die Begriffe im Text.
+2. Wir gendern alle Texte. Dafür nutzen wir nach Möglichkeit die geschlechtsneutrale Form. Ist das nicht möglich, nutzen wir den Gender-Stern.
+3. Wir nutzen kurze, vollständige Sätze, um die Lesbarkeit und Textverständlichkeit zu erhöhen.
+4. Wir nutzen aktive Sprache und vermeiden Passiv-Konstruktionen. "Das Team entwickelt eine neue App." anstelle von "Eine neue App wird vom Team entwickelt."
+
 ## Arbeitsweisen
 
 ### Schneller Weg (Direkt committen):
