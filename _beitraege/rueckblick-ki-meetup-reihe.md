@@ -10,12 +10,12 @@ header_image: "/assets/images/ki.png"
 2025 war Künstliche Intelligenz fast überall präsent – auch in Bielefeld. Die Meetup-Reihe **KI und Zivilgesellschaft** sollte Potentiale der neuen Technologie aufzeigen, den kritischen Umgang damit im Arbeitsumfeld schärfen, und letztendlich auch die Innovationskraft der Bielefelder Stadtgesellschaft stärken. 
 **Das Ziel**: Kompetenzen vermitteln, kritische Diskussionen anregen und Communities of Practice (CoP) gründen. 
 **Das Ergebnis?** 10 Meetups, über 140 Teilnehmende und eine thematische Community of Practice!
-### Umsetzer*in: 
-Wir, die Open Innovation City Bielefeld. Eine Initiative der Stadt Bielefeld, kurz OIC.
+
+## Umsetzer\*in: 
+Wir, die Open Innovation City Bielefeld – Eine Initiative der Stadt Bielefeld, kurz OIC.
 Wir organisieren unterschiedliche Formate für die Stadtgesellschaft, um Zusammenarbeit, Austausch und Vernetzung zu fördern – und so den aktuellen Herausforderungen gemeinsam zu begegnen.
 
-### Zahlen & Fakten
-
+## Zahlen & Fakten
 **10 Meetups in 6 Monaten** – immer kostenfrei für alle interessierten Bielefelder*innen – keine Vorkenntnisse notwendig. Veranstaltungsort war meist das Bielefelder Innovation Office am Alter Markt. 
 Über **70 Engagierte** aus Zivilgesellschaft, Wissenschaft, der städtischen Verwaltung und auch der Wirtschaft nutzten das Angebot.
 **Genau 11 Fachexpert*innen** aus Bielefeld, Hannover und sogar Berlin teilten ihr Wissen (fast) ohne Honorar unter dem bekannten Motto „AI for Good“ – ein großes Dankeschön an alle Speaker*innen!
@@ -30,7 +30,7 @@ Es hat sich eine engagierte selbstorganisierte Lern- und Innovationsgruppe gebil
 **Vernetzung lohnt sich**: Einige der lokalen Fachexpert*innen habe ich auf Empfehlung hin angesprochen. 
 **Niedrigschwellige Formate sind entscheidend**: Sie erleichtern den Einstieg in Innovationsgemeinschaften und fördern die Teilhabe unterschiedlicher Akteur*innen. 
 
-###Ausblick: Gemeinsam Bielefelds Zukunft gestalten
+## Ausblick: Gemeinsam Bielefelds Zukunft gestalten
 
 Unser Ziel bleibt klar: Bielefeld soll an den Herausforderungen als Stadt gemeinsam arbeiten.
 Dafür setzen wir neue Schwerpunktthemen für das Jahr 2026 fest und planen neuer Formate, spannende Veranstaltungen und Austauschmöglichkeiten. 
