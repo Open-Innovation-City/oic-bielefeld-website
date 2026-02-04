@@ -686,6 +686,7 @@ Für die Kommunikation gelten folgende Grundregeln, die sich z.T. aus unseren CD
 2. Wir gendern alle Texte. Dafür nutzen wir nach Möglichkeit die geschlechtsneutrale Form. Ist das nicht möglich, nutzen wir den Gender-Stern.
 3. Wir nutzen kurze, vollständige Sätze, um die Lesbarkeit und Textverständlichkeit zu erhöhen.
 4. Wir nutzen aktive Sprache und vermeiden Passiv-Konstruktionen. "Das Team entwickelt eine neue App." anstelle von "Eine neue App wird vom Team entwickelt."
+5. Wir kennzeichnen mit KI generierte Inhalte. Dafür reicht eine Satz am Ende des jeweiligen Inhalts, z.B. "Dieser Text wurde mit Hilfe von KI in einfache Sprache übertragen."
 
 ## Arbeitsweisen
 
