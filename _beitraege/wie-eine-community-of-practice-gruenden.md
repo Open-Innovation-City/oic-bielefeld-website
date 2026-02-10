@@ -1,6 +1,6 @@
 ---
 title: "Community of Practice"
-teaser: "ein probates Mittel zum Lernen in der Gemeinschaft
+teaser: "Ein probates Mittel zum Lernen in der Gemeinschaft."
 author: "Maria Gonçalves"
 category: "Formate"
 date: 2026-02-10
