@@ -11,6 +11,7 @@ is_retrospective: false
 
 ## „Wie treffe ich unter Druck gute Entscheidungen?“ – mit Impuls von Branddirektor Maximilian Rempe  
 Wir alle tragen Verantwortung – im Beruf, im Ehrenamt oder im Privatleben. Der Alltag ist voll, wir jonglieren Aufgaben und plötzlich passiert es: eine Krisensituation tritt ein. Wie können wir jetzt gute Entscheidungen treffen und richtig handeln? Genau diese Frage stand im Mittelpunkt der 4. Open Innovation Hour.  
+  
 Den Impuls zum Einstieg gab es von Maximilian Rempe. Er ist stellvertretender Leiter der Feuerwehr Bielefeld und im regelmäßigen 24-Stunden-Einsatzdienst tätig. Dort verantwortet er die höchste taktische Führungsebene der nicht-polizeilichen Gefahrenabwehr in der Stadt Bielefeld. Unter Druck Verantwortung zu übernehmen und gute Entscheidungen zu treffen ist sein Job. – Also genau der richtige Impulsgeber für unsere Open Innovation Hour.  
 
 ### Was mich am Impuls besonders inspiriert hat:  
@@ -26,6 +27,10 @@ Klarheit ist wichtig, um Missverständnisse zu vermeiden. Wenn wir den gefassten
   
 **Kontrolle, Dokumentation, Nachhalten von Gelerntem**  
 Sobald die Krise bewältigt wurde, lohnt es sich das Gelernte festzuhalten: Was hat gut funktioniert und was sollte in Zukunft besser laufen?  
+
+**Bauchgefühl**  
+Im offenen Austausch nach dem Impuls, ist für mich außerdem deutlich geworden: Je mehr Erfahrungswissen wir sammeln, desto stärker/besser wird unser Bauchgefühl. Das Bauchgefühl kann eine wertvolle Ressource bei der Entscheidungsfindung sein. Nichtsdestotrotz ist es essenziell zum Eintritt einer Krise die Lage so umfassend, wie möglich, zu analysieren.   
+  
   
 ### Die Open Innovation Hour  
 Die Open Innovation Hour ist mehr als ein Workshop: Sie ist der Startpunkt für Netzwerke, Projekte oder tiefergehende Formate, die Bielefeld verbinden. Dich beschäftigt eine Herausforderung, zu der du aktiv werden möchtest? Dann melde dich bei [Sarah](sarah.bollmann@bielefeld.de)! Wir freuen uns auf dich.  
