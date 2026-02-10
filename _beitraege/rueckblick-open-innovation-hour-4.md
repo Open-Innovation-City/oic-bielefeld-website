@@ -33,4 +33,4 @@ Im offenen Austausch nach dem Impuls, ist für mich außerdem deutlich geworden:
   
   
 ### Die Open Innovation Hour  
-Die Open Innovation Hour ist mehr als ein Workshop: Sie ist der Startpunkt für Netzwerke, Projekte oder tiefergehende Formate, die Bielefeld verbinden. Dich beschäftigt eine Herausforderung, zu der du aktiv werden möchtest? Dann melde dich bei [Sarah](sarah.bollmann@bielefeld.de)! Wir freuen uns auf dich.  
+Die Open Innovation Hour ist mehr als ein Workshop: Sie ist der Startpunkt für Netzwerke, Projekte oder tiefergehende Formate, die Bielefeld verbinden. Dich beschäftigt eine Herausforderung, zu der du aktiv werden möchtest? Dann melde dich bei [mir](sarah.bollmann@bielefeld.de)!   
