@@ -1,0 +1,37 @@
+---
+title: "Community of Practice"
+teaser: "ein probates Mittel zum Lernen in der Gemeinschaft
+author: "Maria Gonçalves"
+category: "Formate"
+date: 2026-02-10
+header_image:""
+---
+
+## Gemeinsam geht mehr    
+Während ihr an einer individuellen Lösung für Probleme arbeitet, euch mit einem Thema auseinandersetzt und womöglich daran verzweifelt, existiert eine Lösung oder Erkenntnis möglicherweise bereits an anderer Stelle. Andere haben bereits Wissen, Erfahrungen und Ideen gesammelt oder ihr kennt euch schon gut aus zu einem Thema –wie findet man zueinander? 
+
+### Community of Practice
+Eine wirksame Möglichkeit sind Communities of Practice, kurz CoP. Gemeinschaften, die voneinander lernen wollen. Dabei steht ein praxisbezogenes Thema oder einer Frage im Mittelpunkt. Die Gemeinschaft ist mehr als ein Netzwerk und weniger als ein Projektteam oder ein Arbeitskreis. Und ganz nebenbei können auch Lösungen für die Praxis entstehen.
+Communities of Practice sind selbstorganisierte Lerngruppen. Bekannt sind sie seit den 90er Jahren. Weiterführende Informationen rund um das Thema Communities of Practice gibt es zum Beispiel bei [Wikipedia]( https://de.wikipedia.org/wiki/Community_of_Practice). 
+
+#### Warum eine Community of Practice:
+-	Mitstreiter finden: Menschen, die am selben Thema arbeiten, sich engagieren oder betroffen sind - über Organisationsgrenzen hinweg.
+-	Besser lernen: Austausch fördert Praxiswissen. Was funktioniert? Was nicht? Welche Lösungen helfen? 
+-	Innovationspotenziale sichtbar machen: Es sind die Schnittstellen zu anderen Arbeits- und Lebenswelten, die das Potenzial haben mehrwertige Lösungen zu schaffen. Stichwort Open Innovation.
+
+### Wie eine Community of Practice gestartet wird, zeigen wir im CoP Starter Kit:
+Dieser Text ist im Sparring mit der KI gpt-5.2 entstanden. 
+
+[Download CoP Starter Kit](/assets/downloads/OIC_CoP-Starter-Kit.pdf))
+
+**Du hast Fragen zur CoP Starter Kit?**  
+Dann melde dich bei [Maria](mailto:maria.goncalves@bielefeld.de)!  
+
+### Weitere Website-Beiträge zu Formaten von Open Innovation City Bielefeld  
+- [Open Innovation Hour](https://oic-bielefeld.de/beitraege/?filter=open-innovation-hour)  
+- [MeetUps](https://oic-bielefeld.de/beitraege/?filter=ki-und-zivilgesellschaft)  
+
+
+
+
+
