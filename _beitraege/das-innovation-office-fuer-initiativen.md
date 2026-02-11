@@ -20,7 +20,7 @@ Außerdem trifft sich jeden zweiten Dienstag im Monat die **[Utopische Schreibwe
 
 Mit Abstand am längsten trifft sich **[Code for Bielefeld](https://codefor.de/bielefeld/)** im Innovation Office. Das Ziel von Code for Bielefeld ist es, öffentliche Daten und Informationen zu nutzen, um damit Mehrwerte zu schaffen, die allem Menschen zugute kommen. Code for Bielefeld trifft sich jeden Donnerstag ab 18:30 Uhr und sind offen für selbstlern- und programmierbegeisterte Menschen.
 
-Neben unseren Dauergästen haben wir noch die unterschiedlichsten Initiativen, die sich in unregelmäßigen Abständen treffen. Darunter sind z.B. die Stadteilmütter, die Community of Practice zu KI im Mittelstand und ...
+Neben unseren Dauergästen haben wir noch die unterschiedlichsten Initiativen, die sich in unregelmäßigen Abständen treffen. Darunter sind z.B. die Stadteilmütter, die Community of Practice zu KI im Mittelstand und der Ernährungsrat.
 
 Ihr seht also: Bei uns ist einiges los! Die Open Innovation Community in Bielefeld wächst und wächst. Wir freuen uns, das wir mit dem Innovation Office einen Beitrag dazu leisten können. 
 
