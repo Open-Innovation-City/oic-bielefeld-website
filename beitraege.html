@@ -54,7 +54,27 @@ description: Aktuelle Beiträge und Artikel von Open Innovation City Bielefeld z
         </div>
 
         {% assign sorted_beitraege = site.beitraege | sort: 'date' | reverse %}
-        {% assign all_categories = site.beitraege | where_exp: "item", "item.is_retrospective != true" | map: 'category' | uniq | compact | sort %}
+        {% assign all_categories_string = "" %}
+        {% for item in site.beitraege %}
+            {% unless item.is_retrospective %}
+                {% if item.categories %}
+                    {% for cat in item.categories %}
+                        {% if all_categories_string == "" %}
+                            {% assign all_categories_string = cat %}
+                        {% else %}
+                            {% assign all_categories_string = all_categories_string | append: "|||" | append: cat %}
+                        {% endif %}
+                    {% endfor %}
+                {% elsif item.category %}
+                    {% if all_categories_string == "" %}
+                        {% assign all_categories_string = item.category %}
+                    {% else %}
+                        {% assign all_categories_string = all_categories_string | append: "|||" | append: item.category %}
+                    {% endif %}
+                {% endif %}
+            {% endunless %}
+        {% endfor %}
+        {% assign all_categories = all_categories_string | split: "|||" | uniq | compact | sort %}
 
         <!-- Filter Section -->
         <nav aria-label="Beiträge filtern" class="filter-section fade-in">
@@ -69,7 +89,16 @@ description: Aktuelle Beiträge und Artikel von Open Innovation City Bielefeld z
 
                 {% for category in all_categories %}
                     {% if category and category != "" %}
-                        {% assign category_count = site.beitraege | where_exp: "item", "item.is_retrospective != true" | where: 'category', category | size %}
+                        {% assign category_count = 0 %}
+                        {% for item in site.beitraege %}
+                            {% unless item.is_retrospective %}
+                                {% if item.categories and item.categories contains category %}
+                                    {% assign category_count = category_count | plus: 1 %}
+                                {% elsif item.category == category %}
+                                    {% assign category_count = category_count | plus: 1 %}
+                                {% endif %}
+                            {% endunless %}
+                        {% endfor %}
                         <button role="radio"
                                 aria-checked="false"
                                 class="filter-btn"
@@ -90,8 +119,14 @@ description: Aktuelle Beiträge und Artikel von Open Innovation City Bielefeld z
         <div class="projects-grid" id="beitraege-grid">
             {% for beitrag in sorted_beitraege %}
             {% unless beitrag.is_retrospective %}
-            <div class="project-card fade-in has-link" data-category="{% if beitrag.category %}{{ beitrag.category | slugify }}{% else %}uncategorized{% endif %}">
-                {% if beitrag.category %}
+            <div class="project-card fade-in has-link" data-categories="{% if beitrag.categories %}{% for cat in beitrag.categories %}{% unless forloop.first %}{{ " " }}{% endunless %}{{ cat | slugify }}{% endfor %}{% elsif beitrag.category %}{{ beitrag.category | slugify }}{% else %}uncategorized{% endif %}">
+                {% if beitrag.categories %}
+                <div class="project-tags">
+                    {% for cat in beitrag.categories %}
+                    <span class="project-tag">{{ cat }}</span>
+                    {% endfor %}
+                </div>
+                {% elsif beitrag.category %}
                 <div class="project-tag">{{ beitrag.category }}</div>
                 {% endif %}
                 <h3>{{ beitrag.title }}</h3>

@@ -378,18 +378,18 @@
         const projectCards = document.querySelectorAll('.project-card');
         
         projectCards.forEach(function(card) {
-            const tag = card.querySelector('.project-tag');
-            
+            const tags = card.querySelectorAll('.project-tag');
+
             card.addEventListener('mouseenter', function() {
-                if (tag) {
+                tags.forEach(function(tag) {
                     tag.style.transform = 'scale(1.1) rotate(-2deg)';
-                }
+                });
             });
-            
+
             card.addEventListener('mouseleave', function() {
-                if (tag) {
+                tags.forEach(function(tag) {
                     tag.style.transform = 'scale(1) rotate(0deg)';
-                }
+                });
             });
         });
     }
@@ -722,7 +722,7 @@
     class BeitraegeFilter {
         constructor() {
             this.filterButtons = document.querySelectorAll('.filter-btn');
-            this.beitraegeCards = document.querySelectorAll('.project-card[data-category]');
+            this.beitraegeCards = document.querySelectorAll('.project-card[data-categories]');
             this.resultText = document.getElementById('filter-result-text');
             this.beitraegeGrid = document.getElementById('beitraege-grid');
             this.currentFilter = 'all';
@@ -837,8 +837,8 @@
             let visibleCount = 0;
 
             this.beitraegeCards.forEach((card, index) => {
-                const category = card.dataset.category;
-                const shouldShow = filter === 'all' || category === filter;
+                const categories = (card.dataset.categories || '').split(' ').filter(c => c);
+                const shouldShow = filter === 'all' || categories.includes(filter);
 
                 if (shouldShow) {
                     visibleCount++;
