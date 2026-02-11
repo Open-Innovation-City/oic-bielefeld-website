@@ -33,4 +33,4 @@ Wenn du zur Zeit vor einer Herausforderung stehst, an der du arbeiten und gemein
 ### Weitere Website-Beiträge zu Formaten von Open Innovation City Bielefeld  
 - [Open Innovation Hour](https://oic-bielefeld.de/beitraege/?filter=open-innovation-hour)  
 - [MeetUps](https://oic-bielefeld.de/beitraege/?filter=ki-und-zivilgesellschaft)  
-- [Community of Practice]()  
+- [Community of Practice](https://oic-bielefeld.de/beitraege/wie-eine-community-of-practice-gruenden/)  
