@@ -515,6 +515,64 @@ In diesem Artikel schauen wir uns an, wie...
    text="Die beste Zeit, einen Baum zu pflanzen, war vor 20 Jahren. Die zweitbeste Zeit ist jetzt." %}
 ```
 
+## CTA-Buttons einbinden
+
+Du kannst auffällige Call-to-Action-Buttons in Blog-Beiträge einfügen - zum Beispiel für Downloads, externe Links oder Anmeldungen. Der Button sieht genauso aus wie auf der Startseite (gelb-grüner Gradient mit Hover-Animation).
+
+### Button-Syntax:
+
+**Einfacher Button:**
+```markdown
+{% include cta-button.html text="Zum Projekt" url="https://example.com" %}
+```
+
+**Download-Button (mit Download-Icon):**
+```markdown
+{% include cta-button.html text="PDF herunterladen" url="/assets/downloads/datei.pdf" download=true %}
+```
+
+**Button öffnet neuen Tab:**
+```markdown
+{% include cta-button.html text="Externe Seite besuchen" url="https://example.com" new_tab=true %}
+```
+
+**Parameter:**
+- `text`: **Pflichtfeld** - Text auf dem Button
+- `url`: **Pflichtfeld** - Linkziel (interner Pfad oder externe URL)
+- `download`: Optional - Zeigt ein Download-Icon und löst den Browser-Download aus
+- `new_tab`: Optional - Öffnet den Link in einem neuen Tab
+
+### Praktisches Beispiel:
+```markdown
+---
+title: "Handreichung Wirkungsorientierung"
+author: "Maria Gonçalves"
+category: "Methoden"
+date: 2026-01-28
+---
+
+## Unsere Handreichung
+
+Die Handreichung bietet eine praxisnahe Einführung...
+
+{% include cta-button.html text="Download Handreichung" url="/assets/downloads/handreichung.pdf" download=true %}
+
+{% include cta-button.html text="Download Anhang" url="/assets/downloads/anhang.docx" download=true %}
+```
+
+### Design-Features:
+- **Gelb-grüner Gradient:** Gleicher Look wie auf der Startseite
+- **Hover-Animation:** Button vergrößert sich leicht und leuchtet auf
+- **Download-Icon:** Wird automatisch bei `download=true` angezeigt
+- **Zentriert:** Button wird automatisch mittig dargestellt
+- **Responsive:** Passt sich an alle Bildschirmgrößen an
+
+### Wichtige Hinweise:
+- **Sparsam einsetzen:** CTA-Buttons sind Blickfänger - nicht zu viele pro Beitrag verwenden
+- **Klarer Text:** Der Button-Text sollte die Aktion beschreiben ("PDF herunterladen", "Jetzt anmelden")
+- **Download-Dateien:** Müssen vorher in `assets/downloads/` hochgeladen werden
+- **Kombination möglich:** Kann mit Galerien, Zitaten und Pretix-Widgets kombiniert werden
+
 ## YouTube-Videos einbetten
 
 Du kannst einfach YouTube-Videos in Blog-Beiträge einbinden. Das Video wird als interaktives Thumbnail angezeigt und lädt erst beim Klick.
@@ -782,4 +840,4 @@ Bei technischen Problemen oder Konflikten: jens.edler@bielefeld.de
 
 ---
 
-*Letzte Änderung: Januar 2025 | Version 1.3*
+*Letzte Änderung: Februar 2026 | Version 1.4*

@@ -289,6 +289,41 @@ header_image_credit: "© [Max Mustermann](https://unsplash.com/@max) / Unsplash"
    author="Steve Jobs" %}
 ```
 
+### Adding CTA Buttons in Blog Posts
+**New as of February 2026:** For embedding styled call-to-action buttons in blog posts:
+```markdown
+{% include cta-button.html text="Download PDF" url="/assets/downloads/file.pdf" download=true %}
+```
+
+```markdown
+{% include cta-button.html text="Visit Project" url="https://example.com" new_tab=true %}
+```
+
+**CTA Button Component:**
+- **Reuses existing `.cta-button` styles** from `main.css` (lines 678-736) - no duplicate CSS
+- **Yellow-green gradient** with hover animation matching the homepage hero
+- **Centered layout** with proper spacing for blog content
+- **Download support** with inline SVG icon
+
+**Parameters:**
+- `text`: Button label text (required)
+- `url`: Link target - internal path or external URL (required)
+- `download`: Shows download icon and sets HTML `download` attribute (optional)
+- `secondary`: Uses secondary button style - transparent with white border (optional)
+- `new_tab`: Opens link in new tab with `rel="noopener noreferrer"` (optional)
+
+**Implementation Details:**
+- Component file: `_includes/cta-button.html`
+- Self-contained styling within component (following `quote.html` pattern)
+- Wrapper `.post-cta-container` overrides hero animation (`opacity: 1`, `animation: none`)
+- Download icon is inline SVG (Feather icons style, consistent with codebase)
+- CSS uses flexbox centering with `margin: 2.5rem 0` for spacing
+
+**Example Usage:**
+```markdown
+{% include cta-button.html text="Download Handreichung" url="/assets/downloads/handreichung.pdf" download=true %}
+```
+
 ### Adding Pretix Event Widgets
 For embedding event registration forms directly in blog posts:
 ```markdown

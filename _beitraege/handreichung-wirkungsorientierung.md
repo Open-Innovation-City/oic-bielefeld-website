@@ -27,8 +27,9 @@ Das Angebot ist kostenfrei, niedrigschwellig und praxisnah.
 Für gemeinnützige Organisationen, die wirkungsorientiert tätig sind!
 Die Handreichung ist in der formellen Höflichkeitsform gehalten, anstelle des von uns üblicherweise verwendeten respektvollen Du.
 
-[Download Handreichung](/assets/downloads/OIC_Handreichung_Wirkungsorientierung.pdf) & 
-[Download Anhang](/assets/downloads/Anhang_OIC_Wirkungsorientierung.docx)
+{% include cta-button.html text="Download Handreichung" url="/assets/downloads/OIC_Handreichung_Wirkungsorientierung.pdf" download=true %}
+
+{% include cta-button.html text="Download Anhang" url="/assets/downloads/Anhang_OIC_Wirkungsorientierung.docx" download=true %}
 
 **Du hast Fragen zur Handreichung?**  
 Dann melde dich bei [Maria](mailto:maria.goncalves@bielefeld.de)!  
