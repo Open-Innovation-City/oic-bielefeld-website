@@ -21,7 +21,7 @@ Communities of Practice sind selbstorganisierte Lerngruppen. Bekannt sind sie se
 
 ### Wie ihr eine Community of Practice startet, zeigen wir im CoP Starter Kit:
 
-{% include cta-button.html text="Lade das CoP Starter Kit herunter" url="/assets/downloads/OIC_CoP-Starter-Kit.pdf)" download=true %}
+{% include cta-button.html text="Lade das CoP Starter Kit herunter" url="/assets/downloads/OIC_CoP-Starter-Kit.pdf" download=true %}
 
 **Du hast Fragen zum CoP Starter Kit?**  
 Dann melde dich bei [Maria](mailto:maria.goncalves@bielefeld.de)!  
