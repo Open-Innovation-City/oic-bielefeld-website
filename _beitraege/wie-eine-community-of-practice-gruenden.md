@@ -1,5 +1,5 @@
 ---
-title: "Community of Practice"
+title: "Das Community of Practice Starter Kit"
 teaser: "Communities of Practice machen Wissen teilbar und Innovationspotenziale sichtbar: Dort, wo unterschiedliche Perspektiven aufeinandertreffen, entstehen neue Lösungen für die Praxis. Lernt das Format kennen und startet mit dem CoP Starter Kit eure eigene Community."
 author: "Maria Gonçalves"
 category: "Formate"
