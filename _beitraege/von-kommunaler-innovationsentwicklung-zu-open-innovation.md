@@ -2,7 +2,9 @@
 title: "Von Kommunaler Innovations&shy;entwicklung zu Open Innovation"  
 teaser: "Wir entwickeln unsere Formate und Ansätze ständig weiter: Was das für das Format „Dialoge. Ideen. Visionen.“ bedeutet, erfahrt ihr in diesem Beitrag."  
 author: "Sarah Bollmann"  
-category: "Innovationszirkel"  
+category: 
+  - "Open Innovation City"
+  - "Innovationszirkel"
 date: 2026-02-10  
 header_image: ""  
 ---  
