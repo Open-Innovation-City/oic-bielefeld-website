@@ -119,36 +119,7 @@ description: Aktuelle Beiträge und Artikel von Open Innovation City Bielefeld z
         <div class="projects-grid" id="beitraege-grid">
             {% for beitrag in sorted_beitraege %}
             {% unless beitrag.is_retrospective %}
-            <div class="project-card fade-in has-link" data-categories="{% if beitrag.categories %}{% for cat in beitrag.categories %}{% unless forloop.first %}{{ " " }}{% endunless %}{{ cat | slugify }}{% endfor %}{% elsif beitrag.category %}{{ beitrag.category | slugify }}{% else %}uncategorized{% endif %}">
-                {% if beitrag.categories %}
-                <div class="project-tags">
-                    {% for cat in beitrag.categories %}
-                    <span class="project-tag">{{ cat }}</span>
-                    {% endfor %}
-                </div>
-                {% elsif beitrag.category %}
-                <div class="project-tag">{{ beitrag.category }}</div>
-                {% endif %}
-                <h3>{{ beitrag.title }}</h3>
-                {% if beitrag.teaser %}
-                <p>{{ beitrag.teaser }}</p>
-                {% endif %}
-                
-                <div class="project-meta">
-                    {% if beitrag.author %}
-                    <div><strong>Autor:</strong> {{ beitrag.author }}</div>
-                    {% endif %}
-                    {% if beitrag.date %}
-                    <div><strong>Datum:</strong> {{ beitrag.date | date: "%d.%m.%Y" }}</div>
-                    {% endif %}
-                </div>
-                
-                <div class="project-footer">
-                    <a href="{{ beitrag.url | relative_url }}" class="project-link-btn">
-                        Weiterlesen
-                    </a>
-                </div>
-            </div>
+            {% include post-card.html beitrag=beitrag %}
             {% endunless %}
             {% endfor %}
         </div>
