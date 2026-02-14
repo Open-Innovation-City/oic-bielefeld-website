@@ -1,0 +1,42 @@
+{% comment %}
+  Author Card Include
+  Expects: author (team member object from team.yml)
+  Parameters:
+    linked (boolean) - whether the card links to the author page
+    heading (string) - heading level for the name: "h1" or "h3" (default: "h3")
+{% endcomment %}
+
+{% if include.linked %}
+{% assign author_slug = author.name | slugify: "latin" %}
+<a href="{{ '/autoren/' | append: author_slug | append: '/' | relative_url }}" class="author-card-link">
+{% endif %}
+<div class="author-card">
+    <div class="author-avatar">
+        <img src="{{ author.image | relative_url }}" alt="{{ author.name }}" loading="lazy">
+    </div>
+    <div class="author-info">
+        {% if include.heading == "h1" %}
+        <h1 class="author-name">{{ author.name }}</h1>
+        {% else %}
+        <h3 class="author-name">{{ author.name }}</h3>
+        {% endif %}
+        <p class="author-role">{{ author.role }}</p>
+        <div class="author-expertise">
+            {% for skill in author.expertise %}
+            <span class="expertise-tag">{{ skill }}</span>
+            {% endfor %}
+        </div>
+        {% unless include.linked %}
+        <a href="mailto:{{ author.email }}" class="author-contact">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            Kontakt aufnehmen
+        </a>
+        {% endunless %}
+    </div>
+</div>
+{% if include.linked %}
+</a>
+{% endif %}

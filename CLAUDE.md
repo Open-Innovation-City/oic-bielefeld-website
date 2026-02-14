@@ -74,6 +74,58 @@ Edit `_data/team.yml` with required fields:
   animation_delay: 0.2  # For staggered animations
 ```
 
+### Author Pages
+
+**New as of February 2026:** Each team member has a dedicated author page at `/autoren/<slug>/` showing their profile and all their blog posts.
+
+**URL Structure:** `/autoren/jens-edler/`, `/autoren/maria-goncalves/`, etc.
+
+**Architecture:**
+The system uses three reusable components:
+- `_includes/author-card.html` - Author profile card (avatar, name, role, expertise, email)
+- `_includes/post-card.html` - Blog post teaser card (used on `/beitraege/` and author pages)
+- `_layouts/author.html` - Author page layout
+
+**Author page files** live in `autoren/` (one per team member):
+```yaml
+---
+layout: author
+title: "Jens Edler"
+author_name: "Jens Edler"
+permalink: /autoren/jens-edler/
+---
+```
+
+**How it works:**
+1. The layout looks up the team member in `_data/team.yml` via `page.author_name`
+2. It renders the author-card include with the `<h1>` heading level (no hero section, card starts directly below navbar)
+3. It filters `site.beitraege` by author name and displays post-cards sorted by date (newest first)
+4. Retrospective posts (`is_retrospective: true`) are excluded from the listing
+5. If no posts exist, a fallback message is shown
+
+**Author-Card Include Parameters:**
+- `linked` (boolean) - Wraps card in a link to the author page. `true` on blog posts, `false` on the author page itself
+- `heading` (string) - `"h1"` on author pages, defaults to `"h3"` on blog posts
+
+**Slug Generation:**
+The author-card include generates URLs using `slugify: "latin"` to convert special characters to ASCII:
+- "Maria Gonçalves" → `maria-goncalves`
+- "Tatjana Džepina" → `tatjana-dzepina`
+
+The permalink in the author page front matter must match this output.
+
+**On blog posts (`_layouts/post.html`):**
+The author card is clickable and links to the author page. Hover effect: `translateY(-3px)` lift with shadow. The email contact link is hidden on linked cards (shown only on the author page itself).
+
+**Adding a new team member:**
+1. Add the member to `_data/team.yml`
+2. Create `autoren/<slug>.md` with the front matter above
+3. The author page works immediately, even without posts (shows fallback)
+
+**Important:** Author pages are **not auto-generated**. Every team member needs a manually created markdown file in `autoren/`. All current team members already have pages. If a new member is added to `team.yml`, a corresponding author page must be created — otherwise the author-card link on their posts leads to a 404.
+
+**Navigation:** Author pages do **not** appear in the site navigation. They are only reachable via author-card links on blog posts.
+
 ### Adding Projects
 Edit `_data/projects.yml` with status tracking:
 ```yaml

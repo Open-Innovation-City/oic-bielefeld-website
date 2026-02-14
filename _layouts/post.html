@@ -90,27 +90,7 @@ layout: default
                 {% assign author = site.data.team | where: "name", page.author | first %}
                 {% if author %}
                 <section class="post-author">
-                    <div class="author-card">
-                        <div class="author-avatar">
-                            <img src="{{ author.image | relative_url }}" alt="{{ author.name }}" loading="lazy">
-                        </div>
-                        <div class="author-info">
-                            <h3 class="author-name">{{ author.name }}</h3>
-                            <p class="author-role">{{ author.role }}</p>
-                            <div class="author-expertise">
-                                {% for skill in author.expertise %}
-                                <span class="expertise-tag">{{ skill }}</span>
-                                {% endfor %}
-                            </div>
-                            <a href="mailto:{{ author.email }}" class="author-contact">
-                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                                    <polyline points="22,6 12,13 2,6"></polyline>
-                                </svg>
-                                Kontakt aufnehmen
-                            </a>
-                        </div>
-                    </div>
+                    {% include author-card.html linked=true %}
                 </section>
                 {% endif %}
             {% endif %}
@@ -458,6 +438,26 @@ layout: default
     margin-top: 4rem;
     padding-top: 3rem;
     border-top: 1px solid #eee;
+}
+
+.author-card-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.author-card-link:hover {
+    transform: translateY(-3px);
+}
+
+.author-card-link:hover .author-card {
+    box-shadow: var(--shadow-medium);
+}
+
+.author-card-link:hover .author-name {
+    color: var(--primary-turquoise);
 }
 
 .author-card {

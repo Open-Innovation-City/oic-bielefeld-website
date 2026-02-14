@@ -1,0 +1,241 @@
+---
+layout: default
+---
+
+<!-- Adaptive Navigation -->
+<nav class="navbar light-theme" id="navbar">
+    <div class="nav-container">
+        <div class="logo">
+            <a href="{{ '/' | relative_url }}">
+                <!-- Dark version logo (for dark backgrounds) -->
+                <img src="{{ '/assets/images/logo-light.png' | relative_url }}"
+                     alt="{{ site.title }} Logo Light"
+                     class="logo-dark"
+                     onerror="handleLogoError(this)">
+                <!-- Light version logo (for light backgrounds) -->
+                <img src="{{ '/assets/images/logo-dark.png' | relative_url }}"
+                     alt="{{ site.title }} Logo Dark"
+                     class="logo-light"
+                     onerror="handleLogoError(this)">
+
+                <!-- Fallback falls beide Logos nicht laden -->
+                <div class="logo-fallback" id="logoFallback">
+                    <div class="logo-circle"></div>
+                    <div class="logo-rect"></div>
+                    <div class="logo-shape"></div>
+                    <div class="logo-text">
+                        <div>Open Innovation City</div>
+                        <div>Bielefeld</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <ul class="nav-links" id="navLinks">
+            {% for item in site.navigation %}
+            <li><a href="{% if item.link contains '#' %}/{{ item.link }}{% else %}{{ item.link }}{% endif %}">{{ item.name }}</a></li>
+            {% endfor %}
+        </ul>
+
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menü öffnen">☰</button>
+    </div>
+</nav>
+
+<!-- Author Content -->
+<main class="author-content">
+    <div class="container">
+        {% assign author = site.data.team | where: "name", page.author_name | first %}
+
+        {% if author %}
+        <!-- Author Card (contains H1) -->
+        <section class="author-profile" aria-label="Autorenprofil">
+            {% include author-card.html linked=false heading="h1" %}
+        </section>
+        {% endif %}
+
+        <!-- Author Posts -->
+        {% assign author_posts = site.beitraege | where: "author", page.author_name | sort: "date" | reverse %}
+
+        {% if author_posts.size > 0 %}
+        <section class="author-posts">
+            <h2 class="author-posts-title">Beiträge von {{ page.author_name }}</h2>
+            <div class="projects-grid">
+                {% for beitrag in author_posts %}
+                {% unless beitrag.is_retrospective %}
+                {% include post-card.html beitrag=beitrag %}
+                {% endunless %}
+                {% endfor %}
+            </div>
+        </section>
+        {% else %}
+        <section class="author-posts">
+            <div class="projects-empty">
+                <h3>Noch keine Beiträge vorhanden</h3>
+                <p>Schauen Sie bald wieder vorbei für neue Inhalte!</p>
+            </div>
+        </section>
+        {% endif %}
+    </div>
+</main>
+
+<style>
+/* Author page styles */
+.author-content {
+    padding: 7rem 0 4rem;
+}
+
+.author-profile {
+    max-width: 800px;
+    margin: 0 auto 3rem;
+}
+
+.author-profile .author-name {
+    font-size: 2rem;
+}
+
+/* Author Card Styles (same as post.html) */
+.author-card {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    background: var(--bg-light);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-light);
+}
+
+.author-avatar {
+    flex-shrink: 0;
+}
+
+.author-avatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--primary-turquoise);
+    margin: 0;
+}
+
+.author-info {
+    flex: 1;
+}
+
+.author-name {
+    color: var(--text-dark);
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.author-role {
+    color: var(--text-light);
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.author-expertise {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.expertise-tag {
+    background: var(--primary-turquoise);
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.author-contact {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--primary-turquoise);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.author-contact:hover {
+    color: var(--secondary-blue);
+}
+
+.author-contact .icon {
+    width: 18px;
+    height: 18px;
+}
+
+/* Posts Section */
+.author-posts {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.author-posts-title {
+    color: var(--primary-turquoise);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--primary-yellow);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .author-content {
+        padding: 5.5rem 0 3rem;
+    }
+
+    .author-profile {
+        padding: 0 1rem;
+    }
+
+    .author-card {
+        flex-direction: column;
+        text-align: center;
+        gap: 1.5rem;
+    }
+
+    .author-avatar img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .author-posts {
+        padding: 0 1rem;
+    }
+
+    .author-posts-title {
+        font-size: 1.5rem;
+    }
+}
+</style>
+
+<script>
+// Logo fallback script
+document.addEventListener('DOMContentLoaded', function() {
+    const logoImg = document.querySelector('.logo-img');
+    const logoFallback = document.querySelector('.logo-fallback');
+
+    if (logoImg) {
+        logoImg.addEventListener('error', function() {
+            this.style.display = 'none';
+            if (logoFallback) {
+                logoFallback.style.display = 'flex';
+            }
+        });
+    }
+});
+
+// Navbar scroll effect
+window.addEventListener('scroll', function() {
+    const navbar = document.getElementById('navbar');
+    if (window.pageYOffset > 50) {
+        navbar.classList.add('scrolled');
+    } else {
+        navbar.classList.remove('scrolled');
+    }
+});
+</script>
