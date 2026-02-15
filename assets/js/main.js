@@ -948,18 +948,18 @@
     class NewsletterModal {
         constructor() {
             this.modal = document.getElementById('newsletterModal');
-            this.openBtn = document.getElementById('newsletterCTA');
+            this.openBtns = document.querySelectorAll('.newsletter-open-btn');
             this.closeBtn = document.getElementById('newsletterModalClose');
             this.overlay = document.getElementById('newsletterModalOverlay');
 
-            if (this.modal && this.openBtn) {
+            if (this.modal && this.openBtns.length > 0) {
                 this.init();
             }
         }
 
         init() {
-            // Open modal
-            this.openBtn.addEventListener('click', () => this.open());
+            // Open modal from any newsletter button
+            this.openBtns.forEach(btn => btn.addEventListener('click', () => this.open()));
 
             // Close modal
             this.closeBtn.addEventListener('click', () => this.close());
@@ -1008,14 +1008,6 @@
      */
     document.addEventListener('DOMContentLoaded', function() {
         const newsletterModal = new NewsletterModal();
-
-        // Connect alert CTA button to newsletter modal
-        const alertCTA = document.getElementById('newsletterAlertCTA');
-        if (alertCTA && newsletterModal.modal) {
-            alertCTA.addEventListener('click', () => {
-                newsletterModal.open();
-            });
-        }
     });
 
 })();

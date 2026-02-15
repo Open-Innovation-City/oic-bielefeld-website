@@ -15,9 +15,9 @@
   --text-light: #666;
   --bg-light: #f8f9fa;
   --white: #ffffff;
-  --shadow-light: 0 5px 20px rgba(0, 0, 0, 0.1);
-  --shadow-medium: 0 10px 30px rgba(0, 0, 0, 0.15);
-  --shadow-heavy: 0 20px 40px rgba(0, 0, 0, 0.2);
+  --shadow-light: 0 1px 3px rgba(0, 0, 0, 0.06), 0 4px 12px rgba(0, 0, 0, 0.06);
+  --shadow-medium: 0 2px 8px rgba(0, 0, 0, 0.08), 0 8px 24px rgba(0, 0, 0, 0.1);
+  --shadow-heavy: 0 4px 12px rgba(0, 0, 0, 0.1), 0 16px 32px rgba(0, 0, 0, 0.12);
   --animation-duration: 0.3s;
   --alert-warning: #ff6b35;
   --alert-warning-bg: #ffe5dc;
@@ -217,26 +217,12 @@ button a[href^="http"]::after,
   color: var(--white);
 }
 
-.alert-cta-btn {
-  display: inline-block;
-  padding: 0.6rem 1.5rem;
+/* Newsletter CTA inside alert banner – compact variant of .cta-button */
+.newsletter-banner .cta-button {
   margin-left: 1rem;
-  background: var(--white);
-  color: var(--primary-turquoise);
-  border: none;
-  border-radius: 25px;
-  font-weight: 700;
+  padding: 0.6rem 1.5rem;
   font-size: 0.95rem;
-  cursor: pointer;
-  transition: all var(--animation-duration) ease;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-}
-
-.alert-cta-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  background: var(--primary-yellow);
-  color: var(--text-dark);
+  white-space: nowrap;
 }
 
 .newsletter-banner .alert-close {
@@ -278,7 +264,7 @@ body:has(.newsletter-banner) .navbar {
     font-size: 0.9rem;
   }
 
-  .alert-cta-btn {
+  .newsletter-banner .cta-button {
     margin-left: 0;
     margin-top: 0.75rem;
     padding: 0.5rem 1.25rem;
@@ -489,15 +475,13 @@ body:has(.newsletter-banner) .navbar {
 .nav-links a:hover {
   background: rgba(255, 255, 255, 0.2);
   color: var(--primary-yellow);
-  transform: translateY(-2px) scale(1.05);
-  box-shadow: 0 5px 20px rgba(255, 245, 100, 0.3);
+  transform: translateY(-1px);
 }
 
 /* Light theme hover effects */
 .navbar.light-theme .nav-links a:hover {
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.06);
   color: var(--primary-turquoise);
-  box-shadow: 0 5px 20px rgba(0, 178, 187, 0.3);
 }
 
 .nav-links a::before {
@@ -643,7 +627,7 @@ body:has(.newsletter-banner) .navbar {
 }
 
 .hero-content:hover {
-  transform: translateY(-5px);
+  transform: translateY(-3px);
 }
 
 .hero h1 {
@@ -686,22 +670,20 @@ body:has(.newsletter-banner) .navbar {
   font-weight: 600;
   font-size: 1.1rem;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 
-    0 10px 30px rgba(255, 245, 100, 0.4),
-    0 0 20px rgba(255, 245, 100, 0.2);
+  box-shadow: 0 4px 16px rgba(255, 245, 100, 0.3);
+  border: none;
+  cursor: pointer;
   position: relative;
   overflow: hidden;
   transform-origin: center;
-  z-index: 2; /* Stellt sicher, dass der Button über dem ::before Element liegt */
+  z-index: 2;
 }
 
 .cta-button.secondary {
   background: rgba(255, 255, 255, 0.2);
   color: white;
   border: 2px solid rgba(255, 255, 255, 0.3);
-  box-shadow: 
-    0 10px 30px rgba(255, 255, 255, 0.1),
-    0 0 20px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 16px rgba(255, 255, 255, 0.1);
 }
 
 .cta-button::before {
@@ -722,16 +704,12 @@ body:has(.newsletter-banner) .navbar {
 }
 
 .cta-button:hover {
-  transform: translateY(-5px) scale(1.05);
-  box-shadow: 
-    0 20px 40px rgba(255, 245, 100, 0.6),
-    0 0 30px rgba(255, 245, 100, 0.4);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(255, 245, 100, 0.4);
 }
 
 .cta-button.secondary:hover {
-  box-shadow: 
-    0 20px 40px rgba(255, 255, 255, 0.3),
-    0 0 30px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 24px rgba(255, 255, 255, 0.2);
   background: rgba(255, 255, 255, 0.3);
 }
 
@@ -853,7 +831,7 @@ body:has(.newsletter-banner) .navbar {
 .principle-card {
   background: white;
   padding: 2rem;
-  border-radius: 15px;
+  border-radius: 16px;
   box-shadow: var(--shadow-light);
   transition: all 0.3s ease;
   transform: translateY(20px);
@@ -866,7 +844,7 @@ body:has(.newsletter-banner) .navbar {
 }
 
 .principle-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-4px);
   box-shadow: var(--shadow-medium);
 }
 
@@ -885,32 +863,22 @@ body:has(.newsletter-banner) .navbar {
 
 .team-card {
   background: white;
-  border-radius: 20px;
+  border-radius: 16px;
   overflow: hidden;
-  box-shadow: var(--shadow-medium);
+  box-shadow: var(--shadow-light);
   transition: all 0.4s ease;
-  transform: translateX(-100px);
+  transform: translateY(20px);
   opacity: 0;
-  border: 2px solid transparent;
 }
 
 .team-card.visible {
-  transform: translateX(0);
+  transform: translateY(0);
   opacity: 1;
 }
 
-.team-card:nth-child(even) {
-  transform: translateX(100px);
-}
-
-.team-card:nth-child(even).visible {
-  transform: translateX(0);
-}
-
 .team-card:hover {
-  transform: translateY(-8px) scale(1.02) !important;
-  box-shadow: var(--shadow-heavy);
-  border: 2px solid var(--primary-turquoise);
+  transform: translateY(-4px) !important;
+  box-shadow: var(--shadow-medium);
   z-index: 10;
   position: relative;
 }
@@ -919,9 +887,8 @@ body:has(.newsletter-banner) .navbar {
   width: 100%;
   height: 250px;
   object-fit: cover;
-  transition: transform 0.3s ease;
   opacity: 0;
-  transition: opacity 0.3s ease;
+  transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 .team-image.loaded {
@@ -929,7 +896,7 @@ body:has(.newsletter-banner) .navbar {
 }
 
 .team-card:hover .team-image {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 
 .team-placeholder {
@@ -1004,14 +971,13 @@ body:has(.newsletter-banner) .navbar {
 .project-card {
   background: white;
   padding: 2rem;
-  border-radius: 15px;
+  border-radius: 16px;
   box-shadow: var(--shadow-light);
   transition: all 0.4s ease;
   position: relative;
   overflow: hidden;
   transform: scale(0.9);
   opacity: 0;
-  border: 2px solid transparent;
 }
 
 /* Extra space for cards with links */
@@ -1030,19 +996,12 @@ body:has(.newsletter-banner) .navbar {
 }
 
 .project-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 4px;
-  background: linear-gradient(90deg, var(--primary-turquoise), var(--secondary-blue));
+  display: none;
 }
 
 .project-card:hover {
-  transform: translateY(-8px) scale(1.02);
-  box-shadow: var(--shadow-heavy);
-  border: 2px solid var(--primary-turquoise);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-medium);
 }
 
 .project-tag {
@@ -1050,7 +1009,7 @@ body:has(.newsletter-banner) .navbar {
   background: var(--primary-yellow);
   color: var(--text-dark);
   padding: 0.3rem 0.8rem;
-  border-radius: 20px;
+  border-radius: 8px;
   font-size: 0.8rem;
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
@@ -1070,7 +1029,7 @@ body:has(.newsletter-banner) .navbar {
 }
 
 .project-card:hover .project-tag {
-  transform: scale(1.1) rotate(-2deg);
+  transform: none;
 }
 
 /* Project Meta */
@@ -1141,7 +1100,7 @@ body:has(.newsletter-banner) .navbar {
 .contact-card {
   background: rgba(255, 255, 255, 0.1);
   padding: 2rem;
-  border-radius: 15px;
+  border-radius: 16px;
   backdrop-filter: blur(10px);
   transition: all 0.3s ease;
   transform: translateY(30px);
@@ -1155,7 +1114,7 @@ body:has(.newsletter-banner) .navbar {
 
 .contact-card:hover {
   background: rgba(255, 255, 255, 0.15);
-  transform: translateY(-5px) scale(1.02);
+  transform: translateY(-4px);
 }
 
 .contact-link {
@@ -1370,7 +1329,7 @@ body:has(.newsletter-banner) .navbar {
   width: 90%;
   max-height: 90vh;
   overflow-y: auto;
-  border-radius: 15px;
+  border-radius: 16px;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
   animation: slideUp 0.3s ease;
   z-index: 10000;
@@ -1781,14 +1740,13 @@ body:has(.newsletter-banner) .navbar {
 
 .event-card {
   background: white;
-  border-radius: 20px;
+  border-radius: 16px;
   overflow: hidden;
   box-shadow: var(--shadow-light);
   transition: all 0.4s ease;
   position: relative;
   transform: translateY(20px);
   opacity: 0;
-  border: 2px solid transparent;
   display: flex;
   flex-direction: column;
 }
@@ -1799,14 +1757,13 @@ body:has(.newsletter-banner) .navbar {
 }
 
 .event-card:hover {
-  transform: translateY(-8px) scale(1.02);
-  box-shadow: var(--shadow-heavy);
-  border-color: var(--primary-turquoise);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-medium);
 }
 
 .event-card.featured {
   border: 2px solid var(--primary-yellow);
-  box-shadow: 0 8px 25px rgba(255, 245, 100, 0.3);
+  box-shadow: var(--shadow-light);
 }
 
 .event-card.featured::before {
@@ -1817,7 +1774,7 @@ body:has(.newsletter-banner) .navbar {
   background: var(--primary-yellow);
   color: var(--text-dark);
   padding: 0.3rem 0.8rem;
-  border-radius: 15px;
+  border-radius: 8px;
   font-size: 0.75rem;
   font-weight: 600;
   z-index: 2;
@@ -1855,7 +1812,7 @@ body:has(.newsletter-banner) .navbar {
   display: inline-block;
   background: rgba(255, 255, 255, 0.2);
   padding: 0.3rem 0.8rem;
-  border-radius: 15px;
+  border-radius: 8px;
   font-size: 0.8rem;
   font-weight: 500;
   margin-bottom: 0.5rem;
@@ -1918,7 +1875,7 @@ body:has(.newsletter-banner) .navbar {
   color: var(--text-light);
   background: var(--bg-light);
   padding: 0.3rem 0.8rem;
-  border-radius: 12px;
+  border-radius: 8px;
 }
 
 .event-cost {
@@ -2054,7 +2011,7 @@ body:has(.newsletter-banner) .navbar {
   margin: 2rem 0;
   padding: 1rem;
   background: var(--bg-light);
-  border-radius: 12px;
+  border-radius: 16px;
   box-shadow: var(--shadow-light);
 }
 
@@ -2071,7 +2028,7 @@ body:has(.newsletter-banner) .navbar {
 }
 
 .gallery-item:hover {
-  transform: translateY(-2px) scale(1.02);
+  transform: translateY(-2px);
   box-shadow: var(--shadow-medium);
   z-index: 2;
 }
@@ -2087,7 +2044,7 @@ body:has(.newsletter-banner) .navbar {
 }
 
 .gallery-item:hover .gallery-thumbnail {
-  transform: scale(1.02);
+  transform: none;
 }
 
 /* Gallery Overlay - removed dark overlay on hover */
@@ -2438,8 +2395,8 @@ body:has(.newsletter-banner) .navbar {
 /* Hover State */
 .filter-btn:hover {
   background: rgba(0, 178, 187, 0.1);
-  transform: translateY(-2px) scale(1.03);
-  box-shadow: 0 4px 12px rgba(0, 178, 187, 0.2);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 178, 187, 0.15);
 }
 
 /* Active State */
@@ -2452,8 +2409,8 @@ body:has(.newsletter-banner) .navbar {
 }
 
 .filter-btn.active:hover {
-  transform: translateY(-2px) scale(1.03);
-  box-shadow: 0 6px 20px rgba(0, 178, 187, 0.4);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(0, 178, 187, 0.3);
 }
 
 .filter-btn.active .filter-count {

@@ -293,6 +293,15 @@ layout: default
     border-bottom-color: var(--primary-turquoise);
 }
 
+.post-article a.cta-button {
+    color: var(--text-dark);
+    border-bottom: none;
+}
+
+.post-article a.cta-button:hover {
+    border-bottom: none;
+}
+
 .post-article img {
     max-width: 100%;
     height: auto;
@@ -356,7 +365,7 @@ layout: default
     gap: 1.5rem;
     padding: 1.5rem 2rem;
     margin-bottom: 3rem;
-    border-radius: 12px;
+    border-radius: 16px;
     box-shadow: var(--shadow-medium);
     animation: slideIn 0.5s ease-out;
 }
@@ -444,12 +453,12 @@ layout: default
     display: block;
     text-decoration: none;
     color: inherit;
-    border-radius: 12px;
+    border-radius: 16px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .author-card-link:hover {
-    transform: translateY(-3px);
+    transform: translateY(-2px);
 }
 
 .author-card-link:hover .author-card {
@@ -466,7 +475,7 @@ layout: default
     align-items: flex-start;
     background: var(--bg-light);
     padding: 2rem;
-    border-radius: 12px;
+    border-radius: 16px;
     box-shadow: var(--shadow-medium);
 }
 
@@ -579,7 +588,7 @@ layout: default
     width: 100%;
     max-width: 800px;
     margin: 2rem auto;
-    border-radius: 12px;
+    border-radius: 16px;
     overflow: hidden;
     box-shadow: var(--shadow-medium);
     cursor: pointer;
@@ -587,8 +596,8 @@ layout: default
 }
 
 .youtube-video:hover {
-    transform: translateY(-5px);
-    box-shadow: var(--shadow-heavy);
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-medium);
 }
 
 .youtube-thumbnail {
