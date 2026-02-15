@@ -700,15 +700,9 @@
             const now = new Date();
             const daysDiff = (now - dismissedDate) / (1000 * 60 * 60 * 24);
 
-            // If dismissed less than 7 days ago, hide the alert
+            // If dismissed less than 7 days ago, remove the alert
             if (daysDiff < 7 && alertBanner) {
-                alertBanner.style.display = 'none';
-
-                // Reset navbar position
-                const navbar = document.querySelector('.navbar');
-                if (navbar) {
-                    navbar.style.top = '0';
-                }
+                alertBanner.remove();
             }
         }
     }
