@@ -69,7 +69,7 @@ colors:
   secondary_pink: "#fa2d6e"
 
 # Navbar Style: "island" (floating island on scroll) or "standard" (full-width)
-navbar_style: "island"
+navbar_style: "standard"
 
 # Navigation
 navigation:
