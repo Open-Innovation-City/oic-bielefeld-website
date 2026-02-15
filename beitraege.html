@@ -5,7 +5,7 @@ description: Aktuelle Beiträge und Artikel von Open Innovation City Bielefeld z
 ---
 
 <!-- Navigation -->
-<nav class="navbar light-theme" id="navbar">
+<nav class="navbar light-theme{% if site.navbar_style == 'island' %} navbar-island{% endif %}" id="navbar">
     <div class="nav-container">
         <div class="logo">
             <a href="{{ '/' | relative_url }}">

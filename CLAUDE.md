@@ -628,6 +628,51 @@ This ensures clean category organization while keeping retrospectives accessible
 - **Color system**: Always use CSS custom properties from design token system
 - **Error handling**: Logo and image loading includes graceful fallbacks
 
+### Navbar Style Configuration
+
+**New as of February 2026:** The navbar supports two visual styles, configurable via `_config.yml`:
+
+```yaml
+# Floating Island navbar (default)
+navbar_style: "island"
+
+# Standard full-width navbar
+navbar_style: "standard"
+```
+
+**Important:** Changing `navbar_style` requires a Jekyll server restart (not just live-reload).
+
+**Both styles share:**
+- **Türkis-tinted glass effect** on scroll (dark-theme: `rgba(0, 179, 167, 0.1)`, light-theme: `rgba(0, 179, 167, 0.06)`)
+- **Light-theme tint from the start** — visible on pages with white backgrounds (e.g., `/beitraege/`)
+- **Gradient accent line** (Türkis → Blau) at the bottom of the scrolled navbar via `::after` pseudo-element
+- **Adaptive theme switching** between dark-theme and light-theme based on background color detection
+- **Box-shadow** for depth on scroll
+
+**Island style (`navbar_style: "island"`):**
+- On scroll (>50px), navbar morphs into a floating island:
+  - `max-width: 1200px` with `margin: 0 auto` (centered)
+  - `border-radius: 16px` (rounded corners)
+  - `top: 12px` (floats below browser edge)
+  - `width: calc(100% - 48px)` (24px padding on each side)
+- Smooth CSS transition via existing `0.4s cubic-bezier`
+- **Mobile (≤900px):** Island sizing disabled (full width, no radius), tint + shadow preserved
+
+**Standard style (`navbar_style: "standard"`):**
+- Full-width navbar at all times, only tint + shadow changes on scroll
+
+**Implementation Details:**
+- CSS class `.navbar-island` is conditionally added via Liquid: `{% if site.navbar_style == 'island' %} navbar-island{% endif %}`
+- Island-specific CSS rules target `.navbar-island.scrolled` only
+- All 7 navbar instances updated: `index.html`, `_layouts/post.html`, `_layouts/page.html`, `_layouts/author.html`, `beitraege.html`, `404.html`, `ki-zivilgesellschaft.html`
+- No JavaScript changes needed — the existing `.scrolled` class toggle at >50px scroll works for both styles
+
+**Theme detection on blog posts:**
+- Post layout (`_layouts/post.html`) starts with `dark-theme` (matching the colored post header)
+- `AdaptiveNavigation` in `main.js` observes `section:not(.post-author), .post-header, .post-content` elements
+- When scrolling past the post header into the white content area, navbar switches to `light-theme` automatically
+- The outer `<main id="main">` from `default.html` is intentionally excluded to prevent false theme switches near the footer
+
 ### SEO & Performance
 - **Meta tags**: Managed via `_includes/head.html` with preconnect optimization
 - **German language**: Content structure optimized for German municipal website requirements

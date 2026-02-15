@@ -6,7 +6,7 @@ permalink: /ki/
 ---
 
 <!-- Adaptive Navigation -->
-<nav class="navbar dark-theme" id="navbar">
+<nav class="navbar dark-theme{% if site.navbar_style == 'island' %} navbar-island{% endif %}" id="navbar">
     <div class="nav-container">
         <div class="logo">
             <a href="{{ '/' | relative_url }}">
