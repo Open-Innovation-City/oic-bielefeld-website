@@ -1664,6 +1664,15 @@ body:has(.newsletter-banner) .navbar-island.scrolled {
   margin: 0;
 }
 
+.footer-copyright a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.footer-copyright a:hover {
+  color: var(--primary-turquoise);
+}
+
 .footer-right {
   display: flex;
   align-items: center;
