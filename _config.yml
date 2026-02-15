@@ -68,6 +68,9 @@ colors:
   secondary_light_blue: "#78d3fa"
   secondary_pink: "#fa2d6e"
 
+# Navbar Style: "island" (floating island on scroll) or "standard" (full-width)
+navbar_style: "island"
+
 # Navigation
 navigation:
   - name: "Start"

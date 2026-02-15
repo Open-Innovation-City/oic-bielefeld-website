@@ -38,7 +38,7 @@
         }
 
         setupBackgroundDetection() {
-            const sections = document.querySelectorAll('section');
+            const sections = document.querySelectorAll('section:not(.post-author), .post-header, .post-content');
             const options = {
                 root: null,
                 rootMargin: '-10% 0% -80% 0%',
@@ -67,15 +67,19 @@
                 isLight = this.isLightColor(backgroundColor);
             } else {
                 // Fallback: check section classes or data attributes
-                isLight = section.classList.contains('light-section') || 
+                isLight = section.classList.contains('light-section') ||
                          section.classList.contains('about') ||
                          section.classList.contains('projects') ||
                          section.classList.contains('events') ||
+                         section.classList.contains('past-events') ||
+                         section.classList.contains('post-content') ||
                          section.dataset.theme === 'light' ||
-                         sectionId === 'about' || 
+                         sectionId === 'about' ||
                          sectionId === 'team' ||
                          sectionId === 'projects' ||
-                         sectionId === 'events';
+                         sectionId === 'events' ||
+                         sectionId === 'past-events' ||
+                         section.tagName === 'MAIN';
             }
             
             const newTheme = isLight ? 'light' : 'dark';

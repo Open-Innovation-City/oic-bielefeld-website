@@ -245,6 +245,11 @@ body:has(.newsletter-banner) .navbar {
   top: 120px;
 }
 
+body:has(.event-alert-banner) .navbar-island.scrolled,
+body:has(.newsletter-banner) .navbar-island.scrolled {
+  top: 132px;
+}
+
 /* Mobile responsive */
 @media (max-width: 768px) {
   .alert-container {
@@ -281,18 +286,26 @@ body:has(.newsletter-banner) .navbar {
   body:has(.newsletter-banner) .navbar {
     top: 140px;
   }
+
+  body:has(.event-alert-banner) .navbar-island.scrolled,
+  body:has(.newsletter-banner) .navbar-island.scrolled {
+    top: 140px;
+  }
 }
 
 /* Adaptive Navigation */
 .navbar {
   position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   width: 100%;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(20px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   z-index: 1000;
   padding: 1rem 0;
+  border-radius: 0;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -303,22 +316,59 @@ body:has(.newsletter-banner) .navbar {
 }
 
 .navbar.dark-theme.scrolled {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(0, 179, 167, 0.1);
   backdrop-filter: blur(25px);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 179, 167, 0.15);
+  border-bottom: none;
 }
 
 /* Light theme (for light backgrounds) */
 .navbar.light-theme {
-  background: rgba(255, 255, 255, 0.85);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(0, 179, 167, 0.06);
+  border-bottom: 1px solid rgba(0, 179, 167, 0.1);
   backdrop-filter: blur(20px);
 }
 
 .navbar.light-theme.scrolled {
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(0, 179, 167, 0.06);
   backdrop-filter: blur(25px);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08), 0 2px 8px rgba(0, 179, 167, 0.08), 0 0 0 1px rgba(0, 179, 167, 0.12);
+  border-bottom: none;
+}
+
+/* Island variant: floating rounded navbar on scroll */
+.navbar-island.scrolled {
+  top: 12px;
+  width: calc(100% - 48px);
+  max-width: 1200px;
+  margin: 0 auto;
+  border-radius: 16px;
+}
+
+/* Gradient accent line for scrolled navbar */
+.navbar.scrolled::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  right: 10%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--primary-turquoise), var(--secondary-blue), transparent);
+  border-radius: 1px;
+  opacity: 1;
+  transition: opacity 0.4s ease;
+}
+
+.navbar:not(.scrolled)::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  right: 10%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--primary-turquoise), var(--secondary-blue), transparent);
+  border-radius: 1px;
+  opacity: 0;
 }
 
 .nav-container {
@@ -1143,6 +1193,25 @@ body:has(.newsletter-banner) .navbar {
 
 /* Responsive Design */
 @media (max-width: 900px) {
+  /* Disable island sizing on mobile, keep tint + shadow */
+  .navbar-island.scrolled {
+    width: 100%;
+    max-width: 100%;
+    top: 0;
+    border-radius: 0;
+    margin: 0;
+  }
+
+  .navbar.scrolled::after {
+    left: 20%;
+    right: 20%;
+  }
+
+  body:has(.event-alert-banner) .navbar-island.scrolled,
+  body:has(.newsletter-banner) .navbar-island.scrolled {
+    top: 120px;
+  }
+
   .mobile-menu-btn {
     display: block;
   }
