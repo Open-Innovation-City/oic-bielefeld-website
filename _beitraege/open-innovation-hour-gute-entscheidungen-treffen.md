@@ -2,7 +2,8 @@
 title: "Open Innovation Hour: Wie treffe ich unter Druck gute Entscheidungen?"
 teaser: "Am Donnerstag, 5. Februar 2026 dreht sich in der Open Innovation Hour alles um die Frage: „Wie treffe ich unter Druck gute Entscheidungen?“ – Mit Branddirektor Maximilian Rempe, stellv. Leiter der Feuerwehr Bielefeld."
 author: "Sarah Bollmann"
-category: "Open Innovation Hour"
+categories:
+  - "Open Innovation Hour"
 date: 2026-01-21
 header_image: " "
 ---

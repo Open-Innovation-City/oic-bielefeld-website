@@ -2,7 +2,8 @@
 title: "Rückblick: Markt der digitalen Möglichkeiten 2025"
 teaser: "Vom ersten Schritt ins Internet bis zum sicheren Umgang mit digitalen Anwendungen: Beim Markt der digitalen Möglichkeiten war Raum zum Ausprobieren, Nachfragen und Mitmachen: Zahlreiche Initiativen, Organisationen und Anlaufstellen aus Bielefeld haben am Freitag, 31.10.2025 ihre vielfältigen Angebote zur digitalen Teilhabe präsentiert."
 author: "Sarah Bollmann"
-category: "Events"
+categories:
+  - "Events"
 date: 2025-11-21
 header_image: ""
 ---

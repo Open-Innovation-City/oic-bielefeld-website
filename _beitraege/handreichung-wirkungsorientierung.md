@@ -2,7 +2,8 @@
 title: "Handreichung Wirkungs&shy;orien&shy;tierung: Logic Model 2.0"
 teaser: "Gemeinnützige Organisationen möchten oder sollen die Wirkung ihrer Arbeit nachweisen. Diese Handreichung bietet eine ressourcensparende und valide Alternative zu großen Wirkmodellen. Das Ziel: Handlungsfähigkeit verbessern, Planung und Bewertung der eigenen Arbeit vereinfachen und dadurch optimieren."
 author: "Maria Gonçalves"
-category: "Methoden"
+categories:
+  - "Methoden"
 date: 2026-01-28
 header_image: "/assets/images/beitraege/delano-ramdas-a1t-eB2xHXM-unsplash.jpg"
 header_image_credit: "Foto von Delano Ramdas auf Unsplash"

@@ -2,7 +2,8 @@
 title: "KI und Barrierefreiheit – Inklusion durch innovative Technologie ermöglichen."
 teaser: "Das 7. Meetup aus der Reihe KI und Zivilgesellschaft behandelt das Thema Barrierefreiheit."
 author: "Maria Gonçalves"
-category: "KI und Zivilgesellschaft"
+categories:
+  - "KI und Zivilgesellschaft"
 date: 2025-09-23
 header_image: "/assets/images/ki.png"
 retrospective_post: "rueckblick-ki-barrierefreiheit"
