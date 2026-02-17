@@ -2,7 +2,8 @@
 title: "Teamtag von OIC Bielefeld unter „dem Stern“ der Kreativität"
 teaser: "In diesem Jahr haben wir wieder etwas Neues an unserem Teamtag ausprobiert. Hier sind ein paar Impressionen."
 author: "Tatjana Džepina"
-category: "Events"
+categories:
+  - "Events"
 date: 2025-09-24
 header_image: "/assets/images/events/teamtag_2025/teamtag_2025_22.jpg" 
 

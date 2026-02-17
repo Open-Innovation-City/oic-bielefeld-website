@@ -2,7 +2,8 @@
 title: "3. Open Innovation Hour: Wie werde ich aktiv?"
 teaser: "Am Donnerstag, 8. Januar 2026 dreht sich in der Open Innovation Hour alles um die Frage: „Wie kann ich selbst aktiv werden? Räume schaffen für soziale Innovationen.“ – Mit Henrik Remmert."
 author: "Sarah Bollmann"
-category: "Open Innovation Hour"
+categories:
+  - "Open Innovation Hour"
 date: 2025-12-16
 header_image: " "
 ---

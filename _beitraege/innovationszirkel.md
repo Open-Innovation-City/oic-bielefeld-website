@@ -2,7 +2,8 @@
 title: "Innovationszirkel"
 teaser: "In Innovationszirkeln erarbeiten wir als Stadtgesellschaft Lösungsansätze für lokale Herausforderungen. Mehr zum Format Innovationszirkel erfährst Du in diesem Beitrag."
 author: "Sarah Bollmann"
-category: "Innovationszirkel"
+categories:
+  - "Innovationszirkel"
 date: 2025-09-19
 header_image: ""
 ---

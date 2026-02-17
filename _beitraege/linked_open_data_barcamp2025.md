@@ -2,7 +2,8 @@
 title: "Ein Rückblick auf das Linked Open Data Barcamp, vom 27.11.2025"
 teaser: "Am 27. November 2025 haben die Organisationen Code for Bielefeld, FörderFunke, Open Knowledge Foundation Deutschland und sparkup ein Linked Open Data Barcamp im Innovation Office ausgerichtet. Sarah Bollmann gibt einen persönlichen Rückblick auf die Veranstaltung."
 author: "Sarah Bollmann"
-category: "Rückblick"
+categories:
+  - "Rückblick"
 date: 2025-12-01
 ---  
 

@@ -2,7 +2,8 @@
 title: "duck.ai – KI mit besserem Datenschutz nutzen"
 teaser: "Die datenschutzfreundliche Suchmaschine DuckDuckGo bietet jetzt auch die Möglichkeit, KI-Modelle mit einem höheren Datenschutzniveau zu nutzen."
 author: "Jens Edler"
-category: "Tools"
+categories:
+  - "Tools"
 date: 2025-07-15
 header_image: "/assets/images/graffiti.png"
 ---

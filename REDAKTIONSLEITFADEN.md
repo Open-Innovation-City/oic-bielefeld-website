@@ -121,7 +121,8 @@ Setze `#` vor jede Zeile des Events (siehe auskommentiertes Beispiel in der Date
 title: "Titel des Beitrags"
 teaser: "Kurze Zusammenfassung für die Übersicht (1-2 Sätze)"
 author: "Ihr Name"
-category: "Tools"  # Eine Kategorie (oder "Events", "Projekte", etc.)
+categories:
+  - "Tools"  # oder "Events", "Projekte", etc. (siehe Abschnitt "Kategorien zuweisen")
 date: 2025-07-24
 header_image: "/assets/images/bildname.png"  # Optional
 header_image_credit: "© Fotograf Name / Quelle"  # Optional
@@ -140,13 +141,16 @@ Weiterer Text...
 
 Jeder Beitrag sollte mindestens eine Kategorie haben. Die Kategorie erscheint als Tag auf der Beitragskarte und kann auf der Beitragsseite (`/beitraege/`) gefiltert werden.
 
-**Eine Kategorie (Standard):**
+Kategorien werden immer als Liste angegeben – auch bei nur einer Kategorie:
+
+**Eine Kategorie:**
 ```yaml
-category: "Events"
+categories:
+  - "Events"
 ```
 
 **Mehrere Kategorien:**
-Wenn ein Beitrag zu mehreren Themen passt, kannst du auch mehrere Kategorien angeben:
+Wenn ein Beitrag zu mehreren Themen passt, füge einfach weitere Einträge hinzu:
 ```yaml
 categories:
   - "Netzwerk"
@@ -154,9 +158,8 @@ categories:
 ```
 
 **Wichtige Hinweise:**
-- Verwende **entweder** `category` (eine Kategorie) **oder** `categories` (mehrere) – nicht beides gleichzeitig
 - Beiträge mit mehreren Kategorien werden bei **jeder** ihrer Kategorien im Filter angezeigt
-- Auf der Beitragskarte werden bei mehreren Kategorien alle als Tags angezeigt
+- Auf der Beitragskarte werden bei mehreren Kategorien alle als separate Tags angezeigt
 - Verwende möglichst bestehende Kategorien, damit die Filter übersichtlich bleiben
 
 **Verfügbare Kategorien:**

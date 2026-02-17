@@ -2,7 +2,8 @@
 title: "Ein Rückblick auf das MeetUp KI und Open Innovation – Herausforderungen. Potentiale. Tools."
 teaser: "Das 8. Meetup aus der Reihe KI und Zivilgesellschaft behandelte das Thema Open Innovation. Maria Gonçalves gibt einen persönlichen Rückblick auf das MeetUp."
 author: "Maria Gonçalves"
-category: "Rückblick"
+categories:
+  - "Rückblick"
 date: 2025-11-24
 header_image: "/assets/images/ki.png"
 related_post: "ki-kompetenz"

@@ -2,7 +2,8 @@
 title: "Ein Rückblick auf das MeetUp KI und New Work"
 teaser: "Wie verändert Künstliche Intelligenz unsere Arbeit, unsere Zusammenarbeit und unser Verständnis von \"menschlicher Arbeit\" überhaupt? Diese Fragen standen im Mittelpunkt des 6. MeetUps Reihe \"KI und Zivilgesellschaft\" zu KI und New Work – Chancen, Risiken, Haltung."
 author: "Tatjana Džepina"
-category: "Rückblick"
+categories:
+  - "Rückblick"
 date: 2025-10-27
 header_image: "/assets/images/ki.png"
 related_post: "ki-new-work"
