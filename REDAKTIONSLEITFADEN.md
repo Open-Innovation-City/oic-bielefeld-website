@@ -121,7 +121,7 @@ Setze `#` vor jede Zeile des Events (siehe auskommentiertes Beispiel in der Date
 title: "Titel des Beitrags"
 teaser: "Kurze Zusammenfassung für die Übersicht (1-2 Sätze)"
 author: "Ihr Name"
-category: "Tools"  # oder "Events", "Projekte", etc.
+category: "Tools"  # Eine Kategorie (oder "Events", "Projekte", etc.)
 date: 2025-07-24
 header_image: "/assets/images/bildname.png"  # Optional
 header_image_credit: "© Fotograf Name / Quelle"  # Optional
@@ -135,6 +135,49 @@ Hier beginnt Ihr Beitrag...
 
 Weiterer Text...
 ```
+
+### Kategorien zuweisen
+
+Jeder Beitrag sollte mindestens eine Kategorie haben. Die Kategorie erscheint als Tag auf der Beitragskarte und kann auf der Beitragsseite (`/beitraege/`) gefiltert werden.
+
+**Eine Kategorie (Standard):**
+```yaml
+category: "Events"
+```
+
+**Mehrere Kategorien:**
+Wenn ein Beitrag zu mehreren Themen passt, kannst du auch mehrere Kategorien angeben:
+```yaml
+categories:
+  - "Netzwerk"
+  - "Open Innovation City"
+```
+
+**Wichtige Hinweise:**
+- Verwende **entweder** `category` (eine Kategorie) **oder** `categories` (mehrere) – nicht beides gleichzeitig
+- Beiträge mit mehreren Kategorien werden bei **jeder** ihrer Kategorien im Filter angezeigt
+- Auf der Beitragskarte werden bei mehreren Kategorien alle als Tags angezeigt
+- Verwende möglichst bestehende Kategorien, damit die Filter übersichtlich bleiben
+
+**Verfügbare Kategorien:**
+- `"Events"` – Veranstaltungen und Event-Ankündigungen
+- `"KI und Zivilgesellschaft"` – Beiträge zur KI-Reihe
+- `"Tools"` – Tool-Vorstellungen und Anleitungen
+- `"Projekte"` – Projektvorstellungen und -updates
+- `"Open Innovation City"` – Beiträge zum OIC-Programm
+- `"Netzwerk"` – Netzwerk-Themen und Kooperationen
+- `"Formate"` – Unsere Veranstaltungsformate
+- `"Innovationszirkel"` – Beiträge zum Innovationszirkel
+- `"Open Innovation Hour"` – Beiträge zur Open Innovation Hour
+- `"Rückblick"` – Rückblicke und Jahresberichte
+
+**Neue Kategorien** können jederzeit vergeben werden – sie erscheinen automatisch als neuer Filter-Button auf der Beitragsseite.
+
+**Filter-Links teilen:**
+Du kannst einen direkten Link zu einer gefilterten Ansicht teilen, z.B.:
+`https://oic-bielefeld.de/beitraege/?filter=events`
+
+Der Filter-Wert ist der Kategoriename in Kleinbuchstaben mit Bindestrichen statt Leerzeichen (z.B. `ki-und-zivilgesellschaft`).
 
 ### Header-Bild mit Copyright-Hinweis
 
@@ -840,4 +883,4 @@ Bei technischen Problemen oder Konflikten: jens.edler@bielefeld.de
 
 ---
 
-*Letzte Änderung: Februar 2026 | Version 1.4*
+*Letzte Änderung: Februar 2026 | Version 1.5*
