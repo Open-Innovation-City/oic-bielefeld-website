@@ -26,7 +26,7 @@ Außerdem: Die nächsten Open Innovation Hours sind in Planung — und wir möch
 
 **Wann und wo?**  
 **Donnerstag, 5. März 2026**  
-**Zoom** – Den Link erhältst du mit deiner Anmeldung   
+**Zoom** – Den Link erhältst du mit deiner Anmeldung    
 
 ### Kostenlose Anmeldung  
 {% include pretix-widget.html event="open-inno-hour-5" %}  
