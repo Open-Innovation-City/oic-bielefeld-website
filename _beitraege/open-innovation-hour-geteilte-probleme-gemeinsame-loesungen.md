@@ -10,7 +10,7 @@ header_image: ""
 
 ## Open Innovation Hour  
 ### Geteilte Probleme – gemeinsame Lösungen
-Viele gute Ideen scheitern nicht an fehlendem Engagement, sondern daran, dass die richtigen Menschen nie zusammen. Die Open Innovation Hour ist ein Format, mit dem wir genau das ändern wollen.  
+Viele gute Ideen scheitern nicht an fehlendem Engagement, sondern daran, dass die richtigen Menschen nie zusammenkommen. Die Open Innovation Hour ist ein Format, mit dem wir genau das ändern wollen.  
 
 **Jeden ersten Donnerstag im Monat, um 12.30 Uhr schauen wir gemeinsam auf eine herausfordernde Fragestellung**, um miteinander ins Gespräch zu kommen. Egal, ob du dich ehrenamtlich oder hauptamtlich engagierst: Die Open Innovation Hour lebt von **vielfältigen Perspektiven** – ganz gleich, ob aus der Verwaltung, Wissenschaft, Wirtschaft oder der Zivilgesellschaft.   
 In der Open Innovation Hour **entwickeln wir gemeinsam Ideen** für Bielefeld: **offen, niedrigschwellig und praxisnah**.    
