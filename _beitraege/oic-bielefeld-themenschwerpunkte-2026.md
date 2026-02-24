@@ -5,10 +5,8 @@ author: "Sarah Bollmann"
 categories:
   - "Open Innovation City"
 date: 2026-02-01
-header_image: ""
+header_image: "/assets/images/graffiti.png"
 ---
-Wir, das Team von Open Innovation City Bielefeld, haben uns für unsere Jahresplanung 2026 an Megatrends orientiert. Welche Schwerpunkte sich daraus für unsere Arbeit in diesem Jahr ergeben, erfahrt ihr in diesem Beitrag. 
-
 ## Megatrends
 [Megatrends](https://www.zukunftsinstitut.de/blog-megatrends) beschreiben die größten Veränderungsprozesse unserer Zeit – beispielsweise Urbanisierung, demografischer Wandel und Vernetzung (auch „Konnektivität“ genannt). Megatrends sind vielschichtig. Man kann ihnen viele Untertrends zuordnen. Deshalb gibt es ganze Trend-Karten. Für unsere Jahresplanung 2026 haben wir mit der Megatrend-Karte vom [Zukunftsinstitut](https://www.zukunftsinstitut.de) gearbeitet. Als Team von Open Innovation City Bielefeld haben wir uns insbesondere die Megatrends **Wissenskultur** und **Future of Work** angesehen – denn **Open Innovation** ist eine Schnittstelle beider Megatrends.
 
