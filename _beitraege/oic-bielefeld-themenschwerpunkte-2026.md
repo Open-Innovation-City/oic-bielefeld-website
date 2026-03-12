@@ -37,8 +37,8 @@ Wir fokussieren unsere Arbeit in diesem Jahr auf die obenstehenden Trends. In de
 
 Wir glauben an **Soziale Innovationen** als Antwort auf ausgewählte gesellschaftliche Herausforderungen. Darum machen wir es uns zur Aufgabe soziale Innovationen in und für Bielefeld möglich zu machen.
 
-**[Definition](https://ec.europa.eu/regional_policy/sources/brochure/social_innovation/social_innovation_2013.pdf)**  
-
+### [Definition](https://ec.europa.eu/regional_policy/sources/brochure/social_innovation/social_innovation_2013.pdf)     
+  
 {% include quote.html
    text=" Soziale Innovationen sind neue Ideen (Produkte, Dienstleistungen und Modelle), die zugleich soziale Bedürfnisse (wirksamer als bestehende Alternativen) erfüllen und neue soziale Beziehungen oder Kooperationen schaffen."
    author=" Europäischen Kommission, 2013" %}  
