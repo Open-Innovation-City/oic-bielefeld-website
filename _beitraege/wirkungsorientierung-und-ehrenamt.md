@@ -1,5 +1,5 @@
 ---
-title: "Wirkungsorientierung und Ehrenamt – mit wenig Aufwand mehr bewirken."
+title: "Wirkungs&shy;orientierung und Ehrenamt – mit wenig Aufwand mehr bewirken."
 teaser: "Wirkungsorientierung klingt komplex – muss es aber nicht sein. In diesem Meetup stellen wir eine Handreichung vor, die den Einstieg ins Thema erleichtern soll, und prüfen gemeinsam, ob sie für das Ehrenamt geeignet ist."
 author: "Maria Gonçalves"
 categories:
