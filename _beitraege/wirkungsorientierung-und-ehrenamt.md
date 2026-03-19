@@ -30,6 +30,8 @@ Das 90-minütigen praxisnahen und interaktiven Meetup ist aufgeteilt in:
 **Impuls Wissenschaft**: Professorin Dr. Melanie Eickenbusch, forscht und lehrt unter anderem zum Thema Wirkung an der Fachhochschule des Mittelstands in Bielefeld.
 **Impuls & Workshop Praxis**: Maria Goncalves, Projektmanagerin Open Innovation City hat das Logic Model zum Logic Model 2.0 weiterentwickelt und die Handreichung erstellt. Sie stellt die Handreichung vor und leitet durch den Workshop, in dem wir das Modell gemeinsam auf einen konkreten Fall anwenden.
 
+KI-Hinweis: Dieser Text ist mit Unterstützung der KI entstanden.  
+
 ### Ort und Zeit
 **Innovation Office, Alter Markt 13, 33602 Bielefeld**
 
