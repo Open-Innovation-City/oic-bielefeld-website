@@ -1,6 +1,6 @@
 ---
 title: "Open Innovation Hour: Future Skills 2030 – Welche Zukunftskompetenzen sind wichtig?"
-teaser: "Am Donnerstag, 2. April 2026 dreht sich in der Open Innovation Hour alles um die Frage: „Welche Zukunftskompetenzen werden für jede und jeden von uns wichtig? Und was können wir tun, um sie zu erwerben?“ – Mit Florian Rampelt, Leiter des Programmbereichs „Future Skilla & KI“ des Stifterverbands und Geschäftsstellenleiter des KI-Campus."
+teaser: "Am Donnerstag, 2. April 2026 dreht sich in der Open Innovation Hour alles um die Frage: „Welche Zukunftskompetenzen werden für jede und jeden von uns wichtig? Und was können wir tun, um sie zu erwerben?“ – Mit Florian Rampelt, Leiter des Programmbereichs „Future Skills & KI“ des Stifterverbands und Geschäftsstellenleiter des KI-Campus."
 author: "Sarah Bollmann"
 categories:
   - "Open Innovation Hour"
