@@ -9,7 +9,7 @@ header_image: " "
 ---
 
 ## Open Innovation Hour   
-## Future Skills 2030   
+### Future Skills 2030   
 Ob mit Blick auf Künstliche Intelligenz, Klimawandel oder Demokratie: Eine Welt im Wandel erfordert einen klaren **Fokus auf Zukunftskompetenzen**. Welche Kompetenzen werden für jede und jeden von uns wichtig? Und was können wir tun, um sie zu erwerben? Genau diese Frage steht im Mittelpunkt der nächsten Open Innovation Hour.  
   
 Wir freuen uns auf einen **Impuls von Florian Rampelt**. Er leitet im Stifterverband für die Deutsche Wissenschaft e.V. den Programmbereich „Future Skills & KI“ und ist Geschäftsstellenleiter des KI-Campus.  
