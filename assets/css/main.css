@@ -496,7 +496,7 @@ body:has(.newsletter-banner) .navbar-island.scrolled {
 .nav-links {
   display: flex;
   list-style: none;
-  gap: 2rem;
+  gap: 1.25rem;
   flex-shrink: 1;
   min-width: 0;
 }
@@ -583,6 +583,44 @@ body:has(.newsletter-banner) .navbar-island.scrolled {
 
 .navbar.light-theme .mobile-menu-btn:hover {
   background: rgba(0, 0, 0, 0.2);
+}
+
+/* Search Button in Navbar */
+.nav-search-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background: transparent;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all var(--animation-duration) ease;
+  flex-shrink: 0;
+  opacity: 0.85;
+}
+
+.navbar.light-theme .nav-search-btn {
+  color: var(--text-dark);
+}
+
+.nav-search-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.navbar.light-theme .nav-search-btn:hover {
+  background: rgba(0, 0, 0, 0.08);
+  color: var(--primary-turquoise);
+}
+
+.nav-search-btn:focus {
+  outline: 2px solid var(--primary-yellow);
+  outline-offset: 2px;
 }
 
 /* Hero Section */

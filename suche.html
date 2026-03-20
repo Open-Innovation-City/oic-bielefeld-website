@@ -1,0 +1,174 @@
+---
+layout: page
+title: Suche
+description: Durchsuche alle Inhalte von Open Innovation City Bielefeld
+permalink: /suche/
+navbar_theme: "dark-theme"
+---
+
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+
+<style>
+/* ===== Pagefind UI – OIC Design ===== */
+
+#search {
+  --pagefind-ui-scale: 1;
+  --pagefind-ui-primary: #00b2bb;
+  --pagefind-ui-text: #2c3e50;
+  --pagefind-ui-background: #ffffff;
+  --pagefind-ui-border: #e0e8ea;
+  --pagefind-ui-tag: #f8f9fa;
+  --pagefind-ui-border-width: 2px;
+  --pagefind-ui-border-radius: 12px;
+  --pagefind-ui-image-border-radius: 8px;
+  --pagefind-ui-font: 'Open Sans', sans-serif;
+}
+
+/* Suchfeld */
+.pagefind-ui__search-input {
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 1.05rem !important;
+  font-weight: 400 !important;
+  color: #2c3e50 !important;
+  border: 2px solid #e0e8ea !important;
+  border-radius: 12px !important;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.pagefind-ui__search-input:focus {
+  border-color: #00b2bb !important;
+  box-shadow: 0 0 0 3px rgba(0, 178, 187, 0.15) !important;
+  outline: none !important;
+}
+
+/* Löschen-Button */
+.pagefind-ui__search-clear {
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 0.9rem !important;
+  font-weight: 400 !important;
+  color: #666 !important;
+  background: transparent !important;
+  border: none !important;
+  transition: color 0.2s ease !important;
+}
+
+.pagefind-ui__search-clear:hover {
+  color: #00b2bb !important;
+}
+
+/* Ergebnis-Anzahl */
+.pagefind-ui__message {
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 0.9rem !important;
+  color: #666 !important;
+}
+
+/* Ergebnis-Trennlinie */
+.pagefind-ui__result {
+  border-top: 1px solid #f0f3f4 !important;
+  padding: 1.75rem 0 !important;
+}
+
+/* Thumbnail */
+.pagefind-ui__result-thumb {
+  border-radius: 8px !important;
+  overflow: hidden !important;
+}
+
+/* Ergebnis-Titel */
+.pagefind-ui__result-title {
+  font-family: 'Open Sans', sans-serif !important;
+  margin-bottom: 0.35rem !important;
+}
+
+.pagefind-ui__result-title a {
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 1.05rem !important;
+  color: #2c3e50 !important;
+  text-decoration: none !important;
+  transition: color 0.2s ease !important;
+}
+
+.pagefind-ui__result-title a:hover {
+  color: #00b2bb !important;
+}
+
+/* Ergebnis-Textauszug */
+.pagefind-ui__result-excerpt {
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 0.9rem !important;
+  color: #666 !important;
+  line-height: 1.65 !important;
+}
+
+/* Unter-Ergebnisse */
+.pagefind-ui__result-nested {
+  margin-top: 0.75rem !important;
+  padding-left: 1rem !important;
+  border-left: 2px solid rgba(0, 178, 187, 0.35) !important;
+}
+
+.pagefind-ui__result-nested .pagefind-ui__result-title a {
+  font-size: 0.95rem !important;
+  color: #2c3e50 !important;
+}
+
+.pagefind-ui__result-nested .pagefind-ui__result-excerpt {
+  font-size: 0.875rem !important;
+}
+
+/* Treffer-Hervorhebung */
+mark {
+  background: #fff564 !important;
+  color: #2c3e50 !important;
+  border-radius: 3px !important;
+  padding: 0 2px !important;
+}
+
+/* "Mehr Ergebnisse laden"-Button */
+#search .pagefind-ui__button {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  background: linear-gradient(45deg, #fff564, #a5e35f);
+  color: #2c3e50;
+  border: none;
+  border-radius: 50px;
+  padding: 1.2rem 2.5rem;
+  height: auto;
+  display: block;
+  width: fit-content;
+  margin: 2rem auto 0;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 16px rgba(255, 245, 100, 0.3);
+}
+
+#search .pagefind-ui__button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(255, 245, 100, 0.4);
+}
+</style>
+
+<div id="search"></div>
+
+<script src="/pagefind/pagefind-ui.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', function() {
+    new PagefindUI({
+      element: "#search",
+      showSubResults: true,
+      translations: {
+        placeholder: "Suche ...",
+        zero_results: "Keine Ergebnisse für \"[SEARCH_TERM]\"",
+        many_results: "[COUNT] Ergebnisse für \"[SEARCH_TERM]\"",
+        one_result: "1 Ergebnis für \"[SEARCH_TERM]\"",
+        alt_search: "Suche nach \"[SEARCH_TERM]\"",
+        search_suggestion: "Suche nach [DIFFERENT_TERM]",
+        searching: "Suche ..."
+      }
+    });
+  });
+</script>
