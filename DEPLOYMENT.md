@@ -165,16 +165,60 @@ git commit -m "Initial setup for OIC Ihre Stadt"
 git push -u origin main
 ```
 
-### 12. GitHub Pages aktivieren
+### 12. GitHub Pages aktivieren (mit Suchfunktion)
 
-1. Gehen Sie zu Ihrem Repository auf GitHub
-2. Klicken Sie auf "Settings" (oben rechts)
-3. Scrollen Sie zu "Pages" (linke Seitenleiste)
-4. Unter "Source" wählen Sie "Deploy from a branch"
-5. Branch: "main", Folder: "/ (root)"
-6. Klicken Sie "Save"
+Die Website enthält eine Pagefind-Suchfunktion, die einen eigenen Build-Schritt benötigt. Dafür ist eine **GitHub Actions Workflow-Datei** notwendig – „Deploy from a branch" reicht nicht aus.
 
-🎉 **Ihre Website ist nun live unter:** `https://ihr-username.github.io/oic-ihre-stadt-website/`
+**Schritt 1 – Workflow-Datei erstellen:** Erstelle `.github/workflows/deploy.yml`:
+
+```yaml
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+
+      - name: Jekyll Build
+        run: bundle exec jekyll build
+
+      - name: Pagefind Index generieren
+        run: npx pagefind --site _site
+
+      - uses: actions/configure-pages@v4
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - uses: actions/deploy-pages@v4
+        id: deployment
+```
+
+**Schritt 2 – GitHub Pages auf Actions umstellen:**
+1. Gehen Sie zu Settings → Pages
+2. Unter "Source" wählen Sie **"GitHub Actions"** (nicht „Deploy from a branch")
+3. Speichern
+
+🎉 **Ihre Website ist nun live** und die Suche wird bei jedem Push automatisch neu indexiert.
 
 ## 🌐 Eigene Domain verwenden (optional)
 
@@ -287,8 +331,10 @@ navigation:
 - [ ] Logos und Bilder ausgetauscht
 - [ ] Lokale Tests erfolgreich (`bundle exec jekyll serve`)
 - [ ] GitHub Repository erstellt und Code gepusht
-- [ ] GitHub Pages aktiviert
+- [ ] GitHub Actions Workflow erstellt (`.github/workflows/deploy.yml`)
+- [ ] GitHub Pages Source auf "GitHub Actions" umgestellt
 - [ ] Website unter GitHub Pages URL erreichbar
+- [ ] Suchfunktion unter `/suche/` getestet
 - [ ] Custom Domain konfiguriert (falls gewünscht)
 - [ ] Erste Beiträge erstellt
 - [ ] Impressum und Datenschutz angepasst (`impressum.md`, `datenschutz.md`)

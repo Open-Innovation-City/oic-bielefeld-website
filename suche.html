@@ -1,174 +1,267 @@
 ---
-layout: page
+layout: default
 title: Suche
 description: Durchsuche alle Inhalte von Open Innovation City Bielefeld
 permalink: /suche/
-navbar_theme: "dark-theme"
 ---
 
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+<!-- Adaptive Navigation -->
+<nav class="navbar light-theme{% if site.navbar_style == 'island' %} navbar-island{% endif %}" id="navbar">
+    <div class="nav-container">
+        <div class="logo">
+            <a href="{{ '/' | relative_url }}">
+                <img src="{{ '/assets/images/logo-light.png' | relative_url }}"
+                     alt="{{ site.title }} Logo Light"
+                     class="logo-dark"
+                     onerror="handleLogoError(this)">
+                <img src="{{ '/assets/images/logo-dark.png' | relative_url }}"
+                     alt="{{ site.title }} Logo Dark"
+                     class="logo-light"
+                     onerror="handleLogoError(this)">
+                <div class="logo-fallback" id="logoFallback">
+                    <div class="logo-circle"></div>
+                    <div class="logo-rect"></div>
+                    <div class="logo-shape"></div>
+                    <div class="logo-text">
+                        <div>Open Innovation City</div>
+                        <div>Bielefeld</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <ul class="nav-links" id="navLinks">
+            {% for item in site.navigation %}
+            <li><a href="{% if item.link contains '#' %}/{{ item.link }}{% else %}{{ item.link }}{% endif %}">{{ item.name }}</a></li>
+            {% endfor %}
+        </ul>
+
+        <a href="{{ '/suche/' | relative_url }}" class="nav-search-btn" aria-label="Suche">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+        </a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menü öffnen">☰</button>
+    </div>
+</nav>
+
+<!-- Search Page -->
+<div class="search-page" data-pagefind-ignore>
+    <div class="container">
+        <div class="search-content">
+
+            <!-- Large "Suche" heading -->
+            <div class="search-number">
+                <h1>Suche</h1>
+            </div>
+
+            <!-- Search UI -->
+            <div class="search-form-area">
+                <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+                <div id="search"></div>
+                <script src="/pagefind/pagefind-ui.js"></script>
+                <script>
+                  window.addEventListener('DOMContentLoaded', function() {
+                    new PagefindUI({
+                      element: "#search",
+                      showSubResults: true,
+                      translations: {
+                        placeholder: "Suche ...",
+                        zero_results: "Keine Ergebnisse für \"[SEARCH_TERM]\"",
+                        many_results: "[COUNT] Ergebnisse für \"[SEARCH_TERM]\"",
+                        one_result: "1 Ergebnis für \"[SEARCH_TERM]\"",
+                        alt_search: "Suche nach \"[SEARCH_TERM]\"",
+                        search_suggestion: "Suche nach [DIFFERENT_TERM]",
+                        searching: "Suche ..."
+                      }
+                    });
+                  });
+                </script>
+            </div>
+
+        </div>
+    </div>
+</div>
 
 <style>
-/* ===== Pagefind UI – OIC Design ===== */
-
-#search {
-  --pagefind-ui-scale: 1;
-  --pagefind-ui-primary: #00b2bb;
-  --pagefind-ui-text: #2c3e50;
-  --pagefind-ui-background: #ffffff;
-  --pagefind-ui-border: #e0e8ea;
-  --pagefind-ui-tag: #f8f9fa;
-  --pagefind-ui-border-width: 2px;
-  --pagefind-ui-border-radius: 12px;
-  --pagefind-ui-image-border-radius: 8px;
-  --pagefind-ui-font: 'Open Sans', sans-serif;
+/* ===== Search Page Layout ===== */
+.search-page {
+    min-height: 80vh;
+    display: flex;
+    align-items: flex-start;
+    background: linear-gradient(135deg, var(--bg-light) 0%, var(--white) 100%);
+    padding: 120px 0 4rem;
 }
 
-/* Suchfeld */
+.search-content {
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Large "Suche" heading – identical to 404 styling */
+.search-number {
+    margin-bottom: 3rem;
+}
+
+.search-number h1 {
+    font-size: clamp(6rem, 15vw, 10rem);
+    font-weight: 700;
+    color: var(--primary-turquoise);
+    text-shadow: 4px 4px 0px var(--primary-yellow);
+    margin: 0;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50%       { transform: translateY(-20px); }
+}
+
+/* Search form area – left-aligned for readability */
+.search-form-area {
+    text-align: left;
+}
+
+/* ===== Pagefind UI – OIC Design ===== */
+#search {
+    --pagefind-ui-scale: 1;
+    --pagefind-ui-primary: #00b2bb;
+    --pagefind-ui-text: #2c3e50;
+    --pagefind-ui-background: #ffffff;
+    --pagefind-ui-border: #e0e8ea;
+    --pagefind-ui-tag: #f8f9fa;
+    --pagefind-ui-border-width: 2px;
+    --pagefind-ui-border-radius: 12px;
+    --pagefind-ui-image-border-radius: 8px;
+    --pagefind-ui-font: 'Open Sans', sans-serif;
+}
+
 .pagefind-ui__search-input {
-  font-family: 'Open Sans', sans-serif !important;
-  font-size: 1.05rem !important;
-  font-weight: 400 !important;
-  color: #2c3e50 !important;
-  border: 2px solid #e0e8ea !important;
-  border-radius: 12px !important;
-  transition: border-color 0.3s ease, box-shadow 0.3s ease !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 1.05rem !important;
+    font-weight: 400 !important;
+    color: #2c3e50 !important;
+    border: 2px solid #e0e8ea !important;
+    border-radius: 12px !important;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease !important;
 }
 
 .pagefind-ui__search-input:focus {
-  border-color: #00b2bb !important;
-  box-shadow: 0 0 0 3px rgba(0, 178, 187, 0.15) !important;
-  outline: none !important;
+    border-color: #00b2bb !important;
+    box-shadow: 0 0 0 3px rgba(0, 178, 187, 0.15) !important;
+    outline: none !important;
 }
 
-/* Löschen-Button */
 .pagefind-ui__search-clear {
-  font-family: 'Open Sans', sans-serif !important;
-  font-size: 0.9rem !important;
-  font-weight: 400 !important;
-  color: #666 !important;
-  background: transparent !important;
-  border: none !important;
-  transition: color 0.2s ease !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 0.9rem !important;
+    font-weight: 400 !important;
+    color: #666 !important;
+    background: transparent !important;
+    border: none !important;
+    transition: color 0.2s ease !important;
 }
 
 .pagefind-ui__search-clear:hover {
-  color: #00b2bb !important;
+    color: #00b2bb !important;
 }
 
-/* Ergebnis-Anzahl */
 .pagefind-ui__message {
-  font-family: 'Open Sans', sans-serif !important;
-  font-size: 0.9rem !important;
-  color: #666 !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 0.9rem !important;
+    color: #666 !important;
 }
 
-/* Ergebnis-Trennlinie */
 .pagefind-ui__result {
-  border-top: 1px solid #f0f3f4 !important;
-  padding: 1.75rem 0 !important;
+    border-top: 2px solid #e0e8ea !important;
+    padding: 1.75rem 0 !important;
 }
 
-/* Thumbnail */
 .pagefind-ui__result-thumb {
-  border-radius: 8px !important;
-  overflow: hidden !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
 }
 
-/* Ergebnis-Titel */
 .pagefind-ui__result-title {
-  font-family: 'Open Sans', sans-serif !important;
-  margin-bottom: 0.35rem !important;
+    font-family: 'Open Sans', sans-serif !important;
+    margin-bottom: 0.35rem !important;
 }
 
 .pagefind-ui__result-title a {
-  font-family: 'Open Sans', sans-serif !important;
-  font-weight: 600 !important;
-  font-size: 1.05rem !important;
-  color: #2c3e50 !important;
-  text-decoration: none !important;
-  transition: color 0.2s ease !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 1.05rem !important;
+    color: #2c3e50 !important;
+    text-decoration: none !important;
+    transition: color 0.2s ease !important;
 }
 
 .pagefind-ui__result-title a:hover {
-  color: #00b2bb !important;
+    color: #00b2bb !important;
 }
 
-/* Ergebnis-Textauszug */
 .pagefind-ui__result-excerpt {
-  font-family: 'Open Sans', sans-serif !important;
-  font-size: 0.9rem !important;
-  color: #666 !important;
-  line-height: 1.65 !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 0.9rem !important;
+    color: #666 !important;
+    line-height: 1.65 !important;
 }
 
-/* Unter-Ergebnisse */
 .pagefind-ui__result-nested {
-  margin-top: 0.75rem !important;
-  padding-left: 1rem !important;
-  border-left: 2px solid rgba(0, 178, 187, 0.35) !important;
+    margin-top: 0.75rem !important;
+    padding-left: 1rem !important;
+    border-left: 2px solid rgba(0, 178, 187, 0.35) !important;
 }
 
 .pagefind-ui__result-nested .pagefind-ui__result-title a {
-  font-size: 0.95rem !important;
-  color: #2c3e50 !important;
+    font-size: 0.95rem !important;
 }
 
 .pagefind-ui__result-nested .pagefind-ui__result-excerpt {
-  font-size: 0.875rem !important;
+    font-size: 0.875rem !important;
 }
 
-/* Treffer-Hervorhebung */
 mark {
-  background: #fff564 !important;
-  color: #2c3e50 !important;
-  border-radius: 3px !important;
-  padding: 0 2px !important;
+    background: #fff564 !important;
+    color: #2c3e50 !important;
+    border-radius: 3px !important;
+    padding: 0 2px !important;
 }
 
-/* "Mehr Ergebnisse laden"-Button */
 #search .pagefind-ui__button {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  font-size: 1.1rem;
-  background: linear-gradient(45deg, #fff564, #a5e35f);
-  color: #2c3e50;
-  border: none;
-  border-radius: 50px;
-  padding: 1.2rem 2.5rem;
-  height: auto;
-  display: block;
-  width: fit-content;
-  margin: 2rem auto 0;
-  text-align: center;
-  cursor: pointer;
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0 4px 16px rgba(255, 245, 100, 0.3);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    background: linear-gradient(45deg, #fff564, #a5e35f);
+    color: #2c3e50;
+    border: none;
+    border-radius: 50px;
+    padding: 1.2rem 2.5rem;
+    height: auto;
+    width: fit-content;
+    display: block;
+    margin: 2rem auto 0;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 16px rgba(255, 245, 100, 0.3);
 }
 
 #search .pagefind-ui__button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(255, 245, 100, 0.4);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(255, 245, 100, 0.4);
+}
+
+@media (max-width: 768px) {
+    .search-page {
+        padding-top: 100px;
+    }
+    .search-number h1 {
+        text-shadow: 2px 2px 0px var(--primary-yellow);
+    }
 }
 </style>
-
-<div id="search"></div>
-
-<script src="/pagefind/pagefind-ui.js"></script>
-<script>
-  window.addEventListener('DOMContentLoaded', function() {
-    new PagefindUI({
-      element: "#search",
-      showSubResults: true,
-      translations: {
-        placeholder: "Suche ...",
-        zero_results: "Keine Ergebnisse für \"[SEARCH_TERM]\"",
-        many_results: "[COUNT] Ergebnisse für \"[SEARCH_TERM]\"",
-        one_result: "1 Ergebnis für \"[SEARCH_TERM]\"",
-        alt_search: "Suche nach \"[SEARCH_TERM]\"",
-        search_suggestion: "Suche nach [DIFFERENT_TERM]",
-        searching: "Suche ..."
-      }
-    });
-  });
-</script>
