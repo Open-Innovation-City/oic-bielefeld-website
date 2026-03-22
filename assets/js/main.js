@@ -38,7 +38,7 @@
         }
 
         setupBackgroundDetection() {
-            const sections = document.querySelectorAll('section:not(.post-author), .post-header, .post-content');
+            const sections = document.querySelectorAll('section:not(.post-author), .post-header, .post-content, .page-header, main.page-content');
             const options = {
                 root: null,
                 rootMargin: '-10% 0% -80% 0%',

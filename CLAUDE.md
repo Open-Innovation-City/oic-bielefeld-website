@@ -673,6 +673,39 @@ navbar_style: "standard"
 - When scrolling past the post header into the white content area, navbar switches to `light-theme` automatically
 - The outer `<main id="main">` from `default.html` is intentionally excluded to prevent false theme switches near the footer
 
+### Suchfunktion (Pagefind)
+
+**Neu seit März 2026:** Die Website hat eine vollständige clientseitige Volltextsuche unter `/suche/` auf Basis von [Pagefind](https://pagefind.app).
+
+**Architektur:**
+- `suche.html` – Eigenständige Seite (`layout: default`) mit 404-inspiriertem Design (schwebendes „Suche"-Heading)
+- Pagefind-Index liegt in `_site/pagefind/` (wird bei jedem Build neu generiert)
+- Suchicon in der Navbar auf allen 7 Seiten/Layouts (`.nav-search-btn`)
+
+**Lokaler Workflow:**
+```bash
+# Nach jedem Jekyll-Rebuild den Index neu generieren:
+npx pagefind --site _site
+```
+
+**Vom Index ausgeschlossen** (via `data-pagefind-ignore`):
+- Autoren-Übersichtsseiten (`_layouts/author.html` → `<main data-pagefind-ignore>`)
+- Beiträge-Übersicht (`beitraege.html` → `<section data-pagefind-ignore>`)
+- Die Suchseite selbst (`suche.html` → `<div class="search-page" data-pagefind-ignore>`)
+
+**Design-Integration:**
+- Pagefind CSS Custom Properties überschrieben in `suche.html` (`--pagefind-ui-primary`, `--pagefind-ui-font` etc.)
+- „Mehr Ergebnisse laden"-Button: identisches Styling wie `.cta-button` (gelb-grüner Gradient, `border-radius: 50px`)
+- Treffer-Highlighting: `--primary-yellow` (#fff564)
+
+**GitHub Actions (noch ausstehend):**
+Der lokale Workflow funktioniert über manuelles `npx pagefind`. Für Production muss ein GitHub Actions Workflow erstellt werden, der nach `bundle exec jekyll build` den Befehl `npx pagefind --site _site` ausführt und dann nach GitHub Pages deployt. Dazu muss in GitHub Settings → Pages die Source von „Deploy from a branch" auf „GitHub Actions" umgestellt werden.
+
+**Navbar-Suchbutton (`.nav-search-btn`):**
+- CSS in `assets/css/main.css` (nach `.mobile-menu-btn`-Styles)
+- Transparenter Hintergrund, kein Rahmen — passt sich `dark-theme`/`light-theme` automatisch an
+- SVG: Feather Icons Lupe (20×20px)
+
 ### SEO & Performance
 - **Meta tags**: Managed via `_includes/head.html` with preconnect optimization
 - **German language**: Content structure optimized for German municipal website requirements

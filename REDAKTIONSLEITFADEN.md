@@ -671,6 +671,49 @@ Im Workshop haben wir verschiedene KI-Tools vorgestellt...
 
 **Ausführliche Referenz:** [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 
+## Suchfunktion
+
+**Neu seit März 2026:** Die Website hat eine Suchfunktion unter `/suche/`, die alle Inhalte der Website durchsuchbar macht.
+
+### Was wird gefunden?
+
+Die Suche indexiert automatisch:
+- ✅ Alle **Blog-Beiträge** (`/beitraege/…`)
+- ✅ **Statische Seiten** (Startseite, KI-Seite, Impressum etc.)
+- ❌ Autoren-Profilseiten (bewusst ausgeschlossen)
+- ❌ Die Beitrags-Übersicht selbst (bewusst ausgeschlossen)
+
+### Was musst du als Redakteur*in tun?
+
+**Nichts.** Der Suchindex wird bei jedem Deployment automatisch neu aufgebaut. Neue Beiträge erscheinen nach dem nächsten Push in den Suchergebnissen.
+
+### Wie sieht ein gutes Suchergebnis aus?
+
+Pagefind zeigt pro Ergebnis:
+- Das **Vorschaubild** des Beitrags (sofern vorhanden)
+- Den **Titel**
+- Einen kurzen **Textauszug** mit hervorgehobenen Suchbegriffen
+
+Damit Beiträge gut in der Suche gefunden werden:
+- Schreibe einen aussagekräftigen **Titel** (wird prominent angezeigt)
+- Nutze wichtige **Schlüsselwörter** im Beitragstext (nicht nur im Teaser)
+- Ein **Header-Bild** verbessert die visuelle Darstellung im Suchergebnis
+
+### Suche verlinken
+
+Du kannst direkt auf die Suchseite mit vorausgefülltem Suchbegriff verlinken – z.B. in einem Beitrag oder einer E-Mail:
+
+```
+https://oic-bielefeld.de/suche/
+```
+
+(Pagefind unterstützt derzeit keine vorausgefüllten Suchbegriffe per URL-Parameter.)
+
+### Wichtige Hinweise
+
+- Der Suchindex wird **nicht** bei lokaler Entwicklung automatisch aktualisiert — dafür muss `npx pagefind --site _site` manuell ausgeführt werden (Aufgabe der Entwicklung, nicht der Redaktion)
+- Die Suche funktioniert **vollständig im Browser** — keine Daten werden an externe Dienste gesendet (DSGVO-konform)
+
 ## Newsletter-Anmeldung per Link
 
 **Neu seit November 2025:** Du kannst jetzt direkte Links zur Newsletter-Anmeldung erstellen!
