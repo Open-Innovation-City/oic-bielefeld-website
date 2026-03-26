@@ -1,6 +1,6 @@
 ---
-title: "Wirkungs&shy;orientierung und Ehrenamt – mit wenig Aufwand mehr bewirken."
-teaser: "Wirkungsorientierung klingt komplex – muss es aber nicht sein. In diesem Meetup stellen wir eine Handreichung vor, die den Einstieg ins Thema erleichtern soll, und prüfen gemeinsam, ob sie für das Ehrenamt geeignet ist."
+title: "Wirkungs&shy;orientierung - mit wenig Aufwand mehr bewirken. Für Ehrenamt und gemein&shy;nützige Organi&shy;sa&shy;tionen"
+teaser: "In diesem Meetup stellen wir eine Handreichung vor, die den Einstieg erleichtern soll, und prüfen gemeinsam, ob sie für ehrenamtliche und gemeinnützige Arbeit geeignet ist – und was sie konkret leisten kann."
 author: "Maria Gonçalves"
 categories:
   - "Trends"
