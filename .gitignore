@@ -70,3 +70,6 @@ temp/
 
 # Cache
 .cache/
+
+# Security audit (nicht für GitHub oder Deployment)
+SECURITY-AUDIT.md

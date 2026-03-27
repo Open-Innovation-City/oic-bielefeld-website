@@ -37,6 +37,7 @@ exclude:
   - DEPLOYMENT.md
   - DEV-STAGING-SETUP.md
   - REDAKTIONSLEITFADEN.md
+  - SECURITY-AUDIT.md
 
 # Site data
 email: innovationen@bielefeld.de
