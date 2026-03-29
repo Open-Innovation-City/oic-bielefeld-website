@@ -92,11 +92,29 @@ layout: default
             </article>
             
             <!-- Author Section -->
-            {% if page.author %}
-                {% assign author = site.data.team | where: "name", page.author | first %}
-                {% if author %}
-                <section class="post-author">
-                    {% include author-card.html linked=true %}
+            {% assign post_authors = "" | split: "" %}
+            {% if page.authors and page.authors.size > 0 %}
+                {% assign post_authors = page.authors | uniq %}
+            {% elsif page.author %}
+                {% assign post_authors = post_authors | push: page.author %}
+            {% endif %}
+
+            {% if post_authors.size > 0 %}
+                {% assign valid_authors = "" | split: "" %}
+                {% for author_name in post_authors %}
+                    {% assign author_data = site.data.team | where: "name", author_name | first %}
+                    {% if author_data %}
+                        {% assign valid_authors = valid_authors | push: author_data %}
+                    {% endif %}
+                {% endfor %}
+
+                {% if valid_authors.size > 0 %}
+                <section class="post-author" aria-label="Autorinnen und Autoren">
+                    <div class="post-author-grid{% if valid_authors.size > 1 %} multiple-authors{% endif %}">
+                        {% for author in valid_authors %}
+                            {% include author-card.html author=author linked=true %}
+                        {% endfor %}
+                    </div>
                 </section>
                 {% endif %}
             {% endif %}
@@ -455,6 +473,15 @@ layout: default
     border-top: 1px solid #eee;
 }
 
+.post-author-grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.post-author-grid.multiple-authors {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .author-card-link {
     display: block;
     text-decoration: none;
@@ -712,6 +739,10 @@ layout: default
     .author-avatar img {
         width: 80px;
         height: 80px;
+    }
+
+    .post-author-grid.multiple-authors {
+        grid-template-columns: 1fr;
     }
     
     .post-meta {

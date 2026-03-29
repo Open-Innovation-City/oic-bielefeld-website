@@ -1,7 +1,8 @@
 ---
 title: "Wirkungs&shy;orientierung - mit wenig Aufwand mehr bewirken. Für Ehrenamt und gemein&shy;nützige Organi&shy;sa&shy;tionen"
 teaser: "In diesem Meetup stellen wir eine Handreichung vor, die den Einstieg erleichtern soll, und prüfen gemeinsam, ob sie für ehrenamtliche und gemeinnützige Arbeit geeignet ist – und was sie konkret leisten kann."
-author: "Maria Gonçalves"
+authors:
+  - "Maria Gonçalves"
 categories:
   - "Trends"
 date: 2026-03-19

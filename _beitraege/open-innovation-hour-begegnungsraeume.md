@@ -1,7 +1,8 @@
 ---
 title: "1. Open Innovation Hour: Gemeinsam statt nebeneinander"
 teaser: "In der ersten Open Innovation Hour - unserem neuen Online-Format - dreht sich alles um die Frage: Gemeinsam statt nebeneinander – Wie wir in Bielefeld Begegnungsräume für alle gestalten?"
-author: "Sarah Bollmann"
+authors:
+  - "Sarah Bollmann"
 categories:
   - "Open Innovation Hour"
 date: 2025-10-16

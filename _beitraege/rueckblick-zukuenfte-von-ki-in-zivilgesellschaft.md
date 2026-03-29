@@ -1,7 +1,8 @@
 ---
 title: "Ein Rückblick auf das MeetUp Zukünfte von KI und Zivilgesellschaft"
 teaser: "Das Meetup für die Teilnehmenden aus der Reihe KI und Zivilgesellschaft behandelte das Thema, wie Zukünfte von Ki in der Zivilgesellschaft aussehen könnte. Maria Goncalves gibt einen persönlichen Rückblick auf das MeetUp und teilt, was sie gelernt hat."
-author: "Maria Gonçalves"
+authors:
+  - "Maria Gonçalves"
 categories:
   - "Rückblick"
 date: 2026-02-27

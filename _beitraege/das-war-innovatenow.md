@@ -1,7 +1,8 @@
 ---
 title: "Das war InnovateNOW. Die Innovationsreise geht zu Ende."
 teaser: "Nach 12 ereignisreichen Wochen haben es 11 Teams mit ihren Innovationen bis zum Pitch-Event geschafft. Am Ende ihrer Innovationsreise wartete ein tolles Abschlussevent im Pioneers Theater, dem alten Astoria Kino am Klosterplatz. Unsere InnovateNOW Jury hat die 3 Gewinner-Teams gekürt."
-author: "Jens Edler"
+authors:
+  - "Jens Edler"
 categories:
   - "Events"
 date: 2025-06-28

@@ -1,7 +1,8 @@
 ---
 title: "Ein Rückblick auf die Open Innovation Hour vom 8. Januar 2026"
 teaser: "Im Mittelpunkt der 3. Open Innovation Hour, einem OIC-Online-Format, stand die Frage: „Wie kann ich selbst aktiv werden? Räume schaffen für soziale Innovationen.“ – Mit Henrik Remmert. Ein persönlicher Rückblick von Sarah Bollmann." 
-author: "Sarah Bollmann"
+authors:
+  - "Sarah Bollmann"
 categories:
   - "Rückblick"
 date: 2026-01-16

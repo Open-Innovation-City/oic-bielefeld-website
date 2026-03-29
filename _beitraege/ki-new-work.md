@@ -1,7 +1,8 @@
 ---
 title: "KI und New Work - Chancen, Risiken, Haltung."
 teaser: "Das sechste Meetup aus der Reihe KI und Zivilgesellschaft behandelt das Thema New Work."
-author: "Maria Gonçalves"
+authors:
+  - "Maria Gonçalves"
 categories:
   - "KI und Zivilgesellschaft"
 date: 2025-09-22

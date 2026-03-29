@@ -1,7 +1,8 @@
 ---
 title: " KI und Zivilgesellschaft: Ein Rückblick auf 10 inspirierende Meetups."
 teaser: "10. Meetup aus der Reihe KI und Zivilgesellschaft – ein Rückblick auf ein thematisches Format."
-author: "Maria Gonçalves"
+authors:
+  - "Maria Gonçalves"
 categories:
   - "KI und Zivilgesellschaft"
 date: 2026-01-15

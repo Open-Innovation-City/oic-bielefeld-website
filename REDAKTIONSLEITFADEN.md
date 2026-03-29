@@ -120,7 +120,8 @@ Setze `#` vor jede Zeile des Events (siehe auskommentiertes Beispiel in der Date
 ---
 title: "Titel des Beitrags"
 teaser: "Kurze Zusammenfassung für die Übersicht (1-2 Sätze)"
-author: "Ihr Name"
+authors:
+  - "Ihr Name"
 categories:
   - "Tools"  # oder "Events", "Projekte", etc. (siehe Abschnitt "Kategorien zuweisen")
 date: 2025-07-24
@@ -136,6 +137,31 @@ Hier beginnt Ihr Beitrag...
 
 Weiterer Text...
 ```
+
+### Autor:innen angeben
+
+Für neue Beiträge bitte `authors` verwenden (genau wie bei `categories` als Liste):
+
+**Eine Autorin oder ein Autor:**
+```yaml
+authors:
+  - "Maria Gonçalves"
+```
+
+**Mehrere Autor:innen:**
+```yaml
+authors:
+  - "Maria Gonçalves"
+  - "Jens Edler"
+```
+
+**Kompatibilität für ältere Beiträge:**
+`author: "Name"` funktioniert weiterhin als Fallback.
+
+**Wichtige Hinweise:**
+- Die Namen müssen exakt mit den Namen in `_data/team.yml` übereinstimmen
+- Bei mehreren Autor:innen werden auf der Beitragsseite automatisch mehrere Autor-Karten angezeigt
+- In der Beitragsübersicht werden mehrere Namen als `Autor:innen` angezeigt
 
 ### Kategorien zuweisen
 

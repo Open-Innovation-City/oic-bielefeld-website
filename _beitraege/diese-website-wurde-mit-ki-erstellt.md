@@ -1,7 +1,8 @@
 ---
 title: "Diese Website wurde mit KI erstellt"
 teaser: "Unsere neue Website ist da! Und sie ist nicht auf klassischem Wege entstanden. Anthropics Claude Code hat die Website fast im Alleingang erstellt, beim Hosting geholfen und die Erstellung von Newslettern automatisiert."
-author: "Jens Edler"
+authors:
+  - "Jens Edler"
 categories:
   - "Tools"
 date: 2025-07-22

@@ -1,7 +1,8 @@
 ---
 title: "Open Innovation City auf dem Smart City Festival 2025 in Ahaus"
 teaser: "Auf dem Smart City Festival der Digitalstadt Ahaus hat Tatjana Džepina einen Vortrag darüber gehalten, wie Städte Open Innovation Cities werden können. Expert*innen aus Verwaltung, Wirtschaft und Wissenschaft kamen zusammen, um über die Zukunft deutscher Städte zu sprechen."
-author: "Tatjana Džepina"
+authors:
+  - "Tatjana Džepina"
 categories:
   - "Events"
 date: 2025-09-12

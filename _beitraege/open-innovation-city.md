@@ -1,7 +1,8 @@
 ---
 title: "Open Innovation City Bielefeld – Eine Initiative der Stadt Bielefeld"
 teaser: "Eine offene Stadt, in der Akteure aus Wirtschaft, Wissenschaft, Politik und Zivilgesellschaft gemeinsam die Zukunft gestalten."
-author: "Maria Gonçalves"
+authors:
+  - "Maria Gonçalves"
 categories:
   - "Open Innovation City"
 date: 2025-07-24

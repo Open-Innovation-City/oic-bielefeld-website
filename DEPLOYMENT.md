@@ -259,7 +259,8 @@ Erstellen Sie Dateien in `_beitraege/`:
 ---
 title: "Ihr Beitragstitel"
 teaser: "Kurze Beschreibung des Beitrags..."
-author: "Ihr Name"  # Muss mit team.yml übereinstimmen
+authors:
+  - "Ihr Name"  # Muss mit team.yml übereinstimmen
 category: "Tools"   # Tools, Projekte, oder News
 date: 2024-06-30
 header_image: "/assets/images/header-beitrag.jpg"  # Optional
@@ -350,7 +351,7 @@ navigation:
 **Lösung:** Pfade prüfen, sollten mit `/assets/images/` beginnen
 
 **Problem:** Team-Mitglied wird nicht angezeigt
-**Lösung:** Name in `team.yml` muss exakt mit `author` im Beitrag übereinstimmen
+**Lösung:** Name in `team.yml` muss exakt mit `authors` (oder Legacy-`author`) im Beitrag übereinstimmen
 
 ### Weitere Hilfe
 

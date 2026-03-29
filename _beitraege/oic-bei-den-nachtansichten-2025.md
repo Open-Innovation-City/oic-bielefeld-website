@@ -1,7 +1,8 @@
 ---
 title: "Open Innovation City Bielefeld bei den Nachtansichten 2025"
 teaser: "Auch dieses Jahr hatten wir das Innovation Office zu den Bielefelder Nachtansichten geöffnet. Von wünschenserten Zukünften, Retro-Gaming und Künstlicher Intelligenz war alles dabei. Hier ein paar Impressionen."
-author: "Jens Edler"
+authors:
+  - "Jens Edler"
 categories:
   - "Events"
 date: 2025-05-01

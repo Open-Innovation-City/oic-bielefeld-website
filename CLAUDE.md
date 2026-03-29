@@ -99,7 +99,7 @@ permalink: /autoren/jens-edler/
 **How it works:**
 1. The layout looks up the team member in `_data/team.yml` via `page.author_name`
 2. It renders the author-card include with the `<h1>` heading level (no hero section, card starts directly below navbar)
-3. It filters `site.beitraege` by author name and displays post-cards sorted by date (newest first)
+3. It filters `site.beitraege` by author name (`authors` array or legacy `author` field) and displays post-cards sorted by date (newest first)
 4. Retrospective posts (`is_retrospective: true`) are excluded from the listing
 5. If no posts exist, a fallback message is shown
 
@@ -115,7 +115,7 @@ The author-card include generates URLs using `slugify: "latin"` to convert speci
 The permalink in the author page front matter must match this output.
 
 **On blog posts (`_layouts/post.html`):**
-The author card is clickable and links to the author page. Hover effect: `translateY(-3px)` lift with shadow. The email contact link is hidden on linked cards (shown only on the author page itself).
+Author cards are clickable and link to the author page. Posts can use `authors` (array) for multiple author cards, or legacy `author` (string) for a single card. Hover effect: `translateY(-3px)` lift with shadow. The email contact link is hidden on linked cards (shown only on the author page itself).
 
 **Adding a new team member:**
 1. Add the member to `_data/team.yml`
@@ -413,7 +413,8 @@ Create a regular blog post for the event announcement in `_beitraege/`:
 ---
 title: "KI Workshop for Associations"
 teaser: "Learn how AI can support your association work"
-author: "Sarah Mueller"
+authors:
+  - "Sarah Mueller"
 category: "Events"
 date: 2025-08-15
 ---
@@ -427,7 +428,8 @@ Create a new post with "-rueckschau" suffix:
 ---
 title: "KI Workshop for Associations - Retrospective"
 teaser: "An inspiring evening with many practical insights"
-author: "Sarah Mueller"
+authors:
+  - "Sarah Mueller"
 category: "Events"
 date: 2025-08-20
 related_post: "ki-workshop-vereine"
