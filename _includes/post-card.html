@@ -19,7 +19,12 @@
     {% endif %}
 
     <div class="project-meta">
-        {% if beitrag.author %}
+        {% if beitrag.authors and beitrag.authors.size > 0 %}
+        {% assign post_authors = beitrag.authors | uniq %}
+        <div>
+            <strong>Autor:innen:</strong> {{ post_authors | join: ", " }}
+        </div>
+        {% elsif beitrag.author %}
         <div><strong>Autor:</strong> {{ beitrag.author }}</div>
         {% endif %}
         {% if beitrag.date %}

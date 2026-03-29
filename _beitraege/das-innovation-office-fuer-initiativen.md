@@ -1,7 +1,8 @@
 ---
 title: "Das Innovation Office am Alten Markt. Bielefelds zentraler Ort für Innovationen."
 teaser: "Mit dem Innovation Office am Alten Markt 13 stellen wir zivilgesellschaftlichen Initiativen einen Ort zur Verfügung, an dem sie gemeinsam an Innovationen für Bielefeld arbeiten können. Was bedeutet das eigentlich genau?"
-author: "Jens Edler"
+authors:
+  - "Jens Edler"
 categories:
   - "Netzwerk"
   - "Open Innovation City"

@@ -1,7 +1,8 @@
 ---
 title: "KI und Open Innovation - Herausforderungen. Potentiale. Tools."
 teaser: "Das 8. Meetup aus der Reihe KI und Zivilgesellschaft behandelt das Thema Open Innovation."
-author: "Maria Gonçalves"
+authors:
+  - "Maria Gonçalves"
 categories:
   - "KI und Zivilgesellschaft"
 date: 2025-10-16

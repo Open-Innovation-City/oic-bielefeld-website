@@ -1,7 +1,8 @@
 ---
 title: "Open Innovation Hour: Geteilte Probleme, gemeinsame Lösungen"
 teaser: "In der nächsten Open Innovation Hour, dem OIC-Online-Format, dreht sich alles um die Frage: „Wie wir Probleme besser gemeinsam lösen?“ – Methoden offener Zusammenarbeit"
-author: "Sarah Bollmann"
+authors:
+  - "Sarah Bollmann"
 categories:
   - "Open Innovation Hour"
 date: 2026-02-20

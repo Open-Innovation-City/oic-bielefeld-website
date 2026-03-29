@@ -1,7 +1,8 @@
 ---
 title: "KI und Soziale Innovationen: Wie KI für das Gemeinwohl sozial-innovativ eingesetzt werden kann."
 teaser: "Das 10. Meetup aus der Reihe KI und Zivilgesellschaft behandelt das Thema von Sozialen Innovationen."
-author: "Maria Gonçalves"
+authors:
+  - "Maria Gonçalves"
 categories:
   - "KI und Zivilgesellschaft"
 date: 2025-11-04

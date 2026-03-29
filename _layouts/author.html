@@ -60,7 +60,20 @@ layout: default
         {% endif %}
 
         <!-- Author Posts -->
-        {% assign author_posts = site.beitraege | where: "author", page.author_name | sort: "date" | reverse %}
+        {% assign author_posts = "" | split: "" %}
+        {% assign sorted_beitraege = site.beitraege | sort: "date" | reverse %}
+        {% for beitrag in sorted_beitraege %}
+            {% assign is_author_match = false %}
+            {% if beitrag.authors and beitrag.authors contains page.author_name %}
+                {% assign is_author_match = true %}
+            {% elsif beitrag.author == page.author_name %}
+                {% assign is_author_match = true %}
+            {% endif %}
+
+            {% if is_author_match %}
+                {% assign author_posts = author_posts | push: beitrag %}
+            {% endif %}
+        {% endfor %}
 
         {% if author_posts.size > 0 %}
         <section class="author-posts">

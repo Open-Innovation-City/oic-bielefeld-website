@@ -1,7 +1,8 @@
 ---
 title: "Ein Rückblick auf die Open Innovation Hour vom 5. Februar 2026"
 teaser: "Im Mittelpunkt der 4. Open Innovation Hour, einem OIC-Online-Format, stand die Frage: „Wie treffe ich unter Druck gute Entscheidungen?“ – Mit Branddirektor Maximilian Rempe. Ein persönlicher Rückblick von Sarah Bollmann." 
-author: "Sarah Bollmann"
+authors:
+  - "Sarah Bollmann"
 categories:
   - "Rückblick"
 date: 2026-02-10

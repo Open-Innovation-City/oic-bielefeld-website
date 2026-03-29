@@ -1,7 +1,8 @@
 ---
 title: "Das Gesunde Städte-Netzwerk"
 teaser: "Seit Mai 2025 trifft sich das Gesunde Städte-Netzwerk regelmäßig im Innovation Office. "
-author: "Sarah Bollmann"
+authors:
+  - "Sarah Bollmann"
 categories:
   - "Netzwerk"
 date: 2025-08-13

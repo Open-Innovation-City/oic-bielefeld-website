@@ -1,7 +1,8 @@
 ---
 title: "Unsere Schwerpunkt&shy;themen 2026"
 teaser: "Wir, das Team von Open Innovation City Bielefeld, haben uns für die Jahresplanung 2026 an Megatrends orientiert. Welche Schwerpunkte sich daraus für unsere Arbeit in diesem Jahr ergeben, erfahrt ihr in diesem Beitrag."
-author: "Sarah Bollmann"
+authors:
+  - "Sarah Bollmann"
 categories:
   - "Open Innovation City"
 date: 2026-02-01

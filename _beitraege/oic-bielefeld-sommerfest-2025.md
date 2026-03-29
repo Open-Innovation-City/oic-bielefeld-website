@@ -1,7 +1,8 @@
 ---
 title: "Open Innovation City Bielefeld Sommerfest 2025"
 teaser: "Auch in diesem Jahr haben wir mit unserem traditionellen Sommerfest das Innovationsnetzwerk in Bielfeld gefeiert. Hier ein paar Impressionen."
-author: "Jens Edler"
+authors:
+  - "Jens Edler"
 categories:
   - "Events"
 date: 2025-08-01
