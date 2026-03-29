@@ -1,6 +1,6 @@
 ---
 title: "Rückblick: Das Prinzip Open Innovation City – unser Pre-Event zur KommDIGITALE"
-teaser: "Vertreter\*innen aus Kommunen und Wirtschaft sind nach Bielefeld gekommen – und haben gemeinsam erarbeitet, wie das Prinzip Open Innovation City in ihre Städte kommen kann."
+teaser: "Vertreter*innen aus Kommunen und Wirtschaft sind nach Bielefeld gekommen – und haben gemeinsam erarbeitet, wie das Prinzip Open Innovation City in ihre Städte kommen kann."
 authors:
   - "Jens Edler"
 categories:
@@ -16,7 +16,7 @@ Das Event hat vor allem Vertreter\*innen aus Kommunen angesprochen. Unter andere
 
 ## Kennenlernen mit Impromptu Networking
 
-Den Abend haben wir mit einem Format aus den [Liberating Structures](https://www.liberatingstructures.com/) gestartet: **Impromptu Networking**, bei uns auch „Speed Relating" genannt. In kurzen Gesprächsrunden haben sich die Teilnehmenden mit zwei Fragen beschäftigt:
+Den Abend haben wir mit einem Format aus den [Liberating Structures](https://www.liberatingstructures.de/) gestartet: **[Impromptu Networking](https://liberatingstructures.de/liberating-structures-menue/impromptu-networking/)**, bei uns auch „Speed Relating" genannt. In kurzen Gesprächsrunden haben sich die Teilnehmenden mit zwei Fragen beschäftigt:
 
 - **Was bringst du mit?**
 - **Was hilft dir weiter?**
@@ -36,32 +36,35 @@ In einer Open Innovation City gestalten alle vier Bereiche der Stadtgesellschaft
 
 Das Ziel: Wissen teilen, Synergien schaffen, neue Wege gehen – über Organisationsgrenzen hinaus.
 
-In Bielefeld haben wir damit als Pilotprojekt begonnen. Inzwischen ist die OIC eine verstetigte Initiative der Stadtverwaltung Bielefeld. Und das Wichtigste: Das Konzept ist eine **offene Marke**. Andere Städte können es direkt übernehmen und an ihre eigene Situation anpassen.
+In Bielefeld haben wir damit 2019 als vom Land gefördertes Projekt gestartet und damit Bielefeld zur ersten Open Innovation City der Welt gemacht. Nach dem Ende der Projektphase wurde OIC als Open Innovation City Bielefeld verstetigt und als Initiative der Stadt Bielefeld weitergeführt. Und das Wichtigste: Das Konzept ist eine **offene Marke**. Andere Städte können es direkt übernehmen und an ihre eigene Situation anpassen.
 
-### Build your own OIC
+### Grüße aus Münster – der zweiten Open Innovation City (der Welt)
 
-Wie kann deine Stadt die nächsten Schritte gehen? Wir haben im Impuls die wichtigsten Ressourcen vorgestellt:
-
-- Das **OIC-Konzeptpapier** auf [oic-projekt.de](https://oic-projekt.de) – mit den Grundlagen und Erfahrungen aus dem Pilotprojekt Bielefeld
-- Unser **Corporate Design** – frei nachnutzbar auf [GitHub](https://github.com/Open-Innovation-City/corporate-design)
-- Unsere **Website** – ebenfalls Open Source auf [GitHub](https://github.com/Open-Innovation-City/oic-bielefeld-website)
-- Und natürlich: Wir stehen für Austausch und Begleitung zur Verfügung
-
-## Grüße aus Münster – der zweiten Open Innovation City
-
-Andreas Luthe – Berater für Existenzgründung und Innovation bei der Wirtschaftsförderung Münster – konnte nicht persönlich dabei sein. Er hat uns eine Textbotschaft geschickt, die wir vorgelesen haben.
+Dass diese Situationen sehr unterschiedliche sein können, zeigt die Stadt Münster. Münster hat das Prinzip OIC 2025 eingeführt – auf Initiative der VOLT-Partei, beschlossen vom Stadtrat und umgesetzt durch die Wirtschaftsförderung. Andreas Luthe von der Wirtschaftsförderung Münster leitet das [Open Innovation City Münster](https://oic-muenster.de). Andreas konnte leider nicht persönlich dabei sein, er hat uns deshalb eine Textbotschaft geschickt. 
 
 {% include quote.html
    text="Open Innovation ist kein Projekt – es ist eine Haltung. Und sie verändert, wie eine Stadt denkt, arbeitet und Zukunft gestaltet."
    author="Andreas Luthe, Open Innovation City Münster" %}
 
-Münster hat das Prinzip OIC 2025 eingeführt – auf Initiative der VOLT-Partei, beschlossen vom Stadtrat und umgesetzt durch die Wirtschaftsförderung. Andreas hat in seiner Botschaft auch betont, dass Münster noch am Anfang steht. Formate wie Calls for Ideas, zielgruppenspezifische Innovationsworkshops oder das Impact Ideation Lab befinden sich noch in der Entwicklung.
+ Andreas hat in seiner Botschaft auch betont, dass Münster noch am Anfang steht. Formate wie Calls for Ideas, zielgruppenspezifische Innovationsworkshops oder das Impact Ideation Lab befinden sich noch in der Entwicklung. 
 
-Aber genau das gehört zu Open Innovation dazu: **Dinge früh teilen, iterativ verbessern, gemeinsam gestalten.**
+Aber genau das gehört zu Open Innovation dazu: **Dinge früh teilen, iterativ verbessern, gemeinsam gestalten.**  
 
-## World Café: Gemeinsam denken
+### Build your own OIC
 
-Nach einer Pause haben wir das World-Café-Format gestartet. Sarah und Tatjana haben die Workshops begleitet. Die Teilnehmenden haben sich an drei Fragen gearbeitet:
+Und wie geht das? Wenn eine Stadt zur Open Innovation City werden soll, dann muss das kein Big Bang oder ein riesen Projekt sein. Es gibt auch keine Verträge oder rechtlichen Verpflichtungen, die man eingehen muss. Wichtig ist nur, dass sich die Kommune zum Prinzip Open Innovation City bekennt und sich auf den Weg macht. Wie heißt es doch so schön: Selbst die längste Reise beginnt mit dem ersten Schritt.
+
+Die wichtigsten Ressourcen für den ersten Schritt haben wir im Impuls vorgestellt:
+
+- Das **OIC-Konzeptpapier** auf [GitHub](https://github.com/Open-Innovation-City/mediathek/blob/main/Open_Innovation_City_Konzeptpapier.pdf) – mit den Grundlagen aus dem Pilotprojekt Bielefeld
+- Unser **Markenauftritt (Corporate Design)** – frei nachnutzbar auf [GitHub](https://github.com/Open-Innovation-City/corporate-design)
+- Unsere **Website** – mit allen, was wir bei [Open Innovation City Bielefeld](https://oic-bielefeld.de) so machen
+- Der **Mediathek** auf [GitHub](https://github.com/Open-Innovation-City/mediathek) mit allen Veröffentlichungen und Erkenntnissen aus der Projektphase
+- Und natürlich: Wir stehen für Austausch und Begleitung zur Verfügung
+
+## Gemeinsam denken
+
+Nach einer Pause sind wir in den 40-minütigen Workshop-Teil gestartet. Die Teilnehmenden haben in zwei Gruppen – jeweils moderiert von Sarah und Tatjana – an drei Fragen gearbeitet:
 
 **Zur Quadruple Helix:**
 
@@ -73,10 +76,12 @@ Nach einer Pause haben wir das World-Café-Format gestartet. Sarah und Tatjana h
 
 > Was müssten wir teilen, um diesen Grenzen zu begegnen?
 
-Die Diskussionen waren lebhaft. Besonders die interkommunale Perspektive hat viele beschäftigt: Was können Städte voneinander lernen? Was lässt sich teilen – und wie? Am Ende hat jede Gruppe drei Take-Aways auf dem Whiteboard festgehalten und im Plenum vorgestellt.
+Die Diskussionen waren sehr intensiv. Besonders die fehlenden Ressoucen bei kleineren Kommunen und die interkommunale Perspektive hat viele beschäftigt: Wie finden wir Raum und Zeit für offene Innovationen? Was können Städte voneinander lernen? Was lässt sich teilen – und wie? Am Ende der 40 Minuten hat jede Gruppe ihre drei wichtigsten Erkenntnisse festgehalten und im Plenum vorgestellt.
 
-Der Abend hat gezeigt: Die Hürde, selbst zur Open Innovation City zu werden, ist niedriger, als viele denken. Und mit Münster gibt es inzwischen eine zweite Stadt, die beweist, dass es geht.
+Der Abend hat gezeigt: Die Hürde, selbst zur Open Innovation City zu werden, ist niedriger, als viele denken. Und mit Münster gibt es inzwischen eine zweite Stadt, die beweist, dass es geht. 
 
 Du möchtest mehr erfahren? Melde dich gerne: **[innovationen@bielefeld.de](mailto:innovationen@bielefeld.de)**
 
 {% include gallery.html folder="/assets/images/events/pre_event_prinzip_oic/" %}
+
+Dieser Beitrag wurde zusammen mit Claude Sonnet 4.6 erstellt.
