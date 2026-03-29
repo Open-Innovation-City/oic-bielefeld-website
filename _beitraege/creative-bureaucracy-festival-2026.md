@@ -8,7 +8,7 @@ date: 2026-03-28
 header_image: "/assets/images/graffiti.png"
 ---
 
-### Eine Einladung, die uns überrascht hat
+### Wir lieben es, wenn ein Plan funktioniert!
 
 Wenn man etwas Neues ausprobiert, weiß man nie genau, ob es auch über die eigenen Stadtgrenzen hinaus jemanden interessiert. Als wir im vergangenen Jahr mit [WEGE](https://www.wege-bielefeld.de) und [tomorrow bird](https://www.tomorrowbird.de) die [Adobe Kickbox](https://kickbox.org) erstmals auf Ebene einer ganzen Stadt erprobt haben, hatten wir vor allem ein Ziel: Zeigen, dass Innovation kein Zufall ist, sondern etwas, das man systematisch ermöglichen kann – auch in einer Stadt wie Bielefeld.
 
