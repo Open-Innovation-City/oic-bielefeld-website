@@ -1,6 +1,7 @@
 ---
 title: "OIC Bielefeld beim Creative Bureaucracy Festival in Berlin"
-teaser: "Aus über 200 nationalen und internationalen Einreichungen wurden wir von der Jury ausgewählt, unsere InnovateNOW Kickbox auf dem größten Festival für Public-Sector-Innovation der Welt zu präsentieren. Am 11. Juni sind wir in Berlin dabei."
+teaser: "Aus über 200 nationalen und internationalen Einreichungen wurden wir von der Jury ausgewählt, unsere InnovateNOW Kickbox auf dem größten Festival der Welt für Innovation im öffentlichen Sektor
+ zu präsentieren. Am 11. Juni sind wir in Berlin dabei."
 author: "Jens Edler"
 categories:
   - "Events"
@@ -16,9 +17,11 @@ Dass uns das auf eine große Bühne bringen würde, damit hätten wir nicht gere
 
 Wir haben uns beim **[Creative Bureaucracy Festival](https://creativebureaucracy.org)** in Berlin beworben – und wurden als einer von **drei Jury Favourites** ausgewählt. Aus über **200 nationalen und internationalen Einreichungen**. Am **11. Juni 2026** werden wir unsere InnovateNOW Kickbox direkt auf der Hauptveranstaltung präsentieren.
 
+![Bild der InnovateNOW-Kickbox](/assets/images/beitraege/innovatenow_creative_bureaucracy_festival.png "Copyright: Creative Bureaucracy Festival")
+
 ### Was ist das Creative Bureaucracy Festival?
 
-Das Creative Bureaucracy Festival ist das größte Festival für Public-Sector-Innovation der Welt. Ins Leben gerufen wurde es von [Charles Landry](https://www.charleslandry.com), dem Autor des Buches „The Creative Bureaucracy and its Radical Common Sense", und [Sebastian Turner](https://www.tagesspiegel.de/), dem Verleger des Tagesspiegel.
+Das Creative Bureaucracy Festival ist das größte Festival für Public-Sector-Innovation der Welt. [Charles Landry](https://www.charleslandry.com), dem Autor des Buches „The Creative Bureaucracy and its Radical Common Sense", und [Sebastian Turner](https://www.tagesspiegel.de/), der Verleger des Tagesspiegel, haben das Festival ins Leben gerufen.
 
 Die Kernidee dahinter klingt einfach, ist aber alles andere als selbstverständlich: Verwaltungen sollen von einer „Nein, weil..."-Kultur zu einer „Ja, wenn..."-Kultur werden. Das Festival zeigt Jahr für Jahr, dass es überall auf der Welt Verwaltungen und Institutionen gibt, die genau das bereits leben – und macht diese Erfolgsgeschichten sichtbar.
 
@@ -28,7 +31,7 @@ Inzwischen findet das Festival in seiner **9. Ausgabe** statt. Die bisherigen Au
 
 Wir stellen unsere **InnovateNOW Kickbox** vor – also die Art und Weise, wie wir die bewährte Adobe Kickbox-Methode erstmals auf die Ebene einer ganzen Stadt übertragen haben. 
 
-Die Adobe Kickbox wurde ursprünglich für Unternehmen entwickelt: Menschen, die für ihre Ideen brennen, bekommen Methoden, Ressourcen und Begleitung, um zu beweisen, dass ihre Idee funktioniert.. Zusammen mit der [WEGE](https://www.wege-bielefeld.de) und [tomorrow bird](https://www.tomorrowbird.de) haben wir dieses Format für Bielefeld adaptiert – mit dem Projekt **[InnovateNOW – Deine Stadt. Dein Projekt](https://innovatenow-bielefeld.de)**, gefördert durch das Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen.
+Die Adobe Kickbox wurde ursprünglich für Unternehmen entwickelt: Menschen, die für ihre Ideen brennen, bekommen Methoden, Ressourcen und Begleitung, um zu beweisen, dass ihre Idee funktioniert. Zusammen mit der [WEGE](https://www.wege-bielefeld.de) und [tomorrow bird](https://www.tomorrowbird.de) haben wir dieses Format für Bielefeld adaptiert – mit dem Projekt **[InnovateNOW – Deine Stadt. Dein Projekt](https://innovatenow-bielefeld.de)**, gefördert durch das Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen.
 
 Das Ergebnis: Über **100 Bielefelderinnen und Bielefelder** haben sich beworben und auf eine zwölfwöchige Innovationsreise eingelassen. **11 Teams** haben den Innovationsprozess vollständig durchlaufen und ihre Ideen schließlich vor einer Fachjury auf der Bühne des Pioneers Theaters [gepitcht](https://oic-bielefeld.de/beitraege/das-war-innovatenow/). Drei Gewinner-Teams wurden ausgewählt und dabei unterstützt, ihre Ideen weiterzuentwickeln.
 
@@ -36,7 +39,7 @@ Das zeigt: Es funktioniert. Und genau das wollen wir in Berlin erzählen.
 
 ### Was das für uns bedeutet
 
-Als Jury Favourite präsentieren wir nicht auf einem Side-Event, sondern direkt auf der Hauptveranstaltung – das ist etwas, das uns wirklich freut. Das ist eine Bestätigung für uns, dass der Ansatz, den wir in Bielefeld verfolgen, auch national und international überzeugt: Nämlich das systematische Ermöglichen von Innovationen durch das Prinzip der [Open Innovation](https://oic-projekt.de/ueber-oic/open-innovation). Dabei finden sich die richtigen Menschen mit den richtigen Methoden im richtigen Rahmen zusammen, um innovativ zu sein.
+Als Jury Favourite präsentieren wir nicht auf einem Side-Event, sondern direkt auf der Hauptveranstaltung – das ist etwas, das uns wirklich freut. Das bestätigt uns: Der Ansatz, den wir in Bielefeld verfolgen, überzeugt auch national und international. Unser Ziel ist, Innovationen systematisch zu ermöglichen – nach dem Prinzip der [Open Innovation](https://oic-projekt.de/ueber-oic/open-innovation). Dabei bringen wir die richtigen Menschen mit den richtigen Methoden im richtigen Rahmen zusammen
 
 Wir freuen uns darauf, in Berlin mit anderen Verwaltungen, Institutionen und Innovatorinnen aus aller Welt in den Austausch zu gehen – und natürlich auch den ein oder anderen Impuls mit nach Bielefeld zu bringen.
 
