@@ -16,6 +16,15 @@
 #  link: "https://oic-bielefeld.de/beitraege/passantenfrequenzmessung-fuer-eine-lebendige-innnenstadt/"
 #  link_text: "Mehr zum Projekt"
 
+- title: "Die Open Innovation Hour"
+  tag: "Open Innovation"
+  description: "Druchführung eines monatlichen Online-Formats, um gemeinsam auf herausfordernde Fragestellungen zu blicken, miteinander ins Gespräch zu kommen und Ideen zu entwickeln."
+  status: "Läuft"
+  start_date: "2025-11-01"
+  responsible: "Sarah Bollmann"
+  link: "https://oic-bielefeld.de/open-innovation-hour/"
+  link_text: "Mehr zum Format"
+
 - title: "MeetUp-Reihe KI und Zivilgesellschaft"
   tag: "Künstliche Intelligenz"
   description: "Organisation einer MeetUp-Reihe zu Fragestellungen der Künstlichen Intelligenz. Fokus auf dem Nutzen für die Zivilgesellschaft."
