@@ -46,7 +46,7 @@ Dass diese Situationen sehr unterschiedliche sein können, zeigt die Stadt Müns
    text="Open Innovation ist kein Projekt – es ist eine Haltung. Und sie verändert, wie eine Stadt denkt, arbeitet und Zukunft gestaltet."
    author="Andreas Luthe, Open Innovation City Münster" %}
 
- Andreas hat in seiner Botschaft auch betont, dass Münster noch am Anfang steht. Formate wie Calls for Ideas, zielgruppenspezifische Innovationsworkshops oder das Impact Ideation Lab befinden sich noch in der Entwicklung. 
+Andreas hat in seiner Botschaft auch betont, dass Münster noch am Anfang steht. Formate wie Calls for Ideas, zielgruppenspezifische Innovationsworkshops oder das Impact Ideation Lab befinden sich noch in der Entwicklung. 
 
 Aber genau das gehört zu Open Innovation dazu: **Dinge früh teilen, iterativ verbessern, gemeinsam gestalten.**  
 
@@ -56,27 +56,29 @@ Und wie geht das? Wenn eine Stadt zur Open Innovation City werden soll, dann mus
 
 Die wichtigsten Ressourcen für den ersten Schritt haben wir im Impuls vorgestellt:
 
-- Das **OIC-Konzeptpapier** auf [GitHub](https://github.com/Open-Innovation-City/mediathek/blob/main/Open_Innovation_City_Konzeptpapier.pdf) – mit den Grundlagen aus dem Pilotprojekt Bielefeld
+- Sämtliche Infos dazu, **wie deine Stadt OIC wird**: https://oic-bielefeld.de/beitraege/wie-deine-stadt-oic-wird/
+- Das **OIC-Konzeptpapier** aus dem Pilotprojekt [GitHub](https://github.com/Open-Innovation-City/mediathek/blob/main/Open_Innovation_City_Konzeptpapier.pdf) – mit den Grundlagen aus dem Pilotprojekt Bielefeld
 - Unser **Markenauftritt (Corporate Design)** – frei nachnutzbar auf [GitHub](https://github.com/Open-Innovation-City/corporate-design)
 - Unsere **Website** – mit allen, was wir bei [Open Innovation City Bielefeld](https://oic-bielefeld.de) so machen
 - Der **Mediathek** auf [GitHub](https://github.com/Open-Innovation-City/mediathek) mit allen Veröffentlichungen und Erkenntnissen aus der Projektphase
-- Und natürlich: Wir stehen für Austausch und Begleitung zur Verfügung
+- Der Webauftritt der **Open Innovation City Münster**: https://www.oic-muenster.de
+
+- Und natürlich: Wir stehen für Austausch und Begleitung zur Verfügung.
 
 ## Gemeinsam denken
 
-Nach einer Pause sind wir in den 40-minütigen Workshop-Teil gestartet. Die Teilnehmenden haben in zwei Gruppen – jeweils moderiert von Sarah und Tatjana – an drei Fragen gearbeitet:
+Im **Rahmen des Workshops** wurden gemeinsam Antworten auf drei zentrale Fragen gesammelt.   
+1) _ "Welche gesellschaftlichen Kräfte können zur Lösung kommunaler
+Herausforderungen beitragen – und was braucht es, damit sie gehört werden?“
+Key Take-aways: Kreative Spinnerei & Resilienzstärkung
 
-**Zur Quadruple Helix:**
+2a) "Wo liegen die Grenzen dessen, was eine Stadt alleine lösen kann?“
+Key Take-aways: Finanzen & Das haben "wir schon immer so gemacht"-Kultur
 
-> Welche gesellschaftlichen Kräfte können zur Lösung kommunaler Herausforderungen beitragen – und was braucht es, damit sie gehört werden?
-
-**Interkommunal:**
-
-> Wo liegen die Grenzen dessen, was eine Stadt alleine lösen kann?
-
-> Was müssten wir teilen, um diesen Grenzen zu begegnen?
-
-Die Diskussionen waren sehr intensiv. Besonders die fehlenden Ressoucen bei kleineren Kommunen und die interkommunale Perspektive hat viele beschäftigt: Wie finden wir Raum und Zeit für offene Innovationen? Was können Städte voneinander lernen? Was lässt sich teilen – und wie? Am Ende der 40 Minuten hat jede Gruppe ihre drei wichtigsten Erkenntnisse festgehalten und im Plenum vorgestellt.
+2b) "Was müssten wir teilen, um diesen Grenzen zu begegnen?“
+Key Take-aways: Wissen teilen, Mutige Akteure, „einfach mal machen“ (1. Schritt gehen) & Vertrauen.
+ 
+Die Ergebnisse zeigen deutlich, welche Kernaspekte aus Sicht der Teilnehmerinnen und Teilnehmer für eine positive Weiterentwicklung von Städten und Kommunen nötig sind oder diese behindern. Wir glauben, dass das Prinzip Open Innovation City (OIC) eine positive Unterstützung auf dem Weg bieten kann.
 
 Der Abend hat gezeigt: Die Hürde, selbst zur Open Innovation City zu werden, ist niedriger, als viele denken. Und mit Münster gibt es inzwischen eine zweite Stadt, die beweist, dass es geht. 
 
