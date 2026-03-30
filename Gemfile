@@ -26,7 +26,6 @@ gem "kramdown-parser-gfm", "~> 1.1"
 group :development do
   gem "webrick", "~> 1.8"  # Required for Ruby 3.0+
   gem "listen", "~> 3.8"   # Auto-regeneration
-  gem "jekyll-admin", "~> 0.11"  # Optional: Web-based admin interface
 end
 
 # Windows and JRuby specific gems
