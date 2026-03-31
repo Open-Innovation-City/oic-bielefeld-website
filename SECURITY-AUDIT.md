@@ -148,18 +148,9 @@ Particularly risky: `cdn.jsdelivr.net/gh/davidjbradshaw/iframe-resizer@4.2.10` l
 
 ### MEDIUM-06: `url` in `_config.yml` Uses HTTP Instead of HTTPS
 **File:** `_config.yml:5`
-**Status:** Open
+**Status:** **Fixed** (bereits vor diesem Audit behoben)
 
-```yaml
-url: "http://oic-bielefeld.de"
-```
-
-This causes `jekyll-seo-tag` to generate canonical URLs, Open Graph tags, and sitemaps with `http://`. The live site uses HTTPS.
-
-**Recommendation:**
-```yaml
-url: "https://oic-bielefeld.de"
-```
+`_config.yml` verwendet korrekt `https://oic-bielefeld.de`.
 
 ---
 
@@ -174,19 +165,9 @@ No `X-Frame-Options` or CSP `frame-ancestors` protection is configured. An attac
 
 ### MEDIUM-08: `jekyll-admin` in Gemfile Without Authentication
 **File:** `Gemfile:29`
-**Status:** Open
+**Status:** **Fixed** (bereits vor diesem Audit behoben)
 
-```ruby
-group :development do
-  gem "jekyll-admin", "~> 0.11"  # Optional: Web-based admin interface
-end
-```
-
-`jekyll-admin` exposes a full web UI for editing all site content at `http://localhost:4000/admin/` — **without any authentication**. Any process or malware with local network access can modify all content.
-
-The gem is marked as "Optional" in a comment and appears to be unused.
-
-**Recommendation:** Remove the gem from `Gemfile` if not actively used.
+Die Zeile ist auskommentiert (`# gem "jekyll-admin"`), das Gem wird nicht geladen.
 
 ---
 
@@ -291,11 +272,11 @@ The VAT ID is publicly required by German law (Impressumspflicht) and is correct
 |---|---|---|---|
 | 1 | HIGH-01: Load Pretix script only on pages that need it | Small | **Fixed** |
 | 2 | HIGH-02: Reduce iframe `allow` to `""` + fix `checkOrigin` | Small | Open |
-| 3 | MEDIUM-06: Change `url` in `_config.yml` to `https://` | Trivial | Open |
+| 3 | MEDIUM-06: Change `url` in `_config.yml` to `https://` | Trivial | **Fixed** |
 | 4 | MEDIUM-04: Add `noreferrer` to all `target="_blank"` links | Small | Open |
 | 5 | MEDIUM-01: Add CSP `<meta>` tag | Medium | Open |
 | 6 | MEDIUM-05: Add SRI hashes to external scripts | Small | Open |
-| 7 | MEDIUM-08: Remove unused `jekyll-admin` from Gemfile | Trivial | Open |
+| 7 | MEDIUM-08: Remove unused `jekyll-admin` from Gemfile | Trivial | **Fixed** |
 | 8 | LOW-01: Remove `console.log` calls | Trivial | Open |
 | 9 | LOW-02: Update / self-host iFrameResizer | Medium | Open |
 | 10 | LOW-03: Remove `Gemfile.lock` from `.gitignore` | Trivial | Open |
