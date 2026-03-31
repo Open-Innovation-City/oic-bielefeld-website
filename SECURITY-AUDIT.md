@@ -6,13 +6,13 @@
 
 ## Summary
 
-The project is a static Jekyll website with no server-side processing, which significantly reduces the attack surface. Nevertheless, **18 security issues** were identified, including **2 High** severity findings.
+The project is a static Jekyll website with no server-side processing, which significantly reduces the attack surface. Nevertheless, **18 security issues** were identified, including **1 High** severity finding remaining (1 fixed).
 
-| Severity | Count |
-|---|---|
-| High | 2 |
-| Medium | 8 |
-| Low | 8 |
+| Severity | Count | Status |
+|---|---|---|
+| High | 2 | 1 Fixed, 1 Open |
+| Medium | 8 | Open |
+| Low | 8 | Open |
 
 ---
 
@@ -34,7 +34,7 @@ Additionally, the CSS URL is hardcoded to the expired event `OIC-BIE/ki-zivil-4`
 
 ### HIGH-02: Newsletter Iframe with Excessive Permissions
 **File:** `index.html:384` / `_includes/newsletter.html:16`
-**Status:** Open
+**Status:** **Fixed** (April 1, 2026)
 
 ```html
 allow="geolocation; microphone; camera"
@@ -45,10 +45,14 @@ A newsletter signup form has no legitimate need for access to geolocation, micro
 
 Additionally, `checkOrigin: false` is set in the iFrameResizer config (`index.html:410`, `newsletter.html:36`), which disables origin validation entirely.
 
-**Recommendation:**
-- Change `allow` to `allow=""` or remove the attribute
-- Remove `allowfullscreen` and `allowtransparency`
-- Remove `checkOrigin: false` (or restrict to the specific origin)
+**Fix Applied:**
+- ✅ Removed `allow="geolocation; microphone; camera"` attribute entirely
+- ✅ Removed `allowfullscreen="true"` and `allowtransparency="true"`
+- ✅ Changed `checkOrigin: false` to `checkOrigin: ['https://www.bielefeld.de']` to validate origin
+
+**Files Modified:**
+- `_includes/newsletter.html`
+- `index.html`
 
 ---
 

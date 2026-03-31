@@ -26,6 +26,7 @@ gem "kramdown-parser-gfm", "~> 1.1"
 group :development do
   gem "webrick", "~> 1.8"  # Required for Ruby 3.0+
   gem "listen", "~> 3.8"   # Auto-regeneration
+#  gem "jekyll-admin", "~> 0.11"  # Optional: Web-based admin interface
 end
 
 # Windows and JRuby specific gems
@@ -41,4 +42,7 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 # since newer versions of the gem do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
+# Ruby 4.0+ compatibility - gems removed from stdlib
+gem "logger", "~> 1.6"
 gem "csv", "~> 3.3"
+gem "base64", "~> 0.2"
