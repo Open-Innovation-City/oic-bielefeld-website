@@ -10,7 +10,7 @@ The project is a static Jekyll website with no server-side processing, which sig
 
 | Severity | Count | Status |
 |---|---|---|
-| High | 2 | 1 Fixed, 1 Open |
+| High | 2 | 2 Fixed |
 | Medium | 8 | Open |
 | Low | 8 | Open |
 
@@ -20,15 +20,20 @@ The project is a static Jekyll website with no server-side processing, which sig
 
 ### HIGH-01: Pretix Widget Loaded on Every Page
 **File:** `_includes/head.html:23-24`
-**Status:** Open
+**Status:** **Fixed** (April 1, 2026)
 
-The Pretix JavaScript and CSS are loaded globally in `head.html` — including on pages that have no Pretix widget (Impressum, 404, search, most blog posts). There is no SRI hash. A compromised `pretix.eu` server could execute arbitrary code on **all pages**.
+The Pretix JavaScript and CSS were loaded globally in `head.html` — including on pages that have no Pretix widget (Impressum, 404, search, most blog posts). There was no SRI hash. A compromised `pretix.eu` server could have executed arbitrary code on **all pages**.
 
-Additionally, the CSS URL is hardcoded to the expired event `OIC-BIE/ki-zivil-4`.
+Additionally, the CSS URL was hardcoded to the expired event `OIC-BIE/ki-zivil-4`.
 
-**Recommendation:**
-1. Remove Pretix script/CSS from `head.html`
-2. Load them only on pages that use the `pretix-widget.html` include (via a Liquid page variable like `{% if page.uses_pretix %}`)
+**Fix Applied:**
+- ✅ Removed Pretix `<link>` and `<script>` from `_includes/head.html`
+- ✅ Moved both tags into `_includes/pretix-widget.html` — loaded only on pages that include the widget
+- ✅ CSS URL is now dynamic (`/OIC-BIE/{{ include.event }}/widget/v2.css`) — no longer hardcoded to the expired event
+
+**Files Modified:**
+- `_includes/head.html`
+- `_includes/pretix-widget.html`
 
 ---
 
@@ -284,7 +289,7 @@ The VAT ID is publicly required by German law (Impressumspflicht) and is correct
 
 | Priority | Issue | Effort | Status |
 |---|---|---|---|
-| 1 | HIGH-01: Load Pretix script only on pages that need it | Small | Open |
+| 1 | HIGH-01: Load Pretix script only on pages that need it | Small | **Fixed** |
 | 2 | HIGH-02: Reduce iframe `allow` to `""` + fix `checkOrigin` | Small | Open |
 | 3 | MEDIUM-06: Change `url` in `_config.yml` to `https://` | Trivial | Open |
 | 4 | MEDIUM-04: Add `noreferrer` to all `target="_blank"` links | Small | Open |
