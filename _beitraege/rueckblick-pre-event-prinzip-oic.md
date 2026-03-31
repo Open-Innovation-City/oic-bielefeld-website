@@ -12,7 +12,7 @@ header_image: "/assets/images/events/pre_event_prinzip_oic/pre_event_prinzip_oic
 
 Am Abend des 24. März 2026 – einen Tag vor der KommDIGITALE in Bielefeld – haben wir ins Innovation Office eingeladen. Das Thema: **Das Prinzip Open Innovation City**. Die zentrale Frage: Wie kann auch deine Stadt zur Open Innovation City werden?
 
-Das Event hat vor allem Vertreter\*innen aus Kommunen angesprochen. Unter anderem aus Gütersloh, Bünde, Kassel und Detmold sind Interessierte angereist – aber auch Vertreter\*innen aus der Wirtschaft waren mit dabei. 
+Das Event hat vor allem Vertreter\*innen aus Kommunen angesprochen. Unter anderem aus Gütersloh, Bünde und Detmold sind Interessierte angereist – aber auch Vertreter\*innen aus der Wirtschaft waren mit dabei. 
 
 ## Kennenlernen mit Impromptu Networking
 
