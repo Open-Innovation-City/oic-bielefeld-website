@@ -1,0 +1,167 @@
+---
+layout: page
+title: "Workshop: Crowdsourcing-Impulse"
+description: "KI-Prompt für deinen Arbeitsbereich"
+permalink: /workshop-crowdsourcing/
+sitemap: false
+---
+
+<div class="prompt-wrapper">
+    <div class="prompt-header">
+        <span class="prompt-label">Prompt zum Kopieren</span>
+        <button class="copy-btn" id="copyBtn" onclick="copyPrompt()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+            Kopieren
+        </button>
+    </div>
+    <pre class="prompt-block" id="promptText">Prompt: Crowdsourcing-Impulse für deinen Arbeitsbereich
+
+Ziel: Du erhältst 1–3 konkrete Vorschläge, wie du Crowdsourcing in deinem Aufgabenfeld einsetzen kannst – mit Fokus auf Umsetzbarkeit und Wirkung.
+
+Deine Angaben (kurz & präzise):
+Arbeitsbereich/Team: [z. B. „Umweltamt – Team Grünflächenplanung"]
+Deine Hauptaufgabe: [z. B. „Konzeption von Spielplätzen und Parks"]
+Aktuelle Herausforderung: [z. B. „Fehlende Akzeptanz für neue Spielplatz-Standorte bei Anwohner:innen"]
+Zielgruppe: [intern / Bürger:innen / Unternehmen / Vereine / gemischt]
+
+Deine KI-Aufgabe:
+3 konkrete Crowdsourcing-Ideen für deinen Bereich (unterschiedliche Formate, z. B. Ideenwettbewerb, Umfrage, Co-Design).
+
+Pro Idee:
+Kernfrage (als „Wicked Question"): „Wie können wir [Ziel A] UND gleichzeitig [Ziel B] erreichen?"
+Einordnung: Intern/Extern + Wettbewerb/Kollaboration (mit 1-Satz-Begründung).
+Mini-Community-Map: 5 Akteursgruppen + je 1 Kontaktkanal (z. B. „Seniorenbeirat – Stadtteiltreff").
+14-Tage-Startplan: 3 Schritte (z. B. „Kick-off mit Team klären" → „Akteure anschreiben" → „Pilot-Tool testen").
+
+Canvas-Kernpunkte:
+Zweck (1 Satz)
+Crowd-Potenziale (z. B. „lokales Wissen", „Ideenvielfalt")
+Bearbeitung (Format, Dauer, Regeln)
+Erfolgsmessung (Kriterien für „bestes Ergebnis")
+Anreize (z. B. „Sichtbarkeit", „Mitgestaltung")
+
+Format:
+Klare Überschriften, Stichpunkte, max. 1 Seite pro Idee.
+Keine Theorie – nur konkrete Handlungsoptionen mit transparenten Annahmen.
+
+Wichtig: Bevor du die Aufgabe bearbeitest, frage mich bitte nacheinander nach den Punkten 1–4 (Arbeitsbereich/Team, Hauptaufgabe, Herausforderung, Zielgruppe), damit du den richtigen Kontext hast.</pre>
+</div>
+
+<style>
+/* Weißer Header statt Gradient – hält die Navbar im light-theme */
+.page-header {
+    background: white;
+    color: var(--text-dark);
+}
+
+.page-header h1 {
+    color: var(--text-dark);
+    text-shadow: none;
+}
+
+.page-description {
+    color: var(--text-medium);
+    text-shadow: none;
+}
+
+.prompt-wrapper {
+    border: 2px solid var(--primary-turquoise);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.prompt-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(135deg, var(--primary-turquoise) 0%, var(--secondary-blue) 100%);
+    padding: 0.75rem 1.25rem;
+}
+
+.prompt-label {
+    color: white;
+    font-weight: 600;
+    font-size: 0.9rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.copy-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    background: white;
+    color: var(--secondary-blue);
+    border: none;
+    border-radius: 6px;
+    padding: 0.45rem 1rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+}
+
+.copy-btn:hover {
+    background: var(--primary-yellow);
+    transform: translateY(-1px);
+}
+
+.copy-btn.copied {
+    background: #d4edda;
+    color: #155724;
+}
+
+.prompt-block {
+    background: #f8f9fa;
+    padding: 1.75rem;
+    margin: 0;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 0.9rem;
+    line-height: 1.75;
+    white-space: pre-wrap;
+    word-break: break-word;
+    color: var(--text-dark);
+    border: none;
+    border-radius: 0;
+    overflow-x: auto;
+}
+
+@media (max-width: 600px) {
+    .prompt-block {
+        font-size: 0.82rem;
+        padding: 1.25rem;
+    }
+}
+</style>
+
+<script>
+function copyPrompt() {
+    const text = document.getElementById('promptText').innerText;
+    const btn = document.getElementById('copyBtn');
+
+    navigator.clipboard.writeText(text).then(function() {
+        btn.classList.add('copied');
+        btn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 15 4 10"></polyline></svg> Kopiert!`;
+        setTimeout(function() {
+            btn.classList.remove('copied');
+            btn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Kopieren`;
+        }, 2500);
+    }).catch(function() {
+        // Fallback für ältere Browser
+        const range = document.createRange();
+        range.selectNode(document.getElementById('promptText'));
+        window.getSelection().removeAllRanges();
+        window.getSelection().addRange(range);
+        document.execCommand('copy');
+        window.getSelection().removeAllRanges();
+        btn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 15 4 10"></polyline></svg> Kopiert!`;
+        setTimeout(function() {
+            btn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Kopieren`;
+        }, 2500);
+    });
+}
+</script>

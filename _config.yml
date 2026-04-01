@@ -2,7 +2,7 @@
 title: "Open Innovation City Bielefeld"
 description: "Gemeinsam gestalten wir die Zukunft unserer Stadt durch offene Innovation und kreative Zusammenarbeit."
 baseurl: ""
-url: "http://oic-bielefeld.de"
+url: "https://oic-bielefeld.de"
 
 # SEO
 author: "OIC Bielefeld Team"
@@ -36,13 +36,8 @@ exclude:
   - _compress_images_cache.yml
   - DEPLOYMENT.md
   - DEV-STAGING-SETUP.md
-  - NEWSLETTER*
   - REDAKTIONSLEITFADEN.md
-  - beispiel-ki-tool.md
-  - gallery-test.md
-  - newsletter*
-  - pretix-integration-evaluation.md
-  - vorlage.md
+  - SECURITY-AUDIT.md
 
 # Site data
 email: innovationen@bielefeld.de
@@ -73,6 +68,9 @@ colors:
   secondary_green: "#a5e35f"
   secondary_light_blue: "#78d3fa"
   secondary_pink: "#fa2d6e"
+
+# Navbar Style: "island" (floating island on scroll) or "standard" (full-width)
+navbar_style: "standard"
 
 # Navigation
 navigation:

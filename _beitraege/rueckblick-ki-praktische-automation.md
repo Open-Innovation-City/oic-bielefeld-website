@@ -1,8 +1,10 @@
 ---
 title: "Ein Rückblick auf das MeetUp KI und Praktische Automation"
 teaser: "Das 5. Meetup aus der Reihe KI und Zivilgesellschaft behandelte das Thema Praktische Automation. Maria Goncalves gibt einen persönlichen Rückblick auf das MeetUp und teilt, was sie gelernt hat."
-author: "Maria Gonçalves"
-category: "Rückblick"
+authors:
+  - "Maria Gonçalves"
+categories:
+  - "Rückblick"
 date: 2025-10-17
 header_image: "/assets/images/ki.png"
 related_post: "praktische-automation-no-code"

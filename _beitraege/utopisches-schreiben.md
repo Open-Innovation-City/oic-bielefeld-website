@@ -1,8 +1,10 @@
 ---
 title: "Utopisches Schreiben im Innovation Office"
 teaser: "Am Dienstag, 13. Januar 2026 startet ein neues Angebot aus der Zivilgesellschaft im Innovation Office: Utopisches Schreiben – mit Henrik Remmert."
-author: "Sarah Bollmann"
-category: "Events"
+authors:
+  - "Sarah Bollmann"
+categories:
+  - "Events"
 date: 2025-12-18
 header_image: " "
 ---

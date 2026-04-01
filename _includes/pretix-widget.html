@@ -7,7 +7,10 @@ Optional parameters:
 - disable-vouchers: true (Gutschein-Eingabe deaktivieren)
 {% endcomment %}
 
-<pretix-widget 
+<link rel="stylesheet" type="text/css" href="https://pretix.eu/OIC-BIE/{{ include.event }}/widget/v2.css" crossorigin>
+<script type="text/javascript" src="https://pretix.eu/widget/v2.de-informal.js" async crossorigin></script>
+
+<pretix-widget
   event="https://pretix.eu/OIC-BIE/{{ include.event }}/"
   {% if include.items %}items="{{ include.items }}"{% endif %}
   {% if include.voucher %}voucher="{{ include.voucher }}"{% endif %}
@@ -15,7 +18,7 @@ Optional parameters:
 <noscript>
    <div class="pretix-widget">
         <div class="pretix-widget-info-message">
-            JavaScript ist in Ihrem Browser deaktiviert. Um unseren Ticketshop ohne JavaScript aufzurufen, klicken Sie bitte <a target="_blank" rel="noopener" href="https://pretix.eu/OIC-BIE/{{ include.event }}/">hier</a>.
+            JavaScript ist in Ihrem Browser deaktiviert. Um unseren Ticketshop ohne JavaScript aufzurufen, klicken Sie bitte <a target="_blank" rel="noopener noreferrer" href="https://pretix.eu/OIC-BIE/{{ include.event }}/">hier</a>.
         </div>
     </div>
 </noscript>

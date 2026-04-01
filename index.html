@@ -15,7 +15,7 @@ description: Gemeinsam gestalten wir die Zukunft unserer Stadt durch offene Inno
             </div>
             <div class="alert-text">
                 <strong>Bleib auf dem Laufenden!</strong> Mit unserem Newsletter erhältst du regelmäßig Updates zu Events, Projekten und Neuigkeiten aus dem Innovation Office.
-                <button id="newsletterAlertCTA" class="alert-cta-btn">Newsletter abonnieren</button>
+                <button class="cta-button newsletter-open-btn">Newsletter abonnieren</button>
             </div>
         </div>
         <button class="alert-close" onclick="closeNewsletterAlert()" aria-label="Benachrichtigung schließen">
@@ -27,7 +27,7 @@ description: Gemeinsam gestalten wir die Zukunft unserer Stadt durch offene Inno
 </div>
 
 <!-- Adaptive Navigation -->
-<nav class="navbar dark-theme" id="navbar">
+<nav class="navbar dark-theme{% if site.navbar_style == 'island' %} navbar-island{% endif %}" id="navbar">
     <div class="nav-container">
         <div class="logo">
             <a href="{{ '/' | relative_url }}">
@@ -61,6 +61,12 @@ description: Gemeinsam gestalten wir die Zukunft unserer Stadt durch offene Inno
             {% endfor %}
         </ul>
         
+        <a href="{{ '/suche/' | relative_url }}" class="nav-search-btn" aria-label="Suche">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+        </a>
         <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menü öffnen">☰</button>
     </div>
 </nav>
@@ -204,7 +210,7 @@ description: Gemeinsam gestalten wir die Zukunft unserer Stadt durch offene Inno
                 
                 {% if project.link %}
                 <div class="project-footer">
-                    <a href="{{ project.link }}" target="_blank" rel="noopener" class="project-link-btn">
+                    <a href="{{ project.link }}" target="_blank" rel="noopener noreferrer" class="project-link-btn">
                         {% if project.link_text %}{{ project.link_text }}{% else %}Mehr erfahren{% endif %}
                     </a>
                 </div>
@@ -301,7 +307,7 @@ description: Gemeinsam gestalten wir die Zukunft unserer Stadt durch offene Inno
                         <div class="event-footer">
                             <div class="event-target">{{ event.target_audience }}</div>
                             <div class="event-cost{% if event.cost != 'Kostenlos' %} paid{% endif %}">{{ event.cost }}</div>
-                            <a href="{{ event.booking_url }}" target="_blank" rel="noopener" class="event-book-btn">
+                            <a href="{{ event.booking_url }}" target="_blank" rel="noopener noreferrer" class="event-book-btn">
                                 {% if event.link_text %}{{ event.link_text }}{% else %}Anmelden{% endif %}
                             </a>
                         </div>
@@ -315,7 +321,7 @@ description: Gemeinsam gestalten wir die Zukunft unserer Stadt durch offene Inno
         </div>
         <!-- Newsletter CTA -->
         <div class="cta-container" style="margin-top: 3rem;">
-            <button id="newsletterCTA" class="cta-button">Newsletter abonnieren</button>
+            <button class="cta-button newsletter-open-btn">Newsletter abonnieren</button>
         </div>
         {% endif %}
     </div>
@@ -344,7 +350,7 @@ description: Gemeinsam gestalten wir die Zukunft unserer Stadt durch offene Inno
 
         <!-- Newsletter CTA -->
         <div class="cta-container" style="margin-top: 3rem;">
-            <button id="newsletterCTA" class="cta-button">Newsletter abonnieren</button>
+            <button class="cta-button newsletter-open-btn">Newsletter abonnieren</button>
         </div>
     </div>
 </section>
@@ -375,9 +381,6 @@ description: Gemeinsam gestalten wir die Zukunft unserer Stadt durch offene Inno
                 title="Newsletter Abo OICB | Bielefeld"
                 class="webform-share-iframe newsletter-iframe"
                 frameborder="0"
-                allow="geolocation; microphone; camera"
-                allowtransparency="true"
-                allowfullscreen="true"
                 style="width:1px;min-width:100%">
             </iframe>
         </div>
@@ -389,7 +392,7 @@ description: Gemeinsam gestalten wir die Zukunft unserer Stadt durch offene Inno
 </div>
 
 <!-- Iframe Resizer Script -->
-<script src="https://cdn.jsdelivr.net/gh/davidjbradshaw/iframe-resizer@4.2.10/js/iframeResizer.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/iframeResizer.min.js"></script>
 <script>
     // Initialize iframe resizer when modal opens
     document.addEventListener('DOMContentLoaded', function() {
@@ -401,7 +404,7 @@ description: Gemeinsam gestalten wir die Zukunft unserer Stadt durch offene Inno
                         setTimeout(function() {
                             iFrameResize({
                                 log: false,
-                                checkOrigin: false,
+                                checkOrigin: ['https://www.bielefeld.de'],
                                 heightCalculationMethod: 'taggedElement'
                             }, '.newsletter-iframe');
                         }, 100);

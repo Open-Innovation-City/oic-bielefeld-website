@@ -1,8 +1,10 @@
 ---
 title: "KI-Kompetenz – KI sachkundig und sinnvoll einsetzen."
 teaser: "Das 9. Meetup aus der Reihe KI und Zivilgesellschaft behandelt die Notwendigkeit von KI-Kompetenz."
-author: "Maria Gonçalves"
-category: "KI und Zivilgesellschaft"
+authors:
+  - "Maria Gonçalves"
+categories:
+  - "KI und Zivilgesellschaft"
 date: 2025-10-20
 header_image: "/assets/images/ki.png"
 retrospective_post: "rueckblick-ki-kompetenzt"

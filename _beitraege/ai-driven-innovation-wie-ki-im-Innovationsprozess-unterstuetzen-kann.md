@@ -1,8 +1,10 @@
 ---
 title: "AI-driven Innovation - wie KI im Innovationsprozess unterstützen kann. - Meetup-Rückblick -"
 teaser: "In nur zwei Stunden haben die Teilnehmer:innen im Design Thinking Format durchgespielt, wie KI als kreativer Sparringspartner in Innovationsprozessen fungieren kann."
-author: "Maria Gonçalves"
-category: "KI und Zivilgesellschaft"
+authors:
+  - "Maria Gonçalves"
+categories:
+  - "KI und Zivilgesellschaft"
 date: 2025-08-20
 header_image: "/assets/images/ki.png"
 ---

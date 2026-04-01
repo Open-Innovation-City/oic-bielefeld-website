@@ -15,7 +15,6 @@ _site/
 # Bundler
 .bundle/
 vendor/
-Gemfile.lock
 
 # Ruby
 *.gem

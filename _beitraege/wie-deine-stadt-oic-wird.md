@@ -1,8 +1,10 @@
 ---
 title: "Wie deine Stadt zur Open Innovation City werden kann"
 teaser: "Mit Münster wird eine weitere Stadt zur Open Innovation City!"
-author: "Sarah Bollmann"
-category: "Open Innovation City"
+authors:
+  - "Sarah Bollmann"
+categories:
+  - "Open Innovation City"
 date: 2025-10-14
 header_image:  
 ---

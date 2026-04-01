@@ -120,10 +120,13 @@ Setze `#` vor jede Zeile des Events (siehe auskommentiertes Beispiel in der Date
 ---
 title: "Titel des Beitrags"
 teaser: "Kurze Zusammenfassung für die Übersicht (1-2 Sätze)"
-author: "Ihr Name"
-category: "Tools"  # oder "Events", "Projekte", etc.
+authors:
+  - "Ihr Name"
+categories:
+  - "Tools"  # oder "Events", "Projekte", etc. (siehe Abschnitt "Kategorien zuweisen")
 date: 2025-07-24
 header_image: "/assets/images/bildname.png"  # Optional
+header_image_credit: "© Fotograf Name / Quelle"  # Optional
 ---
 
 ## Hauptüberschrift
@@ -134,6 +137,97 @@ Hier beginnt Ihr Beitrag...
 
 Weiterer Text...
 ```
+
+### Autor:innen angeben
+
+Für neue Beiträge bitte `authors` verwenden (genau wie bei `categories` als Liste):
+
+**Eine Autorin oder ein Autor:**
+```yaml
+authors:
+  - "Maria Gonçalves"
+```
+
+**Mehrere Autor:innen:**
+```yaml
+authors:
+  - "Maria Gonçalves"
+  - "Jens Edler"
+```
+
+**Kompatibilität für ältere Beiträge:**
+`author: "Name"` funktioniert weiterhin als Fallback.
+
+**Wichtige Hinweise:**
+- Die Namen müssen exakt mit den Namen in `_data/team.yml` übereinstimmen
+- Bei mehreren Autor:innen werden auf der Beitragsseite automatisch mehrere Autor-Karten angezeigt
+- In der Beitragsübersicht werden mehrere Namen als `Autor:innen` angezeigt
+
+### Kategorien zuweisen
+
+Jeder Beitrag sollte mindestens eine Kategorie haben. Die Kategorie erscheint als Tag auf der Beitragskarte und kann auf der Beitragsseite (`/beitraege/`) gefiltert werden.
+
+Kategorien werden immer als Liste angegeben – auch bei nur einer Kategorie:
+
+**Eine Kategorie:**
+```yaml
+categories:
+  - "Events"
+```
+
+**Mehrere Kategorien:**
+Wenn ein Beitrag zu mehreren Themen passt, füge einfach weitere Einträge hinzu:
+```yaml
+categories:
+  - "Netzwerk"
+  - "Open Innovation City"
+```
+
+**Wichtige Hinweise:**
+- Beiträge mit mehreren Kategorien werden bei **jeder** ihrer Kategorien im Filter angezeigt
+- Auf der Beitragskarte werden bei mehreren Kategorien alle als separate Tags angezeigt
+- Verwende möglichst bestehende Kategorien, damit die Filter übersichtlich bleiben
+
+**Verfügbare Kategorien:**
+- `"Events"` – Veranstaltungen und Event-Ankündigungen
+- `"KI und Zivilgesellschaft"` – Beiträge zur KI-Reihe
+- `"Tools"` – Tool-Vorstellungen und Anleitungen
+- `"Projekte"` – Projektvorstellungen und -updates
+- `"Open Innovation City"` – Beiträge zum OIC-Programm
+- `"Netzwerk"` – Netzwerk-Themen und Kooperationen
+- `"Formate"` – Unsere Veranstaltungsformate
+- `"Innovationszirkel"` – Beiträge zum Innovationszirkel
+- `"Open Innovation Hour"` – Beiträge zur Open Innovation Hour
+- `"Rückblick"` – Rückblicke und Jahresberichte
+
+**Neue Kategorien** können jederzeit vergeben werden – sie erscheinen automatisch als neuer Filter-Button auf der Beitragsseite.
+
+**Filter-Links teilen:**
+Du kannst einen direkten Link zu einer gefilterten Ansicht teilen, z.B.:
+`https://oic-bielefeld.de/beitraege/?filter=events`
+
+Der Filter-Wert ist der Kategoriename in Kleinbuchstaben mit Bindestrichen statt Leerzeichen (z.B. `ki-und-zivilgesellschaft`).
+
+### Header-Bild mit Copyright-Hinweis
+
+**Neu seit Januar 2025:** Du kannst jetzt eine Quellenangabe für Header-Bilder hinzufügen!
+
+Der Copyright-Hinweis erscheint dezent in der unteren rechten Ecke des Header-Bilds.
+
+**Einfache Quellenangabe:**
+```yaml
+header_image_credit: "© Max Mustermann"
+```
+
+**Mit Link (z.B. zu Unsplash):**
+```yaml
+header_image_credit: "© [Max Mustermann](https://unsplash.com/@max) / Unsplash"
+```
+
+**Wichtige Hinweise:**
+- Der Copyright-Hinweis ist **optional** - nur angeben wenn nötig
+- Links werden in Markdown-Syntax geschrieben: `[Linktext](URL)`
+- Der Hinweis passt sich automatisch an mobile Geräte an
 
 ### Praktischer Tipp:
 **Vorlage kopieren:** Öffne `_beitraege/diese-website-wurde-mit-ki-erstellt.md`, kopiere den Inhalt und passe ihn für deinen neuen Beitrag an.
@@ -265,7 +359,7 @@ Markdown ist eine einfache Formatierungssprache:
 ```
 
 ### Silbentrennung bei langen Wörtern steuern
-Bei Langen Wörten wie z.B. Passantenfrequnezmessung kann es vorkommen, dass diese zu lang für die vollständige Darstellung sind. Mit dem HTML-Schnipsel `&shy;` könnt ihr vorgeben, an welcher Stelle ein Wort mit Bindestrich umgebrochen werden kann. Dazu musst der HTML-Schnipsel an die gewünschte Stelle im Wort eingesetzt werden. Das Wort wird dann im Bedarfsfall automatisch getrennt.
+Bei langen Wörtern wie z.B. Passantenfrequenzmessung kann es vorkommen, dass diese zu lang für die vollständige Darstellung sind. Mit dem HTML-Schnipsel `&shy;` könnt ihr vorgeben, an welcher Stelle ein Wort mit Bindestrich umgebrochen werden kann. Dazu muss der HTML-Schnipsel an die gewünschte Stelle im Wort eingesetzt werden. Das Wort wird dann im Bedarfsfall automatisch getrennt.
 
 #### Praktisches Beispiel:
 ```markdown
@@ -493,6 +587,64 @@ In diesem Artikel schauen wir uns an, wie...
    text="Die beste Zeit, einen Baum zu pflanzen, war vor 20 Jahren. Die zweitbeste Zeit ist jetzt." %}
 ```
 
+## CTA-Buttons einbinden
+
+Du kannst auffällige Call-to-Action-Buttons in Blog-Beiträge einfügen - zum Beispiel für Downloads, externe Links oder Anmeldungen. Der Button sieht genauso aus wie auf der Startseite (gelb-grüner Gradient mit Hover-Animation).
+
+### Button-Syntax:
+
+**Einfacher Button:**
+```markdown
+{% include cta-button.html text="Zum Projekt" url="https://example.com" %}
+```
+
+**Download-Button (mit Download-Icon):**
+```markdown
+{% include cta-button.html text="PDF herunterladen" url="/assets/downloads/datei.pdf" download=true %}
+```
+
+**Button öffnet neuen Tab:**
+```markdown
+{% include cta-button.html text="Externe Seite besuchen" url="https://example.com" new_tab=true %}
+```
+
+**Parameter:**
+- `text`: **Pflichtfeld** - Text auf dem Button
+- `url`: **Pflichtfeld** - Linkziel (interner Pfad oder externe URL)
+- `download`: Optional - Zeigt ein Download-Icon und löst den Browser-Download aus
+- `new_tab`: Optional - Öffnet den Link in einem neuen Tab
+
+### Praktisches Beispiel:
+```markdown
+---
+title: "Handreichung Wirkungsorientierung"
+author: "Maria Gonçalves"
+category: "Methoden"
+date: 2026-01-28
+---
+
+## Unsere Handreichung
+
+Die Handreichung bietet eine praxisnahe Einführung...
+
+{% include cta-button.html text="Download Handreichung" url="/assets/downloads/handreichung.pdf" download=true %}
+
+{% include cta-button.html text="Download Anhang" url="/assets/downloads/anhang.docx" download=true %}
+```
+
+### Design-Features:
+- **Gelb-grüner Gradient:** Gleicher Look wie auf der Startseite
+- **Hover-Animation:** Button vergrößert sich leicht und leuchtet auf
+- **Download-Icon:** Wird automatisch bei `download=true` angezeigt
+- **Zentriert:** Button wird automatisch mittig dargestellt
+- **Responsive:** Passt sich an alle Bildschirmgrößen an
+
+### Wichtige Hinweise:
+- **Sparsam einsetzen:** CTA-Buttons sind Blickfänger - nicht zu viele pro Beitrag verwenden
+- **Klarer Text:** Der Button-Text sollte die Aktion beschreiben ("PDF herunterladen", "Jetzt anmelden")
+- **Download-Dateien:** Müssen vorher in `assets/downloads/` hochgeladen werden
+- **Kombination möglich:** Kann mit Galerien, Zitaten und Pretix-Widgets kombiniert werden
+
 ## YouTube-Videos einbetten
 
 Du kannst einfach YouTube-Videos in Blog-Beiträge einbinden. Das Video wird als interaktives Thumbnail angezeigt und lädt erst beim Klick.
@@ -544,6 +696,49 @@ Im Workshop haben wir verschiedene KI-Tools vorgestellt...
 - **Kombination möglich:** Videos können mit Galerien und Pretix-Widgets kombiniert werden
 
 **Ausführliche Referenz:** [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
+
+## Suchfunktion
+
+**Neu seit März 2026:** Die Website hat eine Suchfunktion unter `/suche/`, die alle Inhalte der Website durchsuchbar macht.
+
+### Was wird gefunden?
+
+Die Suche indexiert automatisch:
+- ✅ Alle **Blog-Beiträge** (`/beitraege/…`)
+- ✅ **Statische Seiten** (Startseite, KI-Seite, Impressum etc.)
+- ❌ Autoren-Profilseiten (bewusst ausgeschlossen)
+- ❌ Die Beitrags-Übersicht selbst (bewusst ausgeschlossen)
+
+### Was musst du als Redakteur*in tun?
+
+**Nichts.** Der Suchindex wird bei jedem Deployment automatisch neu aufgebaut. Neue Beiträge erscheinen nach dem nächsten Push in den Suchergebnissen.
+
+### Wie sieht ein gutes Suchergebnis aus?
+
+Pagefind zeigt pro Ergebnis:
+- Das **Vorschaubild** des Beitrags (sofern vorhanden)
+- Den **Titel**
+- Einen kurzen **Textauszug** mit hervorgehobenen Suchbegriffen
+
+Damit Beiträge gut in der Suche gefunden werden:
+- Schreibe einen aussagekräftigen **Titel** (wird prominent angezeigt)
+- Nutze wichtige **Schlüsselwörter** im Beitragstext (nicht nur im Teaser)
+- Ein **Header-Bild** verbessert die visuelle Darstellung im Suchergebnis
+
+### Suche verlinken
+
+Du kannst direkt auf die Suchseite mit vorausgefülltem Suchbegriff verlinken – z.B. in einem Beitrag oder einer E-Mail:
+
+```
+https://oic-bielefeld.de/suche/
+```
+
+(Pagefind unterstützt derzeit keine vorausgefüllten Suchbegriffe per URL-Parameter.)
+
+### Wichtige Hinweise
+
+- Der Suchindex wird **nicht** bei lokaler Entwicklung automatisch aktualisiert — dafür muss `npx pagefind --site _site` manuell ausgeführt werden (Aufgabe der Entwicklung, nicht der Redaktion)
+- Die Suche funktioniert **vollständig im Browser** — keine Daten werden an externe Dienste gesendet (DSGVO-konform)
 
 ## Newsletter-Anmeldung per Link
 
@@ -658,6 +853,14 @@ assets/images/events/
 └── innovation-meetup-feb/
 ```
 
+## Kommunikationsgrundlagen
+Für die Kommunikation gelten folgende Grundregeln, die sich z.T. aus unseren CD-Manual ergeben:
+1. Sofern möglich nutzen wir immer deutsche Bezeichnungen. Wir vermeiden Fremdwörter, Anglizismen oder Fachbegriffe. Ist das nicht möglich, erklären wir die Begriffe im Text.
+2. Wir gendern alle Texte. Dafür nutzen wir nach Möglichkeit die geschlechtsneutrale Form. Ist das nicht möglich, nutzen wir den Gender-Stern.
+3. Wir nutzen kurze, vollständige Sätze, um die Lesbarkeit und Textverständlichkeit zu erhöhen.
+4. Wir nutzen aktive Sprache und vermeiden Passiv-Konstruktionen. "Das Team entwickelt eine neue App." anstelle von "Eine neue App wird vom Team entwickelt."
+5. Wir kennzeichnen mit KI generierte Inhalte. Dafür reicht eine Satz am Ende des jeweiligen Inhalts, z.B. "Dieser Text wurde mit Hilfe von KI in einfache Sprache übertragen."
+
 ## Arbeitsweisen
 
 ### Schneller Weg (Direkt committen):
@@ -752,4 +955,4 @@ Bei technischen Problemen oder Konflikten: jens.edler@bielefeld.de
 
 ---
 
-*Letzte Änderung: Oktober 2025 | Version 1.2*
+*Letzte Änderung: Februar 2026 | Version 1.5*

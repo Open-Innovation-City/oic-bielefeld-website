@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- Adaptive Navigation -->
-<nav class="navbar light-theme" id="navbar">
+<nav class="navbar dark-theme{% if site.navbar_style == 'island' %} navbar-island{% endif %}" id="navbar">
     <div class="nav-container">
         <div class="logo">
             <a href="{{ '/' | relative_url }}">
@@ -37,6 +37,12 @@ layout: default
             {% endfor %}
         </ul>
         
+        <a href="{{ '/suche/' | relative_url }}" class="nav-search-btn" aria-label="Suche">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+        </a>
         <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menü öffnen">☰</button>
     </div>
 </nav>
@@ -47,11 +53,22 @@ layout: default
     <div class="header-image">
         <img src="{{ page.header_image | relative_url }}" alt="{{ page.title }}" class="header-img">
         <div class="header-overlay"></div>
+        {% if page.header_image_credit %}
+        <div class="header-image-credit">{{ page.header_image_credit | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+        {% endif %}
     </div>
     {% endif %}
     <div class="container">
         <div class="post-meta">
+            {% if page.categories and page.categories.size > 0 %}
+            <div class="post-categories">
+                {% for cat in page.categories %}
+                <span class="post-category">{{ cat }}</span>
+                {% endfor %}
+            </div>
+            {% elsif page.category %}
             <span class="post-category">{{ page.category }}</span>
+            {% endif %}
             <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">
                 {{ page.date | date: "%d.%m.%Y" }}
             </time>
@@ -75,30 +92,28 @@ layout: default
             </article>
             
             <!-- Author Section -->
-            {% if page.author %}
-                {% assign author = site.data.team | where: "name", page.author | first %}
-                {% if author %}
-                <section class="post-author">
-                    <div class="author-card">
-                        <div class="author-avatar">
-                            <img src="{{ author.image | relative_url }}" alt="{{ author.name }}" loading="lazy">
-                        </div>
-                        <div class="author-info">
-                            <h3 class="author-name">{{ author.name }}</h3>
-                            <p class="author-role">{{ author.role }}</p>
-                            <div class="author-expertise">
-                                {% for skill in author.expertise %}
-                                <span class="expertise-tag">{{ skill }}</span>
-                                {% endfor %}
-                            </div>
-                            <a href="mailto:{{ author.email }}" class="author-contact">
-                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                                    <polyline points="22,6 12,13 2,6"></polyline>
-                                </svg>
-                                Kontakt aufnehmen
-                            </a>
-                        </div>
+            {% assign post_authors = "" | split: "" %}
+            {% if page.authors and page.authors.size > 0 %}
+                {% assign post_authors = page.authors | uniq %}
+            {% elsif page.author %}
+                {% assign post_authors = post_authors | push: page.author %}
+            {% endif %}
+
+            {% if post_authors.size > 0 %}
+                {% assign valid_authors = "" | split: "" %}
+                {% for author_name in post_authors %}
+                    {% assign author_data = site.data.team | where: "name", author_name | first %}
+                    {% if author_data %}
+                        {% assign valid_authors = valid_authors | push: author_data %}
+                    {% endif %}
+                {% endfor %}
+
+                {% if valid_authors.size > 0 %}
+                <section class="post-author" aria-label="Autorinnen und Autoren">
+                    <div class="post-author-grid{% if valid_authors.size > 1 %} multiple-authors{% endif %}">
+                        {% for author in valid_authors %}
+                            {% include author-card.html author=author linked=true %}
+                        {% endfor %}
                     </div>
                 </section>
                 {% endif %}
@@ -164,6 +179,29 @@ layout: default
     background: linear-gradient(135deg, rgba(0, 178, 187, 0.8) 0%, rgba(102, 108, 222, 0.8) 100%);
 }
 
+.header-image-credit {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 3;
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.85);
+    background: rgba(0, 0, 0, 0.4);
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    backdrop-filter: blur(4px);
+}
+
+.header-image-credit a {
+    color: rgba(255, 255, 255, 0.95);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.header-image-credit a:hover {
+    color: white;
+}
+
 .post-header .container {
     position: relative;
     z-index: 2;
@@ -177,6 +215,13 @@ layout: default
     margin-bottom: 1.5rem;
     font-size: 0.9rem;
     opacity: 0.9;
+}
+
+.post-categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
 }
 
 .post-category {
@@ -272,6 +317,15 @@ layout: default
     border-bottom-color: var(--primary-turquoise);
 }
 
+.post-article a.cta-button {
+    color: var(--text-dark);
+    border-bottom: none;
+}
+
+.post-article a.cta-button:hover {
+    border-bottom: none;
+}
+
 .post-article img {
     max-width: 100%;
     height: auto;
@@ -335,7 +389,7 @@ layout: default
     gap: 1.5rem;
     padding: 1.5rem 2rem;
     margin-bottom: 3rem;
-    border-radius: 12px;
+    border-radius: 16px;
     box-shadow: var(--shadow-medium);
     animation: slideIn 0.5s ease-out;
 }
@@ -419,14 +473,43 @@ layout: default
     border-top: 1px solid #eee;
 }
 
+.post-author-grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.post-author-grid.multiple-authors {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.author-card-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    border-radius: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.author-card-link:hover {
+    transform: translateY(-2px);
+}
+
+.author-card-link:hover .author-card {
+    box-shadow: var(--shadow-medium);
+}
+
+.author-card-link:hover .author-name {
+    color: var(--primary-turquoise);
+}
+
 .author-card {
     display: flex;
     gap: 2rem;
     align-items: flex-start;
     background: var(--bg-light);
     padding: 2rem;
-    border-radius: 12px;
-    box-shadow: var(--shadow-light);
+    border-radius: 16px;
+    box-shadow: var(--shadow-medium);
 }
 
 .author-avatar {
@@ -538,7 +621,7 @@ layout: default
     width: 100%;
     max-width: 800px;
     margin: 2rem auto;
-    border-radius: 12px;
+    border-radius: 16px;
     overflow: hidden;
     box-shadow: var(--shadow-medium);
     cursor: pointer;
@@ -546,8 +629,8 @@ layout: default
 }
 
 .youtube-video:hover {
-    transform: translateY(-5px);
-    box-shadow: var(--shadow-heavy);
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-medium);
 }
 
 .youtube-thumbnail {
@@ -657,10 +740,21 @@ layout: default
         width: 80px;
         height: 80px;
     }
+
+    .post-author-grid.multiple-authors {
+        grid-template-columns: 1fr;
+    }
     
     .post-meta {
         flex-direction: column;
         gap: 0.5rem;
+    }
+
+    .header-image-credit {
+        bottom: 0.5rem;
+        right: 0.5rem;
+        font-size: 0.65rem;
+        padding: 0.2rem 0.5rem;
     }
 
     .related-post-banner {
@@ -737,8 +831,6 @@ document.addEventListener('DOMContentLoaded', function() {
             const galleryId = img.dataset.gallery;
             const imageIndex = parseInt(img.closest('.gallery-item').dataset.index);
             
-            console.log('Gallery clicked:', galleryId, imageIndex); // Debug
-            
             // Get all images from the same gallery
             const galleryImgs = Array.from(document.querySelectorAll(`[data-gallery="${galleryId}"]`));
             const images = galleryImgs.map(galleryImg => ({
@@ -746,8 +838,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 caption: galleryImg.dataset.caption || galleryImg.alt || '',
                 alt: galleryImg.alt
             }));
-            
-            console.log('Gallery images:', images); // Debug
             
             showLightbox(img.src, img.dataset.caption || img.alt || '', galleryId, imageIndex, images);
         }

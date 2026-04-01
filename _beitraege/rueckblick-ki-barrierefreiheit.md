@@ -1,8 +1,10 @@
 ---
 title: "Ein Rückblick auf das MeetUp KI und Barrierefreiheit"
 teaser: "Das 7. Meetup aus der Reihe KI und Zivilgesellschaft behandelte das Thema Barrierefreiheit. Stephan Berkowitz gibt einen persönlichen Rückblick auf das MeetUp und teilt, was er gelernt hat."
-author: "Stephan Berkowitz"
-category: "Rückblick"
+authors:
+  - "Stephan Berkowitz"
+categories:
+  - "Rückblick"
 date: 2025-10-15
 header_image: "/assets/images/ki.png"
 related_post: "ki-barrierefreiheit"

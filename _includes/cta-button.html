@@ -1,0 +1,30 @@
+<!-- CTA Button Component for Blog Posts -->
+<!-- Parameters: text (required), url (required), download (optional), secondary (optional), new_tab (optional) -->
+<div class="post-cta-container">
+    <a href="{{ include.url }}"
+       class="cta-button{% if include.secondary %} secondary{% endif %}"
+       {% if include.download %}download{% endif %}
+       {% if include.new_tab %}target="_blank" rel="noopener noreferrer"{% endif %}>
+        {% if include.download %}<svg class="cta-download-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>{% endif %}{{ include.text }}
+    </a>
+</div>
+
+<style>
+.post-cta-container {
+    display: flex;
+    justify-content: center;
+    margin: 2.5rem 0;
+}
+
+.post-cta-container .cta-button {
+    opacity: 1;
+    animation: none;
+}
+
+.cta-download-icon {
+    width: 1.2em;
+    height: 1.2em;
+    vertical-align: -0.2em;
+    margin-right: 0.4em;
+}
+</style>

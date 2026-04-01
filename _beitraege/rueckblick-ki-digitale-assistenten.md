@@ -1,8 +1,10 @@
 ---
 title: "Ein Rückblick auf das MeetUp KI und Digitale Assistenten"
 teaser: "Im 4. Meetup der Reihe \"KI und Zivilgesellschaft\" zeigte Conner Kuhlmeyer praxisnah, wie Digitale Assistenten in Organisationen eingesetzt werden können."
-author: "Maria Gonçalves"
-category: "Rückblick"
+authors:
+  - "Maria Gonçalves"
+categories:
+  - "Rückblick"
 date: 2025-09-27
 header_image: "/assets/images/ki.png"
 related_post: "ki-und-digitale-assistenten"

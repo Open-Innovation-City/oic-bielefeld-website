@@ -1,8 +1,10 @@
 ---
 title: "Passanten&shy;frequenz&shy;messung"
 teaser: "Die Passantenfrequenzmessung liefert datenbasierte Einblicke in Besucherströme der Innenstadt, damit Bielefeld noch lebendiger und attraktiver wird."
-author: "Tatjana Džepina"
-category: "Projekte"
+authors:
+  - "Tatjana Džepina"
+categories:
+  - "Projekte"
 date: 2025-09-12
 header_image: "assets/images/beitraege/passantenfrequenzmessung/passantenfrequenzmessung_header_16x9.png"
 ---

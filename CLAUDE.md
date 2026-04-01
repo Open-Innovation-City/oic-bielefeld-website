@@ -74,6 +74,58 @@ Edit `_data/team.yml` with required fields:
   animation_delay: 0.2  # For staggered animations
 ```
 
+### Author Pages
+
+**New as of February 2026:** Each team member has a dedicated author page at `/autoren/<slug>/` showing their profile and all their blog posts.
+
+**URL Structure:** `/autoren/jens-edler/`, `/autoren/maria-goncalves/`, etc.
+
+**Architecture:**
+The system uses three reusable components:
+- `_includes/author-card.html` - Author profile card (avatar, name, role, expertise, email)
+- `_includes/post-card.html` - Blog post teaser card (used on `/beitraege/` and author pages)
+- `_layouts/author.html` - Author page layout
+
+**Author page files** live in `autoren/` (one per team member):
+```yaml
+---
+layout: author
+title: "Jens Edler"
+author_name: "Jens Edler"
+permalink: /autoren/jens-edler/
+---
+```
+
+**How it works:**
+1. The layout looks up the team member in `_data/team.yml` via `page.author_name`
+2. It renders the author-card include with the `<h1>` heading level (no hero section, card starts directly below navbar)
+3. It filters `site.beitraege` by author name (`authors` array or legacy `author` field) and displays post-cards sorted by date (newest first)
+4. Retrospective posts (`is_retrospective: true`) are excluded from the listing
+5. If no posts exist, a fallback message is shown
+
+**Author-Card Include Parameters:**
+- `linked` (boolean) - Wraps card in a link to the author page. `true` on blog posts, `false` on the author page itself
+- `heading` (string) - `"h1"` on author pages, defaults to `"h3"` on blog posts
+
+**Slug Generation:**
+The author-card include generates URLs using `slugify: "latin"` to convert special characters to ASCII:
+- "Maria Gonçalves" → `maria-goncalves`
+- "Tatjana Džepina" → `tatjana-dzepina`
+
+The permalink in the author page front matter must match this output.
+
+**On blog posts (`_layouts/post.html`):**
+Author cards are clickable and link to the author page. Posts can use `authors` (array) for multiple author cards, or legacy `author` (string) for a single card. Hover effect: `translateY(-3px)` lift with shadow. The email contact link is hidden on linked cards (shown only on the author page itself).
+
+**Adding a new team member:**
+1. Add the member to `_data/team.yml`
+2. Create `autoren/<slug>.md` with the front matter above
+3. The author page works immediately, even without posts (shows fallback)
+
+**Important:** Author pages are **not auto-generated**. Every team member needs a manually created markdown file in `autoren/`. All current team members already have pages. If a new member is added to `team.yml`, a corresponding author page must be created — otherwise the author-card link on their posts leads to a 404.
+
+**Navigation:** Author pages do **not** appear in the site navigation. They are only reachable via author-card links on blog posts.
+
 ### Adding Projects
 Edit `_data/projects.yml` with status tracking:
 ```yaml
@@ -207,6 +259,36 @@ Use the gallery include for GitHub Pages compatibility:
 - **Alphabetical sorting**: Auto-loaded images are sorted alphabetically (use numerical prefixes for custom order: `01-first.jpg`, `02-second.jpg`)
 - **Manual override**: Use `gallery_id` parameter to explicitly set gallery ID if needed
 
+### Blog Post Header Images
+Blog posts can have a full-width header image with optional copyright credit:
+
+```yaml
+---
+title: "Event Title"
+header_image: "/assets/images/events/event-header.jpg"
+header_image_credit: "© Fotograf Name / Quelle"  # Optional
+---
+```
+
+**With Link (Markdown supported):**
+```yaml
+header_image_credit: "© [Max Mustermann](https://unsplash.com/@max) / Unsplash"
+```
+
+**Header Image Features:**
+- **Full-width display**: Image spans entire header area with gradient overlay
+- **Copyright credit**: Optional `header_image_credit` field displays attribution
+- **Markdown support**: Links can be added using standard Markdown syntax
+- **Credit positioning**: Bottom-right corner, semi-transparent background
+- **Responsive design**: Credit adjusts size and position on mobile devices
+
+**Implementation Details:**
+- Credit element uses `backdrop-filter: blur(4px)` for readability
+- Markdown is processed via `markdownify` filter
+- Links are styled white with underline for visibility
+- z-index ensures credit appears above overlay but below content
+- Mobile breakpoint reduces font size and padding
+
 ### Adding Images with Captions in Blog Posts
 **New as of January 2025:** Images in blog posts now support automatic caption display using the title attribute:
 
@@ -259,6 +341,41 @@ Use the gallery include for GitHub Pages compatibility:
    author="Steve Jobs" %}
 ```
 
+### Adding CTA Buttons in Blog Posts
+**New as of February 2026:** For embedding styled call-to-action buttons in blog posts:
+```markdown
+{% include cta-button.html text="Download PDF" url="/assets/downloads/file.pdf" download=true %}
+```
+
+```markdown
+{% include cta-button.html text="Visit Project" url="https://example.com" new_tab=true %}
+```
+
+**CTA Button Component:**
+- **Reuses existing `.cta-button` styles** from `main.css` (lines 678-736) - no duplicate CSS
+- **Yellow-green gradient** with hover animation matching the homepage hero
+- **Centered layout** with proper spacing for blog content
+- **Download support** with inline SVG icon
+
+**Parameters:**
+- `text`: Button label text (required)
+- `url`: Link target - internal path or external URL (required)
+- `download`: Shows download icon and sets HTML `download` attribute (optional)
+- `secondary`: Uses secondary button style - transparent with white border (optional)
+- `new_tab`: Opens link in new tab with `rel="noopener noreferrer"` (optional)
+
+**Implementation Details:**
+- Component file: `_includes/cta-button.html`
+- Self-contained styling within component (following `quote.html` pattern)
+- Wrapper `.post-cta-container` overrides hero animation (`opacity: 1`, `animation: none`)
+- Download icon is inline SVG (Feather icons style, consistent with codebase)
+- CSS uses flexbox centering with `margin: 2.5rem 0` for spacing
+
+**Example Usage:**
+```markdown
+{% include cta-button.html text="Download Handreichung" url="/assets/downloads/handreichung.pdf" download=true %}
+```
+
 ### Adding Pretix Event Widgets
 For embedding event registration forms directly in blog posts:
 ```markdown
@@ -296,7 +413,8 @@ Create a regular blog post for the event announcement in `_beitraege/`:
 ---
 title: "KI Workshop for Associations"
 teaser: "Learn how AI can support your association work"
-author: "Sarah Mueller"
+authors:
+  - "Sarah Mueller"
 category: "Events"
 date: 2025-08-15
 ---
@@ -310,7 +428,8 @@ Create a new post with "-rueckschau" suffix:
 ---
 title: "KI Workshop for Associations - Retrospective"
 teaser: "An inspiring evening with many practical insights"
-author: "Sarah Mueller"
+authors:
+  - "Sarah Mueller"
 category: "Events"
 date: 2025-08-20
 related_post: "ki-workshop-vereine"
@@ -511,9 +630,108 @@ This ensures clean category organization while keeping retrospectives accessible
 - **Color system**: Always use CSS custom properties from design token system
 - **Error handling**: Logo and image loading includes graceful fallbacks
 
+### Navbar Style Configuration
+
+**New as of February 2026:** The navbar supports two visual styles, configurable via `_config.yml`:
+
+```yaml
+# Floating Island navbar (default)
+navbar_style: "island"
+
+# Standard full-width navbar
+navbar_style: "standard"
+```
+
+**Important:** Changing `navbar_style` requires a Jekyll server restart (not just live-reload).
+
+**Both styles share:**
+- **Türkis-tinted glass effect** on scroll (dark-theme: `rgba(0, 179, 167, 0.1)`, light-theme: `rgba(0, 179, 167, 0.06)`)
+- **Light-theme tint from the start** — visible on pages with white backgrounds (e.g., `/beitraege/`)
+- **Gradient accent line** (Türkis → Blau) at the bottom of the scrolled navbar via `::after` pseudo-element
+- **Adaptive theme switching** between dark-theme and light-theme based on background color detection
+- **Box-shadow** for depth on scroll
+
+**Island style (`navbar_style: "island"`):**
+- On scroll (>50px), navbar morphs into a floating island:
+  - `max-width: 1200px` with `margin: 0 auto` (centered)
+  - `border-radius: 16px` (rounded corners)
+  - `top: 12px` (floats below browser edge)
+  - `width: calc(100% - 48px)` (24px padding on each side)
+- Smooth CSS transition via existing `0.4s cubic-bezier`
+- **Mobile (≤900px):** Island sizing disabled (full width, no radius), tint + shadow preserved
+
+**Standard style (`navbar_style: "standard"`):**
+- Full-width navbar at all times, only tint + shadow changes on scroll
+
+**Implementation Details:**
+- CSS class `.navbar-island` is conditionally added via Liquid: `{% if site.navbar_style == 'island' %} navbar-island{% endif %}`
+- Island-specific CSS rules target `.navbar-island.scrolled` only
+- All 7 navbar instances updated: `index.html`, `_layouts/post.html`, `_layouts/page.html`, `_layouts/author.html`, `beitraege.html`, `404.html`, `ki-zivilgesellschaft.html`
+- No JavaScript changes needed — the existing `.scrolled` class toggle at >50px scroll works for both styles
+
+**Theme detection on blog posts:**
+- Post layout (`_layouts/post.html`) starts with `dark-theme` (matching the colored post header)
+- `AdaptiveNavigation` in `main.js` observes `section:not(.post-author), .post-header, .post-content` elements
+- When scrolling past the post header into the white content area, navbar switches to `light-theme` automatically
+- The outer `<main id="main">` from `default.html` is intentionally excluded to prevent false theme switches near the footer
+
+### Suchfunktion (Pagefind)
+
+**Neu seit März 2026:** Die Website hat eine vollständige clientseitige Volltextsuche unter `/suche/` auf Basis von [Pagefind](https://pagefind.app).
+
+**Architektur:**
+- `suche.html` – Eigenständige Seite (`layout: default`) mit 404-inspiriertem Design (schwebendes „Suche"-Heading)
+- Pagefind-Index liegt in `_site/pagefind/` (wird bei jedem Build neu generiert)
+- Suchicon in der Navbar auf allen 7 Seiten/Layouts (`.nav-search-btn`)
+
+**Lokaler Workflow:**
+```bash
+# Nach jedem Jekyll-Rebuild den Index neu generieren:
+npx pagefind --site _site
+```
+
+**Vom Index ausgeschlossen** (via `data-pagefind-ignore`):
+- Autoren-Übersichtsseiten (`_layouts/author.html` → `<main data-pagefind-ignore>`)
+- Beiträge-Übersicht (`beitraege.html` → `<section data-pagefind-ignore>`)
+- Die Suchseite selbst (`suche.html` → `<div class="search-page" data-pagefind-ignore>`)
+
+**Design-Integration:**
+- Pagefind CSS Custom Properties überschrieben in `suche.html` (`--pagefind-ui-primary`, `--pagefind-ui-font` etc.)
+- „Mehr Ergebnisse laden"-Button: identisches Styling wie `.cta-button` (gelb-grüner Gradient, `border-radius: 50px`)
+- Treffer-Highlighting: `--primary-yellow` (#fff564)
+
+**GitHub Actions (noch ausstehend):**
+Der lokale Workflow funktioniert über manuelles `npx pagefind`. Für Production muss ein GitHub Actions Workflow erstellt werden, der nach `bundle exec jekyll build` den Befehl `npx pagefind --site _site` ausführt und dann nach GitHub Pages deployt. Dazu muss in GitHub Settings → Pages die Source von „Deploy from a branch" auf „GitHub Actions" umgestellt werden.
+
+**Navbar-Suchbutton (`.nav-search-btn`):**
+- CSS in `assets/css/main.css` (nach `.mobile-menu-btn`-Styles)
+- Transparenter Hintergrund, kein Rahmen — passt sich `dark-theme`/`light-theme` automatisch an
+- SVG: Feather Icons Lupe (20×20px)
+
 ### SEO & Performance
 - **Meta tags**: Managed via `_includes/head.html` with preconnect optimization
 - **German language**: Content structure optimized for German municipal website requirements
 - **Legal compliance**: Includes proper Impressum/Datenschutz pages
 - **Asset optimization**: Images automatically compressed, CSS/JS minified on build
 - Always assume, that a Jekyll with Livereload ist running in the background for testing purposes.
+
+### Content Security Policy (CSP)
+
+**Seit April 2026** hat die Site einen CSP-`<meta>`-Tag in `_includes/head.html`.
+
+**Wichtig:** Wenn eine neue externe Ressource eingebunden wird (Script, Stylesheet, iframe, Bild von einer fremden Domain), muss die CSP dort manuell erweitert werden.
+
+Aktuell erlaubte externe Quellen:
+
+| Direktive | Erlaubte Domains |
+|---|---|
+| `script-src` | `pretix.eu`, `cdn.jsdelivr.net` + `'unsafe-inline'`, `'unsafe-eval'` |
+| `style-src` | `pretix.eu` + `'unsafe-inline'` |
+| `font-src` | nur `'self'` (lokale Fonts) |
+| `frame-src` | `www.bielefeld.de`, `pretix.eu`, `www.youtube.com` |
+| `img-src` | `img.youtube.com`, `data:` |
+| `connect-src` | `pretix.eu` (Widget-API) |
+
+**Beispiel:** Ein neues Embed von Vimeo würde `https://player.vimeo.com` zu `frame-src` erfordern.
+
+Nach CSP-Änderungen immer im Browser testen: DevTools → Console auf `Content-Security-Policy`-Fehler prüfen.

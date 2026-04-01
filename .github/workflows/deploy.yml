@@ -1,0 +1,41 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '0 6 * * *'  # Täglich um 06:00 UTC (= 07:00 MEZ / 08:00 MESZ)
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+
+      - name: Jekyll Build
+        run: bundle exec jekyll build
+
+      - name: Pagefind Index generieren
+        run: npx pagefind --site _site
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+      - uses: actions/deploy-pages@v4
+        id: deployment

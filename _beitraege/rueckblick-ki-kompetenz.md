@@ -1,8 +1,10 @@
 ---
 title: "Ein Rückblick auf das MeetUp KI-Kompetenz – KI sachkundig und sinnvoll einsetzen."
 teaser: "Das 9. Meetup aus der Reihe KI und Zivilgesellschaft behandelte die Notwendigkeit von KI-Kompetenz. Stephan Berkowitz gibt einen persönlichen Rückblick auf das MeetUp."
-author: "Stephan Berkowitz"
-category: "Rückblick"
+authors:
+  - "Stephan Berkowitz"
+categories:
+  - "Rückblick"
 date: 2025-11-13
 header_image: "/assets/images/ki.png"
 related_post: "ki-kompetenz"

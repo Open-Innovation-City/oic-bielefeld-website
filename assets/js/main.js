@@ -38,7 +38,7 @@
         }
 
         setupBackgroundDetection() {
-            const sections = document.querySelectorAll('section');
+            const sections = document.querySelectorAll('section:not(.post-author), .post-header, .post-content, .page-header, main.page-content');
             const options = {
                 root: null,
                 rootMargin: '-10% 0% -80% 0%',
@@ -67,15 +67,19 @@
                 isLight = this.isLightColor(backgroundColor);
             } else {
                 // Fallback: check section classes or data attributes
-                isLight = section.classList.contains('light-section') || 
+                isLight = section.classList.contains('light-section') ||
                          section.classList.contains('about') ||
                          section.classList.contains('projects') ||
                          section.classList.contains('events') ||
+                         section.classList.contains('past-events') ||
+                         section.classList.contains('post-content') ||
                          section.dataset.theme === 'light' ||
-                         sectionId === 'about' || 
+                         sectionId === 'about' ||
                          sectionId === 'team' ||
                          sectionId === 'projects' ||
-                         sectionId === 'events';
+                         sectionId === 'events' ||
+                         sectionId === 'past-events' ||
+                         section.tagName === 'MAIN';
             }
             
             const newTheme = isLight ? 'light' : 'dark';
@@ -378,18 +382,18 @@
         const projectCards = document.querySelectorAll('.project-card');
         
         projectCards.forEach(function(card) {
-            const tag = card.querySelector('.project-tag');
-            
+            const tags = card.querySelectorAll('.project-tag');
+
             card.addEventListener('mouseenter', function() {
-                if (tag) {
+                tags.forEach(function(tag) {
                     tag.style.transform = 'scale(1.1) rotate(-2deg)';
-                }
+                });
             });
-            
+
             card.addEventListener('mouseleave', function() {
-                if (tag) {
+                tags.forEach(function(tag) {
                     tag.style.transform = 'scale(1) rotate(0deg)';
-                }
+                });
             });
         });
     }
@@ -489,7 +493,6 @@
             if (bookBtn) {
                 bookBtn.addEventListener('click', function() {
                     // Add analytics tracking here if needed
-                    console.log('Event booking clicked:', card.querySelector('.event-title').textContent);
                 });
             }
         });
@@ -696,15 +699,9 @@
             const now = new Date();
             const daysDiff = (now - dismissedDate) / (1000 * 60 * 60 * 24);
 
-            // If dismissed less than 7 days ago, hide the alert
+            // If dismissed less than 7 days ago, remove the alert
             if (daysDiff < 7 && alertBanner) {
-                alertBanner.style.display = 'none';
-
-                // Reset navbar position
-                const navbar = document.querySelector('.navbar');
-                if (navbar) {
-                    navbar.style.top = '0';
-                }
+                alertBanner.remove();
             }
         }
     }
@@ -722,7 +719,7 @@
     class BeitraegeFilter {
         constructor() {
             this.filterButtons = document.querySelectorAll('.filter-btn');
-            this.beitraegeCards = document.querySelectorAll('.project-card[data-category]');
+            this.beitraegeCards = document.querySelectorAll('.project-card[data-categories]');
             this.resultText = document.getElementById('filter-result-text');
             this.beitraegeGrid = document.getElementById('beitraege-grid');
             this.currentFilter = 'all';
@@ -837,8 +834,8 @@
             let visibleCount = 0;
 
             this.beitraegeCards.forEach((card, index) => {
-                const category = card.dataset.category;
-                const shouldShow = filter === 'all' || category === filter;
+                const categories = (card.dataset.categories || '').split(' ').filter(c => c);
+                const shouldShow = filter === 'all' || categories.includes(filter);
 
                 if (shouldShow) {
                     visibleCount++;
@@ -948,18 +945,18 @@
     class NewsletterModal {
         constructor() {
             this.modal = document.getElementById('newsletterModal');
-            this.openBtn = document.getElementById('newsletterCTA');
+            this.openBtns = document.querySelectorAll('.newsletter-open-btn');
             this.closeBtn = document.getElementById('newsletterModalClose');
             this.overlay = document.getElementById('newsletterModalOverlay');
 
-            if (this.modal && this.openBtn) {
+            if (this.modal && this.openBtns.length > 0) {
                 this.init();
             }
         }
 
         init() {
-            // Open modal
-            this.openBtn.addEventListener('click', () => this.open());
+            // Open modal from any newsletter button
+            this.openBtns.forEach(btn => btn.addEventListener('click', () => this.open()));
 
             // Close modal
             this.closeBtn.addEventListener('click', () => this.close());
@@ -1008,14 +1005,6 @@
      */
     document.addEventListener('DOMContentLoaded', function() {
         const newsletterModal = new NewsletterModal();
-
-        // Connect alert CTA button to newsletter modal
-        const alertCTA = document.getElementById('newsletterAlertCTA');
-        if (alertCTA && newsletterModal.modal) {
-            alertCTA.addEventListener('click', () => {
-                newsletterModal.open();
-            });
-        }
     });
 
 })();
