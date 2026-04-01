@@ -69,6 +69,7 @@ temp/
 
 # Cache
 .cache/
+generated-newsletters/
 
-# Security audit (nicht für GitHub oder Deployment)
-SECURITY-AUDIT.md
+# Input folder (local working directory)
+_input/

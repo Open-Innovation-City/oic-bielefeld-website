@@ -1,0 +1,165 @@
+leitsaetze:
+  - number: 1
+    title: "Digitale Transformation"
+    text: "BIE-Digital treibt die Digitale Transformation in Verwaltung und Stadtgesellschaft voran. Innovationen sind dabei ein wichtiger Bestandteil."
+
+  - number: 2
+    title: "Offene Innovation"
+    text: "Dafür gibt es den Geschäftsbereich Innovation, in dem wir die Initiative Open Innovation City verantworten. Wir nutzen und vermitteln dafür insbesondere das Prinzip der Offenen Innovation."
+
+  - number: 3
+    title: "Experimentierräume"
+    text: "Wir öffnen Denk- und Experimentierräume, um mit anderen Organisationseinheiten neue Prozesse und Technologien zu erproben. Dazu bringen wir unsere Expertise im Bereich Innovation ein. Die Fachverantwortung bleibt bei den Organisationseinheiten."
+
+  - number: 4
+    title: "Stadtgesellschaft"
+    text: "Für die Stadtgesellschaft organisieren wir unterschiedliche Formate, die Zusammenarbeit, Austausch und Vernetzung fördern. Damit begegnen wir den ökonomischen, ökologischen und sozialen Herausforderungen in Bielefeld gemeinschaftlich."
+
+  - number: 5
+    title: "Innovation Office"
+    text: "Das Innovation Office ist der zentrale Ort, an dem Akteure aus Verwaltung, Wirtschaft, Wissenschaft und Zivilgesellschaft gemeinsam und offen an Innovationen arbeiten."
+
+categories:
+  - name: "Verwaltung & Weiterbildung"
+    description: "Interne Zusammenarbeit und Kompetenzaufbau"
+    icon: "🏛️"
+    color: "secondary-blue"
+    leitsaetze: [3]
+    results:
+      - title: "Dialogveranstaltungen innerhalb der Verwaltung"
+        planned: 2
+        achieved: 0
+        unit: "Veranstaltungen"
+        comment: ""
+
+      - title: "Impulse im Intranet zum Thema Innovation"
+        planned: 24
+        achieved: 0
+        unit: "Beiträge"
+        comment: "War nicht möglich, weil keine Kommunikationsstruktur für das Intranet vorliegt."
+
+      - title: "Weiterbildungsmöglichkeiten in Organisationseinheiten vorstellen"
+        planned: 5
+        achieved: 1
+        unit: "Vorstellungen"
+        comment: ""
+
+      - title: "Beratung anderer Organisationseinheiten zum Thema Innovation"
+        planned: 12
+        achieved: 24
+        unit: "Beratungen"
+        comment: ""
+
+  - name: "Öffentlichkeitsarbeit & Events"
+    description: "Kommunikation und Veranstaltungen für die Stadtgesellschaft"
+    icon: "📢"
+    color: "primary-turquoise"
+    leitsaetze: [4]
+    results:
+      - title: "Beiträge über alle Medien veröffentlichen"
+        planned: 24
+        achieved: 71
+        unit: "Beiträge"
+        comment: "Durch unsere eigene Website hat es einen Push gegeben."
+
+      - title: "Kleinere Veranstaltungen wie Quartiersbesuche durchführen"
+        planned: 8
+        achieved: 25
+        unit: "Veranstaltungen"
+        comment: ""
+
+      - title: "Als Expert:innen auf externen Veranstaltungen fungieren"
+        planned: 2
+        achieved: 5
+        unit: "Auftritte"
+        comment: ""
+
+      - title: "Große Veranstaltung für die Stadtgesellschaft"
+        planned: 1
+        achieved: 1
+        unit: "Veranstaltung"
+        comment: "Nachtansichten"
+
+  - name: "Projekte & Prototypen"
+    description: "Umsetzung innovativer Lösungen mit Fachämtern"
+    icon: "🚀"
+    color: "secondary-green"
+    leitsaetze: [3]
+    results:
+      - title: "Prototypen und Pilotprojekte mit Fachämtern umsetzen"
+        planned: 4
+        achieved: 8
+        unit: "Projekte"
+        comment: ""
+
+      - title: "Fachämter zur Unterstützung des Office-Dienstes einladen"
+        planned: 6
+        achieved: 0
+        unit: "Einladungen"
+        comment: "Wir bieten keine Öffnungszeiten mehr an, deshalb ist dieses Key Result nicht mehr relevant."
+
+      - title: "Innovationszirkel initiieren"
+        planned: 2
+        achieved: 0
+        unit: "Zirkel"
+        comment: "Wir haben keine sinnvoll umsetbaren Themen für Innovationszirkel gefunden und deshalb das Format eingestellt."
+
+  - name: "Netzwerk & Austausch"
+    description: "Vernetzung und Zusammenarbeit über Stadtgrenzen hinaus"
+    icon: "🌐"
+    color: "secondary-light-blue"
+    leitsaetze: [4]
+    results:
+      - title: "Netzwerk um Kontakte erweitern"
+        planned: 100
+        achieved: 331
+        unit: "Kontakte"
+        comment: "Hierbei handelt es sich um Einträge von Einzelkontakten in unserem CRM."
+
+      - title: "Eigene Veranstaltung für Akteure im OIC-Netzwerk"
+        planned: 1
+        achieved: 1
+        unit: "Veranstaltung"
+        comment: "Sommerfest"
+
+      - title: "Themenbezogene Netzwerkveranstaltung"
+        planned: 1
+        achieved: 1
+        unit: "Veranstaltung"
+        comment: "D.I.V."
+
+      - title: "Netzwerkveranstaltungen im europäischen Ausland"
+        planned: 2
+        achieved: 0
+        unit: "Teilnahmen"
+        comment: "Wurden auf Grund der Haushaltssperre gestrichen."
+
+      - title: "Netzwerkveranstaltungen im Inland"
+        planned: 6
+        achieved: 8
+        unit: "Teilnahmen"
+        comment: ""
+
+  - name: "Räumlichkeiten & Infrastruktur"
+    description: "Nutzung des Innovation Office als Begegnungsort"
+    icon: "🏢"
+    color: "secondary-pink"
+    leitsaetze: [5]
+    results:
+      - title: "Nutzung durch externe Akteure"
+        planned: 24
+        achieved: 88
+        unit: "Nutzungen"
+        comment: ""
+
+      - title: "Nutzung durch andere Fachämter"
+        planned: 24
+        achieved: 33
+        unit: "Nutzungen"
+        comment: ""
+
+parkplatz:
+  title: "Weitere Aktivitäten"
+  description: "Zusätzliche Projekte und Unterstützungsleistungen"
+  count: 13
+  examples: "Vorstellung OIC, Unterstützung OIC Münster, InnovateNow uvm."
