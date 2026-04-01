@@ -65,7 +65,7 @@ Additionally, `checkOrigin: false` is set in the iFrameResizer config (`index.ht
 
 ### MEDIUM-01: No Content Security Policy (CSP)
 **File:** `_includes/head.html`
-**Status:** Open
+**Status:** **Fixed** (April 1, 2026)
 
 No CSP header or `<meta>` tag exists anywhere in the project. Without CSP, injected scripts from any origin can execute freely. Note: GitHub Pages does not support custom HTTP headers, so a `<meta http-equiv="Content-Security-Policy">` tag would provide partial protection.
 
@@ -274,7 +274,7 @@ The VAT ID is publicly required by German law (Impressumspflicht) and is correct
 | 2 | HIGH-02: Reduce iframe `allow` to `""` + fix `checkOrigin` | Small | Open |
 | 3 | MEDIUM-06: Change `url` in `_config.yml` to `https://` | Trivial | **Fixed** |
 | 4 | MEDIUM-04: Add `noreferrer` to all `target="_blank"` links | Small | **Fixed** |
-| 5 | MEDIUM-01: Add CSP `<meta>` tag | Medium | Open |
+| 5 | MEDIUM-01: Add CSP `<meta>` tag | Medium | **Fixed** |
 | 6 | MEDIUM-05: Add SRI hashes to external scripts | Small | Open |
 | 7 | MEDIUM-08: Remove unused `jekyll-admin` from Gemfile | Trivial | **Fixed** |
 | 8 | LOW-01: Remove `console.log` calls | Trivial | Open |
