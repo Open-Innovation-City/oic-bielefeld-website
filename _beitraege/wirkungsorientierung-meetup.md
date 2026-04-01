@@ -5,6 +5,7 @@ authors:
   - "Maria Gonçalves"
 categories:
   - "Trends"
+  - "Events"
 date: 2026-03-19
 header_image: "/assets/images/beitraege/delano-ramdas-a1t-eB2xHXM-unsplash.jpg"
 header_image_credit: "Foto von Delano Ramdas auf Unsplash"

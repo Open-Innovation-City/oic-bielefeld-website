@@ -12,7 +12,7 @@ header_image: "/assets/images/events/pre_event_prinzip_oic/pre_event_prinzip_oic
 
 Am Abend des 24. März 2026 – einen Tag vor der KommDIGITALE in Bielefeld – haben wir ins Innovation Office eingeladen. Das Thema: **Das Prinzip Open Innovation City**. Die zentrale Frage: Wie kann auch deine Stadt zur Open Innovation City werden?
 
-Das Event hat vor allem Vertreter\*innen aus Kommunen angesprochen. Unter anderem aus Gütersloh, Bünde, Kassel und Detmold sind Interessierte angereist – aber auch Vertreter\*innen aus der Wirtschaft waren mit dabei. 
+Das Event hat vor allem Vertreter\*innen aus Kommunen angesprochen. Unter anderem aus Gütersloh, Bünde und Detmold sind Interessierte angereist – aber auch Vertreter\*innen aus der Wirtschaft waren mit dabei. 
 
 ## Kennenlernen mit Impromptu Networking
 
@@ -21,7 +21,7 @@ Den Abend haben wir mit einem Format aus den [Liberating Structures](https://www
 - **Was bringst du mit?**
 - **Was hilft dir weiter?**
 
-Schon nach wenigen Minuten war die Energie im Raum spürbar. Die Antworten haben gezeigt, wie unterschiedlich die Ausgangssituationen der Kommunen sind – und genau das hat die Grundlage für einen ehrlichen Austausch gelegt.
+Die Antworten haben gezeigt, wie unterschiedlich die Ausgangssituationen der Kommunen sind – und genau das hat die Grundlage für einen ehrlichen Austausch gelegt.
 
 ## Was ist eine Open Innovation City?
 
@@ -36,7 +36,7 @@ In einer Open Innovation City gestalten alle vier Bereiche der Stadtgesellschaft
 
 Das Ziel: Wissen teilen, Synergien schaffen, neue Wege gehen – über Organisationsgrenzen hinaus.
 
-In Bielefeld haben wir damit 2019 als vom Land gefördertes Projekt gestartet und damit Bielefeld zur ersten Open Innovation City der Welt gemacht. Nach dem Ende der Projektphase wurde OIC als Open Innovation City Bielefeld verstetigt und als Initiative der Stadt Bielefeld weitergeführt. Und das Wichtigste: Das Konzept ist eine **offene Marke**. Andere Städte können es direkt übernehmen und an ihre eigene Situation anpassen.
+In Bielefeld haben wir damit 2019 als vom Land gefördertes Projekt gestartet und damit Bielefeld zur ersten Open Innovation City der Welt gemacht. Nach dem Ende der Projektphase wurde OIC als Open Innovation City Bielefeld verstetigt und als Initiative der Stadt Bielefeld weitergeführt. Und das Wichtigste: Das Konzept ist eine **offene Marke**. Alle Marken-Unterlagen stehen unter einer Creative-Commons-Lizenz, können also nachgenutzt werden. Andere Städte können die Marke direkt übernehmen und an ihre eigene Situation angepasst nutzen.
 
 ### Grüße aus Münster – der zweiten Open Innovation City (der Welt)
 
@@ -54,8 +54,8 @@ Aber genau das gehört zu Open Innovation dazu: **Dinge früh teilen, iterativ v
 
 Und wie geht das? Wenn eine Stadt zur Open Innovation City werden soll, dann muss das kein Big Bang oder ein riesen Projekt sein. Es gibt auch keine Verträge oder rechtlichen Verpflichtungen, die man eingehen muss. Wichtig ist nur, dass sich die Kommune zum Prinzip Open Innovation City bekennt und sich auf den Weg macht. Wie heißt es doch so schön: Selbst die längste Reise beginnt mit dem ersten Schritt.
 
-Die wichtigsten Ressourcen für den ersten Schritt haben wir im Impuls vorgestellt:
-
+Die wichtigsten Ressourcen für den ersten Schritt haben wir im Impuls vorgestellt.
+**Sämtliche Infos** sind einfach nachzulesen auf unserem Beitrag ["Wie deine Stadt OIC wird"](https://oic-bielefeld.de/beitraege/wie-deine-stadt-oic-wird/)
 - Das **OIC-Konzeptpapier** auf [GitHub](https://github.com/Open-Innovation-City/mediathek/blob/main/Open_Innovation_City_Konzeptpapier.pdf) – mit den Grundlagen aus dem Pilotprojekt Bielefeld
 - Unser **Markenauftritt (Corporate Design)** – frei nachnutzbar auf [GitHub](https://github.com/Open-Innovation-City/corporate-design)
 - Unsere **Website** – mit allen, was wir bei [Open Innovation City Bielefeld](https://oic-bielefeld.de) so machen
@@ -64,21 +64,20 @@ Die wichtigsten Ressourcen für den ersten Schritt haben wir im Impuls vorgestel
 
 ## Gemeinsam denken
 
-Nach einer Pause sind wir in den 40-minütigen Workshop-Teil gestartet. Die Teilnehmenden haben in zwei Gruppen – jeweils moderiert von Sarah und Tatjana – an drei Fragen gearbeitet:
+Im Rahmen des Workshops der Teilnehmenden aus diversen Städten wurden gemeinsam Antworten auf drei zentrale Fragen gesammelt. Die jeweiligen Kernaussagen stammen aus beiden Gruppen.  
+1) _ "Welche gesellschaftlichen Kräfte können zur Lösung kommunaler
+Herausforderungen beitragen – und was braucht es, damit sie gehört werden?“
+Key Take-aways: Kreative Spinnerei & Resilienzstärkung
 
-**Zur Quadruple Helix:**
+2a) "Wo liegen die Grenzen dessen, was eine Stadt alleine lösen kann?“
+Key Take-aways: Finanzen & Das haben "wir schon immer so gemacht"-Kultur
 
-> Welche gesellschaftlichen Kräfte können zur Lösung kommunaler Herausforderungen beitragen – und was braucht es, damit sie gehört werden?
+2b) "Was müssten wir teilen, um diesen Grenzen zu begegnen?“
+Key Take-aways: Wissen teilen, Mutige Akteure, „einfach mal machen“ (1. Schritt gehen) & Vertrauen.
 
-**Interkommunal:**
+Die Diskussionen waren sehr intensiv. Besonders die fehlenden Ressoucen bei kleineren Kommunen und die interkommunale Perspektive hat viele beschäftigt: Wie finden wir Raum und Zeit für offene Innovationen? Was können Städte voneinander lernen? Was lässt sich teilen – und wie? Die Ergebnisse zeigen deutlich, welche Kernaspekte aus Sicht der Teilnehmerinnen und Teilnehmer für eine positive Weiterentwicklung von Städten und Kommunen nötig sind oder diese behindern. Wir glauben, dass das Prinzip Open Innovation City (OIC) eine positive Unterstützung auf dem Weg bieten kann.
 
-> Wo liegen die Grenzen dessen, was eine Stadt alleine lösen kann?
-
-> Was müssten wir teilen, um diesen Grenzen zu begegnen?
-
-Die Diskussionen waren sehr intensiv. Besonders die fehlenden Ressoucen bei kleineren Kommunen und die interkommunale Perspektive hat viele beschäftigt: Wie finden wir Raum und Zeit für offene Innovationen? Was können Städte voneinander lernen? Was lässt sich teilen – und wie? Am Ende der 40 Minuten hat jede Gruppe ihre drei wichtigsten Erkenntnisse festgehalten und im Plenum vorgestellt.
-
-Der Abend hat gezeigt: Die Hürde, selbst zur Open Innovation City zu werden, ist niedriger, als viele denken. Und mit Münster gibt es inzwischen eine zweite Stadt, die beweist, dass es geht. 
+Der Abend hat gezeigt: Die Hürde, selbst zur Open Innovation City zu werden, ist niedriger, als viele denken. Und mit Münster gibt es inzwischen eine zweite Stadt, die beweist, dass es geht. Mit der stadteigenen Lösung.
 
 Du möchtest mehr erfahren? Melde dich gerne: **[innovationen@bielefeld.de](mailto:innovationen@bielefeld.de)**
 
