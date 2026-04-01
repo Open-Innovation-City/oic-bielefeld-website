@@ -170,7 +170,7 @@ Die Zeile ist auskommentiert (`# gem "jekyll-admin"`), das Gem wird nicht gelade
 
 ### LOW-01: `console.log` Debug Output in Production Code
 **Files:** `assets/js/main.js:496` / `_layouts/post.html:803,813`
-**Status:** Open
+**Status:** **Fixed** (April 1, 2026)
 
 Debug statements expose internal structure (gallery IDs, event titles) to anyone opening the browser console.
 
@@ -273,6 +273,6 @@ The VAT ID is publicly required by German law (Impressumspflicht) and is correct
 | 5 | MEDIUM-01: Add CSP `<meta>` tag | Medium | **Fixed** |
 | 6 | MEDIUM-05: Add SRI hashes to external scripts | Small | Open |
 | 7 | MEDIUM-08: Remove unused `jekyll-admin` from Gemfile | Trivial | **Fixed** |
-| 8 | LOW-01: Remove `console.log` calls | Trivial | Open |
+| 8 | LOW-01: Remove `console.log` calls | Trivial | **Fixed** |
 | 9 | LOW-02: Update / self-host iFrameResizer | Medium | Open |
 | 10 | LOW-03: Remove `Gemfile.lock` from `.gitignore` | Trivial | Open |
