@@ -191,11 +191,10 @@ Debug statements expose internal structure (gallery IDs, event titles) to anyone
 
 ### LOW-03: `Gemfile.lock` Listed in `.gitignore` but Present in Repo
 **File:** `.gitignore:18`
-**Status:** Open
+**Status:** **Fixed** (April 1, 2026)
 
-`Gemfile.lock` is listed in `.gitignore` but actually committed to the repository. This inconsistency can lead to different gem versions being resolved in different environments, obscuring the security patch status.
-
-**Recommendation:** Remove `Gemfile.lock` from `.gitignore` to make version pinning explicit and consistent.
+**Fix Applied:**
+- ✅ `Gemfile.lock` aus `.gitignore` entfernt — Versionspinning ist jetzt explizit und konsistent
 
 ---
 
@@ -275,4 +274,4 @@ The VAT ID is publicly required by German law (Impressumspflicht) and is correct
 | 7 | MEDIUM-08: Remove unused `jekyll-admin` from Gemfile | Trivial | **Fixed** |
 | 8 | LOW-01: Remove `console.log` calls | Trivial | **Fixed** |
 | 9 | LOW-02: Update / self-host iFrameResizer | Medium | Open |
-| 10 | LOW-03: Remove `Gemfile.lock` from `.gitignore` | Trivial | Open |
+| 10 | LOW-03: Remove `Gemfile.lock` from `.gitignore` | Trivial | **Fixed** |
