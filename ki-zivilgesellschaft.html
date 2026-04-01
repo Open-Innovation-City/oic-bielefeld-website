@@ -165,7 +165,7 @@ Offene Innovationen, Austausch und Co-Creation über Organisationsgrenzen hinaus
                         <div class="event-footer">
                             <div class="event-target">{{ event.target_audience }}</div>
                             <div class="event-cost{% if event.cost != 'Kostenlos' %} paid{% endif %}">{{ event.cost }}</div>
-                            <a href="{{ event.booking_url }}" target="_blank" rel="noopener" class="event-book-btn">
+                            <a href="{{ event.booking_url }}" target="_blank" rel="noopener noreferrer" class="event-book-btn">
                                 {% if event.link_text %}{{ event.link_text }}{% else %}Anmelden{% endif %}
                             </a>
                         </div>

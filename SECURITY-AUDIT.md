@@ -114,7 +114,7 @@ While `diffDays` is a number (no direct XSS), the `innerHTML +=` pattern re-pars
 
 ### MEDIUM-04: `rel="noopener"` Missing `noreferrer` on External Links
 **Files:** `index.html:213,310` / `ki-zivilgesellschaft.html:168` / `_includes/pretix-widget.html:18`
-**Status:** Open
+**Status:** **Fixed** (April 1, 2026)
 
 ```html
 <a href="..." target="_blank" rel="noopener">
@@ -273,7 +273,7 @@ The VAT ID is publicly required by German law (Impressumspflicht) and is correct
 | 1 | HIGH-01: Load Pretix script only on pages that need it | Small | **Fixed** |
 | 2 | HIGH-02: Reduce iframe `allow` to `""` + fix `checkOrigin` | Small | Open |
 | 3 | MEDIUM-06: Change `url` in `_config.yml` to `https://` | Trivial | **Fixed** |
-| 4 | MEDIUM-04: Add `noreferrer` to all `target="_blank"` links | Small | Open |
+| 4 | MEDIUM-04: Add `noreferrer` to all `target="_blank"` links | Small | **Fixed** |
 | 5 | MEDIUM-01: Add CSP `<meta>` tag | Medium | Open |
 | 6 | MEDIUM-05: Add SRI hashes to external scripts | Small | Open |
 | 7 | MEDIUM-08: Remove unused `jekyll-admin` from Gemfile | Trivial | **Fixed** |
