@@ -13,9 +13,6 @@
                 title="Newsletter Abo OICB | Bielefeld"
                 class="webform-share-iframe newsletter-iframe"
                 frameborder="0"
-                allow="geolocation; microphone; camera"
-                allowtransparency="true"
-                allowfullscreen="true"
                 style="width:1px;min-width:100%">
             </iframe>
         </div>
@@ -33,7 +30,7 @@
     if (typeof iFrameResize === 'function') {
         iFrameResize({
             log: false,
-            checkOrigin: false,
+            checkOrigin: ['https://www.bielefeld.de'],
             heightCalculationMethod: 'taggedElement'
         }, '.newsletter-iframe');
     }
