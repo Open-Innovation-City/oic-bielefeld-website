@@ -128,21 +128,16 @@ While `diffDays` is a number (no direct XSS), the `innerHTML +=` pattern re-pars
 
 ### MEDIUM-05: No SRI Hashes for External Resources
 **File:** `_includes/head.html:17,23,24` / `index.html:398` / `_includes/newsletter.html:30`
-**Status:** Open
+**Status:** Partially resolved via LOW-02
 
-| Resource | File | Line |
-|---|---|---|
-| Google Fonts CSS | `head.html` | 17 |
-| Pretix Widget CSS | `head.html` | 23 |
-| Pretix Widget JS | `head.html` | 24 |
-| jsDelivr iFrameResizer JS | `index.html` | 398 |
-| jsDelivr iFrameResizer JS | `newsletter.html` | 30 |
+| Resource | Status |
+|---|---|
+| Google Fonts CSS | Nicht zutreffend — Site nutzt nur lokale Fonts |
+| Pretix Widget CSS | SRI nicht möglich (dynamische URL pro Event) |
+| Pretix Widget JS | SRI nicht praktikabel (keine Versionsnummer in URL) |
+| iFrameResizer JS | ✅ Behoben via LOW-02 — jetzt lokal gehostet, kein SRI nötig |
 
-All external scripts and stylesheets are loaded without `integrity` (SRI) hashes. A CDN compromise or DNS hijack could inject arbitrary code silently.
-
-Particularly risky: `cdn.jsdelivr.net/gh/davidjbradshaw/iframe-resizer@4.2.10` loads directly from a **GitHub tag** (not an npm release), which is a less secure source.
-
-**Recommendation:** Add `integrity="sha256-..."` attributes to all external resources.
+Verbleibende Restrisiko: Pretix-Ressourcen ohne SRI. Da Pretix die URLs nicht versioniert, ist SRI hier nicht umsetzbar ohne Gefahr von Produktionsausfällen bei Pretix-Updates.
 
 ---
 
@@ -185,11 +180,12 @@ Debug statements expose internal structure (gallery IDs, event titles) to anyone
 
 ### LOW-02: Outdated iFrameResizer Version Loaded from GitHub Tag
 **Files:** `_includes/newsletter.html:30` / `index.html:398`
-**Status:** Open
+**Status:** **Fixed** (April 1, 2026)
 
-Version `4.2.10` is significantly outdated (current stable: 5.x). Loading via `cdn.jsdelivr.net/gh/` (GitHub source) instead of `npm/` is less secure, as GitHub tags can theoretically be re-signed.
-
-**Recommendation:** Update to the current version and/or self-host the library.
+**Fix Applied:**
+- ✅ Updated from `4.2.10` to `4.4.5` (neueste 4.x-Version)
+- ✅ Datei lokal unter `assets/js/iframeResizer.min.js` gehostet — kein externer CDN mehr
+- ✅ MEDIUM-05 für iFrameResizer damit hinfällig (lokale Dateien brauchen kein SRI)
 
 ---
 
