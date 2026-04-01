@@ -714,3 +714,24 @@ Der lokale Workflow funktioniert über manuelles `npx pagefind`. Für Production
 - **Legal compliance**: Includes proper Impressum/Datenschutz pages
 - **Asset optimization**: Images automatically compressed, CSS/JS minified on build
 - Always assume, that a Jekyll with Livereload ist running in the background for testing purposes.
+
+### Content Security Policy (CSP)
+
+**Seit April 2026** hat die Site einen CSP-`<meta>`-Tag in `_includes/head.html`.
+
+**Wichtig:** Wenn eine neue externe Ressource eingebunden wird (Script, Stylesheet, iframe, Bild von einer fremden Domain), muss die CSP dort manuell erweitert werden.
+
+Aktuell erlaubte externe Quellen:
+
+| Direktive | Erlaubte Domains |
+|---|---|
+| `script-src` | `pretix.eu`, `cdn.jsdelivr.net` + `'unsafe-inline'`, `'unsafe-eval'` |
+| `style-src` | `pretix.eu` + `'unsafe-inline'` |
+| `font-src` | nur `'self'` (lokale Fonts) |
+| `frame-src` | `www.bielefeld.de`, `pretix.eu`, `www.youtube.com` |
+| `img-src` | `img.youtube.com`, `data:` |
+| `connect-src` | `pretix.eu` (Widget-API) |
+
+**Beispiel:** Ein neues Embed von Vimeo würde `https://player.vimeo.com` zu `frame-src` erfordern.
+
+Nach CSP-Änderungen immer im Browser testen: DevTools → Console auf `Content-Security-Policy`-Fehler prüfen.

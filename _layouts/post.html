@@ -831,8 +831,6 @@ document.addEventListener('DOMContentLoaded', function() {
             const galleryId = img.dataset.gallery;
             const imageIndex = parseInt(img.closest('.gallery-item').dataset.index);
             
-            console.log('Gallery clicked:', galleryId, imageIndex); // Debug
-            
             // Get all images from the same gallery
             const galleryImgs = Array.from(document.querySelectorAll(`[data-gallery="${galleryId}"]`));
             const images = galleryImgs.map(galleryImg => ({
@@ -840,8 +838,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 caption: galleryImg.dataset.caption || galleryImg.alt || '',
                 alt: galleryImg.alt
             }));
-            
-            console.log('Gallery images:', images); // Debug
             
             showLightbox(img.src, img.dataset.caption || img.alt || '', galleryId, imageIndex, images);
         }

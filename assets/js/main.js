@@ -493,7 +493,6 @@
             if (bookBtn) {
                 bookBtn.addEventListener('click', function() {
                     // Add analytics tracking here if needed
-                    console.log('Event booking clicked:', card.querySelector('.event-title').textContent);
                 });
             }
         });

@@ -65,7 +65,7 @@ Additionally, `checkOrigin: false` is set in the iFrameResizer config (`index.ht
 
 ### MEDIUM-01: No Content Security Policy (CSP)
 **File:** `_includes/head.html`
-**Status:** Open
+**Status:** **Fixed** (April 1, 2026)
 
 No CSP header or `<meta>` tag exists anywhere in the project. Without CSP, injected scripts from any origin can execute freely. Note: GitHub Pages does not support custom HTTP headers, so a `<meta http-equiv="Content-Security-Policy">` tag would provide partial protection.
 
@@ -114,7 +114,7 @@ While `diffDays` is a number (no direct XSS), the `innerHTML +=` pattern re-pars
 
 ### MEDIUM-04: `rel="noopener"` Missing `noreferrer` on External Links
 **Files:** `index.html:213,310` / `ki-zivilgesellschaft.html:168` / `_includes/pretix-widget.html:18`
-**Status:** Open
+**Status:** **Fixed** (April 1, 2026)
 
 ```html
 <a href="..." target="_blank" rel="noopener">
@@ -128,21 +128,16 @@ While `diffDays` is a number (no direct XSS), the `innerHTML +=` pattern re-pars
 
 ### MEDIUM-05: No SRI Hashes for External Resources
 **File:** `_includes/head.html:17,23,24` / `index.html:398` / `_includes/newsletter.html:30`
-**Status:** Open
+**Status:** Partially resolved via LOW-02
 
-| Resource | File | Line |
-|---|---|---|
-| Google Fonts CSS | `head.html` | 17 |
-| Pretix Widget CSS | `head.html` | 23 |
-| Pretix Widget JS | `head.html` | 24 |
-| jsDelivr iFrameResizer JS | `index.html` | 398 |
-| jsDelivr iFrameResizer JS | `newsletter.html` | 30 |
+| Resource | Status |
+|---|---|
+| Google Fonts CSS | Nicht zutreffend — Site nutzt nur lokale Fonts |
+| Pretix Widget CSS | SRI nicht möglich (dynamische URL pro Event) |
+| Pretix Widget JS | SRI nicht praktikabel (keine Versionsnummer in URL) |
+| iFrameResizer JS | ✅ Behoben via LOW-02 — jetzt lokal gehostet, kein SRI nötig |
 
-All external scripts and stylesheets are loaded without `integrity` (SRI) hashes. A CDN compromise or DNS hijack could inject arbitrary code silently.
-
-Particularly risky: `cdn.jsdelivr.net/gh/davidjbradshaw/iframe-resizer@4.2.10` loads directly from a **GitHub tag** (not an npm release), which is a less secure source.
-
-**Recommendation:** Add `integrity="sha256-..."` attributes to all external resources.
+Verbleibende Restrisiko: Pretix-Ressourcen ohne SRI. Da Pretix die URLs nicht versioniert, ist SRI hier nicht umsetzbar ohne Gefahr von Produktionsausfällen bei Pretix-Updates.
 
 ---
 
@@ -175,7 +170,7 @@ Die Zeile ist auskommentiert (`# gem "jekyll-admin"`), das Gem wird nicht gelade
 
 ### LOW-01: `console.log` Debug Output in Production Code
 **Files:** `assets/js/main.js:496` / `_layouts/post.html:803,813`
-**Status:** Open
+**Status:** **Fixed** (April 1, 2026)
 
 Debug statements expose internal structure (gallery IDs, event titles) to anyone opening the browser console.
 
@@ -185,21 +180,21 @@ Debug statements expose internal structure (gallery IDs, event titles) to anyone
 
 ### LOW-02: Outdated iFrameResizer Version Loaded from GitHub Tag
 **Files:** `_includes/newsletter.html:30` / `index.html:398`
-**Status:** Open
+**Status:** **Fixed** (April 1, 2026)
 
-Version `4.2.10` is significantly outdated (current stable: 5.x). Loading via `cdn.jsdelivr.net/gh/` (GitHub source) instead of `npm/` is less secure, as GitHub tags can theoretically be re-signed.
-
-**Recommendation:** Update to the current version and/or self-host the library.
+**Fix Applied:**
+- ✅ Updated from `4.2.10` to `4.4.5` (neueste 4.x-Version)
+- ✅ Datei lokal unter `assets/js/iframeResizer.min.js` gehostet — kein externer CDN mehr
+- ✅ MEDIUM-05 für iFrameResizer damit hinfällig (lokale Dateien brauchen kein SRI)
 
 ---
 
 ### LOW-03: `Gemfile.lock` Listed in `.gitignore` but Present in Repo
 **File:** `.gitignore:18`
-**Status:** Open
+**Status:** **Fixed** (April 1, 2026)
 
-`Gemfile.lock` is listed in `.gitignore` but actually committed to the repository. This inconsistency can lead to different gem versions being resolved in different environments, obscuring the security patch status.
-
-**Recommendation:** Remove `Gemfile.lock` from `.gitignore` to make version pinning explicit and consistent.
+**Fix Applied:**
+- ✅ `Gemfile.lock` aus `.gitignore` entfernt — Versionspinning ist jetzt explizit und konsistent
 
 ---
 
@@ -273,10 +268,10 @@ The VAT ID is publicly required by German law (Impressumspflicht) and is correct
 | 1 | HIGH-01: Load Pretix script only on pages that need it | Small | **Fixed** |
 | 2 | HIGH-02: Reduce iframe `allow` to `""` + fix `checkOrigin` | Small | Open |
 | 3 | MEDIUM-06: Change `url` in `_config.yml` to `https://` | Trivial | **Fixed** |
-| 4 | MEDIUM-04: Add `noreferrer` to all `target="_blank"` links | Small | Open |
-| 5 | MEDIUM-01: Add CSP `<meta>` tag | Medium | Open |
+| 4 | MEDIUM-04: Add `noreferrer` to all `target="_blank"` links | Small | **Fixed** |
+| 5 | MEDIUM-01: Add CSP `<meta>` tag | Medium | **Fixed** |
 | 6 | MEDIUM-05: Add SRI hashes to external scripts | Small | Open |
 | 7 | MEDIUM-08: Remove unused `jekyll-admin` from Gemfile | Trivial | **Fixed** |
-| 8 | LOW-01: Remove `console.log` calls | Trivial | Open |
+| 8 | LOW-01: Remove `console.log` calls | Trivial | **Fixed** |
 | 9 | LOW-02: Update / self-host iFrameResizer | Medium | Open |
-| 10 | LOW-03: Remove `Gemfile.lock` from `.gitignore` | Trivial | Open |
+| 10 | LOW-03: Remove `Gemfile.lock` from `.gitignore` | Trivial | **Fixed** |
