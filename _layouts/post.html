@@ -118,6 +118,8 @@ layout: default
                 </section>
                 {% endif %}
             {% endif %}
+
+            {% if page.confetti %}<div id="post-end" aria-hidden="true" style="height:1px;"></div>{% endif %}
         </div>
     </div>
 </main>
@@ -1018,4 +1020,36 @@ window.addEventListener('scroll', function() {
         navbar.classList.remove('scrolled');
     }
 });
+
+{% if page.confetti %}
+// Konfetti-Belohnung am Ende des Beitrags
+(function() {
+    var sentinel = document.getElementById('post-end');
+    if (!sentinel) return;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    new IntersectionObserver(function(entries, observer) {
+        for (var i = 0; i < entries.length; i++) {
+            if (entries[i].isIntersecting) {
+                observer.unobserve(entries[i].target);
+                var script = document.createElement('script');
+                script.src = '{{ "/assets/js/confetti.browser.js" | relative_url }}';
+                script.onload = function() {
+                    confetti({
+                        particleCount: 150,
+                        spread: 120,
+                        origin: { y: 0.75 },
+                        colors: [
+                            '#00b3a7', '#666cde', '#fff564',
+                            '#ff6b6b', '#ffa94d', '#a9e34b',
+                            '#74c0fc', '#f783ac', '#ffffff'
+                        ]
+                    });
+                };
+                document.head.appendChild(script);
+            }
+        }
+    }, { threshold: 0 }).observe(sentinel);
+})();
+{% endif %}
 </script>
