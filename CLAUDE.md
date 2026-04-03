@@ -311,10 +311,16 @@ header_image_credit: "© [Max Mustermann](https://unsplash.com/@max) / Unsplash"
 
 ### Konfetti-Belohnung am Ende von Blogbeiträgen
 
-**Neu seit April 2026:** Wer einen Blogbeitrag vollständig liest, wird am Ende mit einem Konfetti-Effekt belohnt.
+**Neu seit April 2026:** Wer einen Blogbeitrag vollständig liest, wird am Ende mit einem Konfetti-Effekt belohnt. Der Effekt ist opt-in und muss im Front Matter des jeweiligen Beitrags aktiviert werden:
+
+```yaml
+---
+confetti: true
+---
+```
 
 **Funktionsweise:**
-- Am Ende des Post-Inhalts in `_layouts/post.html` sitzt ein unsichtbares Sentinel-Element (`<div id="post-end">`)
+- Am Ende des Post-Inhalts in `_layouts/post.html` sitzt ein unsichtbares Sentinel-Element (`<div id="post-end">`), das nur gerendert wird wenn `confetti: true` gesetzt ist
 - Ein `IntersectionObserver` beobachtet dieses Element und feuert, sobald es den Viewport erreicht
 - Die Bibliothek [`canvas-confetti`](https://github.com/catdad/canvas-confetti) wird dann lazy per Script-Tag-Injection geladen
 - Der Effekt wird nur einmal ausgelöst (`unobserve` nach dem ersten Trigger)
