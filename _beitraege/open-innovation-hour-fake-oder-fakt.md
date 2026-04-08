@@ -33,7 +33,6 @@ Die Open Innovation Hour ist ein **Online-Format**, in dem wir **jeden ersten Do
 
 ### Kostenlose Anmeldung  
 {% include pretix-widget.html event="open-inno-hour-7" %}  
-
   
 Die Open Innovation Hour ist mehr als ein Workshop: **Sie ist der Startpunkt für Netzwerke, Projekte oder tiefergehende Formate, die Bielefeld verbinden.**   
 **Dich beschäftigt eine Herausforderung, zu der du aktiv werden möchtest?**  
