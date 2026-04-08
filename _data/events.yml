@@ -222,6 +222,20 @@
   featured: true
   topic: "open-innovation-hour"
 
+  - title: "Zukünfte von KI und Zivilgesellschaft. Wie könnten Zukünfte von Ki in der Zivilgesellschaft aussehen?"
+  description: "Wir laden die Teilnehmerinnen und Teilnehmer der letzten Meetups zu einer vertieften Vernetzung ein. Der Blick nach vorne: in mögliche, wünschenswerte und überraschende Zukünfte von KI in der Zivilgesellschaft."
+  date: "2026-02-24"
+  time: "16:30"
+  duration: "1,5 Stunden"
+  location: "Innovation Office, Alter Markt 13"
+  category: "Impuls & Workshop"
+  target_audience: "Teilnehmer & Teilnehmerinnen der Meetup-Reihe KI und Zivilgesellschaft"
+  cost: "Kostenlos"
+  booking_url: "/beitraege/rueckblick-zukuenfte-von-ki-in-zivilgesellschaft/"
+  link_text: "Details & Anmeldungen"
+  featured: false
+  topic: "ki-zivilgesellschaft"
+
 - title: "Open Innovation Hour: Geteilte Probleme, gemeinsame Lösungen"
   description: "Viele gute Ideen scheitern nicht an fehlendem Engagement, sondern daran, dass die richtigen Menschen nie zusammen. Die Open Innovation Hour ist ein Format, mit dem wir genau das ändern wollen. In dieser Open Innovation Hour erwartet euch ein Impuls zum Thema offene Zusammenarbeit (inklusive Methoden-Kartenset zum Mitnehmen), eine Blitzrunde, in der ihr eure aktuellen Themen und Herausforderungen einbringt sowie Zeit für den direkten Austausch mit anderen, die ähnliche Fragen bewegen."
   date: "2026-03-05"
