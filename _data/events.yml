@@ -277,3 +277,17 @@
   link_text: "Details & Anmeldung"
   featured: true
   topic: "Wirkung"
+
+- title: "Open Innovation Hour: Fake oder Fakt? Informiert bleiben im Zeitalter der Desinformation."
+  description: "Am Donnerstag, 7. Mai 2026 dreht sich in der Open Innovation Hour alles um die Fragen: „Wie erkennen wir Falschinformationen und was können wir gegen sie tun?“ – Mit Prof. Dr. Heike Greschke, Professorin für Mediensoziologie, Universität Bielefeld und Caroline Lindekamp vom CORRECTIV.Faktenforum."
+  date: "2026-05-07"
+  time: "12:30"
+  duration: "1 Stunde"
+  location: "Online"
+  category: "Online: Open Innovation Hour"
+  target_audience: "Alle Interessierten aus Politik, Verwaltung, Wirtschaft, Wissenschaft & Zivilgesellschaft"
+  cost: "Kostenlos"
+  booking_url: "/beitraege/open-innovation-hour-fake-oder-fakt/"
+  link_text: "Details & Anmeldung"
+  featured: true
+  topic: "open-innovation-hour"  
