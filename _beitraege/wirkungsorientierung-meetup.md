@@ -29,7 +29,9 @@ Hier der Link zur Vorstellung der Handreichung: [Logic Model 2.0](https://oic-bi
 
 ## Ablauf der 90 Minuten
 Das 90-minütigen praxisnahen und interaktiven Meetup ist aufgeteilt in:
-**Impuls Wissenschaft**: **Änderung** Cornelia Rittmeyer, Senior Project Manager beschäftigt sich mit unterschiedlichen Fazetten von Wirkung bei der Bertelsmann Stiftung.
+
+**Impuls Wissenschaft**: Wir freuen uns auf Cornelia Rittmeyer, Senior Project Manager beschäftigt sich mit unterschiedlichen Fazetten von Wirkung bei der Bertelsmann Stiftung. **Kurzfristige Änderung!**
+
 **Impuls & Workshop Praxis**: Maria Goncalves, Projektmanagerin Open Innovation City hat das Logic Model zum Logic Model 2.0 weiterentwickelt und die Handreichung erstellt. Die Handreichung wird vorgestellt. Bei dem anschließenden  Workshop, wenden die Teilnehmer*innen in Kleingurppen das Modell gemeinsam auf einen konkreten Fall.
 
 KI-Hinweis: Dieser Text ist mit Unterstützung von KI entstanden.  
