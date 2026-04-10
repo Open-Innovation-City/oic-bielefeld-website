@@ -29,16 +29,16 @@ Hier der Link zur Vorstellung der Handreichung: [Logic Model 2.0](https://oic-bi
 
 ## Ablauf der 90 Minuten
 Das 90-minütigen praxisnahen und interaktiven Meetup ist aufgeteilt in:
-**Impuls Wissenschaft**: Professorin Dr. Melanie Eickenbusch, forscht und lehrt unter anderem zum Thema Wirkung an der Fachhochschule des Mittelstands in Bielefeld.
-**Impuls & Workshop Praxis**: Maria Goncalves, Projektmanagerin Open Innovation City hat das Logic Model zum Logic Model 2.0 weiterentwickelt und die Handreichung erstellt. Sie stellt die Handreichung vor und leitet durch den Workshop, in dem wir das Modell gemeinsam auf einen konkreten Fall anwenden.
+**Impuls Wissenschaft**: **Änderung** Cornelia Rittmeyer, Senior Project Manager beschäftigt sich mit unterschiedlichen Fazetten von Wirkung bei der Bertelsmann Stiftung.
+**Impuls & Workshop Praxis**: Maria Goncalves, Projektmanagerin Open Innovation City hat das Logic Model zum Logic Model 2.0 weiterentwickelt und die Handreichung erstellt. Die Handreichung wird vorgestellt. Bei dem anschließenden  Workshop, wenden die Teilnehmer*innen in Kleingurppen das Modell gemeinsam auf einen konkreten Fall.
 
-KI-Hinweis: Dieser Text ist mit Unterstützung der KI entstanden.  
+KI-Hinweis: Dieser Text ist mit Unterstützung von KI entstanden.  
 
 ### Ort und Zeit
 **Innovation Office, Alter Markt 13, 33602 Bielefeld**
 
 **Montag, 27. April 2025**  
-**Beginn:** 16:30 Uhr  
+**Beginn:** 16:30 Uhr (pünktlich)  
 **Ende:** 18:00 Uhr  
 **Einlass:** 16:00 Uhr  
   
