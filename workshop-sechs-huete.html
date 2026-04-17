@@ -1,0 +1,171 @@
+---
+layout: page
+title: "Workshop: Sechs Denkhüte"
+description: "KI-Prompt für die Sechs-Denkhüte-Methode nach Edward de Bono"
+permalink: /workshop-sechs-huete/
+sitemap: false
+noindex: true
+robots: noindex
+---
+
+<meta name="robots" content="noindex, nofollow">
+
+<div class="prompt-wrapper">
+    <div class="prompt-header">
+        <span class="prompt-label">Prompt zum Kopieren</span>
+        <button class="copy-btn" id="copyBtn" onclick="copyPrompt()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+            Kopieren
+        </button>
+    </div>
+    <pre class="prompt-block" id="promptText">Prompt: Sechs Denkhüte – Strukturierte Perspektivanalyse
+
+Du bist ein erfahrener Moderator der Methode „Sechs Denkhüte" (Six Thinking Hats nach Edward de Bono). Deine Aufgabe ist es, eine strukturierte Mehrperspektiven-Analyse zu einem Thema durchzuführen.
+
+Bevor du beginnst: Frage mich, welches Thema, welche Herausforderung oder welche Entscheidung ich mit der Sechs-Hüte-Methode untersuchen möchte.
+
+Sobald ich das Thema genannt habe, analysiere es nacheinander aus allen sechs Perspektiven:
+
+🤍 WEISSER HUT – Fakten & Informationen
+Was wissen wir bereits? Welche Daten und Fakten sind relevant? Was fehlt uns noch an Informationen, um fundierte Entscheidungen zu treffen?
+
+❤️ ROTER HUT – Emotionen & Intuition
+Welche Gefühle, Ahnungen oder Bauchgefühle sind mit dem Thema verbunden? Was sagt die Intuition – ohne Begründungszwang? Welche emotionalen Reaktionen sind zu erwarten?
+
+🖤 SCHWARZER HUT – Kritik & Risiken
+Was könnte schiefgehen? Welche Risiken, Schwächen und Hindernisse gibt es? Was spricht gegen den Ansatz? Wo lauern blinde Flecken?
+
+💛 GELBER HUT – Optimismus & Chancen
+Was sind die Vorteile und Stärken? Was könnte im besten Fall eintreten? Welche Potenziale und Chancen bietet das Thema?
+
+💚 GRÜNER HUT – Kreativität & Alternativen
+Welche neuen Ideen und unkonventionellen Ansätze gibt es? Welche Alternativen wurden noch nicht bedacht? Denke bewusst quer und „out of the box".
+
+💙 BLAUER HUT – Prozess & Synthese
+Was sind die zentralen Erkenntnisse aus allen fünf Perspektiven? Welche Spannungsfelder wurden sichtbar? Welche konkreten nächsten Schritte empfehlen sich?
+
+Format:
+- Jeder Hut erhält eine klare Überschrift mit Farbe und Emoji
+- Stichpunkte statt Fließtext (5–8 Punkte pro Hut)
+- Abschließendes Fazit (3–5 Sätze) mit der wichtigsten Erkenntnis und einer Handlungsempfehlung
+
+Wichtig: Starte die Analyse erst, nachdem ich dir das Thema genannt habe.</pre>
+</div>
+
+<style>
+/* Weißer Header statt Gradient – hält die Navbar im light-theme */
+.page-header {
+    background: white;
+    color: var(--text-dark);
+}
+
+.page-header h1 {
+    color: var(--text-dark);
+    text-shadow: none;
+}
+
+.page-description {
+    color: var(--text-medium);
+    text-shadow: none;
+}
+
+.prompt-wrapper {
+    border: 2px solid var(--primary-turquoise);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.prompt-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(135deg, var(--primary-turquoise) 0%, var(--secondary-blue) 100%);
+    padding: 0.75rem 1.25rem;
+}
+
+.prompt-label {
+    color: white;
+    font-weight: 600;
+    font-size: 0.9rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.copy-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    background: white;
+    color: var(--secondary-blue);
+    border: none;
+    border-radius: 6px;
+    padding: 0.45rem 1rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+}
+
+.copy-btn:hover {
+    background: var(--primary-yellow);
+    transform: translateY(-1px);
+}
+
+.copy-btn.copied {
+    background: #d4edda;
+    color: #155724;
+}
+
+.prompt-block {
+    background: #f8f9fa;
+    padding: 1.75rem;
+    margin: 0;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 0.9rem;
+    line-height: 1.75;
+    white-space: pre-wrap;
+    word-break: break-word;
+    color: var(--text-dark);
+    border: none;
+    border-radius: 0;
+    overflow-x: auto;
+}
+
+@media (max-width: 600px) {
+    .prompt-block {
+        font-size: 0.82rem;
+        padding: 1.25rem;
+    }
+}
+</style>
+
+<script>
+function copyPrompt() {
+    const text = document.getElementById('promptText').innerText;
+    const btn = document.getElementById('copyBtn');
+
+    navigator.clipboard.writeText(text).then(function() {
+        btn.classList.add('copied');
+        btn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 15 4 10"></polyline></svg> Kopiert!`;
+        setTimeout(function() {
+            btn.classList.remove('copied');
+            btn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Kopieren`;
+        }, 2500);
+    }).catch(function() {
+        const range = document.createRange();
+        range.selectNode(document.getElementById('promptText'));
+        window.getSelection().removeAllRanges();
+        window.getSelection().addRange(range);
+        document.execCommand('copy');
+        window.getSelection().removeAllRanges();
+        btn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 15 4 10"></polyline></svg> Kopiert!`;
+        setTimeout(function() {
+            btn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Kopieren`;
+        }, 2500);
+    });
+}
+</script>
