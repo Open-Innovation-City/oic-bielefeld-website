@@ -21,7 +21,7 @@ Die Open Innovation Hour ist ein **Online-Format**, in dem wir **jeden ersten Do
 ### Offen, niedrigschwellig und praxisnah. Die 60 Minuten im Überblick:   
 1.	**Impulse:** **Prof. Dr. Heike Greschke** beleuchtet das Thema Fake News aus mediensoziologischer Perspektive. **Caroline Lindekamp** stellt das CORRECTIV.Faktenforum vor und zeigt auf, was wir alle gegen Desinformation tun können.  
 2.	**Erfahrungsaustausch:** Im Anschluss an die Impulsvorträge arbeiten wir gemeinsam heraus, was wir aus aktuellen wissenschaftlichen Erkenntnissen lernen und für unseren Alltag mitnehmen können.   
-3.	**Netzwerken:** Sie möchten zu diesem Thema im Austausch mit anderen Teilnehmenden bleiben? Hier können Sie sich verbinden.      
+3.	**Netzwerken:** Ihr möchtet zu diesem Thema im Austausch mit anderen Teilnehmenden bleiben? Hier könnt ihr euch verbinden.      
   
 **Wer kann teilnehmen?**   
 **Alle!** Egal, ob du dich haupt- oder ehrenamtlich engagierst, einfach neugierig bist oder selbst eine Fragestellung für die nächste Open Innovation Hour einbringen möchtest. Die Open Innovation Hour lebt von **vielfältigen Perspektiven** – ob aus der Verwaltung, Wissenschaft, Wirtschaft oder der Zivilgesellschaft.  
