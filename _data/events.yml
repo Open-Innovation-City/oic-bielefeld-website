@@ -291,3 +291,17 @@
   link_text: "Details & Anmeldung"
   featured: true
   topic: "open-innovation-hour"  
+
+- title: "Open Innovation Hour: Kreislauf statt Wegwerfen – Einstieg in die Circular Economy"
+  description: "Wie können wir Ressourcen intelligenter nutzen und Abfall gar nicht erst entstehen lassen? Diese Fragen stehen im Mittelpunkt der Open Innovation Hour im am 02.07.2026 – Mit Kerstin Schmidt und Heike Wulf, Technologiescouts der Forschungsgruppe „Zirkuläre Wertschöpfung“ des InCamS@BI Projekts der Hochschule Bielefeld und der Universität Bielefeld."
+  date: "2026-07-02"
+  time: "12:30"
+  duration: "1 Stunde"
+  location: "Online"
+  category: "Online: Open Innovation Hour"
+  target_audience: "Alle Interessierten aus Politik, Verwaltung, Wirtschaft, Wissenschaft & Zivilgesellschaft"
+  cost: "Kostenlos"
+  booking_url: "/beitraege/open-innovation-hour-kreislauf-statt-wegwerfen/"
+  link_text: "Details & Anmeldung"
+  featured: true
+  topic: "open-innovation-hour" 
