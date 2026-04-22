@@ -13,7 +13,7 @@ header_image: " "
 ### Kreislauf statt Wegwerfen – Einstieg in die Circular Economy     
 Wie können wir Ressourcen intelligenter nutzen und Abfall gar nicht erst entstehen lassen? Diese Fragen stehen im Mittelpunkt der Open Innovation Hour im Juli 2026.  
   
-Wir freuen uns auf einen spannenden Impuls von den Expert*innen **Kerstin Schmidt** und **Heike Wulf**, Technologiescouts der Forschungsgruppe „Zirkuläre Wertschöpfung“ des InCamS@BI Projekts der Hochschule Bielefeld und der Universität Bielefeld. – Zu den Basics der Circular Economy: Wir klären, was sich hinter dem Begriff wirklich verbirgt und warum das zirkuläre Wirtschaften weit über einfaches Recycling hinausgeht. Gemeinsam werfen wir einen Blick auf Strategien, die Produkte langlebiger machen und Wertschöpfungsketten neu denken.  
+Wir freuen uns auf einen spannenden Impuls von den Expert*/innen **Kerstin Schmidt** und **Heike Wulf**, Technologiescouts der Forschungsgruppe „Zirkuläre Wertschöpfung“ des InCamS@BI Projekts der Hochschule Bielefeld und der Universität Bielefeld. – Zu den Basics der Circular Economy: Wir klären, was sich hinter dem Begriff wirklich verbirgt und warum das zirkuläre Wirtschaften weit über einfaches Recycling hinausgeht. Gemeinsam werfen wir einen Blick auf Strategien, die Produkte langlebiger machen und Wertschöpfungsketten neu denken.  
 In diesem Jahr schauen wir im Rahmen der Open Innovation Hour jeden Monat auf **Zukunftskompetenzen**. Am 02. Juli geht es um **Nachhaltigkeitskompetenz**, systematisches Denken und Innovationsbereitschaft.  
     
 Die Open Innovation Hour ist ein **Online-Format**, in dem wir **jeden ersten Donnerstag im Monat, um 12.30 Uhr** gemeinsam auf eine herausfordernde Fragestellung blicken.  
