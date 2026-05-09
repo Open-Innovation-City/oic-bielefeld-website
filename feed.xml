@@ -12,7 +12,8 @@ layout: null
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
     <language>{{ site.lang | default: "de" }}</language>
-    {% for post in site.beitraege reversed limit:20 %}
+    {% assign sorted_beitraege = site.beitraege | sort: 'date' | reverse %}
+    {% for post in sorted_beitraege limit:20 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.teaser | xml_escape | default: post.content | strip_html | truncatewords: 50 | xml_escape }}</description>
