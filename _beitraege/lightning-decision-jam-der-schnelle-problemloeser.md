@@ -1,6 +1,6 @@
 ---
 title: "Lightning Decision Jam – Der schnelle Problemlöser"
-teaser: "Viele Besprechungen drehen sich in oﬀenen, unstrukturierten Diskussionen im Kreis. Oft beteiligen sich nur wenige Teilnehmenden aktiv daran. Das muss und sollte nicht so sein. Der Lightning Decision Jam sorgt dafür, dass sich alle Teilnehmenden einbringen können und müssen. Alle Beiträge haben das gleiche Gewicht. Endlose Diskussionen werden vermieden. Am Ende stehen konkrete Aufgaben für die nächsten Tage und Wochen."
+teaser: "Viele Besprechungen drehen sich in oﬀenen, unstrukturierten Diskussionen im Kreis. Oft beteiligen sich nur wenige Teilnehmende aktiv daran. Das muss und sollte nicht so sein. Der Lightning Decision Jam sorgt dafür, dass sich alle Teilnehmenden einbringen können und müssen. Alle Beiträge haben das gleiche Gewicht. Endlose Diskussionen werden vermieden. Am Ende stehen konkrete Aufgaben für die nächsten Tage und Wochen."
 author: "Jens Edler"
 categories:
   - "Tools"
@@ -16,7 +16,7 @@ Dazu kommt noch, dass häufig nur 2-3 Personen die Diskussion dominieren, die be
 
 **Das geht auch anders: Der [Lightning Decision Jam](https://go.ajsmart.com/ldj) ist ein einfaches Workshop-Format, das genau da angreift!** 
 
-Das Beste: Ihr könnt den den Lightning Decision Jam ganz einfach selber durchführen. Dazu braucht ihr nur unserer Anleitung zu folgen!
+Das Beste: Ihr könnt den Lightning Decision Jam ganz einfach selber durchführen. Dazu braucht ihr nur unserer Anleitung zu folgen!
 
 {% include cta-button.html text="Lade die Anleitung herunter" url="/assets/downloads/Lightning_Decision_Jam-Der_schnelle_Problemloeser_Workshop_v1_0.pdf" download=true %}
 
@@ -24,7 +24,7 @@ Das Beste: Ihr könnt den den Lightning Decision Jam ganz einfach selber durchf�
 Damit das gelingt, setzt der Lightning Decision Jam auf ein paar wichtige Grundprinzipien.
 
 ### Gemeinsam alleine
-Alle Teilnehmenden sollen gehört werden. Deshalb sammeln alle Teilnehmenden immer zuerst ihre Gedanken für sich auf Haftnotizen. Danach lesen alle nacheinander ihre Notizen vor. Die übrigen Teilnehmenden dürfen die Gedanken nicht kommentieren oder bewerten. Sie dürfen nur Verständnisfragen stellen. Alle Teilnehmenden haben so die Möglichkeit, ihre Gedanken und Ideen einzubringen. 
+Alle Teilnehmenden sollen gehört werden. Deshalb sammeln alle Teilnehmenden immer zuerst ihre Gedanken für sich auf Haftnotizen. Danach lesen alle nacheinander ihre Notizen vor. Die übrigen Teilnehmenden dürfen die Gedanken nicht kommentieren oder bewerten. Sie dürfen nur Verständnisfragen stellen. Alle haben so die Möglichkeit, ihre Gedanken und Ideen einzubringen. 
 
 ### Abstimmen, statt Diskutieren
 Entscheidungen trefft ihr im Lightning Decision Jam nicht durch lange Diskussionen in der Gruppe. Entscheidungen werden durch Abstimmungen mit Klebepunkten getroffen. Alle Teilnehmenden erhalten die gleiche Anzahl von Klebepunkten zur Abstimmung, damit alle den gleichen Anteil an einer Entscheidung haben.
@@ -36,7 +36,7 @@ Alle Menschen sind von Geburt an kreativ. Der Lightning Decision Jam stellt sich
 Alle Aktivitäten haben eine enge zeitliche Begrenzung, das sogenannte [Timeboxing](https://newworkglossar.de/was-ist-timeboxing/). Damit sorgt der Lightning Decision Jam dafür, dass ihr ausufernde Diskussionen vermeidet und schneller zu Ergebnissen kommt.
 
 ### Smartphones und Laptops sind verboten
-Damit alle Teilnehmenden voll und ganz auf den Workshop konzentriert bleiben, sind Laptops und Smartphones verboten. Am einfachsten ist es, wenn ihr mit einer Kiste oder einem Karton vor dem Workshop herum geht, in den die Teilnehmenden ihr Geräte legen müssen. So bleiben alle auf den gemeinsamen Workshop fokussiert.
+Damit alle Teilnehmenden voll und ganz auf den Workshop konzentriert bleiben, sind Laptops und Smartphones verboten. Am einfachsten ist es, wenn ihr mit einer Kiste oder einem Karton vor dem Workshop herum geht, in den die Teilnehmenden ihre Geräte legen müssen. So bleiben alle auf den gemeinsamen Workshop fokussiert.
 
 ## Die Backmischung unter den Workshops: Gelingt immer!
 Auf Basis dieser Grundprinzipien führt euch der Lightning Decision Jam durch mehrere Phasen: 
