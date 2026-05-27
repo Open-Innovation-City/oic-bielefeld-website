@@ -1,5 +1,5 @@
 ---
-title: "Ein Rückblick auf das Meetup 'Wirkungsorientierung und Ehrenamt' vom 27. April 2026"
+title: "Ein Rückblick auf das Meetup 'Wirkungs&shy;orientierung und Ehrenamt' vom 27. April 2026"
 teaser: "Im Fokus des thematischen Meetups, stand die Frage: „Ist das Hilfsmittel Logic Model 2.0 auch für die ehrenamtliche Arbeit geeignet?“ – Mit Cornelia Rittmeyer, Projektmanagerin Nachhaltige Soziale Marktwirtschaft bei der Bertelsmann Stiftung. - Ein persönlicher Rückblick von Maria Gonçalves." 
 authors:
   - "Maria Gonçalves"
