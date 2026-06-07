@@ -7,6 +7,7 @@ categories:
   - "Events"
 date: 2026-03-28
 header_image: "/assets/images/events/innovatenow_pitch_day/innovatenow_2.jpeg"
+confetti: true
 ---
 
 ### Wir lieben es, wenn ein Plan funktioniert!

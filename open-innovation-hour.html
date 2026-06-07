@@ -1,0 +1,265 @@
+---
+layout: default
+title: Open Innovation Hour
+description: Das monatliche Online-Format des OIC Bielefeld – jeden ersten Donnerstag um 12:30 Uhr. Gemeinsam auf Fragestellungen schauen, Ideen entwickeln und Bielefeld verbinden.
+permalink: /open-innovation-hour/
+---
+
+<!-- Adaptive Navigation -->
+<nav class="navbar dark-theme{% if site.navbar_style == 'island' %} navbar-island{% endif %}" id="navbar">
+    <div class="nav-container">
+        <div class="logo">
+            <a href="{{ '/' | relative_url }}">
+                <!-- Dark version logo (for dark backgrounds) -->
+                <img src="{{ '/assets/images/logo-light.png' | relative_url }}" 
+                     alt="{{ site.title }} Logo Light" 
+                     class="logo-dark" 
+                     onerror="handleLogoError(this)">
+                <!-- Light version logo (for light backgrounds) -->
+                <img src="{{ '/assets/images/logo-dark.png' | relative_url }}" 
+                     alt="{{ site.title }} Logo Dark" 
+                     class="logo-light" 
+                     onerror="handleLogoError(this)">
+                
+                <!-- Fallback falls beide Logos nicht laden -->
+                <div class="logo-fallback" id="logoFallback">
+                    <div class="logo-circle"></div>
+                    <div class="logo-rect"></div>
+                    <div class="logo-shape"></div>
+                    <div class="logo-text">
+                        <div>Open Innovation City</div>
+                        <div>Bielefeld</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        
+        <ul class="nav-links" id="navLinks">
+            {% for item in site.navigation %}
+            <li><a href="{% if item.link contains '#' %}/{{ item.link }}{% else %}{{ item.link }}{% endif %}">{{ item.name }}</a></li>
+            {% endfor %}
+        </ul>
+        
+        <a href="{{ '/suche/' | relative_url }}" class="nav-search-btn" aria-label="Suche">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+        </a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menü öffnen">☰</button>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="hero" class="hero">
+    <div class="hero-bg"></div>
+    
+    <!-- Funnel Overlay mit Fehlerbehandlung -->
+    <img src="{{ '/assets/images/ki.png' | relative_url }}" 
+         alt="Innovation Funnel" 
+         class="graffiti-overlay" 
+         onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+    
+    <!-- Fallback für fehlendes Graffiti -->
+    <div class="graffiti-fallback">Innovation</div>
+    
+    <!-- Hero Overlay -->
+    <div class="hero-overlay"></div>
+    
+    <div class="hero-content">
+        <h1>Open Innovation Hour</h1>
+        <p>Das monatliche Online-Format – jeden ersten Donnerstag um 12:30 Uhr</p>
+        
+        <!-- CTA Buttons Container -->
+        <div class="cta-container">
+            <a href="#events" class="cta-button">Zu den Terminen</a>
+        </div>
+    </div> 
+    
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator" onclick="document.getElementById('events').scrollIntoView({behavior: 'smooth'})">
+        <div class="scroll-arrow"></div>
+        <div class="scroll-text">Scrollen für mehr</div>
+    </div>
+</section>
+
+<!-- Events Section -->
+<section id="events" class="section events">
+    <div class="container">
+        <h2 class="section-title fade-in">Termine</h2>
+        <div class="fade-in">
+            <p style="text-align: center; font-size: 1.2rem; max-width: 800px; margin: 0 auto;">
+                Die Open Innovation Hour ist ein monatliches Online-Format, in dem wir jeden ersten Donnerstag im Monat um 12:30 Uhr gemeinsam auf eine herausfordernde Fragestellung blicken – um miteinander ins Gespräch zu kommen und Ideen zu entwickeln. Offen, niedrigschwellig und praxisnah. Das Format lebt von vielfältigen Perspektiven, ob aus der Verwaltung, Wissenschaft, Wirtschaft oder der Zivilgesellschaft. Die Open Innovation Hour ist mehr als ein Workshop: Sie ist der Startpunkt für Netzwerke, Projekte und tiefergehende Formate, die Bielefeld verbinden.
+            </p>
+        </div>
+    </div>
+</section>
+
+{% assign today = 'now' | date: '%Y-%m-%d' %}
+{% assign oi_events = site.data.events | where: 'topic', 'open-innovation-hour' | sort: 'date' %}
+{% assign upcoming_events = oi_events | where_exp: 'event', 'event.date >= today' %}
+
+{% if upcoming_events.size > 0 %}
+<!-- Upcoming Events Section -->
+<section id="upcoming-events" class="section events" style="padding-top: 0;">
+    <div class="container">
+        <h2 class="section-title fade-in">Kommende Termine</h2>
+        <div class="events-grid">
+            {% for event in upcoming_events %}
+                <div class="event-card fade-in{% if event.featured %} featured{% endif %}" data-category="{{ event.category }}">
+                    <div class="event-header">
+                        <div class="event-category">{{ event.category }}</div>
+                        <h3 class="event-title">{{ event.title }}</h3>
+                        <p class="event-description">{{ event.description }}</p>
+                    </div>
+                    
+                    <div class="event-details">
+                        <div class="event-meta">
+                            <div class="event-meta-item">
+                                <svg class="event-meta-icon" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/>
+                                </svg>
+                                <span><strong>Datum:</strong> {{ event.date | date: "%d.%m.%Y" }}</span>
+                            </div>
+                            
+                            <div class="event-meta-item">
+                                <svg class="event-meta-icon" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                                </svg>
+                                <span><strong>Zeit:</strong> {{ event.time }} Uhr{% if event.duration %} ({{ event.duration }}){% endif %}</span>
+                            </div>
+                            
+                            <div class="event-meta-item">
+                                <svg class="event-meta-icon" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                                </svg>
+                                <span><strong>Ort:</strong> {{ event.location }}</span>
+                            </div>
+                            
+                            {% if event.target_audience %}
+                            <div class="event-meta-item">
+                                <svg class="event-meta-icon" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M16 4c0-1.11.89-2 2-2s2 .89 2 2-.89 2-2 2-2-.89-2-2zm4 18v-6h2.5l-2.54-7.63A2.997 2.997 0 0 0 17.07 7c-.8 0-1.54.5-1.85 1.26l-1.92 5.76c-.15.45-.05.96.26 1.33.31.36.77.56 1.26.56h2.68v6h2zM12.5 11.5c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5S11 9.17 11 10s.67 1.5 1.5 1.5zm1.5 1h-3c-.83 0-1.5.67-1.5 1.5v6h2v7h3v-7h2v-6c0-.83-.67-1.5-1.5-1.5zM5.5 6c1.11 0 2-.89 2-2s-.89-2-2-2-2 .89-2 2 .89 2 2 2zm1.5 1h-3C3.17 7 2.5 7.67 2.5 8.5v6h2v7h3v-7h2v-6C9.5 7.67 8.83 7 8 7z"/>
+                                </svg>
+                                <span><strong>Zielgruppe:</strong> {{ event.target_audience }}</span>
+                            </div>
+                            {% endif %}
+                        </div>
+                        
+                        <div class="event-footer">
+                            <div class="event-target">{{ event.target_audience }}</div>
+                            <div class="event-cost{% if event.cost != 'Kostenlos' %} paid{% endif %}">{{ event.cost }}</div>
+                            {% if event.booking_url %}
+                            <a href="{{ event.booking_url }}" target="_blank" rel="noopener" class="event-book-btn">
+                                {% if event.link_text %}{{ event.link_text }}{% else %}Anmelden{% endif %}
+                            </a>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endif %}
+
+<!-- Past Events Section -->
+{% assign past_events = oi_events | where_exp: 'event', 'event.date < today' | sort: 'date' | reverse %}
+{% if past_events.size > 0 %}
+<section id="past-events" class="section past-events">
+    <div class="container">
+        <h2 class="section-title fade-in">Vergangene Open Innovation Hours</h2>
+        <div class="fade-in">
+            <p style="text-align: center; font-size: 1.2rem; max-width: 800px; margin: 0 auto;">
+                Hier findest du alle bereits durchgeführten Open Innovation Hours. Jede Ausgabe hat neue Verbindungen, Impulse und Ideen in Bielefeld entstehen lassen.
+            </p>
+        </div>
+        
+        <div class="events-grid">
+            {% for event in past_events %}
+                <div class="event-card fade-in past-event{% if event.featured %} featured{% endif %}" data-category="{{ event.category }}">
+                    <div class="event-header">
+                        <div class="event-category">{{ event.category }}</div>
+                        <h3 class="event-title">{{ event.title }}</h3>
+                        <p class="event-description">{{ event.description }}</p>
+                    </div>
+                    
+                    <div class="event-details">
+                        <div class="event-meta">
+                            <div class="event-meta-item">
+                                <svg class="event-meta-icon" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/>
+                                </svg>
+                                <span><strong>Datum:</strong> {{ event.date | date: "%d.%m.%Y" }}</span>
+                            </div>
+                            
+                            <div class="event-meta-item">
+                                <svg class="event-meta-icon" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                                </svg>
+                                <span><strong>Zeit:</strong> {{ event.time }} Uhr{% if event.duration %} ({{ event.duration }}){% endif %}</span>
+                            </div>
+                            
+                            <div class="event-meta-item">
+                                <svg class="event-meta-icon" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                                </svg>
+                                <span><strong>Ort:</strong> {{ event.location }}</span>
+                            </div>
+                            
+                            {% if event.target_audience %}
+                            <div class="event-meta-item">
+                                <svg class="event-meta-icon" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M16 4c0-1.11.89-2 2-2s2 .89 2 2-.89 2-2 2-2-.89-2-2zm4 18v-6h2.5l-2.54-7.63A2.997 2.997 0 0 0 17.07 7c-.8 0-1.54.5-1.85 1.26l-1.92 5.76c-.15.45-.05.96.26 1.33.31.36.77.56 1.26.56h2.68v6h2zM12.5 11.5c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5S11 9.17 11 10s.67 1.5 1.5 1.5zm1.5 1h-3c-.83 0-1.5.67-1.5 1.5v6h2v7h3v-7h2v-6c0-.83-.67-1.5-1.5-1.5zM5.5 6c1.11 0 2-.89 2-2s-.89-2-2-2-2 .89-2 2 .89 2 2 2zm1.5 1h-3C3.17 7 2.5 7.67 2.5 8.5v6h2v7h3v-7h2v-6C9.5 7.67 8.83 7 8 7z"/>
+                                </svg>
+                                <span><strong>Zielgruppe:</strong> {{ event.target_audience }}</span>
+                            </div>
+                            {% endif %}
+                        </div>
+                        
+                        <div class="event-footer">
+                            <div class="event-target">{{ event.target_audience }}</div>
+                            <div class="event-cost{% if event.cost != 'Kostenlos' %} paid{% endif %}">{{ event.cost }}</div>
+                            {% if event.booking_url %}
+                            <a href="{{ event.booking_url }}" target="_blank" rel="noopener" class="event-book-btn">
+                                {% if event.link_text %}{{ event.link_text }}{% else %}Anmelden{% endif %}
+                            </a>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endif %}
+
+<!-- Contact Section -->
+<section id="contact" class="section contact">
+    <div class="container">
+        <h2 class="section-title" style="color: white;">Kontakt & Mitmachen</h2>
+        <p style="text-align: center; font-size: 1.2rem; margin-bottom: 3rem;">
+            Haben Sie Ideen, Fragen oder möchten Sie Teil unserer Initiative werden? Kontaktieren Sie uns!
+        </p>
+        
+        <div class="contact-info">
+            <div class="contact-card">
+                <h4>Allgemeine Anfragen</h4>
+                <p><a href="mailto:{{ site.email }}" class="contact-link">{{ site.email }}</a></p>
+                <p>Telefon: {{ site.phone }}</p>
+            </div>
+
+            <div class="contact-card">
+                <h4>Innovation Office</h4>
+                <p>{{ site.address.street }}<br>{{ site.address.city }}</p>
+                <p>Geschäftszeiten:<br>{{ site.opening_hours }}</p>
+            </div>
+
+            <div class="contact-card">
+                <h4>Projektanfragen</h4>
+                <p><a href="mailto:projekte@oic-bielefeld.de" class="contact-link">info@oic-bielefeld.de</a></p>
+                <p>Für Kooperationen und neue Projektideen</p>
+            </div>
+        </div>
+    </div>
+</section>

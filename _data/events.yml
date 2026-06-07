@@ -222,6 +222,20 @@
   featured: true
   topic: "open-innovation-hour"
 
+- title: "Zukünfte von KI und Zivilgesellschaft. Wie könnten Zukünfte von Ki in der Zivilgesellschaft aussehen?"
+  description: "Wir laden die Teilnehmerinnen und Teilnehmer der letzten Meetups zu einer vertieften Vernetzung ein. Der Blick nach vorne: in mögliche, wünschenswerte und überraschende Zukünfte von KI in der Zivilgesellschaft."
+  date: "2026-02-24"
+  time: "16:30"
+  duration: "1,5 Stunden"
+  location: "Innovation Office, Alter Markt 13"
+  category: "Impuls & Workshop"
+  target_audience: "Teilnehmer & Teilnehmerinnen der Meetup-Reihe KI und Zivilgesellschaft"
+  cost: "Kostenlos"
+  booking_url: "/beitraege/rueckblick-zukuenfte-von-ki-in-zivilgesellschaft/"
+  link_text: "Details & Anmeldungen"
+  featured: false
+  topic: "ki-zivilgesellschaft"
+
 - title: "Open Innovation Hour: Geteilte Probleme, gemeinsame Lösungen"
   description: "Viele gute Ideen scheitern nicht an fehlendem Engagement, sondern daran, dass die richtigen Menschen nie zusammen. Die Open Innovation Hour ist ein Format, mit dem wir genau das ändern wollen. In dieser Open Innovation Hour erwartet euch ein Impuls zum Thema offene Zusammenarbeit (inklusive Methoden-Kartenset zum Mitnehmen), eine Blitzrunde, in der ihr eure aktuellen Themen und Herausforderungen einbringt sowie Zeit für den direkten Austausch mit anderen, die ähnliche Fragen bewegen."
   date: "2026-03-05"
@@ -263,3 +277,31 @@
   link_text: "Details & Anmeldung"
   featured: true
   topic: "Wirkung"
+
+- title: "Open Innovation Hour: Fake oder Fakt? Informiert bleiben im Zeitalter der Desinformation."
+  description: "Am Donnerstag, 7. Mai 2026 dreht sich in der Open Innovation Hour alles um die Fragen: „Wie erkennen wir Falschinformationen und was können wir gegen sie tun?“ – Mit Prof. Dr. Heike Greschke, Professorin für Mediensoziologie, Universität Bielefeld und Caroline Lindekamp vom CORRECTIV.Faktenforum."
+  date: "2026-05-07"
+  time: "12:30"
+  duration: "1 Stunde"
+  location: "Online"
+  category: "Online: Open Innovation Hour"
+  target_audience: "Alle Interessierten aus Politik, Verwaltung, Wirtschaft, Wissenschaft & Zivilgesellschaft"
+  cost: "Kostenlos"
+  booking_url: "/beitraege/open-innovation-hour-fake-oder-fakt/"
+  link_text: "Details & Anmeldung"
+  featured: true
+  topic: "open-innovation-hour"  
+
+- title: "Open Innovation Hour: Kreislauf statt Wegwerfen – Einstieg in die Circular Economy"
+  description: "Wie können wir Ressourcen intelligenter nutzen und Abfall gar nicht erst entstehen lassen? Diese Fragen stehen im Mittelpunkt der Open Innovation Hour im am 02.07.2026 – Mit Kerstin Schmidt und Heike Wulf, Technologiescouts der Forschungsgruppe „Zirkuläre Wertschöpfung“ des InCamS@BI-Projekts der Hochschule Bielefeld und der Universität Bielefeld."
+  date: "2026-07-02"
+  time: "12:30"
+  duration: "1 Stunde"
+  location: "Online"
+  category: "Online: Open Innovation Hour"
+  target_audience: "Alle Interessierten aus Politik, Verwaltung, Wirtschaft, Wissenschaft & Zivilgesellschaft"
+  cost: "Kostenlos"
+  booking_url: "/beitraege/open-innovation-hour-kreislauf-statt-wegwerfen/"
+  link_text: "Details & Anmeldung"
+  featured: true
+  topic: "open-innovation-hour" 

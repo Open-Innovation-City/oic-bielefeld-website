@@ -309,6 +309,41 @@ header_image_credit: "© [Max Mustermann](https://unsplash.com/@max) / Unsplash"
 - Optimized spacing: Image margin adjusted to bring caption closer to image
 - Responsive design: Captions adapt to all screen sizes
 
+### Konfetti-Belohnung am Ende von Blogbeiträgen
+
+**Neu seit April 2026:** Wer einen Blogbeitrag vollständig liest, wird am Ende mit einem Konfetti-Effekt belohnt. Der Effekt ist opt-in und muss im Front Matter des jeweiligen Beitrags aktiviert werden:
+
+```yaml
+---
+confetti: true
+---
+```
+
+**Funktionsweise:**
+- Am Ende des Post-Inhalts in `_layouts/post.html` sitzt ein unsichtbares Sentinel-Element (`<div id="post-end">`), das nur gerendert wird wenn `confetti: true` gesetzt ist
+- Ein `IntersectionObserver` beobachtet dieses Element und feuert, sobald es den Viewport erreicht
+- Die Bibliothek [`canvas-confetti`](https://github.com/catdad/canvas-confetti) wird dann lazy per Script-Tag-Injection geladen
+- Der Effekt wird nur einmal ausgelöst (`unobserve` nach dem ersten Trigger)
+- Bei `prefers-reduced-motion: reduce` wird der Effekt übersprungen
+
+**Lokale Bibliothek:**
+`canvas-confetti` liegt als `assets/js/confetti.browser.js` (nicht über CDN eingebunden).
+
+**CSP-Hinweis:**
+`canvas-confetti` nutzt einen Web Worker über eine `blob:`-URL. Dafür ist `worker-src 'self' blob:` in der CSP in `_includes/head.html` erforderlich.
+
+**Konfetti-Parameter** (in `_layouts/post.html`):
+```javascript
+confetti({
+    particleCount: 150,
+    spread: 120,
+    origin: { y: 0.75 },
+    colors: ['#00b3a7', '#666cde', '#fff564', '#ff6b6b', '#ffa94d', '#a9e34b', '#74c0fc', '#f783ac', '#ffffff']
+});
+```
+
+---
+
 ### Adding Quote Blocks
 **New as of October 2025:** For embedding styled quotes in blog posts:
 ```markdown
@@ -731,6 +766,7 @@ Aktuell erlaubte externe Quellen:
 | `frame-src` | `www.bielefeld.de`, `pretix.eu`, `www.youtube.com` |
 | `img-src` | `img.youtube.com`, `data:` |
 | `connect-src` | `pretix.eu` (Widget-API) |
+| `worker-src` | `'self'`, `blob:` (canvas-confetti Web Worker) |
 
 **Beispiel:** Ein neues Embed von Vimeo würde `https://player.vimeo.com` zu `frame-src` erfordern.
 
