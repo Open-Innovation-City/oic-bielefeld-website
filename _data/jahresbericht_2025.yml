@@ -26,18 +26,6 @@ categories:
     color: "secondary-blue"
     leitsaetze: [3]
     results:
-      - title: "Dialogveranstaltungen innerhalb der Verwaltung"
-        planned: 2
-        achieved: 0
-        unit: "Veranstaltungen"
-        comment: ""
-
-      - title: "Impulse im Intranet zum Thema Innovation"
-        planned: 24
-        achieved: 0
-        unit: "Beiträge"
-        comment: "War nicht möglich, weil keine Kommunikationsstruktur für das Intranet vorliegt."
-
       - title: "Weiterbildungsmöglichkeiten in Organisationseinheiten vorstellen"
         planned: 5
         achieved: 1
@@ -91,18 +79,6 @@ categories:
         achieved: 8
         unit: "Projekte"
         comment: ""
-
-      - title: "Fachämter zur Unterstützung des Office-Dienstes einladen"
-        planned: 6
-        achieved: 0
-        unit: "Einladungen"
-        comment: "Wir bieten keine Öffnungszeiten mehr an, deshalb ist dieses Key Result nicht mehr relevant."
-
-      - title: "Innovationszirkel initiieren"
-        planned: 2
-        achieved: 0
-        unit: "Zirkel"
-        comment: "Wir haben keine sinnvoll umsetbaren Themen für Innovationszirkel gefunden und deshalb das Format eingestellt."
 
   - name: "Netzwerk & Austausch"
     description: "Vernetzung und Zusammenarbeit über Stadtgrenzen hinaus"
