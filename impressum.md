@@ -9,7 +9,7 @@ permalink: /impressum/
 
 ## Angaben gemäß § 5 TMG
 
-**Open Innovation City Bielefeld**  
+**Open Innovation City Bielefeld. Eine Initiative der Stadt Bielefeld.**  
 c/o Stadt Bielefeld  
 Geschäftsbereich 100.3
 Niederwall 23  
