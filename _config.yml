@@ -99,6 +99,9 @@ collections:
   beitraege:
     output: true
     permalink: /beitraege/:name/
+  sounds:
+    output: true
+    permalink: /sound/:name/
 
 # Defaults
 defaults:
@@ -122,3 +125,10 @@ defaults:
       type: "beitraege"
     values:
       layout: "post"
+  - scope:
+      path: ""
+      type: "sounds"
+    values:
+      layout: "sound"
+      sitemap: false
+      noindex: true

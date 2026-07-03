@@ -1,0 +1,10 @@
+---
+# robots.txt – wird von Jekyll mit Front Matter verarbeitet
+layout: none
+permalink: /robots.txt
+sitemap: false
+---
+User-agent: *
+Disallow: /sound/
+
+Sitemap: {{ site.url }}/sitemap.xml
