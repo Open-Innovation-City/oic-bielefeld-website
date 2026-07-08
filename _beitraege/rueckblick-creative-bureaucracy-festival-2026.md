@@ -33,7 +33,7 @@ Audrey Tang hat in diesem Zusammenahng das Prinzip des *Broadlistening* vorgeste
 - Island
 - Argentinien
 - Japan
-- Afrika
+- Nigeria
 - Mein Vortrag
 - Die Zukunft ist weiblich!
 
