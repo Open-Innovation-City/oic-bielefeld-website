@@ -16,7 +16,7 @@ Die Handreichung ‚Wirkungsorientierung – mit wenig Aufwand mehr bewirken' wu
 Wir hatten das große Glück von Cornelia Rittmeyer einen Impuls als wissenschaftliches Fundament zu hören. Die Projektmanagerin Nachhaltige Soziale Marktwirtschaft bei der Bertelsmann Stiftung beschäftigt sich seit Jahren mit unterschiedlichen Facetten von Wirkung.
 Im anschließenden praktischen Teil arbeiteten drei Gruppen zu eigenen Themen gemeinsam an dem Logic Model 2.0, das zur Handreichung dazugehörige Modell. 
 ### Höhepunkte
-Mit unterschiedlichen Herangehensweisen wurde im knapp 60-minütigen Workshop geprüft, ob das Modell für das Ehrenamt geeignet ist. Menschen aus dem Ehrenamt und Expert*innen aus der Berufspraxis testeten das Hilfsmittel auf seine Praxistauglichkeit. Zumindest in einem simulierten Praxiseinsatz. 
+Mit unterschiedlichen Herangehensweisen wurde im knapp 60-minütigen Workshop geprüft, ob das Modell für das Ehrenamt geeignet ist. Menschen aus dem Ehrenamt und Expert\*innen aus der Berufspraxis testeten das Hilfsmittel auf seine Praxistauglichkeit. Zumindest in einem simulierten Praxiseinsatz. 
 Die Erkenntnisse aus dem Meetup waren sehr hilfreich und werden entsprechend umgesetzt. 
 
 ### Ausblicke & Erkenntnisse
