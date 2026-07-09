@@ -11,7 +11,7 @@ is_retrospective: false
 ---
 
 ### Ein etwas anderer Rückblick
-Dieser Abschluss der Meetup-Reihe KI und Zivilgesellschaft richtete sich ausschließlich an die Teilnehmer*innen aus der Meetup-Reihe, um eine vertiefte Vernetzung zu ermöglichen. 
+Dieser Abschluss der Meetup-Reihe KI und Zivilgesellschaft richtete sich ausschließlich an die Teilnehmer\*innen aus der Meetup-Reihe, um eine vertiefte Vernetzung zu ermöglichen. 
 Der Blick nach vorne: in mögliche, wünschenswerte und überraschende Zukünfte von KI in der Zivilgesellschaft.
 Wir sind überzeugt, dass das Denken über Zukünfte (Futures Thinking), eine wichtige Kompetenz ist, um mit der wachsenden Komplexität unserer Arbeits- und Lebenswelt umzugehen. Laut UNESCO ist Zukunftskompetenz die Fähigkeit, die Rolle der Zukunft in unserem Handeln besser zu verstehen. Sie stärkt unsere Vorstellungskraft und hilft uns, in veränderten Umfeldern erfinderisch zu sein.
 
