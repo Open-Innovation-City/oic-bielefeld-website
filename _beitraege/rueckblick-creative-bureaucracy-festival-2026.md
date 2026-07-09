@@ -12,7 +12,7 @@ confetti: true
 ---
 
 ## Endlich mal wieder Berlin
-Für mich als Bielefelder ist es immer wieder schön, mal wieder nach Groß-Bielefeld aka. Berlin zu kommen. Dort passieren mir immer unvorhergesehene Dinge. So war es natürlich auch beim [Creative Bureaucracy Festival](https://creativebureaucracy.org/de), auf dem ich unser Projekt [InnovateNOW](https://oic-bielefeld.de/beitraege/das-war-innovatenow/) präsentieren sollte.
+Für mich als Bielefelder ist es immer schön, mal wieder nach Groß-Bielefeld aka. Berlin zu kommen. Dort passieren mir immer unvorhergesehene Dinge. So war es natürlich auch beim [Creative Bureaucracy Festival](https://creativebureaucracy.org/de), auf dem ich unser Projekt [InnovateNOW](https://oic-bielefeld.de/beitraege/das-war-innovatenow/) präsentieren sollte.
 
 ## Erste Highlights schon beim Speaker´s Dinner
 Auf dem Speaker´s Dinner am Tag vor dem Festival ging es schon sehr gut los. Ich hatte keine hohen Erwartungen an so ein Dinner, aber es ging sofort richtig inspirierend zur Sache: [George Papandreou](https://en.wikipedia.org/wiki/George_Papandreou), ehemaliger Premierminister Griechenlands und [Audrey Tang](https://de.wikipedia.org/wiki/Audrey_Tang), ehemalige Digitalministerin Taiwans, haben Impulse gegeben, die mich echt begeistert haben.
