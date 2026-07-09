@@ -5,9 +5,9 @@ authors:
   - "Sarah Bollmann"
 categories:
   - "Open Innovation Hour"
-date: 2026-06-17
+date: 2026-07-09
 header_image: " "
-confetti: true
+confetti: false
 ---
 
 ## Information zur Sommerpause im August
