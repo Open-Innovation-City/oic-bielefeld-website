@@ -18,7 +18,7 @@ Die Veranstaltung richtet sich an alle, die Unterstützung im Umgang mit digital
 Das [Netzwerk für digitale Teilhabe](https://www.bielefeld.de/digitale-teilhabe) organisiert zum dritten Mal einen spannenden Nachmittag, an dem zahlreiche Initiativen, Organisationen und Anlaufstellen aus Bielefeld ihre Angebote zur digitalen Teilhabe präsentieren. Besucher*innen können direkt vor Ort praktische Tipps und Unterstützung erhalten. Bei einer Tasse Kaffee und einem Stück Kuchen ist Raum sich auszutauschen und zu vernetzen.  
 
 {% include quote.html
-   text="**Freitag, 02.10.2026<br>14 - 17 Uhr<br>Kleiner Saal**, Volkshochschule Bielefeld<br>Ravensberger Park 1, 33607 Bielefeld<br>**Kostenfrei**, keine Anmeldung erforderlich" %}     
+   text="Freitag, 02.10.2026<br>14 - 17 Uhr<br>Kleiner Saal, Volkshochschule Bielefeld<br>Ravensberger Park 1, 33607 Bielefeld<br>Kostenfrei, keine Anmeldung erforderlich" %}     
 
 Der Markt der digitalen Möglichkeiten lädt dazu ein, sich auszuprobieren, Fragen zu stellen und Hemmschwellen im Umgang mit digitalen Technologien abzubauen. Kommt vorbei – für mehr Selbstständigkeit und Teilhabe in einer vernetzten Welt!  
 
