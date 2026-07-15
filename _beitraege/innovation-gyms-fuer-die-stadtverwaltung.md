@@ -1,16 +1,18 @@
 ---
-title: "Innovation Gym: Innovative Arbeitsmethoden für die Stadtverwaltung Bielefeld"
+title: "Innovation Gym: Innovative Arbeitsmethoden für die Stadt Bielefeld"
 teaser: "Wie lassen sich innovative Arbeitsweisen in den Verwaltungsalltag bringen? Genau dieser Frage sind wir gemeinsam mit 15 Mitarbeitenden der Stadt Bielefeld im ersten Innovation Gym nachgegangen."
 authors:
   - "Tatjana Džepina"
 categories:
   - "Events"
 date: 2026-07-15
-header_image: ""
+header_image: "/assets/images/events/innovation-gym-fuer-die-stadtverwaltung/innovation_gym_00038.jpeg"
 ---
 
 ## Ein Innovationsprozess in vier Seminartagen
-Kolleginnen und Kollegen aus ganz unterschiedlichen Bereichen wie dem Amt für Verkehr, BIE-Digital, Schulamt, Umweltamt, Kulturamt, Immobilienservicebetrieb, Gesundheitsamt sowie dem Sozialamt kamen an vier Seminartagen im Innovation Office zusammen. Das Ziel: neue Methoden kennenlernen, ausprobieren und direkt auf Herausforderungen der Stadt Bielefeld anwenden
+Kolleginnen und Kollegen aus ganz unterschiedlichen Bereichen wie dem Amt für Verkehr, BIE-Digital, Schulamt, Umweltamt, Kulturamt, Immobilienservicebetrieb, Gesundheitsamt sowie dem Sozialamt kamen an vier Seminartagen im Innovation Office zusammen. Das Ziel: neue Methoden kennenlernen, ausprobieren und direkt auf Herausforderungen der Stadt Bielefeld anwenden.
+
+![Hier ist ein Gruppenbild von allen Teilnehmenden Personen zu sehen.](/assets/images/events/innovation-gym-fuer-die-stadtverwaltung/innovation_gym_00038.jpeg)
 
 Im Mittelpunkt der vier Seminartage standen verschiedene Bausteine eines Innovationsprozesses. Gemeinsam beschäftigten sich die Teilnehmenden mit Zukünften und Megatrends, lernten Methoden des Crowdsourcings kennen, entwickelten mit Kreativmethoden neue Lösungsansätze und arbeiteten an ersten Konzepten, die sie abschließend überprüfen konnten. 
 
@@ -44,8 +46,8 @@ Auch der Wunsch nach einer Fortsetzung wurde mehrfach geäußert. Diesen nehmen 
 Als Open Innovation City Bielefeld freuen wir uns nicht nur über den weiteren Austausch innerhalb der Stadtverwaltung, sondern auch über Gespräche mit anderen Kommunen, die ähnliche Formate entwickeln möchten.
 Unser Ziel ist es, innovative Methoden zugänglich zu machen, voneinander zu lernen und gemeinsam eine moderne Verwaltung zu gestalten.
 
-Diesen Ansatz hat Open Innovation City auch während des Förderzeitraums verfolgt. So wurden damals erstmalig Innovation Gyms für die Wirtschaft angeboten. Weitere Informationen zu der damaligen Variante der Innovation Gyms sind auf der Projektseite nachzulesen:
- 
+Diesen Ansatz hat Open Innovation City auch während des Förderzeitraums verfolgt. So wurden damals erstmalig Innovation Gyms für die Wirtschaft angeboten. Weitere Informationen zu der damaligen Variante der Innovation Gyms sind auf der Projektseite nachzulesen: [hier klicken](https://oic-projekt.de/vernetzung/innovation-gym)
+
 Du möchtest mehr zu Innovation Gyms erfahren? – Dann schreib einfach eine E-Mail an [tatjana.dzepina@bielefeld.de](mailto:tatjana.dzepina@bielefeld.de). 
 
-{% include gallery.html folder="/assets/images/events/workshop-2025/" %}
+{% include gallery.html folder="/assets/images/events/innovation-gym-fuer-die-stadtverwaltung" %}
