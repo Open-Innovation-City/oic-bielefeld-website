@@ -16,7 +16,7 @@ Grundsätzlich ging es dem Ministerium darum, in einer Art Startpaket 19 Kommune
 
 Am 15. Juni war das Abschlussevent der dreimonatigen Erprobungsphase, die nun beendet ist. Dieser fand standesgemäß in repräsentativen Räumlichkeiten nahe dem Hauptbahnhof in Berlin mit 180 Gästen statt. 
 
-![Ein Panel mit 4 Teilnehmenden auf einer Bühne. Als zweiter von links ist der  parlamentarische Staatsekretär Thomas Jarzombek zu sehen.](/assets/images/beitraege/innovatenow_creative_bureaucracy_festival.png "Parlamentarischer Staatsekretär Thomas Jarzombek (2.vl.); Copyright: David Jäger")
+![Ein Panel mit 4 Teilnehmenden auf einer Bühne. Als zweiter von links ist der  parlamentarische Staatsekretär Thomas Jarzombek zu sehen.](/assets/images/events/rueckblick-agentic-ai-hub/agentic_ai_hub.jpg "Parlamentarischer Staatsekretär Thomas Jarzombek (2.vl.); Copyright: David Jäger")
 
 Der Nachmittag und Abend waren - neben dem obligatorischen Entrée und Eröffnungsworten – so aufgebaut, dass die 9 Startups erst kurz und knapp in jeweils 5 Minuten ihr Produkt und ihre Leistungen vorgestellt haben, dann sprach der Minister, abschließend haben die Kommunen ihre Einschätzungen und Problemfelder in einem offenen Podium dargestellt. Dazu auch das obige Bild. Abschließend gab es noch freies Netzwerken mit Fingerfood.
 
