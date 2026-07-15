@@ -16,7 +16,7 @@ Nach einer spannenden Open Innovation Hour rund ums Thema Kreislaufwirtschaft im
 
 ### Ausblick September 2026  
 
-Am **3. September 2026** geht es wie gewohnt um **12:30 Uhr** spannend weiter.  – Wir freuen uns auf **Johanna Ober-Syndermeyer von Melitta**, die mit uns auf die Zukunftskompetenz blickt, im beruflichen oder privaten Kontext **Innovationen** zu entwickeln und diese in einen wirksamen, nutzbringenden Kontext mit erkennbarem Mehrwert oder Fortschritt zu überführen.  
+Am **3. September 2026** geht es wie gewohnt um **12:30 Uhr** spannend weiter.  – Wir freuen uns auf **Johanna Ober-Sundermeyer von Melitta**, die mit uns auf die Zukunftskompetenz blickt, im beruflichen oder privaten Kontext **Innovationen** zu entwickeln und diese in einen wirksamen, nutzbringenden Kontext mit erkennbarem Mehrwert oder Fortschritt zu überführen.  
 
 ### Ausblick Oktober 2026  
 
