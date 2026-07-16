@@ -126,6 +126,51 @@ Author cards are clickable and link to the author page. Posts can use `authors` 
 
 **Navigation:** Author pages do **not** appear in the site navigation. They are only reachable via author-card links on blog posts.
 
+### Methodenkoffer Posts (separate collection)
+
+**New as of July 2026:** Method write-ups ("Methodenkoffer") live in their own Jekyll collection, `methoden`, so they render exactly like regular blog posts but never appear in the main `/beitraege/` feed.
+
+**Why a separate collection instead of a flag on `beitraege`:** `beitraege.html` and `_layouts/author.html` both iterate explicitly over `site.beitraege`. A new collection is invisible to that loop by construction — no `is_retrospective`-style exclusion flag needed to keep the main feed clean.
+
+**Collection config** (`_config.yml`):
+```yaml
+collections:
+  methoden:
+    output: true
+    permalink: /methoden/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "methoden"
+    values:
+      layout: "post"
+```
+
+**Content location:** `_methoden/<name>.md`, using the exact same front matter as `_beitraege/` (`title`, `teaser`, `authors`, `categories`, `date`, `header_image`, etc.). Since `layout: post` is applied via defaults, method posts get the identical rendering as blog posts — header image, author card, confetti, CTA buttons, everything.
+
+**Listing page:** `methoden.html` (permalink `/methoden/`) is a standalone page copied from the same structural pattern as `open-innovation-hour.html` / `ki-zivilgesellschaft.html` (navbar, hero, info section, contact section). Where those pages show an events grid, this page loops over `site.methoden` and renders each entry with the existing `post-card.html` include:
+```liquid
+{% assign methoden_beitraege = site.methoden | sort: 'date' | reverse %}
+{% for beitrag in methoden_beitraege %}
+    {% include post-card.html beitrag=beitrag %}
+{% endfor %}
+```
+No new card/include was needed — `post-card.html` already works with any object exposing `title`/`teaser`/`authors`/`date`/`url`, regardless of source collection.
+
+**Author page integration:** `_layouts/author.html` was updated to include method posts in an author's post listing:
+```liquid
+{% assign sorted_beitraege = site.beitraege | concat: site.methoden | sort: "date" | reverse %}
+```
+`is_retrospective` filtering still applies identically to both sources.
+
+**Search (Pagefind):** No `data-pagefind-ignore` needed — method posts render through the normal `post` layout and are indexed like any other post.
+
+**Adding a new method post:**
+1. Create `_methoden/<slug>.md` with standard post front matter
+2. It immediately appears on `/methoden/` and (if authored by a known team member) on that author's `/autoren/<slug>/` page
+3. It will never appear on `/beitraege/` — this is automatic, not a flag you need to set
+
 ### Adding Projects
 Edit `_data/projects.yml` with status tracking:
 ```yaml

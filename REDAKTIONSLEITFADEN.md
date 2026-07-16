@@ -332,6 +332,51 @@ Der Workshop war ein voller Erfolg...
 ✅ **Automatische Banner**: Bidirektionale Verlinkung wird automatisch angezeigt
 ✅ **Flexibel**: Du entscheidest, für welche Events du Rückschauen erstellst
 
+## Methodenkoffer-Beiträge schreiben
+
+**Neu seit Juli 2026:** Für den Methodenkoffer gibt es eigene Beiträge, die Methoden und Werkzeuge für Innovationsarbeit vorstellen (z.B. Kreativitätstechniken, Moderationsmethoden). Sie funktionieren technisch genauso wie normale Blog-Beiträge, tauchen aber **nicht** in der Beitragsübersicht `/beitraege/` auf, sondern werden ausschließlich auf der Methodenkoffer-Seite `/methoden/` gelistet.
+
+### Neuen Methodenbeitrag erstellen
+
+**Verzeichnis:** `_methoden/` (statt `_beitraege/`)
+
+1. Erstelle eine neue Datei in `_methoden/`, z.B. `sechs-denkhuete.md`
+2. Dateiname nur Kleinbuchstaben, Bindestriche statt Leerzeichen
+3. Verwende dieselbe Vorlage wie bei normalen Blog-Beiträgen:
+
+```markdown
+---
+title: "Titel der Methode"
+teaser: "Kurze Zusammenfassung für die Übersicht (1-2 Sätze)"
+authors:
+  - "Ihr Name"
+categories:
+  - "Kreativitätstechnik"  # frei wählbar
+date: 2026-07-16
+---
+
+## Beschreibung der Methode
+
+Hier beginnt Ihr Beitrag...
+```
+
+### Was ist anders als bei normalen Beiträgen?
+
+- **Ordner:** `_methoden/` statt `_beitraege/`
+- **URL:** `/methoden/dateiname/` statt `/beitraege/dateiname/`
+- **Auffindbar über:** Die Methodenkoffer-Seite `/methoden/` (nicht über `/beitraege/`)
+
+### Was ist genau wie bei normalen Beiträgen?
+
+- Alle Vorlagen-Felder (`title`, `teaser`, `authors`, `categories`, `date`, `header_image` etc.)
+- Alle Inhalte-Bausteine (Galerien, Zitate, CTA-Buttons, YouTube-Videos, Pretix-Widgets)
+- Die Autor-Karte am Ende – Methodenbeiträge erscheinen auch auf der Autorenseite der jeweiligen Person
+- Die Suchfunktion – Methodenbeiträge sind normal über `/suche/` auffindbar
+
+### Wichtiger Hinweis
+
+Jeder neue Ordner für Bilder (falls benötigt) folgt der gleichen Logik wie bei normalen Beiträgen unter `assets/images/`.
+
 ## Markdown Grundlagen
 
 Markdown ist eine einfache Formatierungssprache:
@@ -955,4 +1000,4 @@ Bei technischen Problemen oder Konflikten: jens.edler@bielefeld.de
 
 ---
 
-*Letzte Änderung: Februar 2026 | Version 1.5*
+*Letzte Änderung: Juli 2026 | Version 1.6*
