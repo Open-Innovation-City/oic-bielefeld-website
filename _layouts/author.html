@@ -61,7 +61,7 @@ layout: default
 
         <!-- Author Posts -->
         {% assign author_posts = "" | split: "" %}
-        {% assign sorted_beitraege = site.beitraege | sort: "date" | reverse %}
+        {% assign sorted_beitraege = site.beitraege | concat: site.methoden | sort: "date" | reverse %}
         {% for beitrag in sorted_beitraege %}
             {% assign is_author_match = false %}
             {% if beitrag.authors and beitrag.authors contains page.author_name %}

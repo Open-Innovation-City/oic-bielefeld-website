@@ -1,0 +1,147 @@
+---
+layout: default
+title: Methodenkoffer
+description: Der Methodenkoffer des OIC Bielefeld – Methoden und Werkzeuge für Innovationsarbeit, Workshops und Kreativprozesse.
+permalink: /methoden/
+---
+
+<!-- Adaptive Navigation -->
+<nav class="navbar dark-theme{% if site.navbar_style == 'island' %} navbar-island{% endif %}" id="navbar">
+    <div class="nav-container">
+        <div class="logo">
+            <a href="{{ '/' | relative_url }}">
+                <!-- Dark version logo (for dark backgrounds) -->
+                <img src="{{ '/assets/images/logo-light.png' | relative_url }}"
+                     alt="{{ site.title }} Logo Light"
+                     class="logo-dark"
+                     onerror="handleLogoError(this)">
+                <!-- Light version logo (for light backgrounds) -->
+                <img src="{{ '/assets/images/logo-dark.png' | relative_url }}"
+                     alt="{{ site.title }} Logo Dark"
+                     class="logo-light"
+                     onerror="handleLogoError(this)">
+
+                <!-- Fallback falls beide Logos nicht laden -->
+                <div class="logo-fallback" id="logoFallback">
+                    <div class="logo-circle"></div>
+                    <div class="logo-rect"></div>
+                    <div class="logo-shape"></div>
+                    <div class="logo-text">
+                        <div>Open Innovation City</div>
+                        <div>Bielefeld</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <ul class="nav-links" id="navLinks">
+            {% for item in site.navigation %}
+            <li><a href="{% if item.link contains '#' %}/{{ item.link }}{% else %}{{ item.link }}{% endif %}">{{ item.name }}</a></li>
+            {% endfor %}
+        </ul>
+
+        <a href="{{ '/suche/' | relative_url }}" class="nav-search-btn" aria-label="Suche">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+        </a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menü öffnen">☰</button>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="hero" class="hero">
+    <div class="hero-bg"></div>
+
+    <!-- Funnel Overlay mit Fehlerbehandlung -->
+    <img src="{{ '/assets/images/ki.png' | relative_url }}"
+         alt="Innovation Funnel"
+         class="graffiti-overlay"
+         onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+
+    <!-- Fallback für fehlendes Graffiti -->
+    <div class="graffiti-fallback">Innovation</div>
+
+    <!-- Hero Overlay -->
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+        <h1>Methodenkoffer</h1>
+        <p>Methoden und Werkzeuge für Innovationsarbeit, Workshops und Kreativprozesse.</p>
+
+        <!-- CTA Buttons Container -->
+        <div class="cta-container">
+            <a href="#events" class="cta-button">Zu den Methoden</a>
+        </div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator" onclick="document.getElementById('events').scrollIntoView({behavior: 'smooth'})">
+        <div class="scroll-arrow"></div>
+        <div class="scroll-text">Scrollen für mehr</div>
+    </div>
+</section>
+
+<!-- Events Section -->
+<section id="events" class="section events">
+    <div class="container">
+        <h2 class="section-title fade-in">Unser Methodenkoffer</h2>
+        <div class="fade-in">
+            <p style="text-align: center; font-size: 1.2rem; max-width: 800px; margin: 0 auto;">
+                Im Methodenkoffer sammeln wir Methoden und Werkzeuge, die sich in unserer Innovationsarbeit bewährt haben – von Kreativitätstechniken über Moderationsmethoden bis hin zu Formaten für Beteiligung und Co-Creation. Jede Methode wird in einem eigenen Beitrag vorgestellt, damit sie auch außerhalb unserer Workshops nachvollzogen und genutzt werden kann.
+            </p>
+        </div>
+    </div>
+</section>
+
+{% assign methoden_beitraege = site.methoden | sort: 'date' | reverse %}
+
+<!-- Methoden Section -->
+<section id="methoden-liste" class="section past-events">
+    <div class="container">
+        {% if methoden_beitraege.size > 0 %}
+        <div class="events-grid">
+            {% for beitrag in methoden_beitraege %}
+                {% include post-card.html beitrag=beitrag %}
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="fade-in">
+            <p style="text-align: center; font-size: 1.2rem; max-width: 800px; margin: 0 auto;">
+                Aktuell befinden sich noch keine Methoden im Koffer. Schauen Sie bald wieder vorbei!
+            </p>
+        </div>
+        {% endif %}
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section contact">
+    <div class="container">
+        <h2 class="section-title" style="color: white;">Kontakt & Mitmachen</h2>
+        <p style="text-align: center; font-size: 1.2rem; margin-bottom: 3rem;">
+            Haben Sie Ideen, Fragen oder möchten Sie Teil unserer Initiative werden? Kontaktieren Sie uns!
+        </p>
+
+        <div class="contact-info">
+            <div class="contact-card">
+                <h4>Allgemeine Anfragen</h4>
+                <p><a href="mailto:{{ site.email }}" class="contact-link">{{ site.email }}</a></p>
+                <p>Telefon: {{ site.phone }}</p>
+            </div>
+
+            <div class="contact-card">
+                <h4>Innovation Office</h4>
+                <p>{{ site.address.street }}<br>{{ site.address.city }}</p>
+                <p>Geschäftszeiten:<br>{{ site.opening_hours }}</p>
+            </div>
+
+            <div class="contact-card">
+                <h4>Projektanfragen</h4>
+                <p><a href="mailto:projekte@oic-bielefeld.de" class="contact-link">info@oic-bielefeld.de</a></p>
+                <p>Für Kooperationen und neue Projektideen</p>
+            </div>
+        </div>
+    </div>
+</section>

@@ -99,6 +99,9 @@ collections:
   beitraege:
     output: true
     permalink: /beitraege/:name/
+  methoden:
+    output: true
+    permalink: /methoden/:name/
   sounds:
     output: true
     permalink: /sound/:name/
@@ -123,6 +126,11 @@ defaults:
   - scope:
       path: ""
       type: "beitraege"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "methoden"
     values:
       layout: "post"
   - scope:
