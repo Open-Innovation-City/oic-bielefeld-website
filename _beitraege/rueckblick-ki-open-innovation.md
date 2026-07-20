@@ -37,7 +37,7 @@ Und weil er lacht, Weil er lebt, …"
    author="Herbert Grönemeyer" %}
 
 ## KI und OI – Herausforderungen. Potenziale. Tools. (Impulsvortrag)
-[Prof. Dr. Henning Duderstadt]( https://www.linkedin.com/in/henning-duderstadt/) Professor für Gründungsmanagement an der FHM Bielefeld & Experte für Innovationsmanagement und Open Innovation war **Head of Innovation Office** des Projekts **Open Innovation City Bielefeld** bevor es in der Initiative der Stadt verstetigt wurde (2020- Ende 2023). Mehr zum Pilotprojekt auf [Open Innovation City](https: https://oic-projekt.de/) in dem ich als Projektmanagerin tätig war.
+[Prof. Dr. Henning Duderstadt]( https://www.linkedin.com/in/henning-duderstadt/) Professor für Gründungsmanagement an der FHM Bielefeld & Experte für Innovationsmanagement und Open Innovation war **Head of Innovation Office** des Projekts **Open Innovation City Bielefeld** bevor es in der Initiative der Stadt verstetigt wurde (2020- Ende 2023). Mehr zum Pilotprojekt auf [Open Innovation City](https://oic-projekt.de/) in dem ich als Projektmanagerin tätig war.
 ### Kernaussagen der Präsentation
 1.	**Closed vs. Open Innovation**
 Bei Closed Innovation bleibt der Wissensfluss intern, bei Open Innovation gibt es Austausch mit externen Akteuren und Märkten. Am Ende zeigte schon die Evolution des Homo Sapiens - Flexible und organisierte Kooperation ist das Erfolgsmodell
