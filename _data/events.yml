@@ -147,7 +147,7 @@
   category: "Online: Open Innovation Hour"
   target_audience: "Alle Interessierten aus Politik, Verwaltung, Wirtschaft, Wissenschaft & Zivilgesellschaft"
   cost: "Kostenlos"
-  booking_url:  "/beitraege/open-innovation-hour-begegnungsraeume"
+  booking_url:  "/beitraege/open-innovation-hour-begegnungsraeume/"
   link_text: "Details & Anmeldung"
   featured: true
   topic: "open-innovation-hour"
@@ -161,7 +161,7 @@
   category: "Impuls & Workshop"
   target_audience: "Zivilgesellschaftlich engagierte Menschen, Vereinsaktive und Interessierte"
   cost: "Kostenlos"
-  booking_url: "/beitraege/reuckblick-ki-kompetenz/"
+  booking_url: "/beitraege/rueckblick-ki-kompetenz/"
   link_text: "Zum Rückblick"
   featured: true
   topic: "ki-zivilgesellschaft"
@@ -175,7 +175,7 @@
   category: "Impuls & Workshop"
   target_audience: "Zivilgesellschaftlich engagierte Menschen, Vereinsaktive und Interessierte"
   cost: "Kostenlos"
-  booking_url: "/beitraege/ki-und-soziale-innovationen"
+  booking_url: "/beitraege/ki-und-soziale-innovationen/"
   link_text: "Details & Anmeldungen"
   featured: true
   topic: "ki-zivilgesellschaft"
@@ -273,7 +273,7 @@
   category: "Impuls & Workshop"
   target_audience: "Alle Interessierten aus Ehrenamt und gemeinnützigen Organisationen"
   cost: "Kostenlos"
-  booking_url: "/beitraege/wirkungsorientierung-meetup"
+  booking_url: "/beitraege/wirkungsorientierung-meetup/"
   link_text: "Details & Anmeldung"
   featured: true
   topic: "Wirkung"
