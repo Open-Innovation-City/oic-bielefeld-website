@@ -1,11 +1,11 @@
 ---
-title: "Sechs Denkhüte"
-teaser: "Die Methode der sechs Denkhüte von Edward de Bono hilft Gruppen, Diskussionen zu strukturieren und verschiedene Denkperspektiven bewusst einzunehmen."
+title: "Der Schmerzfinder"
+teaser: "Mit dieser Methode könnt ihr herausfinden, wo der eigentliche Schmerz liegt. Sind die von euch entdeckten Bedarfe wirklich so schlimm..."
 authors:
-  - "Sarah Bollmann"
+  - "Jens Edler"
 categories:
   - "Kreativitätstechnik"
-date: 2026-07-16
+date: 2026-07-17
 ---
 
 Die Methode der sechs Denkhüte (Six Thinking Hats) wurde von Edward de Bono entwickelt und hilft Gruppen dabei, komplexe Themen aus verschiedenen Perspektiven zu betrachten, ohne dass Diskussionen in unstrukturierte Debatten abgleiten.
