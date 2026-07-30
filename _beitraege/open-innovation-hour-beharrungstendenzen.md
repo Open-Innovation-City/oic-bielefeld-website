@@ -1,5 +1,5 @@
 ---
-title: "Open Innovation Hour: Beharrungstendenzen und wie wir ihnen begegnen können"
+title: "Open Innovation Hour: Beharrungs&shy;tendenzen und wie wir ihnen begegnen können"
 teaser: "Wie schaffen es Unternehmen, sich anzupassen und zukunftsfähig zu bleiben? Was sind Beharrungstendenzen und wie können wir ihnen begegnen? All diese Fragen stehen im Mittelpunkt der kommenden Open Innovation Hour, am 3. September 2026. – Mit Johanna Ober-Sundermeyer, Head of Corporate Innovation bei Melitta."  
 authors:
   - "Sarah Bollmann"
