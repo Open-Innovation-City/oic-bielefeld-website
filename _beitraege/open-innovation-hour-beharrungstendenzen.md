@@ -5,7 +5,7 @@ authors:
   - "Sarah Bollmann"
 categories:
   - "Open Innovation Hour"
-date: 2026-07-31
+date: 2026-07-30
 header_image: " "
 confetti: false
 ---
