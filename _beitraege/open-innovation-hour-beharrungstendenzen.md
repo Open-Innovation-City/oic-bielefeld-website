@@ -30,7 +30,7 @@ In diesem Jahr schauen wir im Rahmen der Open Innovation Hour jeden Monat auf **
 **Wann und wo?**  
 **Donnerstag, 3. September 2026**  
 **12.30 - 13.30 Uhr**  
-**Zoom** – Den Link erhältst du mit deiner Anmeldung   
+**Zoom** – Den Link erhältst du nach der Anmeldung, rechtzeitig vor der Veranstaltung per E-Mail.     
 
 ### Kostenlose Anmeldung  
 {% include pretix-widget.html event="open-inno-hour-9" %}  
