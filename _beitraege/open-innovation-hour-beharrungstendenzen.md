@@ -11,7 +11,7 @@ confetti: false
 ---
 
 # Open Innovation Hour  
-## Beharrungstendenzen und wir ihnen begegnen können  
+## Beharrungstendenzen und wie wir ihnen begegnen können  
 
 „Alles auf dem Prüfstand. Wie Unternehmen sich in einer Welt im Umbruch anpassen können.“, steht auf dem Buchrücken von „The Adaptive Company – Wie Unternehmen auf jede Veränderung eine Antwort finden“. Geschrieben haben das Buch René Korte und Johanna Ober-Sundermeyer.  
 In „The Adaptive Company“ beschreiben sie, wie Anpassungsfähigkeit jedes Unternehmen betrifft. Von der Strukturebene über Prozesse bis hin zur täglichen Zusammenarbeit. Und sie geben praktische Tipps, die wir in unseren Alltag mitnehmen und auf unsere Arbeit übertragen können. – Ganz gleich, ob wir in der Verwaltung, Wirtschaft, Wissenschaft oder Zivilgesellschaft arbeiten.  
