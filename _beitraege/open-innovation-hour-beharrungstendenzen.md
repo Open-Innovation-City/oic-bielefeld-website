@@ -23,7 +23,9 @@ Die zentrale Botschaft: **Innovationsfähigkeit ist kein Zustand und keine Frage
 
 {% include quote.html
    text="Erfolgreiche Unternehmen verfügen über wertvolle Erfahrung, etablierte Prozesse und funktionierende Geschäftsmodelle. Genau diese Stärken können jedoch zur Innovationshürde werden, wenn sich Kundenerwartungen, Märkte und Technologien verändern.  
+   
    Anhand konkreter Beispiele aus der Innovationsarbeit bei Melitta zeige ich, wo Innovationshürden entstehen: in unseren Denkweisen, in der Unternehmenskultur und in bestehenden Strukturen.  
+   
    Anschließend erläutere ich, wie der Melitta Innovationsansatz darauf antwortet: durch die Weiterentwicklung des Kerngeschäfts, den Aufbau neuer Geschäftsfelder sowie die gezielte Entwicklung von Innovationskompetenzen und -kultur."
    author="Johanna Ober-Sundermeyer" %}
 
