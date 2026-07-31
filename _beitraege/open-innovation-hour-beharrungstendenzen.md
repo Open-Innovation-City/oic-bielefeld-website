@@ -22,11 +22,13 @@ In diesem Jahr schauen wir im Rahmen der Open Innovation Hour jeden Monat auf **
 Die zentrale Botschaft: **Innovationsfähigkeit ist kein Zustand und keine Frage von Kreativität allein. Sie ist eine Kompetenz, die Unternehmen systematisch trainieren können.**
 
 {% include quote.html
-   text="Erfolgreiche Unternehmen verfügen über wertvolle Erfahrung, etablierte Prozesse und funktionierende Geschäftsmodelle. Genau diese Stärken können jedoch zur Innovationshürde werden, wenn sich Kundenerwartungen, Märkte und Technologien verändern. Anhand konkreter Beispiele aus der Innovationsarbeit bei Melitta zeige ich, wo Innovationshürden entstehen: in unseren Denkweisen, in der Unternehmenskultur und in bestehenden Strukturen. Anschließend erläutere ich, wie der Melitta Innovationsansatz darauf antwortet: durch die Weiterentwicklung des Kerngeschäfts, den Aufbau neuer Geschäftsfelder sowie die gezielte Entwicklung von Innovationskompetenzen und -kultur."
+   text="Erfolgreiche Unternehmen verfügen über wertvolle Erfahrung, etablierte Prozesse und funktionierende Geschäftsmodelle. Genau diese Stärken können jedoch zur Innovationshürde werden, wenn sich Kundenerwartungen, Märkte und Technologien verändern.  
+   Anhand konkreter Beispiele aus der Innovationsarbeit bei Melitta zeige ich, wo Innovationshürden entstehen: in unseren Denkweisen, in der Unternehmenskultur und in bestehenden Strukturen.  
+   Anschließend erläutere ich, wie der Melitta Innovationsansatz darauf antwortet: durch die Weiterentwicklung des Kerngeschäfts, den Aufbau neuer Geschäftsfelder sowie die gezielte Entwicklung von Innovationskompetenzen und -kultur."
    author="Johanna Ober-Sundermeyer" %}
 
 ### Offen, niedrigschwellig und praxisnah. Die 60 Minuten im Überblick:   
-1.	**Impuls:** **Johanna Ober-Sundermeyer** bringt konkrete Beispiele mit, aus der Innovationsarbeit bei Melitta. 
+1.	**Impuls:** **Johanna Ober-Sundermeyer** bringt konkrete Beispiele aus der Innovationsarbeit bei Melitta mit. 
 2.	**Erfahrungsaustausch:** Im Anschluss an den Impuls tauschen wir uns aus und finden gemeinsam heraus, wie wir die Erfahrungen aus dem mittelständischen Traditionsunternehmen Melitta in unsere Alltage übertragen können.  
 3.	**Netzwerken:** Ihr möchtet zu diesem Thema im Austausch mit anderen Teilnehmenden bleiben? Hier könnt ihr euch verbinden.      
   
