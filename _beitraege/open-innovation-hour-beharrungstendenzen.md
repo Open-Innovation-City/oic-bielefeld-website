@@ -11,16 +11,22 @@ confetti: false
 ---
 
 # Open Innovation Hour  
-## Beharrungstendenzen und wie wir ihnen begegnen können  
+## Zukunftsfähigkeit trainieren  
 
 „Alles auf dem Prüfstand. Wie Unternehmen sich in einer Welt im Umbruch anpassen können.“, steht auf dem Buchrücken von „The Adaptive Company – Wie Unternehmen auf jede Veränderung eine Antwort finden“. Geschrieben haben das Buch René Korte und Johanna Ober-Sundermeyer.  
 In „The Adaptive Company“ beschreiben sie, wie Anpassungsfähigkeit jedes Unternehmen betrifft. Von der Strukturebene über Prozesse bis hin zur täglichen Zusammenarbeit. Und sie geben praktische Tipps, die wir in unseren Alltag mitnehmen und auf unsere Arbeit übertragen können. – Ganz gleich, ob wir in der Verwaltung, Wirtschaft, Wissenschaft oder Zivilgesellschaft arbeiten.  
 
-Wir freuen uns auf einen spannenden Impuls von **Johanna Ober-Sundermeyer, Head of Corporate Innovation** der Melitta Gruppe. Am 3. September wirft sie mit uns einen Blick auf Beharrungstendenzen: wie sie entstehen und wie wir ihnen begegnen können.  
+Wir freuen uns auf einen spannenden Impuls von **Johanna Ober-Sundermeyer, Head of Corporate Innovation** der Melitta Gruppe. Am 3. September 20206 wirft sie mit uns einen Blick auf die Fragen: Wie wir Innovationshürden überwinden, das Kerngeschäft sichern und Zukunft gestalten?
+
 In diesem Jahr schauen wir im Rahmen der Open Innovation Hour jeden Monat auf **Zukunftskompetenzen**. Im September geht es um **Innovationskompetenz**.  
+Die zentrale Botschaft: **Innovationsfähigkeit ist kein Zustand und keine Frage von Kreativität allein. Sie ist eine Kompetenz, die Unternehmen systematisch trainieren können.**
+
+{% include quote.html
+   text="Erfolgreiche Unternehmen verfügen über wertvolle Erfahrung, etablierte Prozesse und funktionierende Geschäftsmodelle. Genau diese Stärken können jedoch zur Innovationshürde werden, wenn sich Kundenerwartungen, Märkte und Technologien verändern. Anhand konkreter Beispiele aus der Innovationsarbeit bei Melitta zeige ich, wo Innovationshürden entstehen: in unseren Denkweisen, in der Unternehmenskultur und in bestehenden Strukturen. Anschließend erläutere ich, wie der Melitta Innovationsansatz darauf antwortet: durch die Weiterentwicklung des Kerngeschäfts, den Aufbau neuer Geschäftsfelder sowie die gezielte Entwicklung von Innovationskompetenzen und -kultur."
+   author="Johanna Ober-Sundermeyer" %}
 
 ### Offen, niedrigschwellig und praxisnah. Die 60 Minuten im Überblick:   
-1.	**Impuls:** **Johanna Ober-Sundermeyer** wirft einen Blick auf die Themen Beharrungstendenzen und Innovationsfähigkeit.
+1.	**Impuls:** **Johanna Ober-Sundermeyer** bringt konkrete Beispiele mit, aus der Innovationsarbeit bei Melitta. 
 2.	**Erfahrungsaustausch:** Im Anschluss an den Impuls tauschen wir uns aus und finden gemeinsam heraus, wie wir die Erfahrungen aus dem mittelständischen Traditionsunternehmen Melitta in unsere Alltage übertragen können.  
 3.	**Netzwerken:** Ihr möchtet zu diesem Thema im Austausch mit anderen Teilnehmenden bleiben? Hier könnt ihr euch verbinden.      
   
