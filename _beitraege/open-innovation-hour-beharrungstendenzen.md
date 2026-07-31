@@ -16,7 +16,7 @@ confetti: false
 „Alles auf dem Prüfstand. Wie Unternehmen sich in einer Welt im Umbruch anpassen können.“, steht auf dem Buchrücken von „The Adaptive Company – Wie Unternehmen auf jede Veränderung eine Antwort finden“. Geschrieben haben das Buch René Korte und Johanna Ober-Sundermeyer.  
 In „The Adaptive Company“ beschreiben sie, wie Anpassungsfähigkeit jedes Unternehmen betrifft. Von der Strukturebene über Prozesse bis hin zur täglichen Zusammenarbeit. Und sie geben praktische Tipps, die wir in unseren Alltag mitnehmen und auf unsere Arbeit übertragen können. – Ganz gleich, ob wir in der Verwaltung, Wirtschaft, Wissenschaft oder Zivilgesellschaft arbeiten.  
 
-Wir freuen uns auf einen spannenden Impuls von **Johanna Ober-Sundermeyer, Head of Corporate Innovation** der Melitta Gruppe. Am 3. September 20206 wirft sie mit uns einen Blick auf die Fragen: Wie wir Innovationshürden überwinden, das Kerngeschäft sichern und Zukunft gestalten?
+Wir freuen uns auf einen spannenden Impuls von **Johanna Ober-Sundermeyer, Head of Corporate Innovation** der Melitta Gruppe. Am 3. September 2026 wirft sie mit uns einen Blick auf die Fragen: Wie wir Innovationshürden überwinden, das Kerngeschäft sichern und Zukunft gestalten?
 
 In diesem Jahr schauen wir im Rahmen der Open Innovation Hour jeden Monat auf **Zukunftskompetenzen**. Im September geht es um **Innovationskompetenz**.  
 Die zentrale Botschaft: **Innovationsfähigkeit ist kein Zustand und keine Frage von Kreativität allein. Sie ist eine Kompetenz, die Unternehmen systematisch trainieren können.**
