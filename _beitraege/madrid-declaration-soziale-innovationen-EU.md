@@ -5,8 +5,8 @@ teaser: " Für eine stärkere Anerkennung und Finanzierung Sozialer Innovationen
 categories:
   - "Open Innovation City"
 date: 2026-07-24
-header_image: "/assets/images/beitraege/entity_03522b49-8b3d-48ba-b07e-73e77650a860.png"
-header_image_credit: "Foto von XXX"
+header_image: "/assets/images/beitraege/walls-io-CmOTdH1dfg4-unsplash.jpg"
+header_image_credit: "Photo credits walls.io by Unsplash"
 ---
 
 ## Organisationen: Unterzeichnet die Madrid Declaration! ✍️  
