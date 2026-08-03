@@ -23,21 +23,24 @@ Die Europäische Kommission verhandelt derzeit über den nächsten mehrjährigen
 In der Erklärung wird argumentiert, dass hier ein strukturelles Ungleichgewicht geschieht – eines, das korrigiert werden muss, solange die Haushaltsarchitektur noch gestaltet wird! 
 
 Die Erklärung enthält fünf konkrete Forderungen. Sie fordert die EU-Institutionen und die Mitgliedstaaten auf: 
-→ Soziale Innovationen ausdrücklich als bereichsübergreifenden Umsetzungsansatz im Rahmen des MFR anzuerkennen 
-→ Schaffung klarer und transparenter Finanzierungswege im Rahmen der nationalen und regionalen Partnerschaftspläne sowie der EU-Fazilität 
-→ Erhalt und Ausbau der zweckgebundenen ESF+-Mittel für Soziale Innovationen, Experimente, Ökosystem-Infrastruktur und Skalierung 
-→ Gezieltere Einbindung sozial-innovativer Unternehmen und Ansätze in Wettbewerbs- und Forschungsinstrumente 
-→ Den nationalen Kompetenzzentren und den zwischengeschalteten Organisationen, die Soziale Innovationen in großem Maßstab wirksam umsetzen, nachhaltige strukturelle Unterstützung zukommen lassen 
+* Soziale Innovationen ausdrücklich als bereichsübergreifenden Umsetzungsansatz im Rahmen des MFR anzuerkennen
+* Schaffung klarer und transparenter Finanzierungswege im Rahmen der nationalen und regionalen Partnerschaftspläne sowie der EU-Fazilität
+* Erhalt und Ausbau der zweckgebundenen ESF+-Mittel für Soziale Innovationen, Experimente, Ökosystem-Infrastruktur und Skalierung
+* Gezieltere Einbindung sozial-innovativer Unternehmen und Ansätze in Wettbewerbs- und Forschungsinstrumente
+* Den nationalen Kompetenzzentren und den zwischengeschalteten Organisationen, die Soziale Innovationen in großem Maßstab wirksam umsetzen, nachhaltige strukturelle Unterstützung zukommen lassen 
+
 Wir haben diese Erklärung unterzeichnet, weil wir der Überzeugung sind, dass Europas drängendste Herausforderungen wie Ungleichheit, demokratische Fragilität sowie die Herausforderungen demographischer Entwicklungen, Daseinsvorsorge, der ökologischen und digitalen Wende mehr denn je Soziale Innovationen erfordern als Standardlösungen. Sie erfordern die Fähigkeit, zu experimentieren, aus erfolgreichen Ansätzen zu lernen und die Infrastruktur aufzubauen, die es ermöglicht, dass sich gute Lösungen entfalten können. Genau das bieten Soziale Innovationen. Und sie verdienen einen festen, strukturellen Platz in der europäischen Investitionspolitik. 
 
 ###Ihr seid zeichnungsberechtigt für eine Organisation und unterstützt auch die Forderung? 
 Hier gelangt ihr direkt zur Madrid Declaration und zur Möglichkeit, diese zu unterzeichnen:
+
 →  [UNTERSCHREIBEN]( https://form.typeform.com/to/mVVPi3Ly) 
 
 →  [MADRID DECLARATION]( https://docs.google.com/document/d/1Pg3yW3yM90qvTWKpANLb2uNZCxyLBzSb/edit)
 
-Unabhängig davon steht seit Beginn des Jahres unser **[Leitsatz für 2026](https://oic-bielefeld.de/beitraege/oic-bielefeld-themenschwerpunkte-2026/)** passt: 
-**"Wir glauben an Soziale Innovationen als Antwort auf ausgewählte gesellschaftliche Herausforderungen. Darum machen wir es uns zur Aufgabe soziale Innovationen in und für Bielefeld möglich zu machen."**
+Unabhängig davon steht seit Beginn des Jahres der Open Innovation City Bielefeld **[Leitsatz für 2026](https://oic-bielefeld.de/beitraege/oic-bielefeld-themenschwerpunkte-2026/)**: 
+
+  "Wir glauben an **Soziale Innovationen** als Antwort auf ausgewählte gesellschaftliche Herausforderungen. Darum machen wir es uns zur Aufgabe soziale Innovationen in und für Bielefeld möglich zu machen."
 
 **Du hast Fragen zur Madrid Declaration?**  
 Dann melde dich am besten direkt bei der Projektmanagerin Kompetenzzentrum für Soziale Innovationen Deutschland (KoSI) & Plattform für Soziale Innovationen und Gemeinwohlorientierte Unternehmen (SIGU-Plattform) **[Tanja Kersting](mailto:kersting@socialimpact.eu)**!  
