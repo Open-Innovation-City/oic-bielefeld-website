@@ -1,6 +1,6 @@
 ---
 title: "Wir unterstützen den Aufruf: Unterzeichnet die Madrid Declaration"
-teaser: " Für eine stärkere Anerkennung und Finanzierung Sozialer Innovationen im Mehrjährigen Finanzrahmen der EU für den Zeitraum **2028–2034**
+teaser: "Für eine stärkere Anerkennung und Finanzierung Sozialer Innovationen im Mehrjährigen Finanzrahmen der EU für den Zeitraum **2028–2034**
 authors:
 - "Maria Gonçalves"
 categories:
