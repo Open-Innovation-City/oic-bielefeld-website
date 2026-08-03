@@ -6,7 +6,7 @@ categories:
   - "Open Innovation City"
 date: 2026-07-24
 header_image: "/assets/images/beitraege/walls-io-CmOTdH1dfg4-unsplash.jpg"
-header_image_credit: "Photo credits walls.oio by Unsplash"
+header_image_credit: "Photo credits walls.io by Unsplash"
 ---
 
 ## Organisationen: Unterzeichnet die Madrid Declaration! ✍️  
