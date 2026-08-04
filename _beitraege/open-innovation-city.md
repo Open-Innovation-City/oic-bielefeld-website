@@ -35,7 +35,7 @@ Im Gegensatz zu geschlossenen Prozessen, bei denen Innovationen oft innerhalb ei
 
 Die Open Innovation City Bielefeld verfolgt vier zentrale Ziele:
 -	Innovationskultur schaffen: Wir unterstützen eine Denkweise, die Zusammenarbeit über Sektoren hinweg als Normalität betrachtet.
--	Vernetzung stärken: Wir schaffen Bedingungen, damit die richtigen Akteure zusammenkommne. Experimentierräume, um Potenziale zu identifizieren und neue Projekte anzustoßen.
+-	Vernetzung stärken: Wir schaffen Bedingungen, damit die richtigen Akteure zusammenkommen. Experimentierräume, um Potenziale zu identifizieren und neue Projekte anzustoßen.
 -	Zukunftsfähigkeit sichern: Durch den gemeinsamen Austausch auf Augenhöhe verbessern wir die Innovations- und Wettbewerbsfähigkeit unserer Stadt - langfristig.
 -	Standortattraktivität erhöhen: Wir positionieren mit anderen Akteuren des Bielefelder Innovationsökosystems einen Motor für Innovation und ziehen Talente und Unternehmen an.
 In der Praxis bedeutet das: Wir können als Drehscheibe im Innovationsökosystem wirken und Akteure vernetzen. Wir haben als Teil der Stadtverwaltung, die passende Expertise aus den Ämtern dazuzuholen.
