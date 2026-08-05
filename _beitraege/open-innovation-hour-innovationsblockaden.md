@@ -15,7 +15,7 @@ confetti: false
 
 Warum scheitert Innovation im Mittelstand so oft nicht an Ideen, sondern an Unsicherheit, Strukturen und Kultur?  
 
-Um diese Frage geht es in der Open Innovation Hour am 01.10.2026 – Mit Dr.-Ing. Carl Robert Brand (Experte für Innovation und Design Thinking) und Dr. Stephanie Rabbe (Senior Incubation Managerin bei Miele).  
+Um diese Frage geht es in der Open Innovation Hour am 01.10.2026 – Mit **Dr.-Ing. Carl Robert Brand (Experte für Innovation und Design Thinking) und Dr. Stephanie Rabbe (Senior Incubation Managerin bei Miele)**.  
 Die Autor\*innen Carl Robert Brand und Stephanie Rabbe geben Einblicke in ihr Buch „Innovationsblockaden im Mittelstand auflösen“. Sie teilen die zentralen Erkenntnisse aus den Interviews, ihrer quantitativen Studie und einer Unternehmensfallstudie.  
 In dieser Open Innovation Hour werden typische Innovationsblockaden sichtbar und die zwei Impulsgeber\*innen zeigen praxisnahe Ansatzpunkte, wie Unternehmen diese Schritt für Schritt abbauen können.  
 Verständlich, ehrlich und direkt an der Realität mittelständischer Organisationen orientiert.
