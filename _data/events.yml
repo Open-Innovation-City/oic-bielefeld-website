@@ -304,7 +304,7 @@
   booking_url: "/beitraege/open-innovation-hour-kreislauf-statt-wegwerfen/"
   link_text: "Details & Anmeldung"
   featured: true
-  topic: "open-innovation-hour" 
+  topic: "open-innovation-hour"
   
 - title: "Open Innovation Hour: Beharrungstendenzen und wie wir ihnen begegnen können"
   description: "Wie schaffen es Unternehmen, sich anzupassen und zukunftsfähig zu bleiben? Was sind Beharrungstendenzen und wie können wir ihnen begegnen? All diese Fragen stehen im Mittelpunkt der kommenden Open Innovation Hour. – Mit Johanna Ober-Sundermeyer, Head of Corporate Innovation bei Melitta."
@@ -320,7 +320,7 @@
   featured: true
   topic: "open-innovation-hour" 
 
-  - title: "Save-the-date Donnerstag, 24. Sept.: Meetup zu Sozialunternehmertum und Gründungen"
+- title: "Save-the-date Donnerstag, 24. Sept.: Meetup zu Sozialunternehmertum und Gründungen"
   description: "Impact made in Bielefeld: Für mehr wirkungsorientierte Gründungen und Sozialunternehmertum in der Stadt. Ein Meetup der Open Innovation City Bielefeld. Eine Initiative der Stadt Bielefeld unterstützt durch die Bertelsmann Stiftung."
   date: "2026-09-24"
   time: "16:30"
