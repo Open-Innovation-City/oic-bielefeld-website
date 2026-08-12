@@ -1,5 +1,5 @@
 ---
-title: "Open Innovation Hour: Innovationsblockaden im Mittelstand auflösen"
+title: "Open Innovation Hour: Innovations&shy;blockaden im Mittel&shy;stand auflösen"
 teaser: "Warum scheitert Innovation im Mittelstand so oft nicht an Ideen, sondern an Unsicherheit, Strukturen und Kultur? Carl Robert Brand und Stephanie Rabbe teilen die zentralen Erkenntnisse aus Interviews, ihrer quantitativen Studie und einer Unternehmensfallstudie. — Am 01.10.2026 in der Open Innovation Hour"  
 authors:
   - "Sarah Bollmann"
