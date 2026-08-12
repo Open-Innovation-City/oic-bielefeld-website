@@ -333,3 +333,16 @@
   featured: true
   topic: "events"
 
+- title: "Open Innovation Hour: Innovationsblockaden im Mittelstand auflösen"
+  description: "Warum scheitert Innovation im Mittelstand so oft nicht an Ideen, sondern an Unsicherheit, Strukturen und Kultur? Carl Robert Brand und Stephanie Rabbe teilen die zentralen Erkenntnisse aus Interviews, ihrer quantitativen Studie und einer Unternehmensfallstudie."
+  date: "2026-10-01"
+  time: "12:30"
+  duration: "1 Stunde"
+  location: "Online"
+  category: "Online: Open Innovation Hour"
+  target_audience: "Alle Interessierten aus Politik, Verwaltung, Wirtschaft, Wissenschaft & Zivilgesellschaft"
+  cost: "Kostenlos"
+  booking_url: "/beitraege/open-innovation-hour-innovationsblockaden/"
+  link_text: "Details & Anmeldung"
+  featured: true
+  topic: "open-innovation-hour" 
