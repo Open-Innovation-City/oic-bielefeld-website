@@ -329,7 +329,8 @@
   category: "Meetup & Netzwerken"
   target_audience: "Inspirierendes Meetup für (Gründungs-)interessierte aller Altersstufen"
   cost: "Kostenlos"
-  link_text: "Details & Anmeldung hier in Kürze"  
+  booking_url: "/beitraege/wirkungsorientierte-unternehmen/"
+  link_text: "Details & Anmeldung"
   featured: true
   topic: "events"
 
