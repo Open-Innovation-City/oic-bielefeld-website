@@ -28,7 +28,7 @@ Bedient werden gleich zwei Handlungsfelder aus der Nationalen Strategie für Soz
 > - Handlungsfeld 2: Sozial-innovative und gemeinwohlorientierte Gründungskultur und Unterstützungsstrukturen stärken 
 - Handlungsfeld 3: Vernetzung, Kollaboration und Transfer voranbringen
 
-Sowie unseren Leitsatz für 2026:  
+Sowie unser Leitsatz für 2026:  
 “Wir glauben an [Soziale Innovationen](https://oic-bielefeld.de/beitraege/madrid-declaration-soziale-innovationen-eu/) als Antwort auf ausgewählte gesellschaftliche Herausforderungen. Darum machen wir es uns zur Aufgabe soziale Innovationen in und für Bielefeld möglich zu machen.”  
 
 ### Inhalt 
