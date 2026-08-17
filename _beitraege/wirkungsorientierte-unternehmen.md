@@ -24,7 +24,7 @@ Das Meetup wird unterstützt von **zwei Expertinnen**:
 - 
 In der **zweigeteilten Veranstaltung lassen wir alle Bereiche des Bielefelder Ökosystems zu Wort kommen. Eingeladen sind Akteure aus **Startup-Welt, Stadtverwaltung, Kultur, Wissenschaft, Wirtschaft und Wirtschaftsförderung** dabei. Im interaktiven Teil sind alle im Raum gefragt – mit Fragen, Impulsen und eigenen Perspektiven.
 
-Bedient wernden gleich zwei Handlungsfelder aus der Nationalen Strategie für Soziale Innovationen und Gemeinwohlorientierte Unternehmen, der [SIGU-Strategie](https://sigu-plattform.de/nationale-strategie-sigu/): 
+Bedient werden gleich zwei Handlungsfelder aus der Nationalen Strategie für Soziale Innovationen und Gemeinwohlorientierte Unternehmen, der [SIGU-Strategie](https://sigu-plattform.de/nationale-strategie-sigu/): 
 > - Handlungsfeld 2: Sozial-innovative und gemeinwohlorientierte Gründungskultur und Unterstützungsstrukturen stärken 
 - Handlungsfeld 3: Vernetzung, Kollaboration und Transfer voranbringen
 
