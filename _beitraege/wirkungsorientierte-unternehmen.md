@@ -1,5 +1,5 @@
 ---
-title: "Impact made in Bielefeld: Für mehr wirkungsorientierte Gründungen und Sozialunternehmertum in der Stadt."
+title: "Impact made in Bielefeld: Für mehr wirkungs&shy;orientierte Gründungen und Sozial&shy;unternehmertum in der Stadt."
 teaser: "Mit dieser Veranstaltung wollen wir die Wahrscheinlichkeit für mehr Impact – also Wirkung – und Innovationen in Bielefeld steigern, um soziale und nachhaltige Herausforderungen zu minimieren und gleichzeitig die Wirtschaftskraft der Stadt zu stärken."
 authors:
   - "Maria Goncalves"
