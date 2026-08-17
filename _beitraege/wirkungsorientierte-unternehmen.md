@@ -20,7 +20,7 @@ Mit dieser Veranstaltung wollen wir die Wahrscheinlichkeit für mehr Impact und 
 
 Das Meetup wird unterstützt von **zwei Expertinnen**: 
 - **Dr. Jennifer Eschweiler**, Expertin für Sozialunternehmertum und Impact	Gründungen (wirkungsorientierte Gründungen) bei der **Bertelsmann Stiftung** 
-- **Sumaya Islam, PH.D.**, Projektleiterin in der **garage33**, Paderborn und **Regionalsprecherin SEND.NRW** ([SEND e.V.](https://www.send-ev.de/): Social Entrepeneuership Netzwerk Deutschland).
+- **Sumaya Islam, PH.D.**, Projektleiterin in der **garage33**, Paderborn und **Regionalsprecherin SEND.NRW** ([SEND e.V.](https://www.send-ev.de/): Social Entrepreneurship Netzwerk Deutschland).
 - 
 In der **zweigeteilten Veranstaltung lassen wir alle Bereiche des Bielefelder Ökosystems zu Wort kommen. Eingeladen sind Akteure aus **Startup-Welt, Stadtverwaltung, Kultur, Wissenschaft, Wirtschaft und Wirtschaftsförderung** dabei. Im interaktiven Teil sind alle im Raum gefragt – mit Fragen, Impulsen und eigenen Perspektiven.
 
