@@ -7,7 +7,7 @@ categories:
   - "Events"
 date: 2026-08-06
 header_image: " "
-confetti: false
+confetti: false 
 ---
 
 Sozialen und ökologischen Herausforderungen zu begegnen gehört zu den großen Aufgaben unserer Zeit – und gleichzeitig eine echte Chance: die Chance, unsere Stadt lebenswerter zu gestalten, neue Verbindungen zu knüpfen und gemeinsam etwas zu bewegen. Sowie für die Stärkung des Wirtschafts- und Innovationsstandort Bielefeld. Immer mehr Menschen in unserer Stadt engagieren sich und wollen wirken. Wie Engagement mit unternehmerischem Handeln zusammengehen kann, will dieses Meetup zeigen. Es bietet Raum für Austausch, Information und Vernetzung.
