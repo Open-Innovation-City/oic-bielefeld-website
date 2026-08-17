@@ -37,7 +37,9 @@ Sowie unseren Leitsatz für 2026:
 mit:	Nik Riesmeier, Director [Founders Foundation](https://foundersfoundation.de), Björn Brodner, [Umweltamt Bielefeld](https://www.bielefeld.de/node/29565), Sarah Dahnen, Center for Entrepreneurship ([CFE](https://www.hsbi.de/cfe)), Hochschule Bielefeld und einer **Praxisperspektive**.
 - Impact-Talk 2: **Was brauchen Sozialunternehmen in unterschiedlichen Handlungsfeldern, um langfristig Wirkung zu entfalten?** Moderation: Dr. Jennifer Eschweiler, Bertelsmann Stiftung
 mit: Ralph Würfel, [Kulturpact e.G.](https://kulturpact.de/) (Kulturgenossenschaft in Gründung), Sonja Retzlaff, [Crowd & Rüben e.V.](https://crowdundrueben.com/) (Landwirtschaft/Ernährung, SoLaWi), Charlotte Marie Sandoval, [ISyCARE](https://isy-care.de/) (Innovationsökosystem für technische und soziale Innovationen in Gesundheit und Pflege) sowie ein **Impact-Unternehmen**.
-- Vorstellung des Startup-Gründungspaket der WEGE mbh: Hanna Drabon, Projektleiterin [Startup Paket](https://bielefelder-startup-paket.de/) bei der [WEGE](https://wege-bielefeld.de/), Bielefelder Wirtschaftsentwicklungsgesellschaft mbH 
+- Vorstellung des Startup-Gründungspaket der WEGE mbh: Hanna Drabon, Projektleiterin [Startup Paket](https://bielefelder-startup-paket.de/) bei der [WEGE](https://wege-bielefeld.de/), Bielefelder Wirtschaftsentwicklungsgesellschaft mbH
+
+Du hast eine Frage zu Sozialen und soziotechnischen Innovationen oder zu wirkungsorientiertem Gründen? Dann schreib an [maria.goncalves@bielefeld.de](mailto:maria.goncalves@bielefeld.de). 
 
 ### Ort und Zeit
 **Innovation Office, Alter Markt 13, 33602 Bielefeld**
