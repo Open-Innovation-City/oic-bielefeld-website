@@ -12,7 +12,7 @@ confetti: false
 
 **Sozialen und ökologischen Herausforderungen** zu begegnen gehört zu den großen Aufgaben unserer Zeit – und bietet gleichzeitig eine echte Chance: die Chance, unsere Stadt lebenswerter zu gestalten, neue Verbindungen zu knüpfen und gemeinsam etwas zu bewegen. Sowie für die Stärkung des **Wirtschafts- und Innovationsstandort Bielefeld**. Immer mehr Menschen in unserer Stadt engagieren sich und wollen wirken. Wie Engagement mit unternehmerischem Handeln zusammengehen kann, will dieses Meetup zeigen. Es bietet Raum für Austausch, Information und Vernetzung.
 
-Dieses Meetup wurde inhaltlich unterstützt von der **Bertelsmann Stiftung**, Bereich **[Nachhaltige Soziale Marktwirtschaft](https://www.bertelsmann-stiftung.de/de/ueber-uns/wer-wir-sind/organisation/vorstand/nachhaltige-soziale-marktwirtschaft)** 
+Dieses Meetup wurde inhaltlich unterstützt von der **Bertelsmann Stiftung**, **[Nachhaltige Soziale Marktwirtschaft](https://www.bertelsmann-stiftung.de/de/ueber-uns/wer-wir-sind/organisation/vorstand/nachhaltige-soziale-marktwirtschaft)** 
 
 **Technologische Innovationen** kennen viele – doch mindestens genauso wichtig sind **Soziale Innovationen**. In diesem Meetup werfen wir darauf einen konkreten Blick. Sowie auf einen Teilbereich, die **Social Enterprises**: wirkungsorientierte Gründungen, die nicht nur wirtschaftlich erfolgreich sein wollen, sondern gleichzeitig einen echten gesellschaftlichen Mehrwert schaffen. Ob ihnen das gelingt, messen sie anhand ihres **Impacts** – also der konkreten Wirkung, die sie in der Gesellschaft erzielen.
 
@@ -24,7 +24,7 @@ Das Meetup ist zweigeteilt. Dabei kommen alle Bereiche des Bielefelder Ökosyste
 
 Der interaktive Teil wird moderiert von **zwei Expertinnen**: 
 - **Dr. Jennifer Eschweiler**, Expertin für Sozialunternehmertum und Impact	Gründungen (wirkungsorientierte Gründungen) bei der **Bertelsmann Stiftung** [Kurzvita](https://www.bertelsmann-stiftung.de/de/ueber-uns/wer-wir-sind/ansprechpartner/mitarbeiter/cid/jennifer-eschweiler)
-- **Sumaya Islam, PH.D.**, Projektleiterin **Gr33nUP**, Paderborn - und auch und Regionalsprecherin [SEND](Social Entrepreneurship Netzwerk Deutschland e.V.) (NRW). [Kurzvita[(https://www.uni-paderborn.de/person/32777)
+- **Sumaya Islam, PH.D.**, Projektleiterin **Gr33nUP**, Paderborn. Sie ist auch Regionalsprecherin der [SEND](Social Entrepreneurship Netzwerk Deutschland e.V.) (NRW). [Kurzvita](https://www.uni-paderborn.de/person/32777)
 
 Bedient werden gleich zwei Handlungsfelder aus der Nationalen Strategie für Soziale Innovationen und Gemeinwohlorientierte Unternehmen, der [SIGU-Strategie](https://sigu-plattform.de/nationale-strategie-sigu/): 
 > - Handlungsfeld 2: Sozial-innovative und gemeinwohlorientierte Gründungskultur und Unterstützungsstrukturen stärken 
