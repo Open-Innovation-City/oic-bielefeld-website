@@ -10,19 +10,21 @@ header_image: " "
 confetti: false 
 ---
 
-Sozialen und ökologischen Herausforderungen zu begegnen gehört zu den großen Aufgaben unserer Zeit – und gleichzeitig eine echte Chance: die Chance, unsere Stadt lebenswerter zu gestalten, neue Verbindungen zu knüpfen und gemeinsam etwas zu bewegen. Sowie für die Stärkung des Wirtschafts- und Innovationsstandort Bielefeld. Immer mehr Menschen in unserer Stadt engagieren sich und wollen wirken. Wie Engagement mit unternehmerischem Handeln zusammengehen kann, will dieses Meetup zeigen. Es bietet Raum für Austausch, Information und Vernetzung.
+Sozialen und ökologischen Herausforderungen zu begegnen gehört zu den großen Aufgaben unserer Zeit – und bietet gleichzeitig eine echte Chance: die Chance, unsere Stadt lebenswerter zu gestalten, neue Verbindungen zu knüpfen und gemeinsam etwas zu bewegen. Sowie für die Stärkung des Wirtschafts- und Innovationsstandort Bielefeld. Immer mehr Menschen in unserer Stadt engagieren sich und wollen wirken. Wie Engagement mit unternehmerischem Handeln zusammengehen kann, will dieses Meetup zeigen. Es bietet Raum für Austausch, Information und Vernetzung.
 
 **Technologische Innovationen** kennen viele – doch mindestens genauso wichtig sind **Soziale Innovationen**. In diesem Meetup werfen wir darauf einen konkreten Blick. Sowie auf einen Teilbereich, die **Social Enterprises**: wirkungsorientierte Gründungen, die nicht nur wirtschaftlich erfolgreich sein wollen, sondern gleichzeitig einen echten gesellschaftlichen Mehrwert schaffen. Ob ihnen das gelingt, messen sie anhand ihres **Impacts** – also der konkreten Wirkung, die sie in der Gesellschaft erzielen.
 
-Dieses Meetup richtet sich **an alle**, die sich für die **Lösung sozialer und ökologischer Probleme** interessieren - und dabei auch **Geld verdienen** möchten. Oder mehr über wirkungsorientierte Gründungen erfahren wollen, die **beides verbindet**. Wir laden euch ein: Laien, Unternehmer*innen und Menschen in Gründung. 
+Dieses Meetup wird inhaltlich unterstützt von der **Bertelsmann Stiftung**. 
 
-Mit dieser Veranstaltung wollen wir die Wahrscheinlichkeit für mehr Impact und Innovationen in Bielefeld steigern, um **soziale und nachhaltige Herausforderungen zu minimieren und gleichzeitig die Wirtschaftskraft der Stadt zu stärken**.
+Die Veranstaltung richtet sich **an alle**, die sich für die **Lösung sozialer und ökologischer Probleme** interessieren - und dabei auch **Geld verdienen** möchten. Oder mehr über wirkungsorientierte Gründungen erfahren wollen, die **beides verbindet**. Wir laden euch ein: Laien, Unternehmer*innen und Menschen in Gründung. 
 
-Das Meetup wird unterstützt von **zwei Expertinnen**: 
+Mit diesem Event wollen wir die Wahrscheinlichkeit für mehr Impact und Innovationen in Bielefeld steigern, um **soziale und nachhaltige Herausforderungen zu minimieren und gleichzeitig die Wirtschaftskraft der Stadt zu stärken**.
+
+Das Meetup ist zweigeteilt. Dabei kommen alle Bereiche des Bielefelder Ökosystems zu Wort. Eingeladen sind Akteure aus **Startup-Welt, Stadtverwaltung, Kultur, Wissenschaft, Wirtschaft und Wirtschaftsförderung**. Im interaktiven Teil werden alle im Raum eingeladen beizutragen – mit Fragen, Impulsen und eigenen Perspektiven.
+
+Der interaktive Teil wird moderiert von **zwei Expertinnen**: 
 - **Dr. Jennifer Eschweiler**, Expertin für Sozialunternehmertum und Impact	Gründungen (wirkungsorientierte Gründungen) bei der **Bertelsmann Stiftung** 
-- **Sumaya Islam, PH.D.**, Projektleiterin in der **garage33**, Paderborn und **Regionalsprecherin SEND.NRW** ([SEND e.V.](https://www.send-ev.de/): Social Entrepreneurship Netzwerk Deutschland).
-- 
-In der **zweigeteilten Veranstaltung lassen wir alle Bereiche des Bielefelder Ökosystems zu Wort kommen. Eingeladen sind Akteure aus **Startup-Welt, Stadtverwaltung, Kultur, Wissenschaft, Wirtschaft und Wirtschaftsförderung** dabei. Im interaktiven Teil sind alle im Raum gefragt – mit Fragen, Impulsen und eigenen Perspektiven.
+- **Sumaya Islam, PH.D.**, Projektleiterin **Gr33nUP**, Paderborn - und auch und Regionalsprecherin [SEND](Social Entrepreneurship Netzwerk Deutschland e.V.) (NRW).
 
 Bedient werden gleich zwei Handlungsfelder aus der Nationalen Strategie für Soziale Innovationen und Gemeinwohlorientierte Unternehmen, der [SIGU-Strategie](https://sigu-plattform.de/nationale-strategie-sigu/): 
 > - Handlungsfeld 2: Sozial-innovative und gemeinwohlorientierte Gründungskultur und Unterstützungsstrukturen stärken 
