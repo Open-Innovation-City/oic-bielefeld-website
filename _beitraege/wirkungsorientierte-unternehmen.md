@@ -30,7 +30,7 @@ Bedient werden gleich zwei Handlungsfelder aus der Nationalen Strategie für Soz
 > - Handlungsfeld 2: Sozial-innovative und gemeinwohlorientierte Gründungskultur und Unterstützungsstrukturen stärken 
 - Handlungsfeld 3: Vernetzung, Kollaboration und Transfer voranbringen
 
-Sowie unser Leitsatz für 2026:  
+Sowie **unser Leitsatz für 2026**:  
 > “Wir glauben an [Soziale Innovationen](https://oic-bielefeld.de/beitraege/madrid-declaration-soziale-innovationen-eu/) als Antwort auf ausgewählte gesellschaftliche Herausforderungen. Darum machen wir es uns zur Aufgabe soziale Innovationen in und für Bielefeld möglich zu machen.”  
 
 ### Inhalt 
@@ -39,9 +39,9 @@ Sowie unser Leitsatz für 2026:
 mit:	Nik Riesmeier, Director [Founders Foundation](https://foundersfoundation.de), Björn Brodner, [Umweltamt Bielefeld](https://www.bielefeld.de/node/29565), Sarah Dahnen, Center for Entrepreneurship ([CFE](https://www.hsbi.de/cfe)), Hochschule Bielefeld und einer **Praxisperspektive**.
 - Impact-Talk 2: **Was brauchen Sozialunternehmen in unterschiedlichen Handlungsfeldern, um langfristig Wirkung zu entfalten?** Moderation: Jennifer Eschweiler
 mit: Ralph Würfel, [Kulturpact e.G.](https://kulturpact.de/) (zu Kulturgenossenschaft in Gründung), Sonja Retzlaff, [Crowd & Rüben e.V.](https://crowdundrueben.com/) (zu Landwirtschaft/Ernährung, SoLaWi), Charlotte Marie Sandoval, zu [ISyCARE](https://isy-care.de/) (Innovationsökosystem für technische und soziale Innovationen in Gesundheit und Pflege) sowie ein **Impact-Unternehmen**.
-- Vorstellung des Startup-Gründungspaket der WEGE mbh: Hanna Drabon, Projektleiterin [Startup Paket](https://bielefelder-startup-paket.de/) bei der [WEGE](https://wege-bielefeld.de/), Bielefelder Wirtschaftsentwicklungsgesellschaft mbH
+- Vorstellung des **Startup-Gründungspaket der WEGE mbh**: Hanna Drabon, Projektleiterin [Startup Paket](https://bielefelder-startup-paket.de/) bei der [WEGE](https://wege-bielefeld.de/), Bielefelder Wirtschaftsentwicklungsgesellschaft mbH
 
-Du hast eine Frage zu Sozialen und soziotechnischen Innovationen oder zu wirkungsorientiertem Gründen? Dann schreib an [maria.goncalves@bielefeld.de](mailto:maria.goncalves@bielefeld.de). 
+Du hast eine Frage zu **Sozialen und soziotechnischen Innovationen** oder zu wirkungsorientiertem Gründen? Dann schreib an [maria.goncalves@bielefeld.de](mailto:maria.goncalves@bielefeld.de). 
 
 ### Ort und Zeit
 **Innovation Office, Alter Markt 13, 33602 Bielefeld**
