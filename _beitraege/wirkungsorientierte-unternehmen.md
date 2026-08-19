@@ -14,7 +14,7 @@ Sozialen und ökologischen Herausforderungen zu begegnen gehört zu den großen 
 
 **Technologische Innovationen** kennen viele – doch mindestens genauso wichtig sind **Soziale Innovationen**. In diesem Meetup werfen wir darauf einen konkreten Blick. Sowie auf einen Teilbereich, die **Social Enterprises**: wirkungsorientierte Gründungen, die nicht nur wirtschaftlich erfolgreich sein wollen, sondern gleichzeitig einen echten gesellschaftlichen Mehrwert schaffen. Ob ihnen das gelingt, messen sie anhand ihres **Impacts** – also der konkreten Wirkung, die sie in der Gesellschaft erzielen.
 
-Dieses Meetup wird inhaltlich unterstützt von der **Bertelsmann Stiftung**. 
+Dieses Meetup wird inhaltlich unterstützt von der **Bertelsmann Stiftung**, konkret der Bereich **[Nachhaltige Soziale Marktwirtschaft](https://www.bertelsmann-stiftung.de/de/ueber-uns/wer-wir-sind/organisation/vorstand/nachhaltige-soziale-marktwirtschaft)** 
 
 Die Veranstaltung richtet sich **an alle**, die sich für die **Lösung sozialer und ökologischer Probleme** interessieren - und dabei auch **Geld verdienen** möchten. Oder mehr über wirkungsorientierte Gründungen erfahren wollen, die **beides verbindet**. Wir laden euch ein: Laien, Unternehmer*innen und Menschen in Gründung. 
 
@@ -23,22 +23,22 @@ Mit diesem Event wollen wir die Wahrscheinlichkeit für mehr Impact und Innovati
 Das Meetup ist zweigeteilt. Dabei kommen alle Bereiche des Bielefelder Ökosystems zu Wort. Eingeladen sind Akteure aus **Startup-Welt, Stadtverwaltung, Kultur, Wissenschaft, Wirtschaft und Wirtschaftsförderung**. Im interaktiven Teil werden alle im Raum eingeladen beizutragen – mit Fragen, Impulsen und eigenen Perspektiven.
 
 Der interaktive Teil wird moderiert von **zwei Expertinnen**: 
-- **Dr. Jennifer Eschweiler**, Expertin für Sozialunternehmertum und Impact	Gründungen (wirkungsorientierte Gründungen) bei der **Bertelsmann Stiftung** 
-- **Sumaya Islam, PH.D.**, Projektleiterin **Gr33nUP**, Paderborn - und auch und Regionalsprecherin [SEND](Social Entrepreneurship Netzwerk Deutschland e.V.) (NRW).
+- **Dr. Jennifer Eschweiler**, Expertin für Sozialunternehmertum und Impact	Gründungen (wirkungsorientierte Gründungen) bei der **Bertelsmann Stiftung** [Kurzvita](https://www.bertelsmann-stiftung.de/de/ueber-uns/wer-wir-sind/ansprechpartner/mitarbeiter/cid/jennifer-eschweiler)
+- **Sumaya Islam, PH.D.**, Projektleiterin **Gr33nUP**, Paderborn - und auch und Regionalsprecherin [SEND](Social Entrepreneurship Netzwerk Deutschland e.V.) (NRW). [Kurzvita[(https://www.uni-paderborn.de/person/32777)
 
 Bedient werden gleich zwei Handlungsfelder aus der Nationalen Strategie für Soziale Innovationen und Gemeinwohlorientierte Unternehmen, der [SIGU-Strategie](https://sigu-plattform.de/nationale-strategie-sigu/): 
 > - Handlungsfeld 2: Sozial-innovative und gemeinwohlorientierte Gründungskultur und Unterstützungsstrukturen stärken 
 - Handlungsfeld 3: Vernetzung, Kollaboration und Transfer voranbringen
 
 Sowie unser Leitsatz für 2026:  
-“Wir glauben an [Soziale Innovationen](https://oic-bielefeld.de/beitraege/madrid-declaration-soziale-innovationen-eu/) als Antwort auf ausgewählte gesellschaftliche Herausforderungen. Darum machen wir es uns zur Aufgabe soziale Innovationen in und für Bielefeld möglich zu machen.”  
+> “Wir glauben an [Soziale Innovationen](https://oic-bielefeld.de/beitraege/madrid-declaration-soziale-innovationen-eu/) als Antwort auf ausgewählte gesellschaftliche Herausforderungen. Darum machen wir es uns zur Aufgabe soziale Innovationen in und für Bielefeld möglich zu machen.”  
 
 ### Inhalt 
 - Impulsvortrag: **Sozialunternehmen, Wirkung und Zusammenarbeit für soziale Innovation**, Dr. Jennifer Eschweiler, Bertelsmann Stiftung 
-- Impact-Talk 1: **Wie kann Bielefeld zu einem starken Ökosystem für Impact-Gründungen und Sozialen Innovationen werden?**, Moderation: Sumaya Islam, PH.D., Regionalsprecherin SEND.NRW
+- Impact-Talk 1: **Wie kann Bielefeld zu einem starken Ökosystem für Impact-Gründungen und Sozialen Innovationen werden?** Moderation: Sumaya Islam
 mit:	Nik Riesmeier, Director [Founders Foundation](https://foundersfoundation.de), Björn Brodner, [Umweltamt Bielefeld](https://www.bielefeld.de/node/29565), Sarah Dahnen, Center for Entrepreneurship ([CFE](https://www.hsbi.de/cfe)), Hochschule Bielefeld und einer **Praxisperspektive**.
-- Impact-Talk 2: **Was brauchen Sozialunternehmen in unterschiedlichen Handlungsfeldern, um langfristig Wirkung zu entfalten?** Moderation: Dr. Jennifer Eschweiler, Bertelsmann Stiftung
-mit: Ralph Würfel, [Kulturpact e.G.](https://kulturpact.de/) (Kulturgenossenschaft in Gründung), Sonja Retzlaff, [Crowd & Rüben e.V.](https://crowdundrueben.com/) (Landwirtschaft/Ernährung, SoLaWi), Charlotte Marie Sandoval, [ISyCARE](https://isy-care.de/) (Innovationsökosystem für technische und soziale Innovationen in Gesundheit und Pflege) sowie ein **Impact-Unternehmen**.
+- Impact-Talk 2: **Was brauchen Sozialunternehmen in unterschiedlichen Handlungsfeldern, um langfristig Wirkung zu entfalten?** Moderation: Jennifer Eschweiler
+mit: Ralph Würfel, [Kulturpact e.G.](https://kulturpact.de/) (zu Kulturgenossenschaft in Gründung), Sonja Retzlaff, [Crowd & Rüben e.V.](https://crowdundrueben.com/) (zu Landwirtschaft/Ernährung, SoLaWi), Charlotte Marie Sandoval, zu [ISyCARE](https://isy-care.de/) (Innovationsökosystem für technische und soziale Innovationen in Gesundheit und Pflege) sowie ein **Impact-Unternehmen**.
 - Vorstellung des Startup-Gründungspaket der WEGE mbh: Hanna Drabon, Projektleiterin [Startup Paket](https://bielefelder-startup-paket.de/) bei der [WEGE](https://wege-bielefeld.de/), Bielefelder Wirtschaftsentwicklungsgesellschaft mbH
 
 Du hast eine Frage zu Sozialen und soziotechnischen Innovationen oder zu wirkungsorientiertem Gründen? Dann schreib an [maria.goncalves@bielefeld.de](mailto:maria.goncalves@bielefeld.de). 
@@ -49,7 +49,7 @@ Du hast eine Frage zu Sozialen und soziotechnischen Innovationen oder zu wirkung
 **Beginn:** 16:30 Uhr<br>
 **Ende:** 18:00 Uhr<br>
 **Einlass:** 16:00 Uhr
-**Get together & Networking**: Nach dem offiziellen Programm lassen wir den Abend gemeinsam ausklingen. Nutzt die Zeit euch mit Akteuren aus dem Ökosystem auszutauschen und zu vernetzen.
+**Get together & Networking**: Nutzt die zeit nach dem offiziellen Programm um euch mit Akteuren aus dem Ökosystem auszutauschen und zu vernetzen.
   
 ### Kostenlose Anmeldung
 {% include pretix-widget.html event="soc-econ1" %}
