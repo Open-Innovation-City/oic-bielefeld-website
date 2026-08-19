@@ -10,11 +10,11 @@ header_image: " "
 confetti: false 
 ---
 
-Sozialen und ökologischen Herausforderungen zu begegnen gehört zu den großen Aufgaben unserer Zeit – und bietet gleichzeitig eine echte Chance: die Chance, unsere Stadt lebenswerter zu gestalten, neue Verbindungen zu knüpfen und gemeinsam etwas zu bewegen. Sowie für die Stärkung des Wirtschafts- und Innovationsstandort Bielefeld. Immer mehr Menschen in unserer Stadt engagieren sich und wollen wirken. Wie Engagement mit unternehmerischem Handeln zusammengehen kann, will dieses Meetup zeigen. Es bietet Raum für Austausch, Information und Vernetzung.
+**Sozialen und ökologischen Herausforderungen** zu begegnen gehört zu den großen Aufgaben unserer Zeit – und bietet gleichzeitig eine echte Chance: die Chance, unsere Stadt lebenswerter zu gestalten, neue Verbindungen zu knüpfen und gemeinsam etwas zu bewegen. Sowie für die Stärkung des **Wirtschafts- und Innovationsstandort Bielefeld**. Immer mehr Menschen in unserer Stadt engagieren sich und wollen wirken. Wie Engagement mit unternehmerischem Handeln zusammengehen kann, will dieses Meetup zeigen. Es bietet Raum für Austausch, Information und Vernetzung.
+
+Dieses Meetup wurde inhaltlich unterstützt von der **Bertelsmann Stiftung**, Bereich **[Nachhaltige Soziale Marktwirtschaft](https://www.bertelsmann-stiftung.de/de/ueber-uns/wer-wir-sind/organisation/vorstand/nachhaltige-soziale-marktwirtschaft)** 
 
 **Technologische Innovationen** kennen viele – doch mindestens genauso wichtig sind **Soziale Innovationen**. In diesem Meetup werfen wir darauf einen konkreten Blick. Sowie auf einen Teilbereich, die **Social Enterprises**: wirkungsorientierte Gründungen, die nicht nur wirtschaftlich erfolgreich sein wollen, sondern gleichzeitig einen echten gesellschaftlichen Mehrwert schaffen. Ob ihnen das gelingt, messen sie anhand ihres **Impacts** – also der konkreten Wirkung, die sie in der Gesellschaft erzielen.
-
-Dieses Meetup wird inhaltlich unterstützt von der **Bertelsmann Stiftung**, konkret der Bereich **[Nachhaltige Soziale Marktwirtschaft](https://www.bertelsmann-stiftung.de/de/ueber-uns/wer-wir-sind/organisation/vorstand/nachhaltige-soziale-marktwirtschaft)** 
 
 Die Veranstaltung richtet sich **an alle**, die sich für die **Lösung sozialer und ökologischer Probleme** interessieren - und dabei auch **Geld verdienen** möchten. Oder mehr über wirkungsorientierte Gründungen erfahren wollen, die **beides verbindet**. Wir laden euch ein: Laien, Unternehmer*innen und Menschen in Gründung. 
 
