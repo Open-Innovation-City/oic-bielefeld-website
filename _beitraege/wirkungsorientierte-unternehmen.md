@@ -43,6 +43,8 @@ mit: Ralph Würfel, [Kulturpact e.G.](https://kulturpact.de/) (zu Kulturgenossen
 
 Du hast eine Frage zu **Sozialen und soziotechnischen Innovationen** oder zu wirkungsorientiertem Gründen? Dann schreib an [maria.goncalves@bielefeld.de](mailto:maria.goncalves@bielefeld.de). 
 
+! Dieses Meetup ist eine Infoveranstaltung. Keine persönliche **Beratung**.
+
 ### Ort und Zeit
 **Innovation Office, Alter Markt 13, 33602 Bielefeld**<br>
 **Donnerstag, 24. September 2026**<br>
