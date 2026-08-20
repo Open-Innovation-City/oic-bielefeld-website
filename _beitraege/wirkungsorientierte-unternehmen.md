@@ -44,12 +44,14 @@ mit: Ralph Würfel, [Kulturpact e.G.](https://kulturpact.de/) (zu Kulturgenossen
 Du hast eine Frage zu **Sozialen und soziotechnischen Innovationen** oder zu wirkungsorientiertem Gründen? Dann schreib an [maria.goncalves@bielefeld.de](mailto:maria.goncalves@bielefeld.de). 
 
 ### Ort und Zeit
-**Innovation Office, Alter Markt 13, 33602 Bielefeld**
-**Donnerstag, 24. September 2026**
+**Innovation Office, Alter Markt 13, 33602 Bielefeld**<br>
+**Donnerstag, 24. September 2026**<br>
 **Beginn:** 16:30 Uhr<br>
 **Ende:** 18:00 Uhr<br>
-**Einlass:** 16:00 Uhr
-**Get together & Networking**: Nutzt die zeit nach dem offiziellen Programm um euch mit Akteuren aus dem Ökosystem auszutauschen und zu vernetzen.
-  
-### Kostenlose Anmeldung
+**Einlass:** 16:00 Uhr<br>
+**Get together & Networking**: Nutzt die Zeit nach dem offiziellen Programm, um euch mit Akteuren aus dem Ökosystem auszutauschen und zu vernetzen.
+
+Unsere Veranstaltungen sind **kostenlos**. 
+
+### Begrenzte Plätze. Anmeldung erforderlich auf: 
 {% include pretix-widget.html event="soc-econ1" %}
