@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkvita_story_webplayer=self.webpackChunkvita_story_webplayer||[]).push([[591],{51591:e=>{e.exports=function(){throw new Error("ws does not work in the browser. Browser clients must use the native WebSocket object")}}}]);
