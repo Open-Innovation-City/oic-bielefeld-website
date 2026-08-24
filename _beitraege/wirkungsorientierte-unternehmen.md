@@ -16,7 +16,7 @@ Dieses Meetup wurde inhaltlich unterstützt von der **Bertelsmann Stiftung**, **
 
 **Technologische Innovationen** kennen viele – doch mindestens genauso wichtig sind **Soziale Innovationen**. In diesem Meetup werfen wir darauf einen konkreten Blick. Dabei schauen wir besonders auf **Soziale Unternehmen** (Social Enterprises). Das sind Gründungen, die wirtschaftlich erfolgreich sein wollen und gleichzeitig einen echten gesellschaftlichen Mehrwert schaffen. Ob ihnen das gelingt, messen sie anhand ihres **Impacts** – also der konkreten Wirkung, die sie in der Gesellschaft erzielen.
 
-Die Veranstaltung richtet sich **an alle**, die sich für die **Lösung sozialer und ökologischer Probleme** iinteressieren – und dabei auch Geld verdienen möchten. Oder einfach mehr über Gründungen erfahren wollen, die beides verbinden. Wir laden euch ein: Laien, Unternehmer*innen und Menschen in Gründung. 
+Die Veranstaltung richtet sich **an alle**, die sich für die **Lösung sozialer und ökologischer Probleme** interessieren – und dabei auch Geld verdienen möchten. Oder einfach mehr über Gründungen erfahren wollen, die beides verbinden. Wir laden euch ein: Laien, Unternehmer*innen und Menschen in Gründung. 
 
 Mit diesem Event wollen wir die Wahrscheinlichkeit für mehr Impact und Innovationen in Bielefeld steigern, um **soziale und nachhaltige Herausforderungen zu minimieren und gleichzeitig die Wirtschaftskraft der Stadt zu stärken**.
 
@@ -38,7 +38,7 @@ Sowie **unser Leitsatz für 2026**:
 - Impact-Talk 1: **Wie kann Bielefeld zu einem starken Ökosystem für Impact-Gründungen und Sozialen Innovationen werden?** Moderation: Sumaya Islam
 mit:	Nik Riesmeier, Director [Founders Foundation](https://foundersfoundation.de), Björn Brodner, [Umweltamt Bielefeld](https://www.bielefeld.de/node/29565), Sarah Dahnen, Center for Entrepreneurship ([CFE](https://www.hsbi.de/cfe)), Hochschule Bielefeld und einer **Praxisperspektive**.
 - Impact-Talk 2: **Was brauchen Sozialunternehmen in unterschiedlichen Handlungsfeldern, um langfristig Wirkung zu entfalten?** Moderation: Jennifer Eschweiler
-mit: Ralph Würfel, Initiative zur Gründung einer Kulturgenossenschaft (zu Kulturgenossenschaft in Gründung), Sonja Retzlaff, [Crowd & Rüben e.V.](https://crowdundrueben.com/) (zu Landwirtschaft/Ernährung, SoLaWi), Charlotte Marie Sandoval, zu [ISyCARE](https://isy-care.de/) (Innovationsökosystem für technische und soziale Innovationen in Gesundheit und Pflege) sowie ein **Impact-Unternehmen**.
+mit: Ralph Würfel, Initiative zur Gründung einer Kulturgenossenschaft (zu Kulturgenossenschaft in Gründung), Sonja Retzlaff, [Crowd & Rüben e.V.](https://crowdundrueben.com/) (zu Landwirtschaft/Ernährung, SoLaWi), Charlotte Sandoval, zu [ISyCARE](https://isy-care.de/) (Innovationsökosystem für technische und soziale Innovationen in Gesundheit und Pflege) sowie ein **Impact-Unternehmen**.
 - Vorstellung des **Startup-Gründungspaket der WEGE mbh**: Hanna Drabon, Projektleiterin [Startup Paket](https://bielefelder-startup-paket.de/) bei der [WEGE](https://wege-bielefeld.de/), Bielefelder Wirtschaftsentwicklungsgesellschaft mbH
 
 Du hast eine Frage zu **Sozialen und soziotechnischen Innovationen** oder zu wirkungsorientiertem Gründen? Dann schreib an [maria.goncalves@bielefeld.de](mailto:maria.goncalves@bielefeld.de). 
