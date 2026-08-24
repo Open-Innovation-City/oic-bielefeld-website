@@ -14,7 +14,7 @@ confetti: false
 
 Dieses Meetup wurde inhaltlich unterstützt von der **Bertelsmann Stiftung**, **[Nachhaltige Soziale Marktwirtschaft](https://www.bertelsmann-stiftung.de/de/ueber-uns/wer-wir-sind/organisation/vorstand/nachhaltige-soziale-marktwirtschaft)** 
 
-**Technologische Innovationen** kennen viele – doch mindestens genauso wichtig sind **Soziale Innovationen**. In diesem Meetup werfen wir darauf einen konkreten Blick. SoDabei schauen wir besonders auf **Soziale Unternehmen** (Social Enterprises). Das sind Gründungen, die wirtschaftlich erfolgreich sein wollen und gleichzeitig einen echten gesellschaftlichen Mehrwert schaffen. Ob ihnen das gelingt, messen sie anhand ihres **Impacts** – also der konkreten Wirkung, die sie in der Gesellschaft erzielen.
+**Technologische Innovationen** kennen viele – doch mindestens genauso wichtig sind **Soziale Innovationen**. In diesem Meetup werfen wir darauf einen konkreten Blick. Dabei schauen wir besonders auf **Soziale Unternehmen** (Social Enterprises). Das sind Gründungen, die wirtschaftlich erfolgreich sein wollen und gleichzeitig einen echten gesellschaftlichen Mehrwert schaffen. Ob ihnen das gelingt, messen sie anhand ihres **Impacts** – also der konkreten Wirkung, die sie in der Gesellschaft erzielen.
 
 Die Veranstaltung richtet sich **an alle**, die sich für die **Lösung sozialer und ökologischer Probleme** iinteressieren – und dabei auch Geld verdienen möchten. Oder einfach mehr über Gründungen erfahren wollen, die beides verbinden. Wir laden euch ein: Laien, Unternehmer*innen und Menschen in Gründung. 
 
