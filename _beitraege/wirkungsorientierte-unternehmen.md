@@ -24,7 +24,7 @@ Das Meetup ist zweigeteilt. Dabei kommen alle Bereiche des Bielefelder Ökosyste
 
 Der interaktive Teil wird moderiert von **zwei Expertinnen**: 
 - **Dr. Jennifer Eschweiler**, Expertin für Sozialunternehmertum und Impact	Gründungen (wirkungsorientierte Gründungen) bei der **Bertelsmann Stiftung** [Kurzvita](https://www.bertelsmann-stiftung.de/de/ueber-uns/wer-wir-sind/ansprechpartner/mitarbeiter/cid/jennifer-eschweiler)
-- **Sumaya Islam, PH.D.**, Projektleiterin **Gr33nUP**, Paderborn. Sie ist auch Regionalsprecherin der [SEND](https://send-ev.de)(Social Entrepreneurship Netzwerk Deutschland e. V.) (NRW). [Kurzvita](https://www.uni-paderborn.de/person/32777)
+- **Dr. Sumaya Islam**, Projektleiterin **Gr33nUP**, Paderborn. Sie ist auch Regionalsprecherin der [SEND](https://send-ev.de)(Social Entrepreneurship Netzwerk Deutschland e. V.) (NRW). [Kurzvita](https://www.uni-paderborn.de/person/32777)
 
 Bedient werden gleich zwei Handlungsfelder aus der Nationalen Strategie für Soziale Innovationen und Gemeinwohlorientierte Unternehmen, der [SIGU-Strategie](https://sigu-plattform.de/nationale-strategie-sigu/): 
 > - Handlungsfeld 2: Sozial-innovative und gemeinwohlorientierte Gründungskultur und Unterstützungsstrukturen stärken 
