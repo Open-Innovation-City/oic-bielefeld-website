@@ -53,6 +53,13 @@ Du hast eine Frage zu **Sozialen und soziotechnischen Innovationen** oder zu wir
 **Einlass:** 16:00 Uhr<br>
 **Get together & Networking**: Nutzt die Zeit nach dem offiziellen Programm, um euch mit Akteuren aus dem Ökosystem auszutauschen und zu vernetzen.
 
+#### Was zeichnet ein Sozialunternehmen aus? Hier drei mögliche Fragen:
+
+> -	Der **gesellschaftliche/ ökologische Zweck** ist in den Statuten eindeutig festgehalten
+-	**Gewinne** werden zu einem hohen **Anteil** wieder in die Erreichung der Mission investiert
+-	Eventuell gibt es bereits eine **Wirkungsberichterstattung*
+(Dr. Jennifer Eschweiler)
+
 Unsere Veranstaltungen sind **kostenlos**. 
 
 ### Begrenzte Plätze. Anmeldung erforderlich auf: 
