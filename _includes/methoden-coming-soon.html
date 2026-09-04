@@ -1,0 +1,87 @@
+<!-- Platzhalter fuer noch nicht freigeschaltete Methoden (coming_soon: true) -->
+<div class="methoden-coming-soon">
+    <div class="mcs-emoji" aria-hidden="true">🧰</div>
+    <h2>Diese Methode wird gerade noch eingepackt</h2>
+    <p>
+        Die Werkzeuge aus dem Methodenkoffer werden Stück für Stück im Laufe der
+        <strong>BIEvolution Kickbox</strong> freigeschaltet. Diese hier ist noch
+        nicht ganz fertig geschnürt.
+    </p>
+    <p class="mcs-wink">Also: kurz durchatmen, Lesezeichen setzen und bald nochmal reinschauen. Es lohnt sich!</p>
+
+    <div class="mcs-actions">
+        <a href="{{ '/' | relative_url }}" class="cta-button">Zur Website</a>
+    </div>
+</div>
+
+<style>
+.methoden-coming-soon {
+    margin: 1rem 0 2rem;
+    padding: 3rem 2rem;
+    background: linear-gradient(135deg, #e8f8f9 0%, #f0f4ff 100%);
+    border: 2px dashed var(--primary-turquoise);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.methoden-coming-soon .mcs-emoji {
+    font-size: 3.5rem;
+    line-height: 1;
+    margin-bottom: 1rem;
+    animation: mcs-wobble 3s ease-in-out infinite;
+}
+
+@keyframes mcs-wobble {
+    0%, 100% { transform: rotate(-6deg); }
+    50% { transform: rotate(6deg); }
+}
+
+.methoden-coming-soon h2 {
+    color: var(--primary-turquoise);
+    font-size: 1.9rem;
+    margin: 0 0 1rem;
+    border: none;
+    padding: 0;
+}
+
+.methoden-coming-soon p {
+    max-width: 560px;
+    margin: 0 auto 1rem;
+    color: var(--text-dark);
+    line-height: 1.7;
+}
+
+.methoden-coming-soon .mcs-wink {
+    color: var(--text-light);
+    font-style: italic;
+}
+
+.methoden-coming-soon .mcs-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.methoden-coming-soon .cta-button {
+    opacity: 1;
+    animation: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .methoden-coming-soon .mcs-emoji {
+        animation: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .methoden-coming-soon {
+        padding: 2.5rem 1.25rem;
+    }
+
+    .methoden-coming-soon h2 {
+        font-size: 1.5rem;
+    }
+}
+</style>

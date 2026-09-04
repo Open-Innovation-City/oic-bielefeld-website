@@ -6,8 +6,8 @@
     <!-- SEO Meta Tags (jekyll-seo-tag) -->
     {% seo %}
 
-    {% if page.noindex %}
-    <!-- Von Suchmaschinen ausschließen (z. B. Sound-Seiten für Events) -->
+    {% if page.noindex or page.coming_soon %}
+    <!-- Von Suchmaschinen ausschließen (z. B. Sound-Seiten für Events, noch nicht freigeschaltete Methoden) -->
     <meta name="robots" content="noindex, nofollow">
     {% endif %}
 

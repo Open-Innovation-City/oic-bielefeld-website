@@ -145,31 +145,41 @@ defaults:
       type: "methoden"
     values:
       layout: "post"
+      coming_soon: true   # see "Coming-soon placeholder" below
+      sitemap: false
 ```
 
 **Content location:** `_methoden/<name>.md`, using the exact same front matter as `_beitraege/` (`title`, `teaser`, `authors`, `categories`, `date`, `header_image`, etc.). Since `layout: post` is applied via defaults, method posts get the identical rendering as blog posts — header image, author card, confetti, CTA buttons, everything.
 
 **Listing page:** `methoden.html` (permalink `/methoden/`) is a standalone page copied from the same structural pattern as `open-innovation-hour.html` / `ki-zivilgesellschaft.html` (navbar, hero, info section, contact section). Where those pages show an events grid, this page loops over `site.methoden` and renders each entry with the existing `post-card.html` include:
 ```liquid
-{% assign methoden_beitraege = site.methoden | sort: 'date' | reverse %}
+{% assign methoden_beitraege = site.methoden | where_exp: 'm', 'm.coming_soon != true' | sort: 'date' | reverse %}
 {% for beitrag in methoden_beitraege %}
     {% include post-card.html beitrag=beitrag %}
 {% endfor %}
 ```
-No new card/include was needed — `post-card.html` already works with any object exposing `title`/`teaser`/`authors`/`date`/`url`, regardless of source collection.
+No new card/include was needed — `post-card.html` already works with any object exposing `title`/`teaser`/`authors`/`date`/`url`, regardless of source collection. The `where_exp` filter hides not-yet-released methods (see below); with none released yet, the page shows its "Koffer wird gepackt" fallback.
 
-**Author page integration:** `_layouts/author.html` was updated to include method posts in an author's post listing:
+**Author page integration:** `_layouts/author.html` was updated to include method posts in an author's post listing, again filtering out not-yet-released ones:
 ```liquid
-{% assign sorted_beitraege = site.beitraege | concat: site.methoden | sort: "date" | reverse %}
+{% assign visible_methoden = site.methoden | where_exp: "m", "m.coming_soon != true" %}
+{% assign sorted_beitraege = site.beitraege | concat: visible_methoden | sort: "date" | reverse %}
 ```
 `is_retrospective` filtering still applies identically to both sources.
 
-**Search (Pagefind):** No `data-pagefind-ignore` needed — method posts render through the normal `post` layout and are indexed like any other post.
+**Coming-soon placeholder (`coming_soon`):**
+Since QR codes point at individual method URLs before the write-ups are finished, every method URL must resolve — but a bare page with only front matter and no body should not be shown as real content. The `coming_soon` flag handles this:
+
+- Set to `true` for the **whole collection** via the `_config.yml` default above — no per-file edits needed, and it also covers any newly added `_methoden/*.md`.
+- When `coming_soon` is truthy, `_layouts/post.html` renders `{% include methoden-coming-soon.html %}` (a friendly, quirky "wird gerade noch eingepackt" card with a single "Zur Website" CTA to `/`) **instead of** `{{ content }}`, and skips the related-post banner and the author card.
+- The same flag drives exclusion everywhere else: `data-pagefind-ignore` on `<main class="post-content">` (search), `<meta name="robots" content="noindex, nofollow">` in `_includes/head.html` (guarded by `page.noindex or page.coming_soon`), `sitemap: false` (config default), and the `where_exp` filters on `methoden.html` and `_layouts/author.html`.
+- **To release a method:** in that one file's front matter set `coming_soon: false` **and** `sitemap: true`, then add the body content. Only that URL flips to the real post; every other method stays on the placeholder.
 
 **Adding a new method post:**
 1. Create `_methoden/<slug>.md` with standard post front matter
-2. It immediately appears on `/methoden/` and (if authored by a known team member) on that author's `/autoren/<slug>/` page
-3. It will never appear on `/beitraege/` — this is automatic, not a flag you need to set
+2. Until you set `coming_soon: false` + `sitemap: true` in its front matter, the URL is reachable but shows the coming-soon placeholder and is hidden from `/methoden/`, author pages, search and the sitemap
+3. Once released, it appears on `/methoden/` and (if authored by a known team member) on that author's `/autoren/<slug>/` page
+4. It will never appear on `/beitraege/` — this is automatic, not a flag you need to set
 
 ### Adding Projects
 Edit `_data/projects.yml` with status tracking:

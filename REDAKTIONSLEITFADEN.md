@@ -336,6 +336,36 @@ Der Workshop war ein voller Erfolg...
 
 **Neu seit Juli 2026:** Für den Methodenkoffer gibt es eigene Beiträge, die Methoden und Werkzeuge für Innovationsarbeit vorstellen (z.B. Kreativitätstechniken, Moderationsmethoden). Sie funktionieren technisch genauso wie normale Blog-Beiträge, tauchen aber **nicht** in der Beitragsübersicht `/beitraege/` auf, sondern werden ausschließlich auf der Methodenkoffer-Seite `/methoden/` gelistet.
 
+### „Kommt bald"-Platzhalter (neu seit September 2026)
+
+Für die BIEvolution Kickbox gibt es QR-Codes, die schon jetzt auf die einzelnen Methoden-URLs verweisen – auch wenn die Texte noch nicht fertig sind. Damit kein Besucher auf einer leeren Seite landet, gilt:
+
+**Jede Methode ist standardmäßig auf „kommt bald" gestellt.** Das musst du nicht selbst einschalten – es passiert automatisch für jede Datei in `_methoden/`.
+
+Solange eine Methode auf „kommt bald" steht:
+
+- Die URL `/methoden/dateiname/` ist erreichbar und zeigt einen freundlichen Platzhalter („Diese Methode wird gerade noch eingepackt …") mit einem Button „Zur Website".
+- Die Methode taucht **nicht** auf der Methodenkoffer-Seite `/methoden/`, **nicht** auf der Autorenseite und **nicht** in der Suche auf. Auch Google bekommt sie nicht zu sehen.
+- Der eigentliche Inhalt der Datei (falls du schon etwas geschrieben hast) wird **nicht angezeigt** – erst nach dem Freischalten.
+
+### Methode freischalten (live schalten)
+
+Wenn eine Methode fertig geschrieben und bereit ist:
+
+1. Öffne die Datei in `_methoden/`.
+2. Ergänze im Front Matter (der Block zwischen den `---` ganz oben) diese zwei Zeilen:
+
+```yaml
+coming_soon: false
+sitemap: true
+```
+
+3. Speichern / committen.
+
+Ab jetzt zeigt **genau diese eine URL** den echten Beitrag; sie erscheint auf `/methoden/`, auf der Autorenseite und in der Suche. Alle anderen Methoden bleiben unverändert auf „kommt bald".
+
+> **Tipp:** Schreibe den Inhalt in Ruhe fertig, prüfe ihn in einer Vorschau/einem Pull Request, und setze `coming_soon: false` erst im letzten Schritt.
+
 ### Neuen Methodenbeitrag erstellen
 
 **Verzeichnis:** `_methoden/` (statt `_beitraege/`)
@@ -353,6 +383,9 @@ authors:
 categories:
   - "Kreativitätstechnik"  # frei wählbar
 date: 2026-07-16
+# Zum Freischalten (siehe oben) beide Zeilen ergänzen:
+# coming_soon: false
+# sitemap: true
 ---
 
 ## Beschreibung der Methode
@@ -360,18 +393,21 @@ date: 2026-07-16
 Hier beginnt Ihr Beitrag...
 ```
 
+> **Hinweis:** Solange `coming_soon: false` nicht gesetzt ist, wird dieser Inhalt **nicht angezeigt** – die URL zeigt den „kommt bald"-Platzhalter (siehe oben).
+
 ### Was ist anders als bei normalen Beiträgen?
 
 - **Ordner:** `_methoden/` statt `_beitraege/`
 - **URL:** `/methoden/dateiname/` statt `/beitraege/dateiname/`
 - **Auffindbar über:** Die Methodenkoffer-Seite `/methoden/` (nicht über `/beitraege/`)
+- **„Kommt bald" als Standard:** Neue Methoden sind zunächst nicht sichtbar und müssen aktiv freigeschaltet werden (siehe oben)
 
-### Was ist genau wie bei normalen Beiträgen?
+### Was ist genau wie bei normalen Beiträgen? (nach dem Freischalten)
 
 - Alle Vorlagen-Felder (`title`, `teaser`, `authors`, `categories`, `date`, `header_image` etc.)
 - Alle Inhalte-Bausteine (Galerien, Zitate, CTA-Buttons, YouTube-Videos, Pretix-Widgets)
-- Die Autor-Karte am Ende – Methodenbeiträge erscheinen auch auf der Autorenseite der jeweiligen Person
-- Die Suchfunktion – Methodenbeiträge sind normal über `/suche/` auffindbar
+- Die Autor-Karte am Ende – freigeschaltete Methodenbeiträge erscheinen auch auf der Autorenseite der jeweiligen Person
+- Die Suchfunktion – freigeschaltete Methodenbeiträge sind normal über `/suche/` auffindbar
 
 ### Wichtiger Hinweis
 
@@ -750,9 +786,11 @@ Im Workshop haben wir verschiedene KI-Tools vorgestellt...
 
 Die Suche indexiert automatisch:
 - ✅ Alle **Blog-Beiträge** (`/beitraege/…`)
+- ✅ **Freigeschaltete Methodenbeiträge** (`/methoden/…` mit `coming_soon: false`)
 - ✅ **Statische Seiten** (Startseite, KI-Seite, Impressum etc.)
 - ❌ Autoren-Profilseiten (bewusst ausgeschlossen)
 - ❌ Die Beitrags-Übersicht selbst (bewusst ausgeschlossen)
+- ❌ Methoden auf „kommt bald" (bis zum Freischalten ausgeschlossen)
 
 ### Was musst du als Redakteur*in tun?
 

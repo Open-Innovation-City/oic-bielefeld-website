@@ -81,16 +81,19 @@ layout: default
 </header>
 
 <!-- Post Content -->
-<main class="post-content">
+<main class="post-content"{% if page.coming_soon %} data-pagefind-ignore{% endif %}>
     <div class="container">
         <div class="content-wrapper">
+        {% if page.coming_soon %}
+            {% include methoden-coming-soon.html %}
+        {% else %}
             <!-- Related Post Banner -->
             {% include related-post-banner.html %}
 
             <article class="post-article">
                 {{ content }}
             </article>
-            
+
             <!-- Author Section -->
             {% assign post_authors = "" | split: "" %}
             {% if page.authors and page.authors.size > 0 %}
@@ -120,6 +123,7 @@ layout: default
             {% endif %}
 
             {% if page.confetti %}<div id="post-end" aria-hidden="true" style="height:1px;"></div>{% endif %}
+        {% endif %}
         </div>
     </div>
 </main>

@@ -95,7 +95,7 @@ permalink: /methoden/
     </div>
 </section>
 
-{% assign methoden_beitraege = site.methoden | sort: 'date' | reverse %}
+{% assign methoden_beitraege = site.methoden | where_exp: 'm', 'm.coming_soon != true' | sort: 'date' | reverse %}
 
 <!-- Methoden Section -->
 <section id="methoden-liste" class="section past-events">
@@ -109,7 +109,7 @@ permalink: /methoden/
         {% else %}
         <div class="fade-in">
             <p style="text-align: center; font-size: 1.2rem; max-width: 800px; margin: 0 auto;">
-                Aktuell befinden sich noch keine Methoden im Koffer. Schauen Sie bald wieder vorbei!
+                Der Koffer wird gerade gepackt: Die Methoden werden nach und nach im Laufe der BIEvolution Kickbox freigeschaltet. Schauen Sie bald wieder vorbei &ndash; es lohnt sich!
             </p>
         </div>
         {% endif %}

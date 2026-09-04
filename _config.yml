@@ -133,6 +133,13 @@ defaults:
       type: "methoden"
     values:
       layout: "post"
+      # Alle Methoden sind zunaechst "kommt bald": Die URL ist erreichbar und
+      # zeigt einen freundlichen Platzhalter, taucht aber nicht in Uebersichten,
+      # Autorenseiten, der Suche oder der Sitemap auf. Zum Freischalten einer
+      # Methode in der jeweiligen Datei "coming_soon: false" (und
+      # "sitemap: true") ins Front Matter setzen.
+      coming_soon: true
+      sitemap: false
   - scope:
       path: ""
       type: "sounds"
