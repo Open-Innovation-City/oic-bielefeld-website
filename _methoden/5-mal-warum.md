@@ -98,3 +98,5 @@ Unter dem Namen [Nine Whys](https://liberatingstructures.de/liberating-structure
 ## Woher die Methode kommt
 
 Die Methode geht auf **Sakichi Toyoda** zurück und wurde ab den 1930er-Jahren fester Bestandteil des Toyota-Produktionssystems; bekannt gemacht hat sie **Taiichi Ohno**. Die hier beschriebene Workshop-Variante orientiert sich an den *Workshop Tactics* von Pip Decks sowie an den *Nine Whys* der Liberating Structures.
+
+*KI-Hinweis: Dieser Text ist mit Unterstützung von KI entstanden.*

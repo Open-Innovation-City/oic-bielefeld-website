@@ -83,7 +83,7 @@ Beispiele aus dem Verwaltungskontext:
 Achtet darauf, dass in der Job Story noch keine Lösung steckt. „damit ich das Onlineformular nutzen kann" ist keine Motivation, sondern eine vorweggenommene Lösung.
 
 {% include quote.html
-   text="Menschen kaufen keine Produkte – sie engagieren sie, um eine Aufgabe zu erledigen."
+   text="Menschen kaufen keine Produkte – sie nutzen Produkte, um eine Aufgabe zu erledigen."
    author="Clayton Christensen, Mitbegründer der Jobs-Theory" %}
 
 ## Tipps aus der Praxis
@@ -108,3 +108,5 @@ Klassische Personas beschreiben Menschen über Merkmale wie Alter, Wohnort oder 
 ## Woher die Methode kommt
 
 Die Grundidee geht auf **Theodore Levitt** und sein Bild vom Bohrer und dem Loch zurück. Ausformuliert wurde sie ab den 1990er-Jahren von **Clayton Christensen** (bekannt durch *The Innovator's Dilemma* und das „Milchshake"-Beispiel) sowie von **Anthony Ulwick** mit seiner *Outcome-Driven Innovation*. 1999 führten beide ihre Ansätze zur heutigen Jobs-Theory zusammen. Die hier beschriebene Workshop-Variante mit Job Stories und der Dreiteilung Situation – Motivation – Ergebnis ist im Umfeld von Design Thinking und agiler Produktentwicklung entstanden.
+
+*KI-Hinweis: Dieser Text ist mit Unterstützung von KI entstanden.*
