@@ -20,6 +20,8 @@ Dazu stellt ihr euch zu jeder Idee zwei Fragen: Wie originell ist sie? Und wie l
 
 **Dauer:** etwa 30 Minuten · **Beteiligte:** 2 bis 16 Personen · **Material:** Wand oder Flipchart mit eingezeichneter Matrix, Haftnotizen der gesammelten Ideen, Stifte
 
+{% include solo-hint.html text="How? Now? Wow! funktioniert auch als Einzelperson: Zeichnet die Matrix für euch, tragt eure Ideen ein und ordnet sie ein. Weil euch die Gegenstimmen einer Gruppe fehlen, lohnt es sich besonders, eure Einschätzung zu Originalität und Machbarkeit noch einmal kritisch zu hinterfragen, bevor ihr eine Idee vorschnell verwirft oder priorisiert." %}
+
 ## Wann sich die Methode lohnt
 
 Die How-Now-Wow-Matrix spielt ihre Stärke aus, wenn

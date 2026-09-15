@@ -20,6 +20,8 @@ Teams testen dabei gerne zuerst das, was sich leicht überprüfen lässt, statt 
 
 **Dauer:** 60 bis 90 Minuten für die Annahmen-Matrix, plus die Zeit für das jeweilige Experiment · **Beteiligte:** das Vorhaben-Team · **Material:** Wand oder Flipchart mit einer Vier-Felder-Matrix, Haftnotizen, Stifte
 
+{% include solo-hint.html text="Auch allein könnt ihr eure Annahmen sammeln und auf die Matrix bringen. Ohne ein Team, das eure Einschätzung infrage stellt, unterschätzt ihr dabei leicht, wie unsicher eine Annahme eigentlich noch ist. Bittet deshalb, wenn möglich, eine außenstehende Person, kurz über eure Matrix zu schauen – oft sieht sie auf Anhieb, welche vermeintlich sichere Annahme eigentlich nur eine Hoffnung ist." %}
+
 ## Wann sich die Methode lohnt
 
 Die Methode spielt ihre Stärke aus, wenn

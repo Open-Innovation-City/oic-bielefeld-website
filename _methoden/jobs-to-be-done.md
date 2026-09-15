@@ -20,6 +20,8 @@ Jobs to be Done verschiebt den Blick weg von der Lösung, die ihr im Kopf habt, 
 
 **Dauer:** 45 bis 90 Minuten · **Beteiligte:** das Vorhaben-Team, idealerweise interdisziplinär · **Material:** Vorlage mit drei Spalten, Haftnotizen, Stifte
 
+{% include solo-hint.html text="Auch allein lässt sich Jobs to be Done anwenden: Geht eure eigenen Notizen aus Gesprächen oder Beobachtungen durch und sortiert die Aussagen nach funktional, emotional und sozial. Formuliert anschließend eure eigenen Job Stories. Macht euch dabei bewusst: Ohne ein Team, das eure Annahmen hinterfragt, ersetzt das die Rücksprache mit echten Nutzenden erst recht nicht – die bleibt der wichtigste Schritt." %}
+
 ## Wann sich die Methode lohnt
 
 Jobs to be Done spielt seine Stärke aus, wenn

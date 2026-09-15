@@ -20,6 +20,8 @@ Die Methode "Fünfmal warum" (im Englischen *Five Whys*) dreht den Spieß um. St
 
 **Dauer:** 30 bis 60 Minuten · **Beteiligte:** alle, die vom Problem betroffen sind · **Material:** Wand oder Flipchart, Haftnotizen, Stifte
 
+{% include solo-hint.html text="Die Fünfmal-warum-Methode funktioniert auch ganz allein gut: Schreibt das Problem auf und beantwortet die Warum-Fragen schriftlich für euch selbst. Ohne Moderation von außen lohnt es sich besonders, ehrlich nachzuhaken und nicht bei der ersten bequemen Erklärung stehen zu bleiben. Lest eure Ursachenkette danach, wenn möglich, einer anderen Person vor – oft fallen ihr blinde Flecken auf, die euch selbst nicht auffallen." %}
+
 ## Wann sich die Methode lohnt
 
 Die "Fünfmal warum"-Methode spielt ihre Stärke aus, wenn

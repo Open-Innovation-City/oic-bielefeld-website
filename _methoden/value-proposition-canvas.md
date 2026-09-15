@@ -20,6 +20,8 @@ Die Stärke der Methode liegt in der Reihenfolge: Ihr füllt zuerst das Nutzende
 
 **Dauer:** 2 bis 3 Stunden für einen ersten Durchgang · **Beteiligte:** das Vorhaben-Team, idealerweise mit Kontakt zu den Nutzenden · **Material:** Vorlage mit den zwei Canvas-Hälften, Haftnotizen, Stifte
 
+{% include solo-hint.html text="Auch allein lässt sich der Value Proposition Canvas ausfüllen, etwa um eure eigenen Gedanken vor einem Gespräch zu ordnen. Gerade weil hier niemand widerspricht, ist die Gefahr größer, euch Pains und Gains zurechtzudenken, die zufällig zu eurer Wunschlösung passen. Behandelt einen allein ausgefüllten Canvas deshalb bewusst als vorläufige Hypothese und prüft ihn so bald wie möglich in einem echten Gespräch." %}
+
 ## Wann sich die Methode lohnt
 
 Der Value Proposition Canvas spielt seine Stärke aus, wenn

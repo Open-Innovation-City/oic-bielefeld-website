@@ -20,6 +20,8 @@ Genau das macht sich die Methode zunutze. Statt eine Idee in einem langen Konzep
 
 **Dauer:** 2 bis 5 Minuten pro Idee, plus Vorstellungsrunde · **Beteiligte:** allein oder im Team, gut auch nach einer Ideensammlung wie den [Crazy 8s](/methoden/crazy-8s/) · **Material:** kleines Blatt Papier oder tatsächlich eine Serviette, Stift, Timer
 
+{% include solo-hint.html text="Die Idee auf der Serviette ist geradezu ideal für den Alleingang: Stellt euch den Timer, beantwortet die sechs Fragen für euch und lest euch das Ergebnis anschließend laut vor – als würdet ihr es jemand anderem erklären. Klingt eine Formulierung dabei holprig, ist das meist ein Hinweis, dass die Idee an dieser Stelle noch nicht klar genug ist." %}
+
 ## Wann sich die Methode lohnt
 
 Die Idee auf der Serviette spielt ihre Stärke aus, wenn

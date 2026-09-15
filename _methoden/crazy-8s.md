@@ -20,6 +20,8 @@ Die naheliegenden Ideen kommen in den ersten zwei, drei Feldern raus. Ab Feld vi
 
 **Dauer:** 15 bis 20 Minuten inklusive Vorstellen · **Beteiligte:** alle im Vorhaben-Team, jede Person arbeitet zuerst für sich · **Material:** ein Blatt Papier pro Person, Stift, sichtbarer Timer
 
+{% include solo-hint.html text="Die Crazy 8s sind ursprünglich sogar als Einzelübung gedacht: Auch allein faltet ihr ein Blatt in acht Felder und skizziert acht Minuten lang acht Ideen. Der Zeitdruck wirkt allein genauso gut wie in der Gruppe. Was euch als Einzelperson fehlt, ist die Vielfalt an Perspektiven danach – gleicht das aus, indem ihr eure acht Skizzen im Anschluss ein bis zwei anderen Menschen zeigt und um kurze Reaktionen bittet." %}
+
 ## Wann sich die Methode lohnt
 
 Die Crazy 8s spielen ihre Stärke aus, wenn
