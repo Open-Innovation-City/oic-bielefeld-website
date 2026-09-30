@@ -347,3 +347,17 @@
   link_text: "Details & Anmeldung"
   featured: true
   topic: "open-innovation-hour" 
+
+- title: "Open Innovation Hour: Dialog in polarisierten Zeiten"
+  description: "Am Donnerstag, 5. November 2026 dreht sich in der Open Innovation Hour alles um die Frage: „Wie geht konstruktiver Dialog in polarisierten Zeiten?“ – Mit Prof. Dr. Andreas Zick (Wissenschaftlicher Direktor des Instituts für interdisziplinäre Konflikt- und Gewaltforschung an der Universität Bielefeld."
+  date: "2026-11-05"
+  time: "12:30"
+  duration: "1 Stunde"
+  location: "Online"
+  category: "Online: Open Innovation Hour"
+  target_audience: "Alle Interessierten aus Politik, Verwaltung, Wirtschaft, Wissenschaft & Zivilgesellschaft"
+  cost: "Kostenlos"
+  booking_url: "/beitraege/open-innovation-hour-dialog/"
+  link_text: "Details & Anmeldung"
+  featured: true
+  topic: "open-innovation-hour" 
