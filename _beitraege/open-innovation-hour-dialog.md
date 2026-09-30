@@ -21,7 +21,7 @@ In diesem Jahr schauen wir im Rahmen der Open Innovation jeden Monat auf **Zukun
   
 
 ### Offen, niedrigschwellig und praxisnah. Die 60 Minuten im Überblick:   
-1.	**Impulse:** **Prof. Dr. Andreas Zick** beleuchtet die Themen Konflikt uns Dialog. Der Bundesverdienstkreuz-Träger teilt spannende Einblicke aus seiner Forschung und teilt mit uns seinen Blick auf die Zukunft.
+1.	**Impulse:** **Prof. Dr. Andreas Zick** beleuchtet die Themen Konflikt uns Dialog. Der Bundesverdienstkreuz-Träger gibt spannende Einblicke in seine Forschung und teilt mit uns seinen Blick auf die Zukunft.
 2.	**Erfahrungsaustausch:** Im Anschluss an den Impulsvortrag arbeiten wir gemeinsam heraus, was wir aus aktuellen wissenschaftlichen Erkenntnissen lernen und für unseren Alltag mitnehmen können.   
 3.	**Netzwerken:** Ihr möchtet zu diesem Thema im Austausch mit anderen Teilnehmenden bleiben? Hier könnt ihr euch verbinden.      
   
