@@ -11,7 +11,7 @@ header_image: " "
 
 ## Open Innovation Hour
 ###  Konflikte in wichtigen Lebensbereichen konstruktiv lösen  
-Prof. Dr. Zick und seine Kolleg/innen forschen intensiv zu Diskriminierung, Gewalt, Menschenfeindlichkeit und Vorurteilen. In der [Konfliktakademie ConfliktA]( https://www.conflict-a.de/) erstellen sie unter anderem den sogenannten [„Konfliktmonitor“]( https://www.conflict-a.de/themen/konfliktwahrnehmungen-konfliktmonitor/). Darin fangen die Forscher*innen die aktuelle Konfliktwahrnehmung von Menschen in Deutschland ein.  
+Prof. Dr. Zick und seine Kolleg/innen forschen intensiv zu Diskriminierung, Gewalt, Menschenfeindlichkeit und Vorurteilen. In der [Konfliktakademie ConfliktA]( https://www.conflict-a.de/) erstellen sie unter anderem den sogenannten [„Konfliktmonitor“]( https://www.conflict-a.de/themen/konfliktwahrnehmungen-konfliktmonitor/). Darin fangen die Forscher/innen die aktuelle Konfliktwahrnehmung von Menschen in Deutschland ein.  
 
 {% include quote.html text="„Eine überwältigende Mehrheit – 70 % – glaubt[e 2025], dass die Konflikte zunehmen, während 46 % der Menschen negativ und nur 21 % positiv in die Zukunft blicken. […] Es ist nun entscheidend, Konflikte in wichtigen Lebensbereichen konstruktiv zu lösen und die Frage zu klären, in welche Richtung wir uns entwickeln wollen." author="Prof. Dr. Andreas Zick im Interview auf www.geistes-und-sozialwissenschaften-bmftr.de/de/News-Konfliktakademie-ConflictA-Prof-Andreas-Zick-uber-Erfolge-und-Herausforderungen-3602.html" %}  
  
