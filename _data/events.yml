@@ -348,6 +348,20 @@
   featured: true
   topic: "open-innovation-hour" 
 
+- title: "#01 Netzwerktreffen Bielefelder Social Entrepreneure"
+  description: "Mit diesem Netzwerktreffen wollen wir Bielefelder Social Entrepreneure, also Sozialunternehmer*innen den Raum und die Gelegenheit bieten sich zu vernetzen. Dadurch wollen wir die Wirtschaftskraft der Stadt stärken."
+  date: "2026-10-29"
+  time: "17:00"
+  duration: "1,5 Stunden"
+  location: "Innovation Office, Alter Markt 13"
+  category: "Meetup & Netzwerken"
+  target_audience: "Netzwerktreffen für Bielefelder Social Entrepreneure/Sozialunternehmer*innen"
+  cost: "Kostenlos"
+  booking_url: "https://pretix.eu/OIC-BIE/soc-econ1-2/"
+  link_text: "Details & Anmeldung"
+  featured: true
+  topic: "events"
+
 - title: "Open Innovation Hour: Dialog in polarisierten Zeiten"
   description: "Am Donnerstag, 5. November 2026 dreht sich in der Open Innovation Hour alles um die Frage: „Wie geht konstruktiver Dialog in polarisierten Zeiten?“ – Mit Prof. Dr. Andreas Zick (Wissenschaftlicher Direktor des Instituts für interdisziplinäre Konflikt- und Gewaltforschung an der Universität Bielefeld."
   date: "2026-11-05"
