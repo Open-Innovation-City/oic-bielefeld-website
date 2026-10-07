@@ -20,7 +20,7 @@ Hier blüht aber auch das **Sozialunternehmertum**.
 Der Bedarf nach – insbesondere lokalem - Austausch und Vernetzung ist hoch. Diesem Wunsch kommen wir gerne nach und 
 laden ein zum **#01 Bielefelder Social Entrepreneure Netzwerktreffen**. Das Motto **„Sinn & Gewinn“**. 
 
-Alle engagierten Bielefelderinnen und Bielefelder an einen Tisch: **Am Donnerstag, 29. Oktober**. 
+Alle engagierten Bielefelderinnen und Bielefelder an einen Tisch: **Am Donnerstag, 05. November**. 
 Wir sind davon überzeugt: Gemeinsam können wir den **sozialen und ökologischen Herausforderungen** besser begegnen und unsere Stadt lebenswerter gestalten.
 Mit dem Netzwerktreffen bieten wir **Bielefelder Social Entrepreneure** den Raum und die Gelegenheit, um Verbindungen zu knüpfen und Erfahrungen auszutauschen.
 
@@ -40,7 +40,7 @@ Mit dieser Veranstaltung wollen wir die Wahrscheinlichkeit für mehr Impact – 
 
 ## Ort und Zeit
 **Innovation Office, Alter Markt 13, 33602 Bielefeld**<br>
-**Donnerstag, 29. Oktober 2026**<br>
+**Donnerstag, 05. November 2026**<br>
 **Beginn:** 17:00 Uhr<br>
 **Ende:** 18:30 Uhr<br>
 **Einlass:** 16:30 Uhr<br>
