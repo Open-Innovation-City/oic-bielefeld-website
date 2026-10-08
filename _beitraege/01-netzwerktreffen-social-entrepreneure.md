@@ -1,7 +1,6 @@
 ---
 title: "1. Netzwerktreffen Bielefelder Social Entrepreneure"
-teaser: "Mit diesem Netzwerktreffen wollen wir Sozialunternehmerinnen und Sozialunternehmer in Bielefelds den Raum und die Möglichkeit bieten sich kennenzulernen, auszutauschen und zu vernetzen.
-Damit wollen wir die Wahrscheinlichkeit für technische und soziale Innovationen in Bielefeld erhöhen und damit soziale und nachhaltige Herausforderungen in Bielefeld zu minimieren und gleichzeitig die Wirtschaftskraft der Stadt zu stärken."
+teaser: "Mit dieser Auftaktveranstaltung wollen wir Bielefelder Social Entrepreneure, also Sozialunternehmer*innen den Raum und die Gelegenheit bieten sich zu vernetzen. Mit einem Netzwerk wollen wir die Wahrscheinlichkeit für technische und soziale Innovationen in Bielefeld erhöhen und damit soziale und nachhaltige Herausforderungen in Bielefeld zu minimieren und gleichzeitig die Wirtschaftskraft der Stadt zu stärken."
 authors:
   - "Maria Goncalves"
 categories:
