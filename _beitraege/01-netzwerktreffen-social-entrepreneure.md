@@ -12,30 +12,28 @@ confetti: false
 
 **Sozialen und ökologischen Herausforderungen** zu begegnen gehört zu den großen Aufgaben unserer Zeit – 
 und bietet gleichzeitig eine echte Chance: die Chance, unsere Stadt lebenswerter zu gestalten, neue Verbindungen zu knüpfen und gemeinsam etwas zu bewegen. 
-Immer mehr Menschen in unserer Stadt engagieren sich und wollen wirken. Wie Engagement mit unternehmerischem Handeln zusammengehen kann, will dieses Meetup zeigen. Es bietet Raum für Austausch, Information und Vernetzung.
+
 Bielefeld ist mehr als nur eine Stadt – sie ist ein Zentrum für Innovation, Unternehmertum und soziale Verantwortung. 
 Hier blüht aber auch das **Sozialunternehmertum**.
 
-###Auftaktveranstaltung
+### Auftaktveranstaltung  
 Der Bedarf nach – insbesondere lokalem - Austausch und Vernetzung ist hoch. Diesem Wunsch kommen wir gerne nach und 
-laden ein zur Auftakveranstaltung **#01 Netzwerktreffen Bielefelder Social Entrepreneure**. Das Motto **„Sinn & Gewinn“**. 
+laden ein zur Auftaktveranstaltung **#01 Netzwerktreffen Bielefelder Social Entrepreneure**. Das Motto **„Sinn & Gewinn“**. 
 
-Alle engagierten Bielefelderinnen und Bielefelder an einen Tisch: **Am Donnerstag, 05. November**. 
-Wir sind davon überzeugt: Gemeinsam können wir den **sozialen und ökologischen Herausforderungen** besser begegnen und unsere Stadt lebenswerter gestalten.
-Mit dem Netzwerktreffen bieten wir **Bielefelder Social Entrepreneure** den Raum und die Gelegenheit, um Verbindungen zu knüpfen und Erfahrungen auszutauschen.
+Alle engagierten **Bielefelder Social Entrepreneure** kommen an einen 'Tisch'. 
+Wir sind davon überzeugt: Gemeinsam können wir den **sozialen und ökologischen Herausforderungen** besser begegnen und unsere Stadt lebenswerter gestalten. Dabei ist ein besonderer Weg  die Verknüpfung mit unternehmerischem Denken und der Umsetzung.
 
-Dieses Meetup richtet sich **an alle Social Entrepreneure Bielefelds**, die sich für die **Lösung sozialer und ökologischer Probleme** interessieren - und dabei auch **Geld verdienen** möchten. Oder mehr über wirkungsorientierte Gründungen erfahren wollen, die **beides verbindet**. 
+Mit dieser Veranstaltung bieten wir **Bielefelder Social Entrepreneuren** den Raum und die Gelegenheit, um Verbindungen zu knüpfen und Erfahrungen auszutauschen. Am Ende soll ein Netzwerk stehen, in dem sich Menschen finden, die sich für die **Lösung sozialer und ökologischer Probleme** interessieren - und dabei auch **Geld verdienen** möchten. Oder ganz am Anfang stehen und mehr über wirkungsorientierte Gründungen erfahren wollen. 
 
-## Inhalt
 ### Get together & Networking
 
-Diese Veranstaltung ist ein Netzwerktreffen. Ein Raum für Austausch, Information und Vernetzung.
-Triff auf Akteuren aus dem Sozialunternehmer-Ökosystem! Vernetzt euch, stellt Fragen und tauscht Erfahrungen aus. 
+Dies ist eine Auftaktveranstaltung für das Netzwerk Bielefelder Social Entrepreneure. Triff auf Akteure aus dem Sozialunternehmer-Ökosystem! Vernetzt euch, stellt Fragen und tauscht Erfahrungen aus. 
+
 Am Ende steht ein stärkeres Ökosystem und ein lebendigerer Wirtschafts- und Innovationsstandort Bielefeld, von dem alle profitieren.
 Du kennst jemanden aus dem Ökosystem, der/die unbedingt dabei sein sollte - leite die Info weiter. 
 
 
-**Ziele**:
+#### Ziele:
 Mit dieser Veranstaltung wollen wir die Wahrscheinlichkeit für mehr Impact – also Wirkung – und Innovationen in Bielefeld steigern, um **soziale und nachhaltige Herausforderungen zu minimieren und gleichzeitig die Wirtschaftskraft der Stadt zu stärken**.
 
 ## Ort und Zeit
