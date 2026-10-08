@@ -17,8 +17,9 @@ Immer mehr Menschen in unserer Stadt engagieren sich und wollen wirken. Wie Enga
 Bielefeld ist mehr als nur eine Stadt – sie ist ein Zentrum für Innovation, Unternehmertum und soziale Verantwortung. 
 Hier blüht aber auch das **Sozialunternehmertum**.
 
+###Auftaktveranstaltung
 Der Bedarf nach – insbesondere lokalem - Austausch und Vernetzung ist hoch. Diesem Wunsch kommen wir gerne nach und 
-laden ein zum **#01 Bielefelder Social Entrepreneure Netzwerktreffen**. Das Motto **„Sinn & Gewinn“**. 
+laden ein zur Auftakveranstaltung **#01 Netzwerktreffen Bielefelder Social Entrepreneure**. Das Motto **„Sinn & Gewinn“**. 
 
 Alle engagierten Bielefelderinnen und Bielefelder an einen Tisch: **Am Donnerstag, 05. November**. 
 Wir sind davon überzeugt: Gemeinsam können wir den **sozialen und ökologischen Herausforderungen** besser begegnen und unsere Stadt lebenswerter gestalten.
