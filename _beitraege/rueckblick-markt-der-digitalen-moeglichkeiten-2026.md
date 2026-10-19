@@ -34,6 +34,4 @@ Das Netzwerk für Digitale Teilhabe in Bielefeld sind Menschen aus der Wissensch
 Unser Ziel ist es, dass alle Menschen in Bielefeld am immer digitaler werdenden Alltag teilhaben können. Digitale Teilhabe verstehen wir dabei **nicht ausschließlich als Zugang zur Technik**, sondern **auch als Form gesellschaftlicher Teilhabe, Selbstbestimmung und Möglichkeit zur demokratischen Mitgestaltung**. Dabei engagieren wir uns insbesondere für vulnerable Gruppen, wie Hochaltrige und Menschen mit Behinderung.  
   
 Mithilfe unserer Zusammenarbeit erzeugen wir **Sichtbarkeit** für das Thema Digitale Teilhabe sowie für Bielefelder Akteur\*innen und ihre Angebote. Wir ermöglichen **Austausch und Vernetzung** – sowohl zwischen den Menschen, die Unterstützung suchen und denen die Unterstützung anbieten, als auch zwischen haupt- und ehrenamtlich Engagierten.  
-Im Rahmen unserer Kooperation fördern wir Medienkompetenz bei Erwachsenen jeden Alters, pädagogischen Fachkräften und Ehrenamtlichen.   
-
-{% include gallery.html images=" " %}   
+Im Rahmen unserer Kooperation fördern wir Medienkompetenz bei Erwachsenen jeden Alters, pädagogischen Fachkräften und Ehrenamtlichen.      
