@@ -25,8 +25,10 @@ Kurze Impulsvorträge haben die informativen Gespräche an den Markständen der 
 **Was klasse war:** Die neuen Räume haben die Veranstaltung gemütlicher werden lassen. So gab es zum Beispiel eine kleine Sitzecke, in der die Besucher\*innen sich mit einem Stück **Kuchen** und einer Tasse **Kaffee** stärken konnten. Außerdem gab es eine Lounge, in der sich ehrenamtlich Engagierte mit einander und mit der Freiwilligenagentur Bielefeld austauschen konnten.  
    
 ### Vor Ort dabei waren:  
-#DigitalCheckNRW, AWO Kreisverband Bielefeld e. V., Begegnungszentrum Kunz (Diakonie für Bielefeld), BGW Bielefeld & Wohnberatung, BIE-Digital Stadt Bielefeld, Bürgerforum Schildesche, CareTechOWL der Hochschule Bielefeld, Freiwilligenagentur Bielefeld e. V., Hackerspace Bielefeld e. V., Kanal 21, Kriminalprävention und Opferschutz der Polizei Bielefeld, moBiel, Stadtbibliothek, Stadtwerke Bielefeld, Treffpunkt Alter (DiakonieVerband Brackwede), Verbraucherzentrale und die VHS Bielefeld.
+#DigitalCheckNRW, AWO Kreisverband Bielefeld e. V., Begegnungszentrum Kunz (Diakonie für Bielefeld), BGW Bielefeld & Wohnberatung, BIE-Digital Stadt Bielefeld, Bürgerforum Schildesche, CareTechOWL der Hochschule Bielefeld, Freiwilligenagentur Bielefeld e. V., Hackerspace Bielefeld e. V., Kanal 21, Kriminalprävention und Opferschutz der Polizei Bielefeld, moBiel, Stadtbibliothek, Stadtwerke Bielefeld, Treffpunkt Alter (DiakonieVerband Brackwede), Verbraucherzentrale und die VHS Bielefeld.  
 
+{% include youtube.html id="w7MmVtZuDho" title="Markt der digitalen Möglichkeiten 2026" %}  
+  
 ## Organisiert vom Netzwerk für digitale Teilhabe Bielefeld   
 
 Das Netzwerk für Digitale Teilhabe in Bielefeld sind Menschen aus der Wissenschaft, Bildungsinstitutionen, dem Ehrenamt, aus Wohlfahrtsverbänden, der kommunalen Verwaltung und dem Bereich Kriminalprävention. Gemeinsam bündeln wir unsere Ressourcen und schaffen so Synergien für unsere **Vision: Digitale Teilhabe für alle!**  
