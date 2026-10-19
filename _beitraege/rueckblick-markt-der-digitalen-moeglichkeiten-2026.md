@@ -16,13 +16,13 @@ Dabei gab es in diesem Jahr zwei Neuerungen: Der Markt der digitalen Möglichkei
 ### Eine Veranstaltung für alle  
 Digitale Geräte und das Internet sind aus dem Alltag nicht mehr wegzudenken. Doch nicht jeder Mensch fühlt sich im Umgang mit Smartphone, Tablet oder Computer sicher. Genau hier setzt der Markt der digitalen Möglichkeiten an: Eine Veranstaltung für alle, die Unterstützung beim Einstieg oder im Umgang mit digitalen Technologien suchen – ganz unabhängig vom Alter oder Vorkenntnissen.  
 
-In diesem Jahr erstmalig im **Kleinen Saal der Volkshochschule Bielefeld**, im Erdgeschoss des Hauses, war die Veranstaltung noch besser zugänglich. Daneben ermöglichten die an den Saal angeschlossenen Kursräume eine ganz neue Form des Markts der digitalen Möglichkeiten: Bummeln, entdecken, ins Gespräch kommen oder direkt eine persönliche Beratung in Anspruch nehmen? Das alles war möglich.    
-Außerdem hat das Programm aus kurzen Impulsvorträgen die Markständen der Beratungsangebote toll ergänzt.  
+Die Veranstaltung war in diesem Jahr erstmalig im **Kleinen Saal der Volkshochschule Bielefeld** und dadurch noch besser zugänglich. Der Kleine Saal befindet sich im Erdgeschoss. Daneben sind Kursräume an den Saal angeschlossenen, die ebenfalls bespielt wurden. Bummeln, entdecken, ins Gespräch kommen? Oder direkt eine persönliche Beratung in Anspruch nehmen? – Das alles war möglich.    
+Kurze Impulsvorträge haben die informativen Gespräche an den Markständen der Bielefelder Beratungsangebote toll ergänzt.  
   
 **Dabei haben wir als Organisatoren viel gelernt**  
-"Learning by doing", heißt es ja so schön. Dieser Satz hat sich einmal mehr als wahr erwiesen. In den neuen Räumlichkeiten haben wir viel dazugelernt: Zum Beispiel, dass der Geräuschpegel im Saal es erschwert einem Impulsvortrag zu lauschen. Das nehmen wir für die Zukunft mit und lassen uns etwas einfallen!   
+"Learning by doing", heißt es ja so schön. Dieser Satz hat sich einmal mehr als wahr erwiesen. In den neuen Räumlichkeiten haben wir viel dazugelernt: Zum Beispiel, dass es der Geräuschpegel im Kleinen Saal erschwert hat, einem Impulsvortrag zu lauschen. Das nehmen wir für die Zukunft mit und lassen uns etwas einfallen!   
 
-**Was klasse war:** Die neuen Räume haben die Veranstaltung gemütlicher werden lassen. So gab es zum Beispiel eine kleine Sitzecke, in der die Besucher\*innen sich mit einem Stück **Kuchen** und einer Tasse **Kaffee** stärken konnten oder auch eine Sitz-Lounge, in der sich ehrenamtlich Engagierte mit einander und der Freiwilligenagentur Bielefeld austauschen konnten.  
+**Was klasse war:** Die neuen Räume haben die Veranstaltung gemütlicher werden lassen. So gab es zum Beispiel eine kleine Sitzecke, in der die Besucher\*innen sich mit einem Stück **Kuchen** und einer Tasse **Kaffee** stärken konnten. Außerdem gab es eine Lounge, in der sich ehrenamtlich Engagierte mit einander und mit der Freiwilligenagentur Bielefeld austauschen konnten.  
    
 ### Vor Ort dabei waren:  
 #DigitalCheckNRW, AWO Kreisverband Bielefeld e. V., Begegnungszentrum Kunz (Diakonie für Bielefeld), BGW Bielefeld & Wohnberatung, BIE-Digital Stadt Bielefeld, Bürgerforum Schildesche, CareTechOWL der Hochschule Bielefeld, Freiwilligenagentur Bielefeld e. V., Hackerspace Bielefeld e. V., Kanal 21, Kriminalprävention und Opferschutz der Polizei Bielefeld, moBiel, Stadtbibliothek, Stadtwerke Bielefeld, Treffpunkt Alter (DiakonieVerband Brackwede), Verbraucherzentrale und die VHS Bielefeld.
