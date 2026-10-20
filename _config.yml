@@ -39,6 +39,9 @@ exclude:
   - DEV-STAGING-SETUP.md
   - REDAKTIONSLEITFADEN.md
   - SECURITY-AUDIT.md
+  - PRODUCT.md
+  - DESIGN.md
+  - .impeccable
 
 # Site data
 email: innovationen@bielefeld.de
