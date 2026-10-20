@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-19T21:06:00Z",
+  "title": "Design System: Open Innovation City Bielefeld",
+  "extensions": {
+    "colorMeta": {
+      "civic-turquoise": { "role": "primary", "displayName": "Civic-Turquoise", "canonical": "#00b2bb", "tonalRamp": ["#00494c", "#00888f", "#00c2cc", "#0af3ff", "#47f6ff", "#85f9ff", "#b8fcff", "#e5feff"] },
+      "workshop-yellow": { "role": "secondary", "displayName": "Workshop-Yellow", "canonical": "#fff564", "tonalRamp": ["#4c4800", "#8f8600", "#ccbf00", "#ffef0a", "#fff347", "#fff785", "#fffab8", "#fffde5"] },
+      "dialogue-blue": { "role": "secondary", "displayName": "Dialogue-Blue", "canonical": "#666cde", "tonalRamp": ["#0e103f", "#191e75", "#242ba8", "#363ed4", "#686ede", "#9a9ee9", "#c4c7f2", "#eaebfa"] },
+      "growth-green": { "role": "secondary", "displayName": "Growth-Green", "canonical": "#a5e35f", "tonalRamp": ["#28410b", "#4a7a15", "#6aae1e", "#8adb2f", "#a7e463", "#c4ed97", "#ddf4c2", "#f3fbe9"] },
+      "sky-blue": { "role": "secondary", "displayName": "Sky-Blue", "canonical": "#78d3fa", "tonalRamp": ["#03344a", "#05628a", "#078cc5", "#13b2f6", "#4ec5f8", "#89d9fb", "#bae9fc", "#e6f7fe"] },
+      "signal-pink": { "role": "secondary", "displayName": "Signal-Pink", "canonical": "#fa2d6e", "tonalRamp": ["#4b0219", "#8b032e", "#c70542", "#f9105a", "#fb4c83", "#fc87ac", "#fdb9cf", "#fee6ee"] },
+      "ink": { "role": "neutral", "displayName": "Ink", "canonical": "#2c3e50", "tonalRamp": ["#1b2631", "#33475c", "#486684", "#6185a8", "#89a3be", "#b0c2d4", "#d1dbe6", "#eff2f6"] },
+      "ink-muted": { "role": "neutral", "displayName": "Ink-Muted", "canonical": "#666666", "tonalRamp": ["#262626", "#474747", "#666666", "#858585", "#a3a3a3", "#c2c2c2", "#dbdbdb", "#f2f2f2"] },
+      "paper": { "role": "neutral", "displayName": "Paper", "canonical": "#ffffff", "tonalRamp": ["#262626", "#474747", "#666666", "#858585", "#a3a3a3", "#c2c2c2", "#dbdbdb", "#f2f2f2"] },
+      "paper-dim": { "role": "neutral", "displayName": "Paper-Dim", "canonical": "#f8f9fa" },
+      "alert-amber": { "role": "neutral", "displayName": "Alert-Amber", "canonical": "#ff6b35" }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero-h1, einmal pro Seite, weiß auf Farbverlauf." },
+      "headline": { "displayName": "Headline", "purpose": "Zentrierte Sektionstitel (h2)." },
+      "title": { "displayName": "Title", "purpose": "Karten-/Blocktitel (h3/h4), z.B. Team-Name, Projekttitel." },
+      "body": { "displayName": "Body", "purpose": "Fließtext, zentrierte Lead-Absätze bis ca. 800px." },
+      "label": { "displayName": "Label", "purpose": "Tags, Filter-Buttons, Meta-Angaben." }
+    },
+    "shadows": [
+      { "name": "shadow-light", "value": "0 1px 3px rgba(0, 0, 0, 0.06), 0 4px 12px rgba(0, 0, 0, 0.06)", "purpose": "Ruhezustand von Karten (Team, Projekt, Prinzip)." },
+      { "name": "shadow-medium", "value": "0 2px 8px rgba(0, 0, 0, 0.08), 0 8px 24px rgba(0, 0, 0, 0.1)", "purpose": "Hover-Zustand von Karten, gescrollte Navbar (Light-Theme)." },
+      { "name": "shadow-heavy", "value": "0 4px 12px rgba(0, 0, 0, 0.1), 0 16px 32px rgba(0, 0, 0, 0.12)", "purpose": "Reserviert für die prominentesten erhobenen Flächen." },
+      { "name": "modal-shadow", "value": "0 20px 60px rgba(0, 0, 0, 0.3)", "purpose": "Modal-Panel, stärkster Schatten im System." }
+    ],
+    "motion": [
+      { "name": "ease-standard", "value": "cubic-bezier(0.4, 0, 0.2, 1)", "purpose": "Default-Easing für Hover-Lift, Navbar-Morph, Filter-Übergänge." },
+      { "name": "duration-standard", "value": "0.3s", "purpose": "Globale Standarddauer (--animation-duration) für Hover/Fokus-Übergänge." },
+      { "name": "duration-slow", "value": "0.4s", "purpose": "Navbar- und Kartenübergänge mit sichtbarerer Morphing-Bewegung." }
+    ],
+    "breakpoints": [
+      { "name": "xl", "value": "1200px" },
+      { "name": "lg", "value": "900px" },
+      { "name": "md", "value": "768px" },
+      { "name": "sm", "value": "480px" },
+      { "name": "xs", "value": "320px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Haupt-CTA mit Gelb-Grün-Verlauf und Shine-Sweep bei Hover.",
+      "html": "<a href=\"#\" class=\"ds-btn-primary\">Mehr erfahren</a>",
+      "css": ".ds-btn-primary { display: inline-block; background: linear-gradient(45deg, #fff564, #a5e35f); color: #2c3e50; padding: 1.2rem 2.5rem; text-decoration: none; border-radius: 50px; font-family: 'Open Sans', sans-serif; font-weight: 600; font-size: 1.1rem; box-shadow: 0 4px 16px rgba(255, 245, 100, 0.3); border: none; position: relative; overflow: hidden; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); } .ds-btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(255, 245, 100, 0.4); } .ds-btn-primary:focus-visible { outline: 2px solid #fff564; outline-offset: 2px; }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Transparente Variante für Flächen auf Farbverlauf-Hintergrund.",
+      "html": "<a href=\"#\" class=\"ds-btn-secondary\">Projekte ansehen</a>",
+      "css": ".ds-btn-secondary { display: inline-block; background: rgba(255, 255, 255, 0.2); color: #ffffff; border: 2px solid rgba(255, 255, 255, 0.3); padding: 1.2rem 2.5rem; border-radius: 50px; font-family: 'Open Sans', sans-serif; font-weight: 600; font-size: 1.1rem; box-shadow: 0 4px 16px rgba(255, 255, 255, 0.1); transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); } .ds-btn-secondary:hover { background: rgba(255, 255, 255, 0.3); box-shadow: 0 8px 24px rgba(255, 255, 255, 0.2); } .ds-btn-secondary:focus-visible { outline: 2px solid #fff564; outline-offset: 2px; }"
+    },
+    {
+      "name": "Filter Chip",
+      "kind": "chip",
+      "refersTo": "filter-chip-active",
+      "description": "Kategorie-Filter auf der Blogübersicht; aktiver Zustand nutzt den Türkis-Blau-Verlauf.",
+      "html": "<button class=\"ds-chip ds-chip--active\">Workshop <span class=\"ds-chip__count\">(4)</span></button>",
+      "css": ".ds-chip { background: #ffffff; border: 2px solid #00b2bb; color: #00b2bb; padding: 0.65rem 1.5rem; border-radius: 25px; font-family: 'Open Sans', sans-serif; font-weight: 600; font-size: 0.95rem; cursor: pointer; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); } .ds-chip--active { background: linear-gradient(135deg, #00b2bb 0%, #666cde 100%); color: #ffffff; border-color: #00b2bb; box-shadow: 0 4px 15px rgba(0, 178, 187, 0.3); transform: translateY(-2px); } .ds-chip:focus-visible { outline: 2px solid #fff564; outline-offset: 2px; } .ds-chip__count { opacity: 0.85; }"
+    },
+    {
+      "name": "Content Card",
+      "kind": "card",
+      "refersTo": "card-default",
+      "description": "Team-/Projekt-/Prinzip-Karte: weißer Grund, weicher Schatten, sanfter Hover-Lift.",
+      "html": "<div class=\"ds-card\"><h4 class=\"ds-card__title\">Digitaler Zwilling</h4><p class=\"ds-card__text\">Erprobung eines Digitalen Zwillings im Stadtlabor Sennestadt.</p></div>",
+      "css": ".ds-card { background: #ffffff; padding: 2rem; border-radius: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 4px 12px rgba(0,0,0,0.06); transition: all 0.4s ease; } .ds-card:hover { transform: translateY(-4px); box-shadow: 0 2px 8px rgba(0,0,0,0.08), 0 8px 24px rgba(0,0,0,0.1); } .ds-card__title { color: #00b2bb; font-family: 'Open Sans', sans-serif; font-weight: 600; font-size: 1.3rem; margin-bottom: 0.5rem; } .ds-card__text { color: #666666; font-family: 'Open Sans', sans-serif; font-size: 1rem; line-height: 1.6; }"
+    },
+    {
+      "name": "Navigation Bar",
+      "kind": "nav",
+      "refersTo": null,
+      "description": "Fixed, halbtransparente Navbar mit Blur und adaptivem Hell-/Dunkel-Theme je Sektionshintergrund.",
+      "html": "<nav class=\"ds-navbar\"><div class=\"ds-navbar__brand\">OIC Bielefeld</div><div class=\"ds-navbar__links\"><a href=\"#\" class=\"ds-navbar__link\">Start</a><a href=\"#\" class=\"ds-navbar__link\">Projekte</a></div></nav>",
+      "css": ".ds-navbar { display: flex; align-items: center; justify-content: space-between; padding: 1rem 2rem; background: rgba(0, 179, 167, 0.06); border-bottom: 1px solid rgba(0, 179, 167, 0.1); backdrop-filter: blur(20px); font-family: 'Open Sans', sans-serif; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); } .ds-navbar__brand { color: #2c3e50; font-weight: 700; font-size: 1.2rem; } .ds-navbar__links { display: flex; gap: 1.5rem; } .ds-navbar__link { color: #2c3e50; text-decoration: none; font-weight: 500; transition: color 0.3s ease; } .ds-navbar__link:hover { color: #00b2bb; }"
+    },
+    {
+      "name": "Modal Panel",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Zentriertes Newsletter-/Overlay-Modal mit rotierendem Close-Button.",
+      "html": "<div class=\"ds-modal-overlay\"><div class=\"ds-modal\"><button class=\"ds-modal__close\" aria-label=\"Schließen\">×</button><h3 class=\"ds-modal__title\">Newsletter abonnieren</h3><p class=\"ds-modal__text\">Bleib auf dem Laufenden über Projekte und Events.</p></div></div>",
+      "css": ".ds-modal-overlay { background: rgba(0,0,0,0.7); backdrop-filter: blur(5px); padding: 3rem; display: flex; align-items: center; justify-content: center; } .ds-modal { position: relative; background: #ffffff; max-width: 500px; width: 90%; border-radius: 16px; box-shadow: 0 20px 60px rgba(0,0,0,0.3); padding: 2.5rem; font-family: 'Open Sans', sans-serif; } .ds-modal__close { position: absolute; top: 1rem; right: 1rem; background: none; border: none; width: 40px; height: 40px; border-radius: 50%; color: #666666; cursor: pointer; transition: all 0.3s ease; font-size: 1.5rem; } .ds-modal__close:hover { background: #f8f9fa; color: #2c3e50; transform: rotate(90deg); } .ds-modal__title { color: #2c3e50; font-size: 1.8rem; font-weight: 600; margin-bottom: 0.5rem; } .ds-modal__text { color: #666666; line-height: 1.6; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Die offene Werkstattwand",
+    "overview": "Die OIC-Website liest sich wie ein digitales Mitmach-Brett einer kommunalen Werkstatt: ein Farbverlauf-Hero mit Graffiti-Overlay begrüßt mit Street-Art-Spielfreude, aber darunter sitzt ein ruhiges, vertrauenswürdiges Karten-System in Weiß und Türkis. Die Site balanciert zwei Register – verspielt an den Einstiegspunkten (Hero, CTA-Buttons, Konfetti-Belohnung am Ende eines Blogbeitrags), sachlich und aufgeräumt überall dort, wo tatsächlich gelesen oder entschieden wird (Projektkarten, Team-Profile, Blogtexte). Dichte ist moderat bis locker: große Schnitträume (padding: 6rem 0 zwischen Sektionen), großzügige Kartenabstände, viel Weißraum auf hellem Grund. Bewegung ist durchgehend sanft und gedämpft (cubic-bezier(0.4, 0, 0.2, 1), 0.3–0.4s), nie abrupt, und respektiert prefers-reduced-motion.",
+    "keyCharacteristics": [
+      "Farbverlauf-Flächen (Hero, Kontakt-Sektion, Event-Buttons, Filter-Chips) als energiegebende Momente, umschlossen von ruhigen weißen Flächen.",
+      "Durchgängig pillenförmige interaktive Elemente (CTA, Filter, Event-Buchung) als wiederkehrende Signatur.",
+      "Karten heben sich bei Hover sanft ab (translateY(-4px) + Schattenwechsel) statt hart zu kippen oder zu skalieren.",
+      "Eine einzige Schrift (Open Sans) trägt das ganze System, Hierarchie entsteht über Größe/Gewicht, nicht über Schriftwechsel.",
+      "Ein verstecktes Belohnungsmoment (Konfetti am Beitragsende) signalisiert: fertig gelesen = mitgemacht."
+    ],
+    "rules": [
+      { "name": "The Gradient-Means-Go Rule", "body": "Ein Farbverlauf markiert immer eine Handlungsfläche (Hero, primäre CTA, Event-Buchung, aktiver Filter) – nie eine reine Informationsfläche. Reine Information bleibt auf Weiß/Paper-Dim mit flächigem Türkis-Text.", "section": "colors" },
+      { "name": "The One-Family Rule", "body": "Nur 'Open Sans' in allen Gewichten; keine zweite Schriftfamilie für Zitate, Codeblöcke oder Akzenttext.", "section": "typography" },
+      { "name": "The Hover-Lift Rule", "body": "Erhöhte Tiefe entsteht ausschließlich als Reaktion auf Hover/Fokus/aktiven Zustand – im Ruhezustand bleibt jede Fläche auf ihrer Basis-Schattenstufe.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do Farbverläufe (Türkis↔Blau oder Gelb↔Grün) für jede primäre Handlungsfläche einsetzen – CTA, Buchung, aktiver Filter, Hero.",
+      "Do Buttons und Chips konsequent pillenförmig (50px) halten; Karten/Modals bei 16px.",
+      "Do Hover-Zustände über sanften Lift (translateY(-2px) bis -4px) plus Schattenwechsel ausdrücken, mit cubic-bezier(0.4, 0, 0.2, 1)-Timing.",
+      "Do prefers-reduced-motion respektieren – alle Entry-/Hover-Animationen haben eine reduzierte Variante.",
+      "Do bei neuen Flächen mit Weiß/Paper-Dim als Lesegrund arbeiten und Farbverläufe auf klar abgegrenzte Handlungs-/Hero-Flächen beschränken."
+    ],
+    "donts": [
+      "Don't eine zweite Schriftfamilie einführen – das System trägt sich komplett über 'Open Sans'-Gewichte.",
+      "Don't scharfe, ungerundete Ecken (0px) für Karten, Buttons oder Modals verwenden – das widerspricht der weichen Werkstatt-Ästhetik.",
+      "Don't Schatten als Ruhezustand-Dekoration auf neue Komponenten legen, ohne dass sie auf einen Zustand (Hover/Fokus/aktiv) reagieren.",
+      "Don't Signal-Pink oder Sky-Blue großflächig als Hintergrund einsetzen – beide sind als dritter/vierter Akzent in Verläufen gedacht, nicht als eigenständige große Fläche."
+    ]
+  }
+}
