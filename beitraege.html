@@ -54,7 +54,7 @@ description: Aktuelle Beiträge und Artikel von Open Innovation City Bielefeld z
     <div class="container">
         <h1 class="section-title fade-in">Beiträge</h1>
         <div class="fade-in">
-            <p style="text-align: center; font-size: 1.2rem; max-width: 800px; margin: 0 auto 3rem auto;">
+            <p class="section-intro" style="margin-bottom: 3rem;">
                 Entdecken Sie unsere aktuellen Beiträge zu Innovation, Technologie und Stadtentwicklung. Von praktischen Erfahrungen bis zu technischen Einblicken.
             </p>
         </div>
@@ -116,7 +116,7 @@ description: Aktuelle Beiträge und Artikel von Open Innovation City Bielefeld z
                 {% endfor %}
             </div>
 
-            <div class="filter-results" aria-live="polite" aria-atomic="true" style="display: none;">
+            <div class="filter-results" aria-live="polite" aria-atomic="true">
                 <span id="filter-result-text">{{ site.beitraege | where_exp: "item", "item.is_retrospective != true" | size }} Beiträge</span>
             </div>
         </nav>

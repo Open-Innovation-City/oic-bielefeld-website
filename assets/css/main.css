@@ -764,6 +764,8 @@ body:has(.newsletter-banner) .navbar-island.scrolled {
   text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
   opacity: 0;
   animation: fadeInUp 1s ease forwards 0.5s;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 .hero p {
@@ -942,6 +944,13 @@ body:has(.newsletter-banner) .navbar-island.scrolled {
   color: var(--primary-turquoise);
 }
 
+.section-intro {
+  text-align: center;
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
 /* About Section */
 .about {
   background: var(--bg-light);
@@ -1092,6 +1101,7 @@ body:has(.newsletter-banner) .navbar-island.scrolled {
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 2rem;
   margin-top: 3rem;
+  align-items: start;
 }
 
 .project-card {
@@ -1104,16 +1114,6 @@ body:has(.newsletter-banner) .navbar-island.scrolled {
   overflow: hidden;
   transform: scale(0.9);
   opacity: 0;
-}
-
-/* Extra space for cards with links */
-.project-card.has-link {
-  padding-bottom: 5rem;
-}
-
-/* Fallback for browsers that support :has() */
-.project-card:has(.project-footer) {
-  padding-bottom: 5rem;
 }
 
 .project-card.visible {
@@ -1169,9 +1169,9 @@ body:has(.newsletter-banner) .navbar-island.scrolled {
 
 /* Project Footer */
 .project-footer {
-  position: absolute;
-  bottom: 1.5rem;
-  right: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
 }
 
 .project-link-btn {
@@ -1203,6 +1203,18 @@ body:has(.newsletter-banner) .navbar-island.scrolled {
 
 .project-link-btn:hover::after {
   transform: translateX(3px);
+}
+
+/* Empty State */
+.projects-empty {
+  text-align: center;
+  padding: 3rem;
+  color: var(--text-light);
+}
+
+.projects-empty h3 {
+  color: var(--text-light);
+  margin-bottom: 1rem;
 }
 
 /* Contact Section */
@@ -1343,10 +1355,14 @@ body:has(.newsletter-banner) .navbar-island.scrolled {
     max-width: 250px;
   }
   
+  h1 {
+    font-size: 2.5rem;
+  }
+
   h2 {
     font-size: 2rem;
   }
-  
+
   .team-grid,
   .projects-grid {
     grid-template-columns: 1fr;
@@ -2150,7 +2166,6 @@ body:has(.newsletter-banner) .navbar-island.scrolled {
   }
   
   .event-card.featured::before {
-    font-size: 0.7rem;
     padding: 0.25rem 0.6rem;
   }
 }

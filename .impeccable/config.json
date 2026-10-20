@@ -1,0 +1,35 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "broken-image",
+        "value": "*",
+        "files": [
+          "_layouts/post.html"
+        ],
+        "createdAt": "2026-10-20T07:02:56.075Z",
+        "reason": "lightbox <img class=lightbox-img> is an intentional empty placeholder; JS sets .src in showLightbox() when an image is opened"
+      },
+      {
+        "rule": "overused-font",
+        "value": "open sans",
+        "files": [
+          "assets/css/main.css"
+        ],
+        "createdAt": "2026-10-20T09:29:10.122Z",
+        "reason": "Established, self-hosted brand typeface for the whole site (see @font-face declarations); not a layout concern and out of scope for this pass"
+      },
+      {
+        "rule": "broken-image",
+        "value": "*",
+        "files": [
+          "ki-zivilgesellschaft.html"
+        ],
+        "createdAt": "2026-10-20T09:46:41.277Z",
+        "reason": "lightbox <img class=lightbox-img> is an intentional empty placeholder; JS sets .src in showLightbox() when an image is opened"
+      }
+    ]
+  }
+}

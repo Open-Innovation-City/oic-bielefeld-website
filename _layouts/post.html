@@ -266,7 +266,7 @@ layout: default
 }
 
 .content-wrapper {
-    max-width: 800px;
+    max-width: 720px;
     margin: 0 auto;
 }
 
@@ -486,6 +486,41 @@ layout: default
 
 .post-author-grid.multiple-authors {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
+}
+
+/* Multiple authors share a narrower column than the single-author card is
+   sized for; tighten avatar/padding/type so names, roles and tags stop
+   wrapping inside it. */
+@media (min-width: 769px) {
+    .post-author-grid.multiple-authors .author-card {
+        gap: 1.25rem;
+        padding: 1.5rem;
+    }
+
+    .post-author-grid.multiple-authors .author-avatar img {
+        width: 72px;
+        height: 72px;
+    }
+
+    .post-author-grid.multiple-authors .author-name {
+        font-size: 1.25rem;
+    }
+
+    .post-author-grid.multiple-authors .author-role {
+        font-size: 0.9rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .post-author-grid.multiple-authors .author-expertise {
+        gap: 0.4rem;
+        margin-bottom: 1rem;
+    }
+
+    .post-author-grid.multiple-authors .expertise-tag {
+        padding: 0.25rem 0.6rem;
+        font-size: 0.75rem;
+    }
 }
 
 .author-card-link {
@@ -759,7 +794,7 @@ layout: default
     .header-image-credit {
         bottom: 0.5rem;
         right: 0.5rem;
-        font-size: 0.65rem;
+        font-size: 0.75rem;
         padding: 0.2rem 0.5rem;
     }
 
