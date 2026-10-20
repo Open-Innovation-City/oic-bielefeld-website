@@ -29,6 +29,15 @@
         ],
         "createdAt": "2026-10-20T09:46:41.277Z",
         "reason": "lightbox <img class=lightbox-img> is an intentional empty placeholder; JS sets .src in showLightbox() when an image is opened"
+      },
+      {
+        "rule": "bounce-easing",
+        "value": "animation: scrollbounce",
+        "files": [
+          "assets/css/main.css"
+        ],
+        "createdAt": "2026-10-20T11:21:38.396Z",
+        "reason": "Named scrollBounce but uses plain ease timing, not an elastic/bounce curve -- a conventional scroll-cue oscillation (translateY 0->8px->0), not jarring bounce easing"
       }
     ]
   }

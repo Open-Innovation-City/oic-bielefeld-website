@@ -268,21 +268,24 @@
      * Smooth scrolling for navigation links
      */
     function initSmoothScrolling() {
+        const scrollBehavior = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+            ? 'auto'
+            : 'smooth';
         const navLinks = document.querySelectorAll('a[href^="#"]');
-        
+
         navLinks.forEach(function(link) {
             link.addEventListener('click', function(e) {
                 e.preventDefault();
-                
+
                 const targetId = this.getAttribute('href');
                 const targetElement = document.querySelector(targetId);
-                
+
                 if (targetElement) {
                     const offsetTop = targetElement.offsetTop - 80; // Account for fixed navbar
-                    
+
                     window.scrollTo({
                         top: offsetTop,
-                        behavior: 'smooth'
+                        behavior: scrollBehavior
                     });
                 }
             });
@@ -294,7 +297,7 @@
             scrollIndicator.addEventListener('click', function() {
                 const aboutSection = document.getElementById('about');
                 if (aboutSection) {
-                    aboutSection.scrollIntoView({ behavior: 'smooth' });
+                    aboutSection.scrollIntoView({ behavior: scrollBehavior });
                 }
             });
         }

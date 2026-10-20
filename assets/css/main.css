@@ -2707,11 +2707,18 @@ body:has(.newsletter-banner) .navbar-island.scrolled {
 
 /* Reduced Motion Support */
 @media (prefers-reduced-motion: reduce) {
-  .filter-btn,
-  .filter-btn::before,
-  .project-card.filtered-in {
-    animation: none !important;
-    transition: none !important;
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    transition-delay: 0.01ms !important;
+  }
+
+  html {
+    scroll-behavior: auto !important;
   }
 
   .filter-btn:hover,
