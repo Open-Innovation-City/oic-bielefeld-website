@@ -9,14 +9,14 @@
   email: "jens.edler@bielefeld.de"
   animation_delay: 0.1
 
-- name: "Tatjana Džepina"
+- name: "Tatjana Giorgio"
   role: "Projektmanagerin Smart City"
   image: "/assets/images/team/tatjana.png"
   expertise:
     - "Offene Innovationen und Smart City Projekte"
     - "Use Cases zum Digitalen Zwilling und zur Passantenfrequenzmessung"
 
-  email: "tatjana.dzepina@bielefeld.de"
+  email: "tatjana.giorgio@bielefeld.de"
   animation_delay: 0.2
 
 - name: "Maria Gonçalves"
