@@ -1,12 +1,12 @@
 ---
 title: "Open Innovation City auf dem Smart City Festival 2025 in Ahaus"
-teaser: "Auf dem Smart City Festival der Digitalstadt Ahaus hat Tatjana Džepina einen Vortrag darüber gehalten, wie Städte Open Innovation Cities werden können. Expert*innen aus Verwaltung, Wirtschaft und Wissenschaft kamen zusammen, um über die Zukunft deutscher Städte zu sprechen."
+teaser: "Auf dem Smart City Festival der Digitalstadt Ahaus hat Tatjana Giorgio einen Vortrag darüber gehalten, wie Städte Open Innovation Cities werden können. Expert*innen aus Verwaltung, Wirtschaft und Wissenschaft kamen zusammen, um über die Zukunft deutscher Städte zu sprechen."
 authors:
-  - "Tatjana Džepina"
+  - "Tatjana Giorgio"
 categories:
   - "Events"
 date: 2025-09-12
-header_image: "/assets/images/beitraege/ahaus/tatjana_dzepina_ahaus.jpg"
+header_image: "/assets/images/beitraege/ahaus/tatjana_giorgio_ahaus.jpg"
 ---
 ## Impuls für weitere Open Innovation Cities
 Am 4. bis 6. September 2025 wurden Experten aus der Stadtverwaltung, Wirtschaft und Wissenschaft vom Softwareanbieter Tobit zum Smart City Festival in der [Digitalstadt Ahaus](https://digitalstadt-ahaus.de) eingeladen, um über die Zukunft deutscher Städte zu sprechen. Im Fokus der Konferenz, Expo und vielfältigen Aktionen standen die Fragen
@@ -20,7 +20,7 @@ Und auch wir waren dabei. Nach einer Innovation Journey in Bielefeld, woran Tobi
 
 Auf der Bühne der Konferenz durfte ich die Diskussion zu Smart Cities weiter aufmischen und unseren Ansatz für zukunftsfähige Städte vorstellen. Und zwar den der „Open Innovation City“. Als erste [Open Innovation City Deutschlands](https://www.wirtschaft.nrw/pressemitteilung/land-foerdert-pilotprojekt-zum-aufbau-der-ersten-open-innovation-city-deutschlands) ist es uns wichtig unsere Erfahrungen mit anderen Städten zu teilen und auch andere zu ermutigen Open Innovation in ihren Städten zu etablieren.
 
-![Tatjana Dzepina steht auf einer Bühne. Im Hintergrund ist eine Präsentation zu sehen, auf der beschrieben wird, wie eine Stadt eine Open Innovation City wird.](/assets/images/beitraege/ahaus/tatjana_dzepina_ahaus.jpg)
+![Tatjana Giorgio steht auf einer Bühne. Im Hintergrund ist eine Präsentation zu sehen, auf der beschrieben wird, wie eine Stadt eine Open Innovation City wird.](/assets/images/beitraege/ahaus/tatjana_giorgio_ahaus.jpg)
 
 ### Was haben die NASA, 3M (die Post-it-Erfinder) und die Stadt Bielefeld gemeinsam?
 

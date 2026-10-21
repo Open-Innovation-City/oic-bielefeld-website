@@ -2,7 +2,7 @@
 title: "Innovation Gym: Innovative Arbeitsmethoden für die Stadt Bielefeld"
 teaser: "Wie lassen sich innovative Arbeitsweisen in den Verwaltungsalltag bringen? Genau dieser Frage sind wir gemeinsam mit 15 Mitarbeitenden der Stadt Bielefeld im ersten Innovation Gym nachgegangen."
 authors:
-  - "Tatjana Džepina"
+  - "Tatjana Giorgio"
 categories:
   - "Events"
 date: 2026-07-15
@@ -48,6 +48,6 @@ Unser Ziel ist es, innovative Methoden zugänglich zu machen, voneinander zu ler
 
 Diesen Ansatz hat Open Innovation City auch während des Förderzeitraums verfolgt. So wurden damals erstmalig Innovation Gyms für die Wirtschaft angeboten. Weitere Informationen zu der damaligen Variante der Innovation Gyms sind auf der Projektseite nachzulesen: [hier klicken](https://oic-projekt.de/vernetzung/innovation-gym)
 
-Du möchtest mehr zu Innovation Gyms erfahren? – Dann schreib einfach eine E-Mail an [tatjana.dzepina@bielefeld.de](mailto:tatjana.dzepina@bielefeld.de). 
+Du möchtest mehr zu Innovation Gyms erfahren? – Dann schreib einfach eine E-Mail an [tatjana.giorgio@bielefeld.de](mailto:tatjana.giorgio@bielefeld.de). 
 
 {% include gallery.html folder="/assets/images/events/innovation-gym-fuer-die-stadtverwaltung" %}

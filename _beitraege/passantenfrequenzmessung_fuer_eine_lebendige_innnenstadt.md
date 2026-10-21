@@ -2,7 +2,7 @@
 title: "Passanten&shy;frequenz&shy;messung"
 teaser: "Die Passantenfrequenzmessung liefert datenbasierte Einblicke in Besucherströme der Innenstadt, damit Bielefeld noch lebendiger und attraktiver wird."
 authors:
-  - "Tatjana Džepina"
+  - "Tatjana Giorgio"
 categories:
   - "Projekte"
 date: 2025-09-12
@@ -53,11 +53,11 @@ Die Passantenfrequenzmessung ist ein wegweisendes Projekt, das zeigt, wie innova
 
 ### Ansprechpersonen zum Projekt
 
-**Tatjana Džepina**<br>
+**Tatjana Giorgio**<br>
 Projektmanagerin Smart City<br>
 Open Innovation City Bielefeld<br>
 +49 521 51-54305<br>
-tatjana.dzepina@bielefeld.de
+tatjana.giorgio@bielefeld.de
 
 **Desirée Lukowski**<br>
 Citymanagerin<br>

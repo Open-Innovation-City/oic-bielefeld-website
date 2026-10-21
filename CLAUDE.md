@@ -110,9 +110,12 @@ permalink: /autoren/jens-edler/
 **Slug Generation:**
 The author-card include generates URLs using `slugify: "latin"` to convert special characters to ASCII:
 - "Maria Gonçalves" → `maria-goncalves`
-- "Tatjana Džepina" → `tatjana-dzepina`
+- "Jiří Dvořák" → `jiri-dvorak`
 
 The permalink in the author page front matter must match this output.
+
+**Renaming a team member (e.g. after marriage):**
+The name is matched as an exact string in several places, so all of them must change together: `_data/team.yml` (`name`, `email`), `autoren/<slug>.md` (`title`, `author_name`, `permalink` + file name), `authors`/`author` in every post in `_beitraege/` and `_methoden/`, and `responsible` in `_data/projects.yml`. Keep the old author URL alive with a small redirect page (`layout: null` + `<meta http-equiv="refresh">`, `sitemap: false`), see `autoren/tatjana-dzepina.html` (Tatjana Džepina → Tatjana Giorgio, October 2026).
 
 **On blog posts (`_layouts/post.html`):**
 Author cards are clickable and link to the author page. Posts can use `authors` (array) for multiple author cards, or legacy `author` (string) for a single card. Hover effect: `translateY(-3px)` lift with shadow. The email contact link is hidden on linked cards (shown only on the author page itself).
