@@ -5,6 +5,7 @@ authors:
   - "Sarah Bollmann"
 categories:
   - "Events"
+  - "Rueckblick"  
 date: 2026-10-15
 header_image: ""
 ---
