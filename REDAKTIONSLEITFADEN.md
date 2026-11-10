@@ -914,6 +914,27 @@ Ihr OIC Team
    - "Add file" → "Upload files"
    - Nach dem Upload die Platzhalterdatei löschen
 
+### Ordner umbenennen oder verschieben
+
+**Wichtig:** GitHub kennt in der Weboberfläche keinen direkten "Ordner umbenennen"-Button – Ordner gibt es technisch gar nicht, nur Dateipfade. Ein Ordner "existiert" also nur, solange mindestens eine Datei mit diesem Pfad drin liegt. Einen komplett leeren Ordner ganz ohne Datei gibt es deshalb nicht – diesen Fall musst du nicht gesondert behandeln. Um einen Ordner umzubenennen, musst du deshalb **jede einzelne Datei darin verschieben**:
+
+**Sonderfall: Ordner mit nur der Platzhalterdatei** – wenn du den Ordner gerade erst angelegt hast und noch keine echten Bilder hochgeladen wurden (siehe "Neue Ordner für Bilder erstellen"), liegt nur die `platzhalterdatei.md` drin. Dann reicht es, **genau diese eine Datei** mit den Schritten 2–5 unten umzubenennen – schon ist der Ordner umbenannt.
+
+1. Navigiere zum Ordner und öffne die erste Datei darin
+2. Klicke auf das Stift-Symbol (✏️) zum Bearbeiten
+3. Oben auf der Bearbeitungsseite steht der Dateipfad als editierbares Feld (z.B. `assets/images/alter-ordnername/foto1.jpg`)
+4. Ändere den Ordnernamen im Pfad, z.B. zu `assets/images/neuer-ordnername/foto1.jpg`
+   - Der Dateiname am Ende bleibt gleich, nur der Ordnername im Pfad ändert sich
+5. Scrolle runter zu "Commit changes" und committe die Änderung
+   - GitHub verschiebt die Datei dabei automatisch in den (neu angelegten) Ordner mit dem neuen Namen
+6. **Wiederhole Schritt 2–5 für jede weitere Datei** im Ordner
+7. Sobald der alte Ordner keine Dateien mehr enthält, verschwindet er automatisch (er wird nicht extra gelöscht)
+
+**Hinweis:**
+- Bei **wenigen Dateien** (bis ca. 5–10) ist dieser Weg über die Weboberfläche völlig ausreichend
+- Bei **vielen Dateien** (z.B. eine große Bildergalerie) ist das Einzel-Umbenennen mühsam. Dann besser lokal mit Git (`git mv alter-ordner neuer-ordner`) oder mit GitHub Desktop arbeiten – oder Jens um Hilfe bitten (siehe "Bei Problemen")
+- Nach dem Umbenennen unbedingt prüfen, ob Beiträge oder Seiten auf den alten Pfad verweisen (z.B. in `header_image`, Galerien oder Teamfotos) – diese Links müssen dann ebenfalls angepasst werden
+
 ### Empfohlene Ordnerstruktur:
 ```
 assets/images/
@@ -1038,4 +1059,4 @@ Bei technischen Problemen oder Konflikten: jens.edler@bielefeld.de
 
 ---
 
-*Letzte Änderung: Juli 2026 | Version 1.6*
+*Letzte Änderung: November 2026 | Version 1.7*
