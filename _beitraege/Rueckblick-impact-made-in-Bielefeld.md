@@ -27,11 +27,11 @@ Die Teilnehmenden diskutierten, wie Bielefeld ein starkes Umfeld für wirkungsor
 
 Die Teilnehmenden wünschten sich an diesem Abend immer wieder mehr Vernetzung. Deshalb geht es weiter – mit einem neuen Netzwerk für Social Entrepreneure, also Menschen, die mit ihren Gründungen gezielt gesellschaftliche Wirkung erzielen wollen:
 
-**Auftakt: #01 Netzwerktreffen Bielefelder Social Entrepreneure**
-📅 05.11.2026
-📍 Innovation Office
-🔗 [Details und Anmeldung](https://pretix.eu/OIC-BIE/soc-econ1-2/)
-
+**Auftakt: #01 Netzwerktreffen Bielefelder Social Entrepreneure**   
+📅 05.11.2026   
+📍 Innovation Office   
+🔗 [Details und Anmeldung](https://pretix.eu/OIC-BIE/soc-econ1-2/)   
+  
 Die Plätze sind begrenzt.
 
 Herzlichen Dank an alle auf dem Panel, an die Moderatorinnen und an alle, die gekommen sind, mitdiskutiert und Fragen gestellt haben. Die Bertelsmann Stiftung (Nachhaltige Soziale Marktwirtschaft) hat das Meetup inhaltlich unterstützt.
