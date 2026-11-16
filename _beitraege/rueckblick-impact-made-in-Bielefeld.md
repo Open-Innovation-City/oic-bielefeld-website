@@ -15,7 +15,7 @@ is_retrospective: false
 
 Das Innovation Office war voll bis auf den letzten Platz: Das Meetup „Impact made in Bielefeld" hat gezeigt, wie groß das Interesse an wirkungsorientierten Gründungen in der Stadt ist.
 
-Die Teilnehmenden diskutierten, wie Bielefeld ein starkes Umfeld für wirkungsorientierte Gründungen und soziale Innovationen schaffen kann. Dr. Jennifer Eschweiler (Bertelsmann Stiftung) startete mit einem Impulsvortrag. Anschließend moderierten sie und Dr. Sumaya Islam zwei Gesprächsrunden mit Akteurinnen und Akteuren aus Startup-Szene, Verwaltung, Wissenschaft, Kultur und Praxis. Hanna Drabon stellte außerdem das Startup-Paket der WEGE mbH vor.
+Die Teilnehmenden diskutierten, **wie Bielefeld ein starkes Umfeld für wirkungsorientierte Gründungen und soziale Innovationen schaffen kann**. Dr. Jennifer Eschweiler (Bertelsmann Stiftung) startete mit einem Impulsvortrag. Anschließend moderierten sie und Dr. Sumaya Islam zwei Gesprächsrunden mit Akteurinnen und Akteuren aus Startup-Szene, Verwaltung, Wissenschaft, Kultur und Praxis. Hanna Drabon stellte außerdem das Startup-Paket der WEGE mbH vor.
 
 **Die wichtigsten Erkenntnisse:**
 
@@ -35,10 +35,10 @@ Die Teilnehmenden wünschten sich an diesem Abend immer wieder mehr Vernetzung. 
   
 Die Plätze sind begrenzt.
 
-Herzlichen Dank an alle auf dem Panel, an die Moderatorinnen und an alle, die gekommen sind, mitdiskutiert und Fragen gestellt haben. Die Bertelsmann Stiftung (Nachhaltige Soziale Marktwirtschaft) hat das Meetup inhaltlich unterstützt.
+**Herzlichen Dank** an **alle auf dem Panel**, an die **Moderatorinnen** und an alle, die gekommen sind, mitdiskutiert und Fragen gestellt haben. Die **Bertelsmann Stiftung** (Nachhaltige Soziale Marktwirtschaft) hat das Meetup inhaltlich unterstützt.
 
-**Veranstaltungstipp:**
-Eine weitere Gelegenheit zur **Vernetzung** ist das **Impact Afterwork**, ein Feierabend-Treffen der **Public Value Hub x Founders Foundation** für Social Entrepreneuere am 26. November 2026 von 19:00 bis 21:30 Uhr.
+**Veranstaltungstipp:**  
+Eine weitere Gelegenheit zur **Vernetzung** ist das **Impact Afterwork**, ein Feierabend-Treffen der **Public Value Hub x Founders Foundation** für Social Entrepreneuere am 26. November 2026 von 19:00 bis 21:30 Uhr.  
 [Bitte anmelden](https://hellofounders.typeform.com/impact)
 
 {% include gallery.html folder="/assets/images/events/rueckblick-impact-meetup/" %}
