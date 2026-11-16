@@ -4,10 +4,11 @@ teaser: "Das Meetup Impact made in Bielefeld hat gezeigt: Die Stadt ist bereit f
 authors:
   - "Maria Gonçalves"
 categories:
-  - "Events"
-  - "Social Entrepreneurship"
+  - "Rückblick"
 date: 2026-09-30
 header_image: " "
+related_post: "wirkungsorientierte-unternehmen"
+is_retrospective: false
 ---
 
 ## Impact made in Bielefeld: Ein Rückblick auf das Meetup
