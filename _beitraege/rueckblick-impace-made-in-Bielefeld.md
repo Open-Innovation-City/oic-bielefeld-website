@@ -1,4 +1,3 @@
-Rückblick in Markdown nach OIC Stilprüfung
 title: "Ein Rückblick auf das Meetup “Impact made in Bielefeld““
 teaser: "Das Meetup „Impact made in Bielefeld" hat gezeigt: Die Stadt ist bereit für wirkungsorientierte Gründungen. Ein Rückblick auf den Abend – und wie es jetzt weitergeht."
 authors:
@@ -8,7 +7,9 @@ categories:
   - "Social Entrepreneurship"
 date: 2026-09-30
 header_image: " "
-confetti: false
+related_post: "wirkungsorientierte-unternehmen"
+is_retrospective: false
+---
 
 ## Impact made in Bielefeld: Ein Rückblick auf das Meetup
 
