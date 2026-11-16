@@ -5,6 +5,7 @@ authors:
   - "Maria Gonçalves"
 categories:
   - "Events"
+  - "Social Entrepreneurship"
 date: 2026-08-06
 header_image: " "
 confetti: false 
