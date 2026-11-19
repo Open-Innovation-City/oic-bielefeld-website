@@ -35,7 +35,7 @@ Die Teilnehmenden wünschten sich an diesem Abend immer wieder mehr Vernetzung. 
   
 Die Plätze sind begrenzt.
 
-**Herzlichen Dank** an **alle auf dem Panel**, an die **Moderatorinnen** und an alle, die gekommen sind, mitdiskutiert und Fragen gestellt haben. Die **Bertelsmann Stiftung** (Nachhaltige Soziale Marktwirtschaft) hat das Meetup inhaltlich unterstützt.
+**Herzlichen Dank** an **alle Teilnehmende des Panels**, an die **Moderatorinnen** und an alle, die gekommen sind, mitdiskutiert und Fragen gestellt haben. Die **Bertelsmann Stiftung** (Nachhaltige Soziale Marktwirtschaft) hat das Meetup inhaltlich unterstützt. Die **Namen aller** findet ihr im [Ankündigungsbeitrag](https://oic-bielefeld.de/beitraege/wirkungsorientierte-unternehmen/)
 
 **Veranstaltungstipp:**  
 Eine weitere Gelegenheit zur **Vernetzung** ist das **Impact Afterwork**, ein Feierabend-Treffen der **Public Value Hub x Founders Foundation** für Social Entrepreneuere am 26. November 2026 von 19:00 bis 21:30 Uhr.  
