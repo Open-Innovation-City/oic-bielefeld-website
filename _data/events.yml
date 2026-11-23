@@ -332,7 +332,7 @@
   booking_url: "/beitraege/wirkungsorientierte-unternehmen/"
   link_text: "Details & Anmeldung"
   featured: true
-  topic: "events"
+  topic: "social-entrepreneurship"
 
 - title: "Open Innovation Hour: Innovationsblockaden im Mittelstand auflösen"
   description: "Warum scheitert Innovation im Mittelstand so oft nicht an Ideen, sondern an Unsicherheit, Strukturen und Kultur? Carl Robert Brand und Stephanie Rabbe teilen die zentralen Erkenntnisse aus Interviews, ihrer quantitativen Studie und einer Unternehmensfallstudie."
@@ -360,7 +360,7 @@
   booking_url: "https://pretix.eu/OIC-BIE/soc-econ1-2/"
   link_text: "Details & Anmeldung"
   featured: true
-  topic: "events"
+  topic: "social-entrepreneurship"
 
 - title: "Open Innovation Hour: Dialog in polarisierten Zeiten"
   description: "Am Donnerstag, 5. November 2026 dreht sich in der Open Innovation Hour alles um die Frage: „Wie geht konstruktiver Dialog in polarisierten Zeiten?“ – Mit Prof. Dr. Andreas Zick (Wissenschaftlicher Direktor des Instituts für interdisziplinäre Konflikt- und Gewaltforschung an der Universität Bielefeld."
@@ -388,5 +388,5 @@
   booking_url: "https://pretix.eu/OIC-BIE/soc-econ1-3/"
   link_text: "Details & Anmeldung"
   featured: true
-  topic: "events"
+  topic: "social-entrepreneurship"
   
