@@ -4,7 +4,8 @@ teaser: "Das Meetup Impact made in Bielefeld hat gezeigt: Die Stadt ist bereit f
 authors:
   - "Maria Gonçalves"
 categories:
-  - "Rückblick"
+  - "Events"
+  - "Social Entrepreneurship"
 date: 2026-09-30
 header_image: " "
 related_post: "wirkungsorientierte-unternehmen"
@@ -35,12 +36,21 @@ Die Teilnehmenden wünschten sich an diesem Abend immer wieder mehr Vernetzung. 
   
 Die Plätze sind begrenzt.
 
-**Herzlichen Dank** an **alle Teilnehmende des Panels**, an die **Moderatorinnen** und an alle, die gekommen sind, mitdiskutiert und Fragen gestellt haben. Die **Bertelsmann Stiftung** (Nachhaltige Soziale Marktwirtschaft) hat das Meetup inhaltlich unterstützt. Die **Namen aller** findet ihr im [Ankündigungsbeitrag](https://oic-bielefeld.de/beitraege/wirkungsorientierte-unternehmen/)
+Herzlichen Dank an alle auf dem Panel, an die Moderatorinnen und an alle, die gekommen sind, mitdiskutiert und Fragen gestellt haben. Die Bertelsmann Stiftung (Nachhaltige Soziale Marktwirtschaft) hat das Meetup inhaltlich unterstützt.  
 
-**Veranstaltungstipp:**  
-Eine weitere Gelegenheit zur **Vernetzung** ist das **Impact Afterwork**, ein Feierabend-Treffen der **Public Value Hub x Founders Foundation** für Social Entrepreneuere am 26. November 2026 von 19:00 bis 21:30 Uhr.  
+**Übersicht der Panelbesetzung und Moderatorinnen** [s. Ankündigung Meetup](https://oic-bielefeld.de/beitraege/wirkungsorientierte-unternehmen/)   
+
+### Downloads & Links
+
+- Open Innovation City Bielefeld: Arbeitsheft für wirkungsorientierte Unternehmen. Eine Starthilfe. {% include cta-button.html text="PDF herunterladen" url="/assets/downloads/Wirkungsorientierte-Gründungen-Arbeitsheft-Start.pdf" download=true %}
+- [Infos zum Bielefelder Startup Paket](https://bielefelder-startup-paket.de/)
+- [Alles über passende Geschäftsmodelle (SIGU-Plattform)](https://sigu-plattform.de/sozialinnovatorinnen/geschaftsmodelle/)
+- [Link zum Social Entrepreneuership Netzwerk Deutschland (SEND e.V.)](https://www.send-ev.de/)
+
+**Veranstaltungstipp:**
+Eine weitere Gelegenheit zur **Vernetzung** ist das **Impact Afterwork**, ein Feierabend-Treffen der **Public Value Hub x Founders Foundation** für Social Entrepreneuere am 26. November 2026 von 19:00 bis 21:30 Uhr.
 [Bitte anmelden](https://hellofounders.typeform.com/impact)
-
+  
 {% include gallery.html folder="/assets/images/events/rueckblick-impact-meetup/" %}
 
 *Bei diesem Beitrag kam KI zum Einsatz.*
