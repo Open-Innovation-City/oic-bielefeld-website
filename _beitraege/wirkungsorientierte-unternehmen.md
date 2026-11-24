@@ -27,14 +27,23 @@ Der interaktive Teil wird moderiert von **zwei Expertinnen**:
 - **Dr. Jennifer Eschweiler**, Expertin für Sozialunternehmertum und Impact	Gründungen (wirkungsorientierte Gründungen) bei der **Bertelsmann Stiftung** [Kurzvita](https://www.bertelsmann-stiftung.de/de/ueber-uns/wer-wir-sind/ansprechpartner/mitarbeiter/cid/jennifer-eschweiler)
 - **Dr. Sumaya Islam**, Projektleiterin **Gr33nUP**, Paderborn. Sie ist auch Regionalsprecherin der [SEND](https://send-ev.de)(Social Entrepreneurship Netzwerk Deutschland e. V.) (NRW). [Kurzvita](https://www.uni-paderborn.de/person/32777)
 
+#### Mehr zu Sozialunternehmen: 
+
+**Definition**: Was zeichnet ein **Sozialunternehmen** aus? Hier drei mögliche Fragen:
+> -	Der **gesellschaftliche/ ökologische Zweck** ist in den Statuten eindeutig festgehalten
+> -	**Gewinne** werden zu einem hohen **Anteil** wieder in die Erreichung der Mission investiert
+> -	Eventuell gibt es bereits eine **Wirkungsberichterstattung**
+Dr. Jennifer Eschweiler
+
+**Das Meetup bedient zwei als relevant erachtete Handlungsfelder der SIGU-Strategie** 
 Bedient werden gleich zwei Handlungsfelder aus der Nationalen Strategie für Soziale Innovationen und Gemeinwohlorientierte Unternehmen, der [SIGU-Strategie](https://sigu-plattform.de/nationale-strategie-sigu/): 
 > - Handlungsfeld 2: Sozial-innovative und gemeinwohlorientierte Gründungskultur und Unterstützungsstrukturen stärken 
-- Handlungsfeld 3: Vernetzung, Kollaboration und Transfer voranbringen
+> - Handlungsfeld 3: Vernetzung, Kollaboration und Transfer voranbringen
 
-Sowie **unser Leitsatz für 2026**:  
+**Unser Leitsatz für 2026** - Open Innovation City Bielefeld:  
 > “Wir glauben an [Soziale Innovationen](https://oic-bielefeld.de/beitraege/madrid-declaration-soziale-innovationen-eu/) als Antwort auf ausgewählte gesellschaftliche Herausforderungen. Darum machen wir es uns zur Aufgabe soziale Innovationen in und für Bielefeld möglich zu machen.”  
 
-### Inhalt 
+### Inhalt des Meetups
 - Impulsvortrag: **Sozialunternehmen, Wirkung und Zusammenarbeit für soziale Innovation**, Dr. Jennifer Eschweiler, Bertelsmann Stiftung 
 - Impact-Talk 1: **Wie kann Bielefeld zu einem starken Ökosystem für Impact-Gründungen und Sozialen Innovationen werden?** Moderation: Sumaya Islam
 mit:	Nik Riesmeier, Director [Founders Foundation](https://foundersfoundation.de), Björn Brodner, [Umweltamt Bielefeld](https://www.bielefeld.de/node/29565), Sarah Dahnen, Center for Entrepreneurship ([CFE](https://www.hsbi.de/cfe)), Hochschule Bielefeld und einer **Praxisperspektive**.
@@ -53,13 +62,6 @@ Du hast eine Frage zu **Sozialen und soziotechnischen Innovationen** oder zu wir
 **Ende:** 18:00 Uhr<br>
 **Einlass:** 16:00 Uhr<br>
 **Get together & Networking**: Nutzt die Zeit nach dem offiziellen Programm, um euch mit Akteuren aus dem Ökosystem auszutauschen und zu vernetzen.
-
-#### Was zeichnet ein Sozialunternehmen aus? Hier drei mögliche Fragen:
-
-> -	Der **gesellschaftliche/ ökologische Zweck** ist in den Statuten eindeutig festgehalten
--	**Gewinne** werden zu einem hohen **Anteil** wieder in die Erreichung der Mission investiert
--	Eventuell gibt es bereits eine **Wirkungsberichterstattung*
-(Dr. Jennifer Eschweiler)
 
 Unsere Veranstaltungen sind **kostenlos**. 
 

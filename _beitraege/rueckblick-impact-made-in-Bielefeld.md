@@ -8,13 +8,15 @@ categories:
   - "Social Entrepreneurship"
 date: 2026-09-30
 header_image: " "
+related_post: "wirkungsorientierte-unternehmen"
+is_retrospective: false
 ---
 
 ## Impact made in Bielefeld: Ein Rückblick auf das Meetup
 
-Das Innovation Office war voll bis auf den letzten Platz: Das Meetup „Impact made in Bielefeld" hat gezeigt, wie groß das **Interesse an wirkungsorientierten Gründungen** in der Stadt ist.
+Das Innovation Office war voll bis auf den letzten Platz: Das Meetup „Impact made in Bielefeld" hat gezeigt, wie groß das Interesse an wirkungsorientierten Gründungen in der Stadt ist.
 
-Die Teilnehmenden diskutierten, wie Bielefeld ein starkes Umfeld für wirkungsorientierte Gründungen und soziale Innovationen schaffen kann. Dr. Jennifer Eschweiler, Expertin für Sozialunternehmertum und Impact Gründungen (wirkungsorientierte Gründungen) bei der Bertelsmann Stiftung, startete mit einem Impulsvortrag. Anschließend moderierten sie und Dr. Sumaya Islam, Projektleiterin Gr33nUP, Paderborn, zwei Gesprächsrunden mit Akteurinnen und Akteuren aus Startup-Szene, Verwaltung, Wissenschaft, Kultur und Praxis - interaktiv waren die Teilnehmenden eingeladen mitzudiskutieren. Hanna Drabon, WEGE Wirtschaftsentwicklungsgesellschaft Bielefeld mbH, stellte am Ende das Bielefelder Startup Paket vor.
+Die Teilnehmenden diskutierten, **wie Bielefeld ein starkes Umfeld für wirkungsorientierte Gründungen und soziale Innovationen schaffen kann**. Dr. Jennifer Eschweiler (Bertelsmann Stiftung) startete mit einem Impulsvortrag. Anschließend moderierten sie und Dr. Sumaya Islam zwei Gesprächsrunden mit Akteurinnen und Akteuren aus Startup-Szene, Verwaltung, Wissenschaft, Kultur und Praxis. Hanna Drabon stellte außerdem das Startup-Paket der WEGE mbH vor.
 
 **Die wichtigsten Erkenntnisse:**
 
@@ -25,7 +27,7 @@ Die Teilnehmenden diskutierten, wie Bielefeld ein starkes Umfeld für wirkungsor
 
 ## Fazit & Ausblick
 
-Die Teilnehmenden wünschten sich an diesem Abend immer wieder mehr Vernetzung. Deshalb geht es weiter – mit einem neuen **Netzwerk Bielefelder Social Entrepreneure**, also Menschen, die mit ihren Gründungen gezielt gesellschaftliche Wirkung erzielen wollen:
+Die Teilnehmenden wünschten sich an diesem Abend immer wieder mehr Vernetzung. Deshalb geht es weiter – mit einem neuen Netzwerk für Social Entrepreneure, also Menschen, die mit ihren Gründungen gezielt gesellschaftliche Wirkung erzielen wollen:
 
 **Auftakt: #01 Netzwerktreffen Bielefelder Social Entrepreneure**   
 📅 05.11.2026   
